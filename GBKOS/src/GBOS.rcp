@@ -1,0 +1,59 @@
+#include "MainForm_res.h"
+
+ALERT ID RomIncompatibleAlert
+ERROR
+BEGIN
+    TITLE "System Incompatible"
+    MESSAGE "System Version 3.5 or greater is required to run this application."
+    BUTTONS "OK"
+END
+
+
+FORM ID MainForm AT (11 10 141 132)
+FRAME
+MODAL
+SAVEBEHIND
+USABLE
+DEFAULTBTNID MainOKButton
+BEGIN
+    TITLE "GBKOS Setup"
+    BUTTON "Done" ID MainOKButton AT (24 114 36 12) USABLE LEFTANCHOR FRAME
+    BUTTON "About" ID MainAboutButton AT (80 114 36 12) USABLE LEFTANCHOR FRAME
+    CHECKBOX "Enable GBKOS" ID MainEnableCheckbox AT (12 24 97 12) GROUP 0  LEFTANCHOR
+    LABEL "CharSet:" ID MainLbCharSetLabel AT (12 40) NONUSABLE
+    POPUPTRIGGER "Chinese GB2312" ID MainCharSetPopTrigger AT (50 40 67 12) NONUSABLE LEFTANCHOR
+    POPUPLIST ID MainCharSetPopTrigger MainCharSetList
+    LIST"Chinese GB2312""Chinese BIG5""Shift-JIS""EUC-JIS" ID MainCharSetList AT (46 19 80 0) NONUSABLE
+    CHECKBOX "Smart Detect Char Set" ID MainSmartCheckbox AT (12 54 112 12) GROUP 0 NONUSABLE LEFTANCHOR
+    CHECKBOX "Support CJK Bold Font" ID MainBoldCheckbox AT (12 68 108 12) GROUP 0 NONUSABLE LEFTANCHOR
+    CHECKBOX "Support  Large Bold Font" ID MainLBoldCheckbox AT (12 82 119 12) GROUP 0 NONUSABLE LEFTANCHOR
+    CHECKBOX "Add Space in Chinese" ID MainSpacingCheckbox  AT (12 96 106 12) GROUP 0 NONUSABLE LEFTANCHOR
+    LABEL "Warning:\rThe GBKOS is not started,\r cannot setting GBKOS." ID MainWarningLabel  AT (6 30) FONT 7 NONUSABLE
+END
+
+
+
+
+FORM ID AboutForm AT (2 2 156 156)
+USABLE
+MODAL
+NOFRAME
+SAVEBEHIND
+DEFAULTBTNID AboutOKButton
+BEGIN
+    TITLE "About GBKOS"
+
+    LABEL "GBKOS Very Early Status" AUTOID AT (13 26) FONT 2
+
+    LABEL "Version 0.30" AUTOID AT (44 49) FONT 1
+
+    LABEL "Try to show Chinese."  AUTOID AT (17 70) FONT 2
+
+    BUTTON "OK" ID AboutOKButton   AT (61 136 40 12)
+    LABEL "http://gbkos.sourceforge.net" AUTOID AT (14 113)
+	LABEL "http://www.tompda.com/gbkos" AUTOID AT (10 96)
+END
+
+APPLICATIONICONNAME 3000 "GBKOS"
+
+VERSION ID 1 "0.30"

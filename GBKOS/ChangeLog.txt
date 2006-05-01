@@ -1,0 +1,18 @@
+GBKOS v0.42 - Released on 2003/06/04
+	Tune companion to work well whether GBKOS started or not.	2003/06/04
+	Font substitution added. Now can only use 10 and 16 point font.	2003/06/04
+	Palm HiRes small font has been supported.	2003/06/03
+	Companion added into cvs tree, which is the former MCFHack working with CJKOS. 2003/06/02
+
+GBKOS v0.41 - Released on 2003/06/02
+	Modify NotifySort()
+  		Only send sysAppLaunchCmdSyncNotify to BuiltIn apps, such as
+     			"Address Book", "Date Book", "Memo Pad", "To Do List".
+	Add support for Acer S60 (OS4 HiRes). TW is also tested and it's ok.	2003/5/31
+	
+GBKOS v0.40 - Released on 2003/05/31
+	The first public release on SF.net.
+
+GBKOS v0.10 to v0.30
+	The experimental version.
+

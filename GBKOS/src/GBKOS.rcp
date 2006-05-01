@@ -1,0 +1,34 @@
+#include "MainForm_res.h"
+
+APPLICATIONICONNAME 3000 "GBKOS DA"
+
+ALERT ID RomIncompatibleAlert
+ERROR
+BEGIN
+    TITLE "System Incompatible"
+    MESSAGE "System Version 3.5 or greater is required to run this application."
+    BUTTONS "OK"
+END
+
+
+FORM ID MainForm AT (15 18 130 120)
+FRAME
+MODAL
+SAVEBEHIND
+USABLE
+DEFAULTBTNID MainOKButton
+BEGIN
+    TITLE "GBKOS Setup"
+    CHECKBOX "Enable GBKOS" ID MainEnableCheckbox AT (4 14 97 12) GROUP 0  LEFTANCHOR
+    LABEL "CharSet:" ID MainLbCharSetLabel AT (6 24) NONUSABLE
+    POPUPTRIGGER "Chinese GBK" ID MainCharSetPopTrigger AT (42 24 67 12) NONUSABLE LEFTANCHOR
+    POPUPLIST ID MainCharSetPopTrigger MainCharSetList
+    LIST"Chinese GBK""Chinese BIG5""Shift-JIS""EUC-JIS" ID MainCharSetList AT (44 24 80 0) NONUSABLE
+    CHECKBOX "Smart Detect Char Set" ID MainSmartCheckbox AT (4 38 112 12) GROUP 0 NONUSABLE LEFTANCHOR
+    CHECKBOX "Support CJK Bold Font" ID MainBoldCheckbox AT (4 52 108 12) GROUP 0 NONUSABLE LEFTANCHOR
+    CHECKBOX "Support  Large Bold Font" ID MainLBoldCheckbox AT (4 66 119 12) GROUP 0 NONUSABLE LEFTANCHOR
+    CHECKBOX "Add Space in GBK" ID MainSpacingCheckbox  AT (4 80 106 12) GROUP 0 NONUSABLE LEFTANCHOR
+    BUTTON "Done" ID MainOKButton AT (18 100 36 12) USABLE LEFTANCHOR FRAME
+    BUTTON "About" ID MainAboutButton AT (72 100 36 12) USABLE LEFTANCHOR FRAME
+    LABEL "Warning:\r    The GBKOS is not\r    started, cannot \r    setting GBKOS." ID MainWarningLabel  AT (8 20) FONT 7 NONUSABLE
+END

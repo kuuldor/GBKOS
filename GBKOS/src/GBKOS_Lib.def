@@ -1,0 +1,9 @@
+syslib { "GBKOS Lib" dGBK}
+
+export {
+  GBKOS_LibOpen GBKOS_LibClose nothing nothing
+  GBKOS_Init GBKOS_Start GBKOS_Stop GBKOS_Enable GBKOS_Disable GBKOS_GetConfig GBKOS_SetConfig GBKOS_UnInit GBKOS_GetCharsets GBKOS_Name2Charset GBKOS_Charset2Name GBKOS_ID2Charset GBKOS_Charset2ID
+  GBKOS_ShowAboutDialog
+}
+
+
