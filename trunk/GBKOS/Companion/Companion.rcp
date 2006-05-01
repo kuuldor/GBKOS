@@ -1,0 +1,69 @@
+
+#include "Companion_panelRsc.h"
+#include "Companion_res.hpp"
+
+APPLICATIONICONNAME 3000 "GBKOS Pal"
+VERSION ID 1 "0.1"
+
+ALERT ID GBKOSNotStartedAlert
+ERROR
+BEGIN
+    TITLE "GBKOS not available"
+    MESSAGE "To configurate this Hack, Start GBKOS first."
+    BUTTONS "OK"
+END
+
+FORM ID SetupPanelForm AT (2 2 156 156)
+FRAME
+MODAL
+SAVEBEHIND
+USABLE
+BEGIN
+    TITLE "GBKOS Pal Setup panel"
+    BUTTON "Done" ID SetupPanelOKButton AT (88 138 46 12) USABLE LEFTANCHOR FRAME
+    BUTTON "Clear All" ID SetupPanelResetButton AT (22 138 46 12) USABLE LEFTANCHOR FRAME
+    LABEL "Application:" ID SetupPanelAppNameLabel AT (10 32) USABLE
+    POPUPTRIGGER "" ID SetupPanelAppPopPopTrigger AT (58 32 17 11) USABLE LEFTANCHOR
+    POPUPLIST ID SetupPanelAppPopPopTrigger SetupPanelAppListList
+    LIST " "" "" "" "" "" "" "" " ID SetupPanelAppListList AT (58 32 89 0) NONUSABLE
+    LABEL "Setting for the app:" ID SetupPanelPromptLabel AT (12 48) FONT 1 USABLE
+    LABEL "CharSet:" ID SetupPanelLbCharSetLabel AT (17 65) USABLE
+    POPUPTRIGGER "Chinese GBK" ID SetupPanelCharSetPopTrigger AT (56 64 67 12) USABLE LEFTANCHOR
+    POPUPLIST ID SetupPanelCharSetPopTrigger SetupPanelCharsetListList
+    LIST"Chinese GBK""Chinese BIG5""Japanese EUC-JIS""Japanese Shift-JIS""Korean KSC" ID SetupPanelCharsetListList AT (59 75 80 0) NONUSABLE
+    CHECKBOX "Smart Detect Char Set" ID SetupPanelSmartCheckbox AT (15 112 128 12) GROUP 0 USABLE LEFTANCHOR
+    CHECKBOX "Enhanced Messy Code Fix" ID SetupPanelMCFixCheckbox AT (15 96 122 12) GROUP 0 USABLE LEFTANCHOR
+END
+
+
+FORM ID AboutForm AT (2 2 156 156)
+USABLE MODAL FRAME SAVEBEHIND
+BEGIN
+    TITLE "About GBKOS Pal"
+
+    LABEL "GBKOS Pal" AUTOID AT (42 16) FONT 2
+
+    LABEL "Version 0.1" AUTOID AT (44 30) FONT 1
+
+    LABEL "If you can't read any of the following"  AUTOID AT (4 44)
+    LABEL "message, do not use this HACK." AUTOID AT (4 54)
+
+    LABEL "GB: 本程序是为了配合GBKOS使" AUTOID AT (6 68)
+    LABEL "用的。如果你不是使用GBKOS中" AUTOID AT (6 80)
+    LABEL "文系统，请不要使用此HACK。" AUTOID AT (6 92)
+
+    LABEL "Big5:セ祘琌皌GBKOSㄏ" AUTOID AT (6 104)
+    LABEL "ノ狦ぃ琌ㄏノGBKOSい" AUTOID AT (6 116)
+    LABEL "ゅ╰参,叫ぃ璶ㄏノHACK" AUTOID AT (6 128)
+
+
+    BUTTON "OK" AUTOID  AT (8 142 40 12)
+    LABEL "By: GBKOS Team" AUTOID AT (56 142)
+END
+
+
+
+
+TRAP ID Trap1 VALUE 41504
+TRAP ID Trap2 VALUE 41127
+TRAP ID Trap3 VALUE 41808

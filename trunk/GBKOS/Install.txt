@@ -1,0 +1,22 @@
+The GBKOS package includes the following files:
+
+	GPL.txt - GNU General Public License.
+	ChangeLog.txt - The changes' log of the GBKOS package.
+	Install.txt - This document.
+	
+	GBKOS_Lib.prc - The kernel of GBKOS.
+	GBKOS.prc - The console of GBKOS.
+	GBKOS_DA.prc - The DA utility of GBKOS.
+	GBKOS_Pal.prc - The HACK utility to set application-bound GBKOS config.
+
+	Big5ToGBK.pdb - The converting table for the Big5 charset support for GBKOS.
+
+To use GBKOS, please install the GBKOS_Lib.prc, GBKOS.prc and the GBK fonts databases into your handheld. The GBK fonts databases can be generated out by the FontGen utility written by kuuldor. The FontGen can be found in the forum of Echoice - http://www.echoice.com.cn/bbs/display.asp?luntan=1&forumID=220748. And there're some generated fonts in TomPDA - http://www.tompda.com/bbs/.
+
+NOTICE: before installing or upgrading GBKOS, the older GBKOS on your handheld MUST BE STOPPED by the GBKOS Console. If GBKOS is running while installing or upgrading, the GBKOS_Lib.prc can not be installed or upgraded.
+
+GBKOS_DA.prc, GBKOS_Pal.prc and Big5ToGBK.pdb can be installed if you need.
+
+
+Team of GBKOS Project
+May 31, 2003

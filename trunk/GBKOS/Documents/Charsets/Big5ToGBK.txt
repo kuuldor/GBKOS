@@ -1,0 +1,3649 @@
+A140: ¡¡   A141: £¬   A142: ¡¢   A143: ¡£   
+A144: £®   A145: ¡¤   A146: £»   A147: £º   
+A148: £¿   A149: £¡   A14A: ©U   A14B: ¡­   
+A14C: ¨E   A14D: ©o   A14E: ©p   A14F: ©q   
+A150: ¡¤   A151: ©r   A152: ©s   A153: ©t   
+A154: ©u   A155: £ü   A156: ¨C   A157: ¦ò   
+A158: ¡ª   A159: ¦ô   A15A: £ß   A15B: ¦õ   
+A15C: ©n   A15D: £¨   A15E: £©   A15F: ¦à   
+A160: ¦á   A161: £û   A162: £ý   A163: ¦ð   
+A164: ¦ñ   A165: ¡²   A166: ¡³   A167: ¦â   
+A168: ¦ã   A169: ¡¾   A16A: ¡¿   A16B: ¦î   
+A16C: ¦ï   A16D: ¡¶   A16E: ¡·   A16F: ¦æ   
+A170: ¦ç   A171: ¡´   A172: ¡µ   A173: ¦ä   
+A174: ¦å   A175: ¡¸   A176: ¡¹   A177: ¦è   
+A178: ¦é   A179: ¡º   A17A: ¡»   A17B: ¦ê   
+A17C: ¦ë   A17D: ©v   A17E: ©w   
+A1A1: ©x   
+A1A2: ©y   A1A3: ©z   A1A4: ©{   A1A5: ¡®   
+A1A6: ¡¯   A1A7: ¡°   A1A8: ¡±   A1A9: ¨”   
+A1AA: ¨•   A1AB: ¨F   A1AC: ¡ä   A1AD: ££   
+A1AE: £¦   A1AF: £ª   A1B0: ¡ù   A1B1: ¡ì   
+A1B2: ¡¨   A1B3: ¡ð   A1B4: ¡ñ   A1B5: ¡÷   
+A1B6: ¡ø   A1B7: ¡ò   A1B8: ¡î   A1B9: ¡ï   
+A1BA: ¡ó   A1BB: ¡ô   A1BC: ¡õ   A1BD: ¡ö   
+A1BE: ¨Œ   A1BF: ¨‹   A1C0: ©I   A1C1: ¨G   
+A1C2: ¨D   A1C3: £þ   A1C4: £ß   A1C5: £ß   
+A1C6: ©h   A1C7: ©i   A1C8: ¡­   A1C9: ©m   
+A1CA: ©j   A1CB: ©k   A1CC: ©|   A1CD: ©}   
+A1CE: ©~   A1CF: £«   A1D0: £­   A1D1: ¡Á   
+A1D2: ¡Â   A1D3: ¡À   A1D4: ¡Ì   A1D5: £¼   
+A1D6: £¾   A1D7: £½   A1D8: ¨Q   A1D9: ¨R   
+A1DA: ¡Ù   A1DB: ¡Þ   A1DC: ¨P   A1DD: ¡Ô   
+A1DE: ©€   A1DF: ©   A1E0: ©‚   A1E1: ©ƒ   
+A1E2: ©„   A1E3: ¡«   A1E4: ¡É   A1E5: ¡È   
+A1E6: ¡Í   A1E7: ¡Ï   A1E8: ¨N   A1E9: ¨S   
+A1EA: ©S   A1EB: ©R   A1EC: ¡Ò   A1ED: ¡Ó   
+A1EE: ¡ß   A1EF: ¡à   A1F0: ¡â   A1F1: ¡á   
+A1F2: ¨’   A1F3: ¡Ñ   A1F4: ¡ü   A1F5: ¡ý   
+A1F6: ¡û   A1F7: ¡ú   A1F8: ¨I   A1F9: ¨J   
+A1FA: ¨L   A1FB: ¨K   A1FC: ¡Î   A1FD: ¨O   
+A1FE: £¯   
+A240: £Ü   A241: ¨M   A242: ©…   A243: ¡ç   
+A244: £¤   A245: ¨“   A246: ¡é   A247: ¡ê   
+A248: £¥   A249: £À   A24A: ¡æ   A24B: ¨H   
+A24C: ©†   A24D: ©‡   A24E: ©ˆ   A24F: ©T   
+A250: ©L   A251: ©M   A252: ©N   A253: ©Q   
+A254: ©O   A255: ©J   A256: ©K   A257: ©P   
+A258: ¡ã   A259: ƒ¾   A25A: ƒ¿   A25B: ƒÁ   
+A25C: ƒÀ   A25D: ƒÄ   A25E: ƒÅ   A25F: †í   
+A260: ­™   A261: ¼H   A262: ¨x   A263: ¨y   
+A264: ¨z   A265: ¨{   A266: ¨|   A267: ¨}   
+A268: ¨~   A269: ¨€   A26A: ¨‡   A26B: ¨†   
+A26C: ¨…   A26D: ¨„   A26E: ¨ƒ   A26F: ¨‚   
+A270: ¨   A271: ©à   A272: ©Ø   A273: ©Ð   
+A274: ©È   A275: ©À   A276: ¨‰   A277: ©¤   
+A278: ©¦   A279: ¨Š   A27A: ©°   A27B: ©´   
+A27C: ©¸   A27D: ©¼   A27E: ¨q   
+A2A1: ¨r   
+A2A2: ¨t   A2A3: ¨s   A2A4: ©¥   A2A5: ©Á   
+A2A6: ©ã   A2A7: ©É   A2A8: ¨   A2A9: ¨Ž   
+A2AA: ¨   A2AB: ¨   A2AC: ¨u   A2AD: ¨v   
+A2AE: ¨w   A2AF: £°   A2B0: £±   A2B1: £²   
+A2B2: £³   A2B3: £´   A2B4: £µ   A2B5: £¶   
+A2B6: £·   A2B7: £¸   A2B8: £¹   A2B9: ¢ñ   
+A2BA: ¢ò   A2BB: ¢ó   A2BC: ¢ô   A2BD: ¢õ   
+A2BE: ¢ö   A2BF: ¢÷   A2C0: ¢ø   A2C1: ¢ù   
+A2C2: ¢ú   A2C3: ©@   A2C4: ©A   A2C5: ©B   
+A2C6: ©C   A2C7: ©D   A2C8: ©E   A2C9: ©F   
+A2CA: ©G   A2CB: ©H   A2CC: Ê®   A2CD: …`   
+A2CE: Ø¦   A2CF: £Á   A2D0: £Â   A2D1: £Ã   
+A2D2: £Ä   A2D3: £Å   A2D4: £Æ   A2D5: £Ç   
+A2D6: £È   A2D7: £É   A2D8: £Ê   A2D9: £Ë   
+A2DA: £Ì   A2DB: £Í   A2DC: £Î   A2DD: £Ï   
+A2DE: £Ð   A2DF: £Ñ   A2E0: £Ò   A2E1: £Ó   
+A2E2: £Ô   A2E3: £Õ   A2E4: £Ö   A2E5: £×   
+A2E6: £Ø   A2E7: £Ù   A2E8: £Ú   A2E9: £á   
+A2EA: £â   A2EB: £ã   A2EC: £ä   A2ED: £å   
+A2EE: £æ   A2EF: £ç   A2F0: £è   A2F1: £é   
+A2F2: £ê   A2F3: £ë   A2F4: £ì   A2F5: £í   
+A2F6: £î   A2F7: £ï   A2F8: £ð   A2F9: £ñ   
+A2FA: £ò   A2FB: £ó   A2FC: £ô   A2FD: £õ   
+A2FE: £ö   
+A340: £÷   A341: £ø   A342: £ù   A343: £ú   
+A344: ¦¡   A345: ¦¢   A346: ¦£   A347: ¦¤   
+A348: ¦¥   A349: ¦¦   A34A: ¦§   A34B: ¦¨   
+A34C: ¦©   A34D: ¦ª   A34E: ¦«   A34F: ¦¬   
+A350: ¦­   A351: ¦®   A352: ¦¯   A353: ¦°   
+A354: ¦±   A355: ¦²   A356: ¦³   A357: ¦´   
+A358: ¦µ   A359: ¦¶   A35A: ¦·   A35B: ¦¸   
+A35C: ¦Á   A35D: ¦Â   A35E: ¦Ã   A35F: ¦Ä   
+A360: ¦Å   A361: ¦Æ   A362: ¦Ç   A363: ¦È   
+A364: ¦É   A365: ¦Ê   A366: ¦Ë   A367: ¦Ì   
+A368: ¦Í   A369: ¦Î   A36A: ¦Ï   A36B: ¦Ð   
+A36C: ¦Ñ   A36D: ¦Ò   A36E: ¦Ó   A36F: ¦Ô   
+A370: ¦Õ   A371: ¦Ö   A372: ¦×   A373: ¦Ø   
+A374: ¨Å   A375: ¨Æ   A376: ¨Ç   A377: ¨È   
+A378: ¨É   A379: ¨Ê   A37A: ¨Ë   A37B: ¨Ì   
+A37C: ¨Í   A37D: ¨Î   A37E: ¨Ï   
+A3A1: ¨Ð   
+A3A2: ¨Ñ   A3A3: ¨Ò   A3A4: ¨Ó   A3A5: ¨Ô   
+A3A6: ¨Õ   A3A7: ¨Ö   A3A8: ¨×   A3A9: ¨Ø   
+A3AA: ¨Ù   A3AB: ¨Ú   A3AC: ¨Û   A3AD: ¨Ü   
+A3AE: ¨Ý   A3AF: ¨Þ   A3B0: ¨ß   A3B1: ¨à   
+A3B2: ¨á   A3B3: ¨â   A3B4: ¨ã   A3B5: ¨ä   
+A3B6: ¨å   A3B7: ¨æ   A3B8: ¨ç   A3B9: ¨è   
+A3BA: ¨é   A3BB: ¨B   A3BC: ¡¥   A3BD: ¨@   
+A3BE: ¡¦   A3BF: ¨A   A3C0: ¡õ   A3C1: ¡õ   
+A3C2: ¡õ   A3C3: ¡õ   A3C4: ¡õ   A3C5: ¡õ   
+A3C6: ¡õ   A3C7: ¡õ   A3C8: ¡õ   A3C9: ¡õ   
+A3CA: ¡õ   A3CB: ¡õ   A3CC: ¡õ   A3CD: ¡õ   
+A3CE: ¡õ   A3CF: ¡õ   A3D0: ¡õ   A3D1: ¡õ   
+A3D2: ¡õ   A3D3: ¡õ   A3D4: ¡õ   A3D5: ¡õ   
+A3D6: ¡õ   A3D7: ¡õ   A3D8: ¡õ   A3D9: ¡õ   
+A3DA: ¡õ   A3DB: ¡õ   A3DC: ¡õ   A3DD: ¡õ   
+A3DE: ¡õ   A3DF: ¡õ   A3E0: ¡õ   A3E1: …P   
+A3E2: …h   A3E3: …l   A3E4: …v   A3E5: …Œ   
+A3E6: †Ÿ   A3E7: †Ž   A3E8: †   A3E9: †Œ   
+A3EA: †£   A3EB: ˆÃ   A3EC: ŠR   A3ED: ŒR   
+A3EE: ŒÍ   A3EF: Ç   A3F0: Ã   A3F1: È   
+A3F2: §   A3F3: –   A3F4: ‘ä   A3F5: ‘å   
+A3F6: ’è   A3F7: ’ë   A3F8: ’ó   A3F9: ”   
+A3FA: ”ž   A3FB: ”é   A3FC: •~   A3FD: —Z   
+A3FE: š    
+A440: Ò»   A441: ÒÒ   A442: ¶¡   A443: Æß   
+A444: ÄË   A445: ¾Å   A446: ÁË   A447: ¶þ   
+A448: ÈË   A449: ¶ù   A44A: Èë   A44B: °Ë   
+A44C: ¼¸   A44D: µ¶   A44E: µó   A44F: Á¦   
+A450: Ø°   A451: Ê®   A452: ²·   A453: ÓÖ   
+A454: Èý   A455: ÏÂ   A456: ÕÉ   A457: ÉÏ   
+A458: Ñ¾   A459: Íè   A45A: ·²   A45B: ¾Ã   
+A45C: Ã´   A45D: Ò²   A45E: Æò   A45F: ÓÚ   
+A460: Íö   A461: Ø£   A462: ÈÐ   A463: É×   
+A464: Ç§   A465: ²æ   A466: ¿Ú   A467: ÍÁ   
+A468: Ê¿   A469: Ï¦   A46A: ´ó   A46B: Å®   
+A46C: ×Ó   A46D: æÝ   A46E: æÞ   A46F: ´ç   
+A470: Ð¡   A471: ÞÌ   A472: Ê¬   A473: É½   
+A474: ´¨   A475: ¹¤   A476: ¼º   A477: ÒÑ   
+A478: ËÈ   A479: ½í   A47A: ¸É   A47B: ÞÃ   
+A47C: ß®   A47D: ¹­   A47E: ²Å   
+A4A1: ³ó   
+A4A2: Ø¤   A4A3: ²»   A4A4: ÖÐ   A4A5: ·á   
+A4A6: µ¤   A4A7: Ö®   A4A8: Òü   A4A9: Óè   
+A4AA: ÔÆ   A4AB: ¾®   A4AC: »¥   A4AD: Îå   
+A4AE: ¿º   A4AF: ÈÊ   A4B0: Ê²   A4B1: Øê   
+A4B2: ÆÍ   A4B3: ³ð   A4B4: ÈÔ   A4B5: ½ñ   
+A4B6: ½é   A4B7: ØÆ   A4B8: Ôª   A4B9: ÔÊ   
+A4BA: ƒÈ   A4BB: Áù   A4BC: Ùâ   A4BD: ¹«   
+A4BE: Èß   A4BF: Ð×   A4C0: ·Ö   A4C1: ÇÐ   
+A4C2: Ø×   A4C3: „ò   A4C4: ¹´   A4C5: Îð   
+A4C6: »¯   A4C7: Æ¥   A4C8: Îç   A4C9: Éý   
+A4CA: Ø¦   A4CB: ±å   A4CC: ¶ò   A4CD: ÓÑ   
+A4CE: ¼°   A4CF: ·´   A4D0: ÈÉ   A4D1: Ìì   
+A4D2: ·ò   A4D3: Ì«   A4D4: Ø²   A4D5: ¿×   
+A4D6: ÉÙ   A4D7: ÓÈ   A4D8: ³ß   A4D9: ÍÍ   
+A4DA: °Í   A4DB: »Ã   A4DC: Ø¥   A4DD: t   
+A4DE: Òý   A4DF: ÐÄ   A4E0: ¸ê   A4E1: ‘ô   
+A4E2: ÊÖ   A4E3: Ôú   A4E4: Ö§   A4E5: ÎÄ   
+A4E6: ¶·   A4E7: ½ï   A4E8: ·½   A4E9: ÈÕ   
+A4EA: Ô»   A4EB: ÔÂ   A4EC: Ä¾   A4ED: Ç·   
+A4EE: Ö¹   A4EF: ´õ   A4F0: Îã   A4F1: ±È   
+A4F2: Ã«   A4F3: ÊÏ   A4F4: Ë®   A4F5: »ð   
+A4F6: ×¦   A4F7: ¸¸   A4F8: Ø³   A4F9: Æ¬   
+A4FA: ÑÀ   A4FB: Å£   A4FC: È®   A4FD: Íõ   
+A4FE: ±û   
+A540: ÊÀ   A541: Ø§   A542: ÇÒ   A543: Çð   
+A544: Ö÷   A545: Õ§   A546: ·¦   A547: ºõ   
+A548: ÒÔ   A549: ¸¶   A54A: ×Ð   A54B: ÊË   
+A54C: Ëû   A54D: ÕÌ   A54E: ´ú   A54F: Áî   
+A550: ÏÉ   A551: Øð   A552: ³ä   A553: ÐÖ   
+A554: È½   A555: ƒÔ   A556: ¶¬   A557: °¼   
+A558: ³ö   A559: Í¹   A55A: ¿¯   A55B: ¼Ó   
+A55C: ¹¦   A55D: °ü   A55E: ´Ò   A55F: ±±   
+A560: ÔÑ   A561: Çª   A562: °ë   A563: »Ü   
+A564: ¿¨   A565: Õ¼   A566: Ã®   A567: Ø´   
+A568: È¥   A569: ¿É   A56A: ¹Å   A56B: ÓÒ   
+A56C: ÕÙ   A56D: ¶£   A56E: ßµ   A56F: ß¶   
+A570: µð   A571: Ë¾   A572: ØÏ   A573: ½Ð   
+A574: Áí   A575: Ö»   A576: Ê·   A577: ß³   
+A578: Ì¨   A579: ¾ä   A57A: °È   A57B: ß·   
+A57C: ËÄ   A57D: Çô   A57E: Íâ   
+A5A1: Ñë   
+A5A2: Ê§   A5A3: Å«   A5A4: ÄÌ   A5A5: ÔÐ   
+A5A6: Ëü   A5A7: Äá   A5A8: ¾Þ   A5A9: ÇÉ   
+A5AA: ×ó   A5AB: ÊÐ   A5AC: ²¼   A5AD: Æ½   
+A5AE: Ó×   A5AF: ÛÍ   A5B0: ºë   A5B1: ¸¥   
+A5B2: ±Ø   A5B3: Îì   A5B4: ´ò   A5B5: ÈÓ   
+A5B6: °Ç   A5B7: ÆË   A5B8: ³â   A5B9: µ©   
+A5BA: –X   A5BB: ±¾   A5BC: Î´   A5BD: Ä©   
+A5BE: Ôý   A5BF: Õý   A5C0: Ä¸   A5C1: Ãñ   
+A5C2: Øµ   A5C3: ÓÀ   A5C4: Ö­   A5C5: Í¡   
+A5C6: šï   A5C7: ·¸   A5C8: Ðþ   A5C9: Óñ   
+A5CA: ¹Ï   A5CB: Íß   A5CC: ¸Ê   A5CD: Éú   
+A5CE: ÓÃ   A5CF: Ë¦   A5D0: Ìï   A5D1: ÓÉ   
+A5D2: ¼×   A5D3: Éê   A5D4: ñâ   A5D5: °×   
+A5D6: Æ¤   A5D7: Ãó   A5D8: Ä¿   A5D9: Ã¬   
+A5DA: Ê¸   A5DB: Ê¯   A5DC: Ê¾   A5DD: ºÌ   
+A5DE: Ñ¨   A5DF: Á¢   A5E0: Ø©   A5E1: G   
+A5E2: Æ¹   A5E3: ÅÒ   A5E4: ØÀ   A5E5: ƒ   
+A5E6: ½»   A5E7: Òà   A5E8: º¥   A5E9: ·Â   
+A5EA: Øø   A5EB: »ï   A5EC: ÒÁ   A5ED: ¸   
+A5EE: Îé   A5EF: ·¥   A5F0: ÐÝ   A5F1: ·ü   
+A5F2: ÖÙ   A5F3: ¼þ   A5F4: ÈÎ   A5F5: Ñö   
+A5F6: Øò   A5F7: ·Ý   A5F8: Æó   A5F9: ³   
+A5FA: ¹â   A5FB: ƒ´   A5FC: Õ×   A5FD: ÏÈ   
+A5FE: È«   
+A640: ¹²   A641: ÔÙ   A642: ±ù   A643: ÁÐ   
+A644: ÐÌ   A645: »®   A646: ØØ   A647: ë¾   
+A648: ÁÓ   A649: ÐÙ   A64A: ¿ï   A64B: ½³   
+A64C: Ó¡   A64D: Î£   A64E: ¼ª   A64F: Àô   
+A650: Í¬   A651: µõ   A652: ÍÂ   A653: Óõ   
+A654: …¼   A655: ¸÷   A656: Ïò   A657: Ãû   
+A658: ºÏ   A659: ³Ô   A65A: ºó   A65B: ßº   
+A65C: ß¸   A65D: Òò   A65E: »Ø   A65F: àî   
+A660: ÛÚ   A661: µØ   A662: ÔÚ   A663: ¹ç   
+A664: ÛØ   A665: ÛÝ   A666: Û×   A667: Ùí   
+A668: ¶à   A669: ÒÄ   A66A: ¿ä   A66B: Íý   
+A66C: ¼é   A66D: åú   A66E: ºÃ   A66F: Ëý   
+A670: Èç   A671: åù   A672: ×Ö   A673: ´æ   
+A674: Óî   A675: ÊØ   A676: Õ¬   A677: °²   
+A678: ËÂ   A679: ¼â   A67A: ÒÙ   A67B: ÖÝ   
+A67C: ·«   A67D: ²¢   A67E: Äê   
+A6A1: Ê½   
+A6A2: ³Ú   A6A3: Ã¦   A6A4: ââ   A6A5: ÈÖ   
+A6A6: Ðç   A6A7: Êù   A6A8: ³É   A6A9: ¿Û   
+A6AA: ¿¸   A6AB: ÍÐ   A6AC: ÊÕ   A6AD: Ôç   
+A6AE: Ö¼   A6AF: Ñ®   A6B0: Ðñ   A6B1: Çú   
+A6B2: Ò·   A6B3: ÓÐ   A6B4: Ðà   A6B5: ÆÓ   
+A6B6: Öì   A6B7: ¶ä   A6B8: ´Î   A6B9: ´Ë   
+A6BA: ËÀ   A6BB: ÄÊ   A6BC: Èê   A6BD: º¹   
+A6BE: ›@   A6BF: ½­   A6C0: ³Ø   A6C1: Ï«   
+A6C2: ÉÇ   A6C3: ÎÛ   A6C4: Ñ´   A6C5: š÷   
+A6C6: šø   A6C7: »Ò   A6C8: Ä²   A6C9: êò   
+A6CA: °Ù   A6CB: Öñ   A6CC: Ã×   A6CD: ôé   
+A6CE: ó¾   A6CF: Ñò   A6D0: Óð   A6D1: ÀÏ   
+A6D2: ¿¼   A6D3: ¶ø   A6D4: ñç   A6D5: ¶ú   
+A6D6: í²   A6D7: Èâ   A6D8: Àß   A6D9: ¼¡   
+A6DA: ³¼   A6DB: ×Ô   A6DC: ÖÁ   A6DD: ¾Ê   
+A6DE: Éà   A6DF: â¶   A6E0: ÖÛ   A6E1: ôÞ   
+A6E2: É«   A6E3: °¬   A6E4: ³æ   A6E5: Ñª   
+A6E6: ÐÐ   A6E7: ÒÂ   A6E8: Î÷   A6E9: Úä   
+A6EA: ´®   A6EB: ºà   A6EC: Î»   A6ED: ×¡   
+A6EE: Ð   A6EF: Ù¢   A6F0: Øú   A6F1: °é   
+A6F2: ·ð   A6F3: ºÎ   A6F4: ¹À   A6F5: ×ô   
+A6F6: ÓÓ   A6F7: Ù¤   A6F8: ËÅ   A6F9: Éì   
+A6FA: µè   A6FB: ×   A6FC: ËÆ   A6FD: µ«   
+A6FE: Ó¶   
+A740: ×÷   A741: Äã   A742: ²®   A743: µÍ   
+A744: Áæ   A745: Óà   A746: Øþ   A747: Ñ   
+A748: Øý   A749: ƒ¶   A74A: ¿Ë   A74B: Ãâ   
+A74C: ±ø   A74D: Ò±   A74E: Àä   A74F: „e   
+A750: ÅÐ   A751: Àû   A752: „h   A753: ÅÙ   
+A754: ½Ù   A755: Öú   A756: Å¬   A757: Û¾   
+A758: Ï»   A759: ¼´   A75A: ÂÑ   A75B: Áß   
+A75C: ¿Ô   A75D: ÍÌ   A75E: Îá   A75F: ·ñ   
+A760: …Õ   A761: °É   A762: ´ô   A763: ßÀ   
+A764: …Ç   A765: ³Ê   A766: …Î   A767: ¾ý   
+A768: ·Ô   A769: ¸æ   A76A: ´µ   A76B: ÎÇ   
+A76C: Îü   A76D: Ë±   A76E: ³³   A76F: …È   
+A770: ·Í   A771: ºð   A772: Ñ½   A773: Ö¨   
+A774: º¬   A775: Ò÷   A776: Ìý   A777: ‡è   
+A778: À§   A779: ¶Ú   A77A: àñ   A77B: ·»   
+A77C: ¿Ó   A77D: Ö·   A77E: Ì®   
+A7A1: ¾ù   
+A7A2: ¿²   A7A3: »ø   A7A4: ×ø   A7A5: »µ   
+A7A6: Ûß   A7A7: ‰Ñ   A7A8: ŠA   A7A9: Šy   
+A7AA: ¶Ê   A7AB: ·Á   A7AC: æ¤   A7AD: åþ   
+A7AE: Ãî   A7AF: Ñý   A7B0: åû   A7B1: æ¥   
+A7B2: ¼Ë   A7B3: ÈÑ   A7B4: Í×   A7B5: Ð¢   
+A7B6: ×Î   A7B7: æÚ   A7B8: ØÃ   A7B9: Íê   
+A7BA: ËÎ   A7BB: ºê   A7BC: ÞÎ   A7BD: ¾Ö   
+A7BE: Æ¨   A7BF: Äò   A7C0: Î²   A7C1: áª   
+A7C2: á¯   A7C3: ²í   A7C4: á§   A7C5: Î×   
+A7C6: Ï£   A7C7: Ðò   A7C8: ±Ó   A7C9: ´²   
+A7CA: Í¢   A7CB: Åª   A7CC: µÜ   A7CD: Í®   
+A7CE: ÐÎ   A7CF: áÝ   A7D0: ÒÛ   A7D1: Íü   
+A7D2: ¼É   A7D3: Ö¾   A7D4: ÈÌ   A7D5: ³À   
+A7D6: ¿ì   A7D7: âî   A7D8: âì   A7D9: ½ä   
+A7DA: ÎÒ   A7DB: ³­   A7DC: ¿¹   A7DD: ¶¶   
+A7DE: ¼¼   A7DF: ·ö   A7E0: ¾ñ   A7E1: Å¤   
+A7E2: °Ñ   A7E3: ¶ó   A7E4: ÕÒ   A7E5: Åú   
+A7E6: °â   A7E7: Êã   A7E8: ³¶   A7E9: ÕÛ   
+A7EA: °ç   A7EB: Í¶   A7EC: ×¥   A7ED: ÒÖ   
+A7EE: ’^   A7EF: ¸Ä   A7F0: ¹¥   A7F1: Øü   
+A7F2: ºµ   A7F3: ¸ü   A7F4: Êø   A7F5: Àî   
+A7F6: ÐÓ   A7F7: ²Ä   A7F8: ´å   A7F9: ¶Å   
+A7FA: ÕÈ   A7FB: è½   A7FC: É¼   A7FD: ¸Ë   
+A7FE: ¸Ü   
+A840: è¼   A841: –n   A842: ²½   A843: Ã¿   
+A844: Çó   A845: ¹¯   A846: É³   A847: Çß   
+A848: Éò   A849: ³Á   A84A: ãä   A84B: Åæ   
+A84C: Íô   A84D: ›Q   A84E: ãå   A84F: Ì­   
+A850: ãç   A851: ãè   A852: ›_   A853: ›]   
+A854: Æû   A855: ÎÖ   A856: ¼³   A857: ·Ú   
+A858: ãê   A859: ãì   A85A: ãë   A85B: ›Z   
+A85C: ãæ   A85D: ›a   A85E: ÒÊ   A85F: Ôî   
+A860: ×Æ   A861: žÄ   A862: ¾Ä   A863: ÀÎ   
+A864: Äµ   A865:  ­   A866: µÒ   A867: ¿ñ   
+A868: ¾Á   A869: ð®   A86A: ¸¦   A86B: ÄÐ   
+A86C: µé   A86D: Ôí   A86E: ¶¢   A86F: ÒÓ   
+A870: Ë½   A871: Ðã   A872: ¶d   A873: ¾¿   
+A874: Ïµ   A875: º±   A876: Ð¤   A877: ëÁ   
+A878: ¸Î   A879: Öâ   A87A: ¸Ø   A87B: ¶Ç   
+A87C: Óý   A87D: Á¼   A87E: Ã¢   
+A8A1: Óó   
+A8A2: ÉÖ   A8A3: ÒŠ   A8A4: ½Ç   A8A5: ÑÔ   
+A8A6: ¹È   A8A7: ¶¹   A8A8: õ¹   A8A9: Ø   
+A8AA: ³à   A8AB: ×ß   A8AC: ×ã   A8AD: Éí   
+A8AE: Ü‡   A8AF: ÐÁ   A8B0: ³½   A8B1: ÓØ   
+A8B2: Þ~   A8B3: Ñ¸   A8B4: Æù   A8B5: Ñ²   
+A8B6: ÒØ   A8B7: ÐÏ   A8B8: Ð°   A8B9: °î   
+A8BA: ÄÇ   A8BB: ÓÏ   A8BC: áŠ   A8BD: Àï   
+A8BE: ·À   A8BF: Èî   A8C0: Úå   A8C1: Úæ   
+A8C2: êl   A8C3: K   A8C4: ¹Ô   A8C5: Èé   
+A8C6: ÊÂ   A8C7: Ð©   A8C8: †   A8C9: Ïí   
+A8CA: ¾©   A8CB: Ñð   A8CC: ÒÀ   A8CD: ÊÌ   
+A8CE: ¼Ñ   A8CF: Ê¹   A8D0: ÀÐ   A8D1: ¹©   
+A8D2: Àý   A8D3: í   A8D4: Ù©   A8D5: °Û   
+A8D6: ã   A8D7: ³Þ   A8D8: Åå   A8D9: Ù¬   
+A8DA: ö   A8DB: Ù«   A8DC: Ùª   A8DD: Ù§   
+A8DE: ç   A8DF: ÍÃ   A8E0: ƒº   A8E1: Ùî   
+A8E2: ƒÉ   A8E3: ¾ß   A8E4: Æä   A8E5: µä   
+A8E6: Ùý   A8E7: º¯   A8E8: ¿Ì   A8E9: È¯   
+A8EA: Ë¢   A8EB: ´Ì   A8EC: µ½   A8ED: ¹Î   
+A8EE: ÖÆ   A8EF: ¶ç   A8F0: ÛÀ   A8F1: „Á   
+A8F2: ×ä   A8F3: …f   A8F4: ×¿   A8F5: ±°   
+A8F6: ØÔ   A8F7: ¾í   A8F8: Ð¶   A8F9: …r   
+A8FA: È¡   A8FB: Êå   A8FC: ÊÜ   A8FD: Î¶   
+A8FE: ºÇ   
+A940: ¿§   A941: ÅÞ   A942: ¹¾   A943: ¾×   
+A944: Éë   A945: ßÈ   A946: ßÍ   A947: Öä   
+A948: ÅØ   A949: ºô   A94A: ¸À   A94B: ßÉ   
+A94C: ßÎ   A94D: ºÍ   A94E: ßË   A94F: ÄØ   
+A950: ÖÜ   A951: Õ¦   A952: Ãü   A953: ¾Ì   
+A954: ¹Ì   A955: À¬   A956: ¿À   A957: Æº   
+A958: Ûá   A959: ÆÂ   A95A: Ì¹   A95B: À¤   
+A95C: Ûå   A95D: Ò¹   A95E: ·î   A95F: Ææ   
+A960: ÄÎ   A961: ÑÙ   A962: ±¼   A963: æª   
+A964: ÆÞ   A965: Î¯   A966: ÃÃ   A967: ÄÝ   
+A968: ¹Ã   A969: Ä·   A96A: ½ã   A96B: Š™   
+A96C: Ê¼   A96D: ÐÕ   A96E: æ¢   A96F: æ¨   
+A970: Š…   A971: æ¦   A972: Š”   A973: ÃÏ   
+A974: ¹Â   A975: ¼¾   A976: ×Ú   A977: ¶¨   
+A978: ¹Ù   A979: ÒË   A97A: Öæ   A97B: Íð   
+A97C: ÉÐ   A97D: Çü   A97E: ¾Ó   
+A9A1: ŒÃ   
+A9A2: áº   A9A3: Œù   A9A4: °¶   A9A5: ÑÒ   
+A9A6: á¶   A9A7: á·   A9A8: ÔÀ   A9A9: Á±   
+A9AA: Öã   A9AB: Ìû   A9AC: ÅÁ   A9AD: ²¯   
+A9AE: àû   A9AF: ÐÒ   A9B0: ¸ý   A9B1: µê   
+A9B2: ¸®   A9B3: µ×   A9B4: âÒ   A9B5: ÑÓ   
+A9B6: ÏÒ   A9B7: »¡   A9B8: åó   A9B9: Íù   
+A9BA: Õ÷   A9BB: ·   A9BC: ±Ë   A9BD: ãÃ   
+A9BE: ÖÒ   A9BF: ºö   A9C0: Äî   A9C1: ·Þ   
+A9C2: âó   A9C3: Õú   A9C4: ÇÓ   A9C5: âð   
+A9C6: ²À   A9C7: ¹Ö   A9C8: ÅÂ   A9C9: âù   
+A9CA: ÐÔ   A9CB: âõ   A9CC: âö   A9CD: âò   
+A9CE: »ò   A9CF: ãÞ   A9D0: ·¿   A9D1: ìå   
+A9D2: Ëù   A9D3: ³Ð   A9D4: À­   A9D5: °è   
+A9D6: Öô   A9D7: Ãò   A9D8: ·÷   A9D9: Ä¨   
+A9DA: ¾Ü   A9DB: ÕÐ   A9DC: Åû   A9DD: ÍØ   
+A9DE: °Î   A9DF: ’   A9E0: Äé   A9E1: Åê   
+A9E2: ³é   A9E3: Ñº   A9E4: ¹Õ   A9E5: ×¾   
+A9E6: Ä´   A9E7: ÅÄ   A9E8: µÖ   A9E9: ÞÕ   
+A9EA: ±§   A9EB: ¾Ð   A9EC: ÍÏ   A9ED: ÞÖ   
+A9EE: ²ð   A9EF: Ì§   A9F0: Áà   A9F1: ·Å   
+A9F2: ¸«   A9F3: ì¶   A9F4: Íú   A9F5: Îô   
+A9F6: Ò×   A9F7: ²ý   A9F8: À¥   A9F9: °º   
+A9FA: Ã÷   A9FB: êÀ   A9FC: »è   A9FD: ê¿   
+A9FE: ê»   
+AA40: •N   AA41: ·þ   AA42: Åó   AA43: º¼   
+AA44: èÊ   AA45: Õí   AA46: –|   AA47: ¹û   
+AA48: èÃ   AA49: èË   AA4A: èÁ   AA4B: Ö¦   
+AA4C: ÁÖ   AA4D: ±­   AA4E: ½Ü   AA4F: °å   
+AA50: Í÷   AA51: ËÉ   AA52: Îö   AA53: èÆ   
+AA54: Ã¶   AA55: –’   AA56: èÌ   AA57: èÂ   
+AA58: ê½   AA59: ÐÀ   AA5A: Îä   AA5B: Æç   
+AA5C: š{   AA5D: Ã¥   AA5E: ·Õ   AA5F: Æü   
+AA60: ×¢   AA61: Ó¾   AA62: ãû   AA63: ÃÚ   
+AA64: Äà   AA65: ºÓ   AA66: ¹Á   AA67: Õ´   
+AA68: ÕÓ   AA69: ²¨   AA6A: Ä­   AA6B: ·¨   
+AA6C: ãü   AA6D: ·Ð   AA6E: Ð¹   AA6F: ÓÍ   
+AA70: ›r   AA71: ¾Ú   AA72: ãô   AA73: Çö   
+AA74: ãó   AA75: ÑØ   AA76: ÖÎ   AA77: ÅÝ   
+AA78: ·º   AA79: ²´   AA7A: ›i   AA7B: ãý   
+AA7C: ›‚   AA7D: ã÷   AA7E: ãö   
+AAA1: ¿»   
+AAA2: Ñ×   AAA3: ³´   AAA4: ´¶   AAA5: ÖË   
+AAA6: ÅÀ   AAA7:  Ž   AAA8: °Ö   AAA9: °æ   
+AAAA: ÄÁ   AAAB: Îï   AAAC:  î   AAAD: áò   
+AAAE: ¾Ñ   AAAF: ¹·   AAB0: ºü   AAB1: Íæ   
+AAB2: «k   AAB3: çä   AAB4: Ãµ   AAB5: «h   
+AAB6: ®l   AAB7: ðÞ   AAB8: ¸í   AAB9: ¾Î   
+AABA: µÄ   AABB: ÓÛ   AABC: Ã¤   AABD: Ö±   
+AABE: Öª   AABF: Îù   AAC0: Éç   AAC1: ìë   
+AAC2: Æî   AAC3: ±ü   AAC4: ¶i   AAC5: ¿Õ   
+AAC6: ñ·   AAC7: óÃ   AAC8: ¼m   AAC9: Øè   
+AACA: Ç¼   AACB: Ád   AACC: Õß   AACD: ·Î   
+AACE: ·Ê   AACF: Ö«   AAD0: ëÅ   AAD1: ¹É   
+AAD2: ëÆ   AAD3: ¼ç   AAD4: ëÈ   AAD5: ·¾   
+AAD6: ¿Ï   AAD7: ÅP   AAD8: ô§   AAD9: Éá   
+AADA: ·¼   AADB: Ö¥   AADC: Ü½   AADD: °Å   
+AADE: Ñ¿   AADF: ÜÏ   AAE0: ÇÛ   AAE1: »¨   
+AAE2: ·Ò   AAE3: ½æ   AAE4: Ð¾   AAE5: Ü¿   
+AAE6: Æ]   AAE7: ÜÁ   AAE8: ÜÀ   AAE9: ÜÆ   
+AAEA: »¢   AAEB: Ê­   AAEC: ³õ   AAED: ±í   
+AAEE: Üˆ   AAEF: Ó­   AAF0: ·µ   AAF1: ½ü   
+AAF2: ÉÛ   AAF3: Û¡   AAF4: Çñ   AAF5: Úý   
+AAF6: ²É   AAF7: ½ð   AAF8: éL   AAF9: éT   
+AAFA: ¸·   AAFB: ÍÓ   AAFC: °¢   AAFD: ×è   
+AAFE: ¸½   
+AB40: Úé   AB41: ö¿   AB42: Óê   AB43: Çà   
+AB44: ·Ç   AB45: Ø½   AB46: Í¤   AB47: ÁÁ   
+AB48: ÐÅ   AB49: ÇÖ   AB4A: ºî   AB4B: ±ã   
+AB4C: ‚b   AB4D: Ù¸   AB4E: ÇÎ   AB4F: ±£   
+AB50: ´Ù   AB51: ‚H   AB52: ·ý   AB53: Ù¹   
+AB54: ¿¡   AB55: Ë×   AB56: Îê   AB57: Àþ   
+AB58: ¶í   AB59: ‚S   AB5A: Ùµ   AB5B: ÙÞ   
+AB5C: Óá   AB5D: ‚I   AB5E: ƒ¼   AB5F: Ã°   
+AB60: ƒÙ   AB61: ¹Ú   AB62: „x   AB63: Ìê   
+AB64: Ï÷   AB65: Ç°   AB66: ØÝ   AB67: „w   
+AB68: „t   AB69: ÓÂ   AB6A: Ãã   AB6B: ²ª   
+AB6C: „Å   AB6D: Ùé   AB6E: ÄÏ   AB6F: …s   
+AB70: ºñ   AB71: ÅÑ   AB72: Ò§   AB73: °§   
+AB74: ×É   AB75: °¥   AB76: ÔÕ   AB77: ÏÌ   
+AB78: ß×   AB79: ¿È   AB7A: ÍÛ   AB7B: ßÓ   
+AB7C: ÑÊ   AB7D: ßä   AB7E: Æ·   
+ABA1: ºå   
+ABA2: ¹þ   ABA3: ¿©   ABA4: åë   ABA5: ÔÛ   
+ABA6: ßÝ   ABA7: ßã   ABA8: ßÖ   ABA9: ßÞ   
+ABAA: àó   ABAB: ´¹   ABAC: ÐÍ   ABAD: Ûó   
+ABAE: Ô«   ABAF: ¹¸   ABB0: ³Ç   ABB1: ¿å   
+ABB2: Ûò   ABB3: ÞÈ   ABB4: Æõ   ABB5: ×à   
+ABB6: ¿ü   ABB7: ŠJ   ABB8: ½ª   ABB9: æ°   
+ABBA: ×Ë   ABBB: æ¯   ABBC: ÒÌ   ABBD: ÍÞ   
+ABBE: ÀÑ   ABBF: Š©   ABC0: Ò¦   ABC1: Š¦   
+ABC2: Íþ   ABC3: Òö   ABC4: º¢   ABC5: Ðû   
+ABC6: »Â   ABC7: ÊÒ   ABC8: ¿Í   ABC9: å¶   
+ABCA: ·â   ABCB: Êº   ABCC: ÆÁ   ABCD: ŒÆ   
+ABCE: ÎÝ   ABCF: ÖÅ   ABD0: á¼   ABD1: Ïï   
+ABD2: µÛ   ABD3: Ž›   ABD4: Ž•   ABD5: ÓÄ   
+ABD6: âÔ   ABD7: ¶È   ABD8: ½¨   ABD9: ÞÄ   
+ABDA: åô   ABDB: ©   ABDC: ºÜ   ABDD: ´ý   
+ABDE: »²   ABDF: ÂÉ   ABE0: áß   ABE1: áá   
+ABE2: áà   ABE3: Å­   ABE4: Ë¼   ABE5: µ¡   
+ABE6: ¼±   ABE7: Ôõ   ABE8: Ô¹   ABE9: »Ð   
+ABEA: Ç¡   ABEB: ºÞ   ABEC: »Ö   ABED: a   
+ABEE: ÊÑ   ABEF: Ìñ   ABF0: ¶²   ABF1: ã¡   
+ABF2: Ðô   ABF3: ±â   ABF4: °Ý   ABF5: ÍÚ   
+ABF6: °´   ABF7: Æ´   ABF8: ÊÃ   ABF9: ³Ö   
+ABFA: Þ×   ABFB: ×§   ABFC: Ö¸   ABFD: ¹°   
+ABFE: ¿½   
+AC40: Õü   AC41: À¨   AC42: Ê°   AC43: Ë©   
+AC44: Ìô   AC45: ¹Ò   AC46: Õþ   AC47: ¹Ê   
+AC48: í½   AC49: Ê©   AC4A: ¼È   AC4B: ´º   
+AC4C: ÕÑ   AC4D: Ó³   AC4E: ÃÁ   AC4F: ÊÇ   
+AC50: ÐÇ   AC51: ×ò   AC52: êÅ   AC53: •`   
+AC54: êÂ   AC55: ÊÁ   AC56: È¾   AC57: Öù   
+AC58: Èá   AC59: Ä³   AC5A: ¼í   AC5B: ¼Ü   
+AC5C: ¿Ý   AC5D: –Å   AC5E: èÑ   AC5F: ¿Â   
+AC60: ±ú   AC61: ¸Ì   AC62: –¡   AC63: èÖ   
+AC64: ²é   AC65: èÛ   AC66: °Ø   AC67: ×õ   
+AC68: Áø   AC69: èÒ   AC6A: èÔ   AC6B: èÜ   
+AC6C: èØ   AC6D: Æâ   AC6E: Íá   AC6F: Ñê   
+AC70: ´ù   AC71: ¶Î   AC72: ¶¾   AC73: Åþ   
+AC74: ·ú   AC75: Èª   AC76: Ñó   AC77: ÖÞ   
+AC78: ºé   AC79: Á÷   AC7A: ½ò   AC7B: ä£   
+AC7C: ¶ý   AC7D: ¶´   AC7E: Ï´   
+ACA1: »î   
+ACA2: Ç¢   ACA3: ÅÉ   ACA4: ›°   ACA5: Âå   
+ACA6: ±Ã   ACA7: ä¡   ACA8: ä¢   ACA9: ›²   
+ACAA: ›ª   ACAB: ä¬   ACAC: ä­   ACAD: ä©   
+ACAE: äª   ACAF: ìÅ   ACB0: žé   ACB1: ±þ   
+ACB2: ¾æ   ACB3: ¾¼   ACB4: Ì¿   ACB5: Õ¨   
+ACB6: ÅÚ   ACB7: žÝ   ACB8: ë¼   ACB9: Éü   
+ACBA: êô   ACBB:  ¹   ACBC: á÷   ACBD: ºÝ   
+ACBE: ½Æ   ACBF: çè   ACC0: Éº   ACC1: ²£   
+ACC2: Áá   ACC3: Õä   ACC4: çê   ACC5: çé   
+ACC6: Éõ   ACC7: ±Â   ACC8: Î·   ACC9: ½ç   
+ACCA: î°   ACCB: î±   ACCC: Òß   ACCD: °Ì   
+ACCE: ½ê   ACCF: ¯M   ACD0: ðà   ACD1: ¹ï   
+ACD2: ½Ô   ACD3: »Ê   ACD4: ð§   ACD5: Ó¯   
+ACD6: Åè   ACD7: °    ACD8: ÖÑ   ACD9: Ê¡   
+ACDA: íï   ACDB: Ïà   ACDC: Ã¼   ACDD: ¿´   
+ACDE: ¶Ü   ACDF: ÅÎ   ACE0: íð   ACE1: ñæ   
+ACE2: É°   ACE3: ÑÐ   ACE4: Æö   ACE5: ¿³   
+ACE6: ìì   ACE7: ìí   ACE8: Æí   ACE9: µo   
+ACEA: Óí   ACEB: Ø®   ACEC: ¿Æ   ACED: Ãë   
+ACEE: Çï   ACEF: ´©   ACF0: Í»   ACF1: ¸Í   
+ACF2: óÄ   ACF3: ×Ñ   ACF4: ¼q   ACF5: ¼t   
+ACF6: ¼o   ACF7: ¼x   ACF8: ¼v   ACF9: ¼s   
+ACFA: ¼u   ACFB: ¸×   ACFC: ÃÀ   ACFD: ôà   
+ACFE: ë£   
+AD40: ÄÍ   AD41: Ë£   AD42: ÂZ   AD43: Ò®   
+AD44: ÅÖ   AD45: ñã   AD46: Åß   AD47: Î¸   
+AD48: ëÐ   AD49: ±³   AD4A: ºú   AD4B: ëÎ   
+AD4C: Ì¥   AD4D: °û   AD4E: Ø·   AD4F: ëÕ   
+AD50: ÖÂ   AD51: ô®   AD52: Ær   AD53: ·¶   
+AD54: Ã©   AD55: ÜÄ   AD56: ¿Á   AD57: ¿à   
+AD58: ÇÑ   AD59: Èô   AD5A: Ã¯   AD5B: ÜÔ   
+AD5C: ÜÛ   AD5D: Ãç   AD5E: Ó¢   AD5F: ×Â   
+AD60: ÜÙ   AD61: Ì¦   AD62: Ô·   AD63: °ú   
+AD64: Üß   AD65: ¹¶   AD66: ±½   AD67: Üâ   
+AD68: Å°   AD69: ºç   AD6A: òµ   AD6B: ò³   
+AD6C: ÑÜ   AD6D: ÉÀ   AD6E: Òª   AD6F: Ób   
+AD70: Ó‹   AD71: Ó†   AD72: Ó‡   AD73: Ø‘   
+AD74: Ø“   AD75: ¸°   AD76: ôñ   AD77: Å¿   
+AD78: ÜŠ   AD79: Ü‰   AD7A: Êö   AD7B: åÈ   
+AD7C: Ìö   AD7D: µÏ   AD7E: åÄ   
+ADA1: µü   
+ADA2: ÆÈ   ADA3: åÆ   ADA4: åÊ   ADA5: ½¼   
+ADA6: ÀÉ   ADA7: Óô   ADA8: àA   ADA9: Çõ   
+ADAA: ôú   ADAB: ÖØ   ADAC: éV   ADAD: ÏÞ   
+ADAE: Âª   ADAF: Ä°   ADB0: ½µ   ADB1: Ãæ   
+ADB2: ¸ï   ADB3: íf   ADB4: ¾Â   ADB5: Òô   
+ADB6: í“   ADB7: ïL   ADB8: ïw   ADB9: Ê³   
+ADBA: Ê×   ADBB: Ïã   ADBC: ³Ë   ADBD: Ùñ   
+ADBE: ÙÄ   ADBF: ±¶   ADC0: ‚   ADC1: ¸©   
+ADC2: ¾ë   ADC3: ÙÅ   ADC4: Ùº   ADC5: Ù»   
+ADC6: ‚†   ADC7: ‚z   ADC8: Öµ   ADC9: ½è   
+ADCA: ÒÐ   ADCB: µ¹   ADCC: ‚ƒ   ADCD: °³   
+ADCE: ‚t   ADCF: ¾ó   ADD0: ÙÆ   ADD1: ¾ã   
+ADD2: ³«   ADD3: ‚€   ADD4: ºò   ADD5: ÌÈ   
+ADD6: Ù½   ADD7: ÐÞ   ADD8: ÙÁ   ADD9: Äß   
+ADDA: ÙÂ   ADDB: ‚   ADDC: ‚}   ADDD: ¼æ   
+ADDE: Ô©   ADDF: Ú¤   ADE0: Ú£   ADE1: ƒö   
+ADE2: Áè   ADE3: ×¼   ADE4: µò   ADE5: ÆÊ   
+ADE6: Øà   ADE7: ÌÞ   ADE8: „‚   ADE9: „ƒ   
+ADEA: ·Ë   ADEB: Çä   ADEC: Ô­   ADED: ØÈ   
+ADEE: ÛÅ   ADEF: ÉÚ   ADF0: ÌÆ   ADF1: Ñä   
+ADF2: à¡   ADF3: ºß   ADF4: ¸ç   ADF5: ÕÜ   
+ADF6: Ëô   ADF7: ²¸   ADF8: ßí   ADF9: Á¨   
+ADFA: ¿Þ   ADFB: †T   ADFC: °¦   ADFD: Ïø   
+ADFE: ÄÄ   
+AE40: Å¶   AE41: ßó   AE42: ´½   AE43: ßì   
+AE44: ßñ   AE45: ÆÔ   AE46: àô   AE47: ¹¡   
+AE48: ÆÒ   AE49: Âñ   AE4A: °£   AE4B: ˆÖ   
+AE4C: ÏÄ   AE4D: Ì×   AE4E: ÞÊ   AE4F: ÞÉ   
+AE50: æ¶   AE51: Äï   AE52: ÄÈ   AE53: ¾ê   
+AE54: ŠÊ   AE55: æ¸   AE56: ¼§   AE57: Éï   
+AE58: æ·   AE59: Ãä   AE5A: ¶ð   AE5B: æ²   
+AE5C: æ³   AE5D: ŒO   AE5E: ŒÌ   AE5F: Ô×   
+AE60: º¦   AE61: ¼Ò   AE62: Ñç   AE63: Œm   
+AE64: Ïü   AE65: ÈÝ   AE66: å·   AE67: Éä   
+AE68: Ð¼   AE69: Õ¹   AE6A: åì   AE6B: ÇÍ   
+AE6C: {   AE6D: ¾þ   AE6E: Óø   AE6F: ¶ë   
+AE70: ·å   AE71: u   AE72: €   AE73: s   
+AE74: ²î   AE75: Ï¯   AE76: ŽŸ   AE77: Žì   
+AE78: Í¥   AE79: ×ù   AE7A: Èõ   AE7B: Í½   
+AE7C: ½   AE7D: Ðì   AE7E: í¦   
+AEA1: í§   
+AEA2: u   AEA3: ¿Ö   AEA4: Ë¡   AEA5: ¹§   
+AEA6: ¶÷   AEA7: Ï¢   AEA8: ÇÄ   AEA9: Îò   
+AEAA: ã¤   AEAB: º·   AEAC: »Ú   AEAD: ã©   
+AEAE: ‚   AEAF: ã£   AEB0: ÉÈ   AEB1: È­   
+AEB2: êü   AEB3: ÄÃ   AEB4: ÉÓ   AEB5: ’¶   
+AEB6: Õñ   AEB7: ²¶   AEB8: Îæ   AEB9: À¦   
+AEBA: Äó   AEBB: ×½   AEBC: Í¦   AEBD: ¾è   
+AEBE: Íì   AEBF: Å²   AEC0: ´ì   AEC1: °¤   
+AEC2: º´   AEC3: °Æ   AEC4: Ð§   AEC5: ôÍ   
+AEC6: ÁÏ   AEC7: ÅÔ   AEC8: ÂÃ   AEC9: •r   
+AECA: •x   AECB: êÌ   AECC: »Î   AECD: É¹   
+AECE: ÉÎ   AECF: •t   AED0: êË   AED1: •ø   
+AED2: Ë·   AED3: ëÞ   AED4: ÀÊ   AED5: Ð£   
+AED6: ºË   AED7: °¸   AED8: ¿ò   AED9: »¸   
+AEDA: ¸ù   AEDB: ¹ð   AEDC: ½Û   AEDD: èò   
+AEDE: Êá   AEDF: Àõ   AEE0: ×À   AEE1: É£   
+AEE2: ÔÔ   AEE3: ²ñ   AEE4: Í©   AEE5: èî   
+AEE6: ¸ñ   AEE7: ÌÒ   AEE8: Öê   AEE9: Î¦   
+AEEA: Ë¨   AEEB: –Ø   AEEC: èì   AEED: Êâ   
+AEEE: Ñ³   AEEF: Òó   AEF0: šâ   AEF1: Ñõ   
+AEF2: °±   AEF3: º¤   AEF4: ë³   AEF5: Ì©   
+AEF6: ÀË   AEF7: Ìé   AEF8: Ïû   AEF9: ›Ü   
+AEFA: ÆÖ   AEFB: ½þ   AEFC: º£   AEFD: Õã   
+AEFE: ä¸   
+AF40: ›É   AF41: Éæ   AF42: ¸¡   AF43: ¿£   
+AF44: Ô¡   AF45: ºÆ   AF46: Ó¿   AF47: ›Ý   
+AF48: ›Ñ   AF49: Äù   AF4A: ›Å   AF4B: ä¹   
+AF4C: ìÈ   AF4D: ºæ   AF4E: ¿¾   AF4F: ÀÓ   
+AF50: ÁÒ   AF51: žõ   AF52: µù   AF53: ÌØ   
+AF54: ÀÇ   AF55: ªM   AF56: ªN   AF57: Àê   
+AF58: áú   AF59: «R   AF5A: °à   AF5B: Áð   
+AF5C: «˜   AF5D: Öé   AF5E: «•   AF5F: çó   
+AF60: ÅÏ   AF61: ®€   AF62: Ðó   AF63: ÛÎ   
+AF64: Áô   AF65: ¼²   AF66: ²¡   AF67: Ö¢   
+AF68: Æ£   AF69: ðá   AF6A: ¾Ò   AF6B: ÌÛ   
+AF6C: Õî   AF6D: ðè   AF6E: ðã   AF6F: ¸Þ   
+AF70: °’   AF71: Òæ   AF72: îÁ   AF73: °»   
+AF74: Ñ£   AF75: Õæ   AF76: Ãß   AF77: Õ£   
+AF78: ¾Ø   AF79: Åé   AF7A: Õè   AF7B: ÔÒ   
+AF7C: íÀ   AF7D: ÆÆ   AF7E: Éé   
+AFA1: íÆ   
+AFA2: í¾   AFA3: ³^   AFA4: íÄ   AFA5: ³h   
+AFA6: µz   AFA7: µv   AFA8: ìô   AFA9: Ëî   
+AFAA: ×æ   AFAB: Éñ   AFAC: ×£   AFAD: ìó   
+AFAE: ìñ   AFAF: ³Ó   AFB0: ï÷   AFB1: Ñí   
+AFB2: ×â   AFB3: ÇØ   AFB4: ÖÈ   AFB5: ÃØ   
+AFB6: Õ­   AFB7: ñº   AFB8: Õ¾   AFB9: °Ê   
+AFBA: Ð¦   AFBB: ·Û   AFBC: ¼   AFBD: ¼†   
+AFBE: ¼y   AFBF: ÎÉ   AFC0: ËØ   AFC1: Ë÷   
+AFC2: ¼ƒ   AFC3: ¼~   AFC4: ¼„   AFC5: ¼‰   
+AFC6: ¼‹   AFC7: ¼{   AFC8: ¼ˆ   AFC9: ¼Š   
+AFCA: È±   AFCB: î¹   AFCC: ¸á   AFCD: ³á   
+AFCE: ÎÌ   AFCF: êÈ   AFD0: ÔÅ   AFD1: ¸û   
+AFD2: °Ò   AFD3: ºÄ   AFD4: µ¢   AFD5: ¹¢   
+AFD6: ë×   AFD7: Ö¬   AFD8: ÒÈ   AFD9: Ã{   
+AFDA: ëÙ   AFDB: ëØ   AFDC: ´à   AFDD: ÐØ   
+AFDE: ¸ì   AFDF: Ã}   AFE0: ÄÜ   AFE1: ¼¹   
+AFE2: ëÝ   AFE3: ¿è   AFE4: ³ô   AFE5: ô«   
+AFE6: Ò¨   AFE7: óÂ   AFE8: º½   AFE9: ô³   
+AFEA: ô²   AFEB: °ã   AFEC: Æc   AFED: Ã£   
+AFEE: »Ä   AFEF: Àó   AFF0: ÇG   AFF1: È×   
+AFF2: ¼ö   AFF3: ²Ý   AFF4: Òð   AFF5: Üî   
+AFF6: Üó   AFF7: Æ   AFF8: Èã   AFF9: ²è   
+AFFA: Üø   AFFB: Ü÷   AFFC: Üï   AFFD: ´Ä   
+AFFE: Üõ   
+B040: ò¯   B041: ÎÃ   B042: ò½   B043: ò¾   
+B044: Ôé   B045: ò¿   B046: °ö   B047: ò¼   
+B048: ÑÁ   B049: Ë¥   B04A: ÖÔ   B04B: Ô¬   
+B04C: ñÇ   B04D: ñÅ   B04E: Ð}   B04F: Ó›   
+B050: Ó“   B051: Ó‘   B052: Ó   B053: Ó˜   
+B054: Ó   B055: Óš   B056: Ó–   B057: Ó™   
+B058: Ó’   B059: Ó”   B05A: ØM   B05B: ²ò   
+B05C: ±ª   B05D: Ø”   B05E: Ø•   B05F: Æð   
+B060: ¹ª   B061: ÜŽ   B062: Ü   B063: Ü‹   
+B064: Èè   B065: ËÍ   B066: Äæ   B067: ÃÔ   
+B068: ÍË   B069: Þ•   B06A: Þ’   B06B: ÌÓ   
+B06C: ×·   B06D: åË   B06E: ±Å   B06F: çß   
+B070: ¿¤   B071: ºÂ   B072: Û«   B073: ¾Æ   
+B074: Åä   B075: ×Ã   B076: á”   B077: á˜   
+B078: á“   B079: ¸ª   B07A: á•   B07B: éW   
+B07C: Ôº   B07D: ê‡   B07E: ¶¸   
+B0A1: ±Ý   
+B0A2: ê„   B0A3: ³ý   B0A4: ê€   B0A5: ê…   
+B0A6: ëb   B0A7: ï|   B0A8: ñR   B0A9: ¹Ç   
+B0AA: ¸ß   B0AB: ôY   B0AC: Øª   B0AD: ¹í   
+B0AE: Ç¬   B0AF: ‚Ì   B0B0: ‚Î   B0B1: Í£   
+B0B2: ¼Ù   B0B3: ÙÈ   B0B4: Ù¼   B0B5: ×ö   
+B0B6: ‚¥   B0B7: ½¡   B0B8: Å¼   B0B9: ÙË   
+B0BA: ÙÉ   B0BB: ‚É   B0BC: ‚È   B0BD: Íµ   
+B0BE: Æ«   B0BF: Ù¿   B0C0: ‚Ã   B0C1: ‚Á   
+B0C2: ¶µ   B0C3: Ãá   B0C4: »Ë   B0C5: ¼ô   
+B0C6: ¸±   B0C7: ÀÕ   B0C8: „Õ   B0C9: ¿±   
+B0CA: „Ó   B0CB: Ùë   B0CC: ÞË   B0CD: ³×   
+B0CE: Ää   B0CF: …^   B0D0: ØÒ   B0D1: …¢   
+B0D2: Âü   B0D3: ÉÌ   B0D4: Å¾   B0D5: À²   
+B0D6: ×Ä   B0D7: †¡   B0D8: ·È   B0D9: ¿Ð   
+B0DA: °¡   B0DB: ³ª   B0DC: à¢   B0DD: †–   
+B0DE: ßû   B0DF: Î¨   B0E0: Æ¡   B0E1: †ˆ   
+B0E2: ÊÛ   B0E3: à¨   B0E4: »£   B0E5: †¥   
+B0E6: à¦   B0E7: ßú   B0E8: †›   B0E9: È¦   
+B0EA: ‡ø   B0EB: àö   B0EC: Óò   B0ED: ˆÔ   
+B0EE: ˆ×   B0EF: ¶Ñ   B0F0: ²º   B0F1: Ûý   
+B0F2: »ù   B0F3: ÌÃ   B0F4: ¶Â   B0F5: ˆÌ   
+B0F6: Åà   B0F7: ‰ò   B0F8: ÉÝ   B0F9: È¢   
+B0FA: Šä   B0FB: Íñ   B0FC: ‹D   B0FD: À·   
+B0FE: æ¹   
+B140: æ½   B141: æ¾   B142: »é   B143: ÆÅ   
+B144: æ»   B145: Êë   B146: ¿Ü   B147: Òú   
+B148: ¼Ä   B149: ¼Å   B14A: ËÞ   B14B: ÃÜ   
+B14C: Î¾   B14D: Œ£   B14E: Œ¢   B14F: ÍÀ   
+B150: ŒÏ   B151: ŒÐ   B152: ³ç   B153: áÇ   
+B154: Æé   B155: áÈ   B156: ÑÂ   B157: ˜   
+B158: ‹   B159: ±À   B15A: ´Þ   B15B: ‘   
+B15C: áÅ   B15D: áÂ   B15E:    B15F: ³²   
+B160: ³£   B161: Ž§   B162: Ž¤   B163: á¡   
+B164: ¿µ   B165: Ó¹   B166: Êü   B167: âÖ   
+B168: â×   B169: ˆ   B16A: Š   B16B: åç   
+B16C: ±ò   B16D: ²Ê   B16E: ¬   B16F: µÃ   
+B170: áã   B171: Ä   B172: ÅÇ   B173: Óù   
+B174: Æ   B175: áä   B176: ÓÁ   B177: »¼   
+B178: Ï¤   B179: ÓÆ   B17A: Äú   B17B: Íï   
+B17C: ã²   B17D: µë   B17E: ¢   
+B1A1: Çé   
+B1A2: ã¬   B1A3:    B1A4: Ï§   B1A5: µ¿   
+B1A6: ã¯   B1A7: Ìè   B1A8: ã°   B1A9: Î©   
+B1AA: ¼Â   B1AB: ã±   B1AC: ª   B1AD: ÆÝ   
+B1AE: ê©   B1AF: ìè   B1B0: ÂÓ   B1B1: ¿Ø   
+B1B2: ’Ô   B1B3: Ò´   B1B4: Ì½   B1B5: ½Ó   
+B1B6: ½Ý   B1B7: Åõ   B1B8: ¾ò   B1B9: ´ë   
+B1BA: Þß   B1BB: ÑÚ   B1BC: µô   B1BD: ’ß   
+B1BE: ’ì   B1BF: ’Ð   B1C0: ÍÆ   B1C1: ’à   
+B1C2: ÊÚ   B1C3: ’ê   B1C4: ’ñ   B1C5: Þä   
+B1C6: ÅÅ   B1C7: ÌÍ   B1C8: ÏÆ   B1C9: Äí   
+B1CA: Þæ   B1CB: ’Î   B1CC: Þà   B1CD: ±Ö   
+B1CE: °½   B1CF: ¾È   B1D0: ½Ì   B1D1: ”¡   
+B1D2: †¢   B1D3: Ãô   B1D4: ”¢   B1D5: ë·   
+B1D6: ”    B1D7: Ð±   B1D8: õú   B1D9: ”Ø   
+B1DA: ×å   B1DB: Ðý   B1DC: ìº   B1DD: ì»   
+B1DE: •ƒ   B1DF: Íí   B1E0: Îî   B1E1: ³¿   
+B1E2: »Þ   B1E3: •„   B1E4: ²Ü   B1E5: „Ô   
+B1E6: Íû   B1E7: Áº   B1E8: ÌÝ   B1E9: ÉÒ   
+B1EA: è÷   B1EB: èó   B1EC: —U   B1ED: Í°   
+B1EE: —y   B1EF: Îà   B1F0: ¹£   B1F1: Ðµ   
+B1F2: èè   B1F3: —‰   B1F4: Ëó   B1F5: °ð   
+B1F6: Ã·   B1F7: —d   B1F8: —l   B1F9: Àæ   
+B1FA: —n   B1FB: —p   B1FC: —W   B1FD: Óû   
+B1FE: š¢   
+B240: ºÁ   B241: šÂ   B242: šä   B243: ÏÑ   
+B244: ›ö   B245: ´¾   B246: äÈ   B247: Òº   
+B248: µ­   B249: ÌÊ   B24A: ÓÙ   B24B: Ìí   
+B24C: œ\   B24D: Çå   B24E: ä¿   B24F: ÁÜ   
+B250: ÑÄ   B251: Êç   B252: äÌ   B253: äÁ   
+B254: ÑÍ   B255: ºÔ   B256: »ì   B257: œY   
+B258: äÀ   B259: œD   B25A: ä¾   B25B: º­   
+B25C: œI   B25D: Òù   B25E: ÌÔ   B25F: œS   
+B260: Éî   B261: »´   B262: œQ   B263: Ïý   
+B264: ×Í   B265: ¸¢   B266: ´ã   B267: äÃ   
+B268: äÆ   B269: Åë   B26A: ÑÉ   B26B: º¸   
+B26C: ·é   B26D: Ï©   B26E: Ë¬   B26F:  ¿   
+B270: Àç   B271: ²Â   B272: ÃÍ   B273: ²þ   
+B274: â£   B275: ªb   B276: ÂÊ   B277: ÀÅ   
+B278: çð   B279: Çò   B27A: Àí   B27B: ¬F   
+B27C: ¬P   B27D: ð­   B27E: Æ¿   
+B2A1: ´É   
+B2A2: Ìð   B2A3: ®a   B2A4: ÂÔ   B2A5: Æè   
+B2A6: ®…   B2A7: ®   B2A8: Êè   B2A9: ÖÌ   
+B2AA: ºÛ   B2AB: ´Ã   B2AC: È¬   B2AD: ðê   
+B2AE: ð¨   B2AF: ¿ø   B2B0: ºÐ   B2B1: Ê¢   
+B2B2: ¾ì   B2B3: ±Š   B2B4: ÑÛ   B2B5: ¿ô   
+B2B6: íø   B2B7: Ì÷   B2B8: Áò   B2B9: ³p   
+B2BA: íÊ   B2BB: Ïé   B2BC: Æ±   B2BD: ¼À   
+B2BE: ÒÆ   B2BF: ÖÏ   B2C0: ñ»   B2C1: óÒ   
+B2C2: ±¿   B2C3: µÑ   B2C4: µÚ   B2C5: ·û   
+B2C6: óÏ   B2C7: ó×   B2C8: óÐ   B2C9: Á£   
+B2CA: ´Ö   B2CB: ÆÉ   B2CC: ½O   B2CD: ½L   
+B2CE: ½y   B2CF: ¼™   B2D0: ½B   B2D1: ½E   
+B2D2: ½I   B2D3: ¼š   B2D4: ¼   B2D5: ½M   
+B2D6: ÀÛ   B2D7: ½K   B2D8: ¼œ   B2D9: ¼›   
+B2DA: À   B2DB: Ðß   B2DC: Áç   B2DD: Òî   
+B2DE: ôá   B2DF: Á•   B2E0: ñê   B2E1: ÁÄ   
+B2E2: ñö   B2E3: ¸¬   B2E4: ²±   B2E5: Ã‹   
+B2E6: Ã“   B2E7: Ã‘   B2E8: Ã–   B2E9: ÃŒ   
+B2EA: ô©   B2EB: ¶æ   B2EC: ÏÏ   B2ED: ²°   
+B2EE: ´¬   B2EF: É¯   B2F0: Ý¸   B2F1: Ý·   
+B2F2: Ý©   B2F3: Çv   B2F4: Ço   B2F5: Ã§   
+B2F6: Äª   B2F7: Üì   B2F8: Çf   B2F9: Ý®   
+B2FA: Àò   B2FB: Ý¬   B2FC: ºÉ   B2FD: Ý¶   
+B2FE: Ý±   
+B340: ÆÎ   B341: Ç{   B342: ÌŽ   B343: ±ë   
+B344: Éß   B345: Öû   B346: òÀ   B347: òÁ   
+B348: òÂ   B349: Çù   B34A: µ°   B34B: òÆ   
+B34C: òÇ   B34D: òÈ   B34E: Ðg   B34F: Ð–   
+B350: ôÂ   B351: ±»   B352: Ì»   B353: Ðä   
+B354: ÅÛ   B355: ´ü   B356: Ò’   B357: ÒŽ   
+B358: ÔL   B359: Ó    B35A: ÔE   B35B: ÔG   
+B35C: ÔS   B35D: ÔO   B35E: ÔA   B35F: Óž   
+B360: ÔD   B361: ôù   B362: ëà   B363: Øœ   
+B364: ØŸ   B365: Øž   B366: Ø›   B367: Ø   
+B368: Øš   B369: ôö   B36A: Éâ   B36B: Öº   
+B36C: õÃ   B36D: Ü—   B36E: Ü›   B36F: ß@   
+B370: åÐ   B371: Í¨   B372: ¶º   B373: ßB   
+B374: ËÙ   B375: ÊÅ   B376: Öð   B377: ÞŸ   
+B378: ³Ñ   B379: Ôì   B37A: Í¸   B37B: ·ê   
+B37C: åÑ   B37D: ¹ä   B37E: Í¾   
+B3A1: ²¿   
+B3A2: ¹ù   B3A3: ¶¼   B3A4: Ðï   B3A5: Ò°   
+B3A6: âO   B3A7: â@   B3A8: áž   B3A9: âA   
+B3AA: âG   B3AB: âC   B3AC: é]   B3AD: Åã   
+B3AE: Áê   B3AF: ê   B3B0: ê‘   B3B1: êŽ   
+B3B2: Úð   B3B3: ÌÕ   B3B4: ÏÝ   B3B5: Úî   
+B3B6: È¸   B3B7: Ñ©   B3B8: ö§   B3B9: ÕÂ   
+B3BA: ¾¹   B3BB: í”   B3BC: í•   B3BD: ô~   
+B3BE: øB   B3BF: ûu   B3C0: Â¹   B3C1: ûœ   
+B3C2: Âé   B3C3: ‚í   B3C4: °ø   B3C5: ¸µ   
+B3C6: ‚ä   B3C7: ‚Ü   B3C8: ¿þ   B3C9: ‚á   
+B3CA: ‚ã   B3CB: ‚å   B3CC: ×î   B3CD: „P   
+B3CE: ¸î   B3CF: „’   B3D0: „“   B3D1: Ê£   
+B3D2: „Ú   B3D3: „Ù   B3D4: „×   B3D5: ²©   
+B3D6: ØÊ   B3D7: à´   B3D8: ¿¦   B3D9: Ðú   
+B3DA: Ìä   B3DB: º°   B3DC: ºÈ   B3DD: ´­   
+B3DE: Î¹   B3DF: Ï²   B3E0: †Ê   B3E1: à¸   
+B3E2: À®   B3E3: à©   B3E4: à«   B3E5: Ôû   
+B3E6: †Î   B3E7: à°   B3E8: ÍÙ   B3E9: †Ñ   
+B3EA: †¾   B3EB: Ó÷   B3EC: †Ì   B3ED: à¬   
+B3EE: à±   B3EF: ºí   B3F0: †Ë   B3F1: à¹   
+B3F2: ‡ú   B3F3: ˆò   B3F4: ¿°   B3F5: ˆö   
+B3F6: µÌ   B3F7: Ñß   B3F8: ˆó   B3F9: ±¤   
+B3FA: ˆå   B3FB: Ü©   B3FC: Ò¼   B3FD: ‰Ø   
+B3FE: µì   
+B440: æÃ   B441: ÃÄ   B442: Ðö   B443: Ã½   
+B444: æÂ   B445: ‹z   B446: æÜ   B447: åî   
+B448: º®   B449: ¸»   B44A: Ô¢   B44B: ÃÂ   
+B44C: ×ð   B44D: Œ¤   B44E: ¾Í   B44F: Ç¶   
+B450: ¹   B451: áË   B452: ïú   B453: Ùã   
+B454: ·ù   B455: Ã±   B456: Ž¬   B457: Ž®   
+B458: Ž×   B459: ÀÈ   B45A: Žú   B45B: Žû   
+B45C: Žý   B45D: åö   B45E: Åí   B45F: Í   
+B460: Ñ­   B461: áå   B462: »ó   B463: º   
+B464: ±¯   B465: ž   B466: »Ý   B467: Ü   
+B468: ã¶   B469: ÐÊ   B46A: ãµ   B46B: ¶è   
+B46C: Å   B46D: ã·   B46E: ¿®   B46F: À   
+B470: ã¹   B471: »Ì   B472: Óä   B473: ã¸   
+B474: Ô   B475: êª   B476: ìé   B477: ³¸   
+B478: ÕÆ   B479: Ãè   B47A: ’þ   B47B: ¿«   
+B47C: Èà   B47D: Þñ   B47E: ×á   
+B4A1: ²å   
+B4A2: ´§   B4A3: Ìá   B4A4: ÎÕ   B4A5: Ò¾   
+B4A6: ½Ò   B4A7: “]   B4A8: ´·   B4A9: Ô®   
+B4AA: ¾¾   B4AB: “Q   B4AC: Þð   B4AD: “P   
+B4AE: “d   B4AF: ³¨   B4B0: ¶Ø   B4B1: ¸Ò   
+B4B2: É¢   B4B3: °ß   B4B4: ì³   B4B5: Ë¹   
+B4B6: ÆÕ   B4B7: Îú   B4B8: Çç   B4B9: ¾§   
+B4BA: ¾°   B4BB: Êî   B4BC: ÖÇ   B4BD: ÁÀ   
+B4BE: êÐ   B4BF: Ôø   B4C0: Ìæ   B4C1: ÆÚ   
+B4C2: ³¯   B4C3: ¹×   B4C4: ×Ø   B4C5: ÌÄ   
+B4C6: ¼¬   B4C7: ——   B4C8: ÒÎ   B4C9: —   
+B4CA: ¿Ã   B4CB: É­   B4CC: —£   B4CD: èþ   
+B4CE: °ô   B4CF: —«   B4D0: é¦   B4D1: Æå   
+B4D2: ¹÷   B4D3: Ö²   B4D4: ½·   B4D5: ×µ   
+B4D6: ÃÞ   B4D7: Åï   B4D8: èú   B4D9: —±   
+B4DA: ¿î   B4DB: ÆÛ   B4DC: šJ   B4DD: šˆ   
+B4DE: Ö³   B4DF: š¤   B4E0: Ìº   B4E1: µª   
+B4E2: ÂÈ   B4E3: šå   B4E4: ¸Û   B4E5: ÓÎ   
+B4E6: äÕ   B4E7: ¶É   B4E8: äÖ   B4E9: œ¥   
+B4EA: œ   B4EB: Çþ   B4EC: ä×   B4ED: Ôü   
+B4EE: œp   B4EF: Õ¿   B4F0: Ïæ   B4F1: ²³   
+B4F2: ºþ   B4F3: äÎ   B4F4: Î¼   B4F5: œu   
+B4F6: œ«   B4F7: ¿Ê   B4F8: ÍÄ   B4F9: Ãì   
+B4FA: œy   B4FB: ÅÈ   B4FC: Óå   B4FD: œ†   
+B4FE: ×Ì   
+B540: ¸È   B541: œo   B542: äÏ   B543: œ¡   
+B544: äØ   B545: œ®   B546: œ§   B547: äÒ   
+B548: ±º   B549: ·Ù   B54A: ½¹   B54B: Ñæ   
+B54C: Ÿo   B54D: È»   B54E: Öó   B54F: Ÿj   
+B550: ÅÆ   B551: ê÷   B552: Ï¬   B553: ªq   
+B554: â«   B555: ºï   B556: ÐÉ   B557: ¬m   
+B558: ç÷   B559: ÁÕ   B55A: ×Á   B55B: çú   
+B55C: Åý   B55D: ÅÃ   B55E: ÇÙ   B55F: ¬g   
+B560: è¡   B561: çù   B562: çû   B563: Éû   
+B564: ®d   B565: ®‹   B566: ·¬   B567: Á¡   
+B568: Í´   B569: ðë   B56A: ¯d   B56B: ¶»   
+B56C: Æ¦   B56D: ¯i   B56E: µÇ   B56F: °l   
+B570: Íî   B571: ð©   B572: ñå   B573: ±I   
+B574: ±—   B575: ¶Ì   B576: Ïõ   B577: Ó²   
+B578: ³Ž   B579: ÉÔ   B57A: ¶’   B57B: ³Ì   
+B57C: ¶   B57D: Ï¡   B57E: ¾½   
+B5A1: ´°   
+B5A2: ½Ñ   B5A3: Í¯   B5A4: ¿¢   B5A5: µÈ   
+B5A6: ²ß   B5A7: ¹P   B5A8: ¿ð   B5A9: Í²   
+B5AA: ´ð   B5AB: ¹S   B5AC: ½î   B5AD: ·¤   
+B5AE: Öþ   B5AF: ËÚ   B5B0: Öà   B5B1: ½g   
+B5B2: ½Y   B5B3: ½q   B5B4: ½^   B5B5: ×Ï   
+B5B6: Ðõ   B5B7: ½z   B5B8: ½j   B5B9: ½o   
+B5BA: ½k   B5BB: ½x   B5BC: ½{   B5BD: ÉÆ   
+B5BE: Ïè   B5BF: ôâ   B5C0: ñó   B5C1: ñø   
+B5C2: ÃC   B5C3: Íó   B5C4: Ç»   B5C5: Ò¸   
+B5C6: ¸­   B5C7: ÄI   B5C8: Ã›   B5C9: Ìó   
+B5CA: Æ¢   B5CB: ëç   B5CC: ëè   B5CD: ëé   
+B5CE: Êæ   B5CF: Ë´   B5D0: ÆÐ   B5D1: ÝÍ   
+B5D2: ÝÎ   B5D3: Æ¼   B5D4: ²¤   B5D5: ÝÑ   
+B5D6: ÝÂ   B5D7: Ý¼   B5D8: ÈA   B5D9: Áâ   
+B5DA: ÈC   B5DB: Öø   B5DC: ÈR   B5DD: ÝÔ   
+B5DE: ÃÈ   B5DF: ¾ú   B5E0: ÝÄ   B5E1: ·Æ   
+B5E2: ¾Õ   B5E3: ÝÇ   B5E4: Î®   B5E5: ÌÑ   
+B5E6: ²Ë   B5E7: ÈO   B5E8: ÝÊ   B5E9: ÝË   
+B5EA: Ì“   B5EB: òÔ   B5EC: ÍÜ   B5ED: òÎ   
+B5EE: »×   B5EF: Öë   B5F0: ¸ò   B5F1: òÐ   
+B5F2: òÒ   B5F3: ½Ö   B5F4: ²Ã   B5F5: ÁÑ   
+B5F6: ¸¤   B5F7: ñû   B5F8: Ò•   B5F9: Ô]   
+B5FA: Ô   B5FB: Ôu   B5FC: Ô~   B5FD: Ô^   
+B5FE: Ôb   
+B640: Ôt   B641: Ô{   B642: Ôp   B643: Ôg   
+B644: ÔV   B645: Ô\   B646: ÔX   B647: Ôv   
+B648: Ïó   B649: õõ   B64A: ÙA   B64B: ÙN   
+B64C: ÙE   B64D: ÙO   B64E: ÙS   B64F: ÙM   
+B650: ÙR   B651: ÙF   B652: ÙI   B653: ÙH   
+B654: ÙQ   B655: ÙJ   B656: Ô½   B657: ³¬   
+B658: ³Ã   B659: õÉ   B65A: ¾à   B65B: °Ï   
+B65C: õÇ   B65D: ÅÜ   B65E: µø   B65F: õË   
+B660: õÌ   B661: ÝV   B662: ÝS   B663: ÝW   
+B664: ¹¼   B665: ´þ   B666: åÓ   B667: ßL   
+B668: ÒÝ   B669: ßM   B66A: åÔ   B66B: ¶õ   
+B66C: à]   B66D: àl   B66E: Û±   B66F: º¨   
+B670: ËÖ   B671: Á¿   B672: ân   B673: âo   
+B674: â}   B675: âc   B676: âx   B677: âg   
+B678: âj   B679: âa   B67A: âk   B67B: éh   
+B67C: éc   B67D: é_   B67E: ée   
+B6A1: ég   
+B6A2: éf   B6A3: éb   B6A4: ê    B6A5: ëA   
+B6A6: Ëå   B6A7: ê–   B6A8: Óç   B6A9: Â¡   
+B6AA: Úò   B6AB: Úï   B6AC: ê   B6AD: Ñã   
+B6AE: ÑÅ   B6AF: ÐÛ   B6B0: ¼¯   B6B1: ¹Í   
+B6B2: ö©   B6B3: ë…   B6B4: íg   B6B5: í—   
+B6B6: í˜   B6B7: íš   B6B8: â¸   B6B9: ïƒ   
+B6BA: ïˆ   B6BB: ï‚   B6BC: ï‹   B6BD: ï†   
+B6BE: ñT   B6BF: ñS   B6C0: üS   B6C1: Êò   
+B6C2: ºÚ   B6C3: y   B6C4: ‚ò   B6C5: ‚ù   
+B6C6: °Á   B6C7: ‚÷   B6C8: ƒH   B6C9: ƒA   
+B6CA: ´ß   B6CB: ‚û   B6CC: Éµ   B6CD: ‚ô   
+B6CE: ƒJ   B6CF: ½Ë   B6D0: „•   B6D1: Øâ   
+B6D2: Ä¼   B6D3: „à   B6D4: ÇÚ   B6D5: „Ý   
+B6D6: „Þ   B6D7: …R   B6D8: àµ   B6D9: àË   
+B6DA: É¤   B6DB: àÂ   B6DC: †á   B6DD: ÊÈ   
+B6DE: †Ý   B6DF: à¾   B6E0: ËÃ   B6E1: àÍ   
+B6E2: àÅ   B6E3: †è   B6E4: ÎË   B6E5: Ðá   
+B6E6: †Ü   B6E7: àÆ   B6E8: à¼   B6E9: ˆ@   
+B6EA: ˆA   B6EB: Èû   B6EC: ËÜ   B6ED: ÌÁ   
+B6EE: ‰T   B6EF: ‰V   B6F0: Ëþ   B6F1: Ìî   
+B6F2: Ëú   B6F3: ‰e   B6F4: ‰K   B6F5: ‰]   
+B6F6: ‰P   B6F7: ‰L   B6F8: ŠW   B6F9: ¼Þ   
+B6FA: ¼µ   B6FB: ÏÓ   B6FC: æÅ   B6FD: ‹Œ   
+B6FE: ‹‹   
+B740: Ï±   B741: É©   B742: æÇ   B743: áÔ   
+B744: áÏ   B745: »Ï   B746: ŽÖ   B747: Á®   
+B748: B   B749: s   B74A: ¡   B74B: Ï   
+B74C: Î¢   B74D: ÓÞ   B74E: Òâ   B74F: ´È   
+B750: ¸Ð   B751: Ïë   B752: Û   B753: ÈÇ   
+B754: ³î   B755: Óú   B756: É÷   B757: »Å   
+B758: ü   B759: ‘C   B75A: ÷   B75B: í   
+B75C: À¢   B75D: íª   B75E: í©   B75F: ð   
+B760: ê¬   B761: ê«   B762: ´ê   B763: “’   
+B764: ¸ã   B765: ÌÂ   B766: ´î   B767: ²ë   
+B768: °á   B769: ²«   B76A: ËÑ   B76B: É¦   
+B76C: “p   B76D: “Œ   B76E: “u   B76F: “v   
+B770: “k   B771: ¾´   B772: Õå   B773: ÐÂ   
+B774: °µ   B775: •Ÿ   B776: Ï¾   B777: •ž   
+B778: Å¯   B779: êÑ   B77A: •ª   B77B: •¢   
+B77C: •þ   B77D: ÀÆ   B77E: ˜I   
+B7A1: ³þ   
+B7A2: ¿¬   B7A3: éª   B7A4: Ð¨   B7A5: ˜O   
+B7A6: Ò¬   B7A7: ¸Å   B7A8: —î   B7A9: ˜E   
+B7AA: é®   B7AB: Àã   B7AC: —÷   B7AD: éº   
+B7AE: ÓÜ   B7AF: é¬   B7B0: é¹   B7B1: —ü   
+B7B2: Ðª   B7B3: šq   B7B4: š§   B7B5: µî   
+B7B6: Ø¹   B7B7: ë¦   B7B8: Òç   B7B9: ËÝ   
+B7BA: ×Ò   B7BB: ÈÜ   B7BC: äè   B7BD: Ô´   
+B7BE: œÏ   B7BF: µá   B7C0: œç   B7C1: äß   
+B7C2: äÛ   B7C3: œá   B7C4: Äç   B7C5: œØ   
+B7C6: »¬   B7C7: œÊ   B7C8: Áï   B7C9: œæ   
+B7CA: ÌÏ   B7CB: Ïª   B7CC: äà   B7CD: äå   
+B7CE: ¼å   B7CF: ŸŸ   B7D0: Ÿ©   B7D1: Ãº   
+B7D2: Ÿ’   B7D3: ÕÕ   B7D4: ìÏ   B7D5: Ÿ¬   
+B7D6: ìã   B7D7: »Í   B7D8: Ÿ¨   B7D9: É·   
+B7DA: Ÿ   B7DB: ìÐ   B7DC: Ÿœ   B7DD:  ”   
+B7DE: ëº   B7DF: éà   B7E0: ª{   B7E1: Ô³   
+B7E2: »«   B7E3: ¬˜   B7E4: º÷   B7E5: è¦   
+B7E6: Éª   B7E7: Èð   B7E8: è£   B7E9: ¬q   
+B7EA: è§   B7EB: çø   B7EC: è¤   B7ED: ®”   
+B7EE: »û   B7EF: ðö   B7F0: Ìµ   B7F1: ´á   
+B7F2: ¯q   B7F3: ðò   B7F4: ¯w   B7F5: ðô   
+B7F6: ³Õ   B7F7: ¯r   B7F8: ±K   B7F9: ÃË   
+B7FA: ¾¦   B7FB: ½Þ   B7FC: ÄÀ   B7FD: ²A   
+B7FE: ¶½   
+B840: ¶Ã   B841: ²G   B842: ²Ç   B843: ±    
+B844: î¢   B845: íþ   B846: î¡   B847: °«   
+B848: Ëé   B849: Åö   B84A: Íë   B84B: µâ   
+B84C: Âµ   B84D: µï   B84E: Åð   B84F: ±®   
+B850: íÔ   B851: ³œ   B852: ì÷   B853: µ“   
+B854: ½û   B855: Èf   B856: ÇÝ   B857: ¶    
+B858: ÖÉ   B859: ³í   B85A: ïþ   B85B: ·A   
+B85C: ïý   B85D: ¿ß   B85E: ñ½   B85F: ¿ê   
+B860: ¹   B861: óÞ   B862: óß   B863: ¹a   
+B864: Á»   B865: ¾¬   B866: »›   B867: ½›   
+B868: ½   B869: ½™   B86A: ½‰   B86B: ½—   
+B86C: ½d   B86D: ÖÃ   B86E: ÕÖ   B86F: ×ï   
+B870: Êð   B871: Áx   B872: Áw   B873: Èº   
+B874: Â}   B875: Æ¸   B876: ËÁ   B877: ÒÞ   
+B878: ëì   B879: Ñü   B87A: Äc   B87B: ÐÈ   
+B87C: Èù   B87D: Ä_   B87E: Ä[   
+B8A1: ¸¹   
+B8A2: ÏÙ   B8A3: ÄX   B8A4: ¾Ë   B8A5: Í§   
+B8A6: µÙ   B8A7: È   B8A8: Âä   B8A9: Ýæ   
+B8AA: ¿û   B8AB: È”   B8AC: ºù   B8AD: È~   
+B8AE: Ôá   B8AF: ¸ð   B8B0: Ýà   B8B1: Èn   
+B8B2: ÆÏ   B8B3: ¶­   B8B4: Ýâ   B8B5: Ýç   
+B8B6: Ýá   B8B7: ÓÝ   B8B8: Ì”   B8B9: Ì–   
+B8BA: Ó¼   B8BB: òÑ   B8BC: òÚ   B8BD: òØ   
+B8BE: Êñ   B8BF: ¶ê   B8C0: Í‘   B8C1: ·ä   
+B8C2: ò×   B8C3: Í˜   B8C4: òÛ   B8C5: ÑÃ   
+B8C6: ôÄ   B8C7: Òá   B8C8: È¹   B8C9: Ña   
+B8CA: ôÃ   B8CB: Ñb   B8CC: Ñe   B8CD: ÑU   
+B8CE: Ô£   B8CF: Ùö   B8D0: Ò›   B8D1: ½â   
+B8D2: ÔŒ   B8D3: Ô“   B8D4: Ô”   B8D5: Ô‡   
+B8D6: ÔŠ   B8D7: Ô‘   B8D8: ÕF   B8D9: Ôœ   
+B8DA: Ô„   B8DB: Õ\   B8DC: Ô’   B8DD: ÕD   
+B8DE: ÔŽ   B8DF: Ôƒ   B8E0: Ô   B8E1: Ô   
+B8E2: Õ²   B8E3: Ô›   B8E4: ö¤   B8E5: Ô‰   
+B8E6: »¿   B8E7: õö   B8E8: ºÑ   B8E9: Ù\   
+B8EA: ÙY   B8EB: ÙZ   B8EC: ÙV   B8ED: ÙD   
+B8EE: ÙU   B8EF: ÙT   B8F0: ÙW   B8F1: ÛE   
+B8F2: ¸ú   B8F3: ¿ç   B8F4: Â·   B8F5: Ìø   
+B8F6: ¶å   B8F7: ¹ò   B8F8: õÓ   B8F9: ÛH   
+B8FA: ¶ã   B8FB: Ý^   B8FC: Ýd   B8FD: ÝY   
+B8FE: Ýe   
+B940: ±Ù   B941: Þr   B942: ß\   B943: ß[   
+B944: µÀ   B945: Ëì   B946: ß_   B947: ±Æ   
+B948: ß`   B949: åÚ   B94A: Óö   B94B: ¶ô   
+B94C: ß^   B94D: ±é   B94E: åØ   B94F: Óâ   
+B950: ¶Ý   B951: àu   B952: àz   B953: ³ê   
+B954: ÀÒ   B955: õ¤   B956: ÓÔ   B957: â’   
+B958: ãQ   B959: â“   B95A: â˜   B95B: â›   
+B95C: â™   B95D: ãU   B95E: ãE   B95F: ã^   
+B960: ãK   B961: â   B962: ãC   B963: ãG   
+B964: â    B965: â”   B966: âš   B967: ãT   
+B968: él   B969: °¯   B96A: ¸ô   B96B: ëE   
+B96C: Óº   B96D: ëh   B96E: ïô   B96F: ëg   
+B970: À×   B971: ëŠ   B972: ±¢   B973: Áã   
+B974: ¾¸   B975: Ñ¥   B976: °Ð   B977: îA   
+B978: îB   B979: îD   B97A: íœ   B97B: îC   
+B97C: íž   B97D: ï•   B97E: ï   
+B9A1: ï–   
+B9A2: ï—   B9A3: ñY   B9A4: ñW   B9A5: ñZ   
+B9A6: ÷Õ   B9A7: øF   B9A8: ÷ä   B9A9: ¶¦   
+B9AA: ¹Ä   B9AB: Êó   B9AC: É®   B9AD: Ù×   
+B9AE: ƒe   B9AF: ÙÒ   B9B0: ÙÔ   B9B1: ÁÅ   
+B9B2: ƒW   B9B3: Ïñ   B9B4: ƒS   B9B5: ƒl   
+B9B6: ƒQ   B9B7: ƒg   B9B8: ¾¤   B9B9: µÊ   
+B9BA: „   B9BB: Øã   B9BC: …T   B9BD: …’   
+B9BE: àÕ   B9BF: àÖ   B9C0: Âï   B9C1: ‡L   
+B9C2: ËÔ   B9C3: ‡I   B9C4: ‡@   B9C5: ¼Î   
+B9C6: ‡D   B9C7: ¸Â   B9C8: à»   B9C9: ‡K   
+B9CA: à½   B9CB: àÐ   B9CC: ‡E   B9CD: †ô   
+B9CE: ˆF   B9CF: ˆD   B9D0: ‰m   B9D1: ÛÓ   
+B9D2: ¾³   B9D3: Ä¹   B9D4: ‰|   B9D5: ‰q   
+B9D6: Êû   B9D7: ‰u   B9D8: ‰Û   B9D9: â·   
+B9DA: ‰ô   B9DB: â¹   B9DC: ŠZ   B9DD: ŠY   
+B9DE: µÕ   B9DF: æÏ   B9E0: ÄÛ   B9E1: ‹ž   
+B9E2: æÎ   B9E3: æÐ   B9E4: æÌ   B9E5: ·õ   
+B9E6: Ä¯   B9E7: ŒŽ   B9E8: ¹Ñ   B9E9: ÁÈ   
+B9EA: Œ   B9EB: Õ¯   B9EC: Œ‹   B9ED: å»   
+B9EE: ²ì   B9EF: Œ¦   B9F0: ŒÒ   B9F1: ä   
+B9F2: ç   B9F3: á¤   B9F4: ŽÅ   B9F5: Ä»   
+B9F6: Ž½   B9F7: á£   B9F8: Àª   B9F9: ÁÎ   
+B9FA: ±×   B9FB: •   B9FC: ÕÃ   B9FD: Ø   
+B9FE: ‘@   
+BA40: Ô¸   BA41: ‘B   BA42: ¿¶   BA43: Âý   
+BA44: ‘T   BA45: ‘Q   BA46: ‘M   BA47: ‘K   
+BA48: ã¼   BA49: ½Ø   BA4A: Æ²   BA4B: Õª   
+BA4C: Ë¤   BA4D: ³·   BA4E: Ãþ   BA4F: “§   
+BA50: ß¡   BA51: “   BA52: ´Ý   BA53: åº   
+BA54: Þý   BA55: “½   BA56: ÇÃ   BA57: ÎÓ   
+BA58: Æì   BA59: ì½   BA5A: •³   BA5B: ôß   
+BA5C: êÔ   BA5D: °ñ   BA5E: Õ¥   BA5F: éÅ   
+BA60: éÂ   BA61: ˜s   BA62: ˜   BA63: ˜‹   
+BA64: é»   BA65: È¶   BA66: é½   BA67: é¾   
+BA68: Áñ   BA69: »±   BA6A: ˜Œ   BA6B: é¿   
+BA6C: é³   BA6D: ˜o   BA6E: ˜„   BA6F: ˜l   
+BA70: Ç¸   BA71: ¸è   BA72: šè   BA73: ÕÄ   
+BA74: ÑÝ   BA75: L   BA76: Àì   BA77: µÎ   
+BA78: äö   BA79: Ñú   BA7A: Ä®   BA7B: n   
+BA7C: Â©   BA7D: Æ¯   BA7E: h   
+BAA1: M   
+BAA2: œþ   BAA3: Æá   BAA4: Êþ   BAA5: u   
+BAA6: q   BAA7: i   BAA8: äî   BAA9: Âþ   
+BAAA: äð   BAAB: ³º   BAAC: äô   BAAD: œû   
+BAAE: O   BAAF: B   BAB0: œì   BAB1: F   
+BAB2: ÈÛ   BAB3: Îõ   BAB4: É¿   BAB5: ÐÜ   
+BAB6: Ï¨   BAB7: ŸÉ   BAB8:  –   BAB9: êû   
+BABA:  Î   BABB: ªz   BABC: â¯   BABD: ¬Ž   
+BABE: ¬   BABF: ¬”   BAC0: ¹å   BAC1: è©   
+BAC2: Õç   BAC3: ÒÉ   BAC4: ¯‘   BAC5: ¯ƒ   
+BAC6: ¯‚   BAC7: ¯   BAC8: ¯ˆ   BAC9: ±M   
+BACA: ±O   BACB: Ãé   BACC: î¥   BACD: î£   
+BACE: Ë¯   BACF: ´Å   BAD0: µú   BAD1: ±Ì   
+BAD2: Ì¼   BAD3: ´T   BAD4: íÙ   BAD5: µ   
+BAD6: ¸£   BAD7: µœ   BAD8: ·N   BAD9: ·Q   
+BADA: ¸D   BADB: ¸C   BADC: ½ß   BADD: ¶Ë   
+BADE: ¹Ü   BADF: »þ   BAE0: ¹{   BAE1: óÛ   
+BAE2: Ëã   BAE3: óé   BAE4: ²­   BAE5: ¹~   
+BAE6: óç   BAE7: ¹w   BAE8: ¹u   BAE9: ´â   
+BAEA: ôÕ   BAEB: ¾«   BAEC: ¾`   BAED: ¾U   
+BAEE: ¾C   BAEF: ¾b   BAF0: ¾c   BAF1: ¾G   
+BAF2: ¾o   BAF3: ¾Y   BAF4: ¾W   BAF5: ¾V   
+BAF6: ¾_   BAF7: ¾I   BAF8: ¾d   BAF9: ¾Z   
+BAFA: ¾]   BAFB: ¾S   BAFC: ¾w   BAFD: ¾l   
+BAFE: ¾R   
+BB40: ÁP   BB41: ´ä   BB42: ôä   BB43: µÔ   
+BB44: Â„   BB45: ¾Û   BB46: ÕØ   BB47: ¸¯   
+BB48: °ò   BB49: ¸à   BB4A: ëõ   BB4B: ²²   
+BB4C: ÍÈ   BB4D: ëö   BB4E: ê°   BB4F: Å_   
+BB50: Åc   BB51: Ìò   BB52: Îè   BB53: ô»   
+BB54: ÈØ   BB55: Ýï   BB56: Ét   BB57: Ðî   
+BB58: ÃÉ   BB59: ÉW   BB5A: ÆÑ   BB5B: Ëâ   
+BB5C: Éw   BB5D: Õô   BB5E: Ép   BB5F: Ýí   
+BB60: ÉL   BB61: Én   BB62: Ëò   BB63: Ýî   
+BB64: òê   BB65: ÃÛ   BB66: òß   BB67: òì   
+BB68: òá   BB69: òæ   BB6A: Ö©   BB6B: Îg   
+BB6C: òé   BB6D: òè   BB6E: ÉÑ   BB6F: ¹Ó   
+BB70: Åá   BB71: ¹ü   BB72: Âã   BB73: Ñu   
+BB74: ñÔ   BB75: ñÒ   BB76: Ñn   BB77: Õb   
+BB78: ÕI   BB79: ÕZ   BB7A: Õ_   BB7B: ÕJ   
+BB7C: Õ]   BB7D: ÊÄ   BB7E: Õ`   
+BBA1: Õf   
+BBA2: Õa   BBA3: Õd   BBA4: ÕT   BBA5: ÕN   
+BBA6: ÕV   BBA7: Õc   BBA8: ºÀ   BBA9: Ø‚   
+BBAA: Ã²   BBAB: Ùe   BBAC: Ùc   BBAD: Ùd   
+BBAE: ºÕ   BBAF: Úw   BBB0: Ús   BBB1: ÛR   
+BBB2: Ýo   BBB3: Ým   BBB4: Ýp   BBB5: Ýn   
+BBB6: À±   BBB7: ßh   BBB8: åÜ   BBB9: ßd   
+BBBA: Ç²   BBBB: ßb   BBBC: ßf   BBBD: åÝ   
+BBBE: ße   BBBF: åÞ   BBC0: ±É   BBC1: à{   
+BBC2: Û´   BBC3: ½Í   BBC4: Ëá   BBC5: ¿á   
+BBC6: õ©   BBC7: ãq   BBC8: ãy   BBC9: ã~   
+BBCA: ã‘   BBCB: ã   BBCC: ãt   BBCD: ãŒ   
+BBCE: ã•   BBCF: ä@   BBD0: ãu   BBD1: ãŠ   
+BBD2: éu   BBD3: é|   BBD4: é}   BBD5: éw   
+BBD6: éy   BBD7: éx   BBD8: Ï¶   BBD9: ÕÏ   
+BBDA: ëH   BBDB: ´Æ   BBDC: öÃ   BBDD: Ðè   
+BBDE: ÷°   BBDF: ÷±   BBE0: ÉØ   BBE1: îH   
+BBE2: îI   BBE3: ïS   BBE4: ïU   BBE5: ïœ   
+BBE6: ïž   BBE7: ðD   BBE8: ðA   BBE9: ñg   
+BBEA: óa   BBEB: ÷»   BBEC: ÷Ö   BBED: ¿ý   
+BBEE: »ê   BBEF: øQ   BBF0: øS   BBF1: øP   
+BBF2: üN   BBF3: ±Ç   BBF4: ýR   BBF5: ƒ|   
+BBF6: ƒx   BBF7: Æ§   BBF8: ½©   BBF9: ƒr   
+BBFA: ƒz   BBFB: ƒ~   BBFC: ƒ€   BBFD: ƒ}   
+BBFE: „C   
+BC40: „¡   BC41: Åü   BC42: „¢   BC43: „¦   
+BC44: „£   BC45: ÛÄ   BC46: …–   BC47: ‡Z   
+BC48: Îû   BC49: àÚ   BC4A: ³°   BC4B: ºÙ   
+BC4C: ×ì   BC4D: ‡W   BC4E: ‡u   BC4F: Ò­   
+BC50: àÛ   BC51: ‡Š   BC52: Ë»   BC53: ‡[   
+BC54: ‡\   BC55: Ü¯   BC56: Ðæ   BC57: Ôö   
+BC58: ‰ž   BC59: ‰‹   BC5A: ‰™   BC5B: ¶Õ   
+BC5C: ‰“   BC5D: Š]   BC5E: æÒ   BC5F: ‹¹   
+BC60: ‹È   BC61: ‹³   BC62: ‹É   BC63: ‹Æ   
+BC64: å¼   BC65: Œ’   BC66: Œ   BC67: Œ‘   
+BC68: ŒÓ   BC69: ÂÄ   BC6A: áØ   BC6B: ô   
+BC6C: ´±   BC6D: ŽÃ   BC6E: á¦   BC6F: U   
+BC70: N   BC71: R   BC72: P   BC73: V   
+BC74: S   BC75: —   BC76: Ó°   BC77: µÂ   
+BC78: áç   BC79: ‘c   BC7A: »Û   BC7B: ‘]   
+BC7C: í«   BC7D: Ä½   BC7E: ‘n   
+BCA1: ‘h   
+BCA2: Î¿   BCA3: ‘Z   BCA4: ‘j   BCA5: ã¿   
+BCA6: ‘z   BCA7: ‘‘   BCA8: Ô÷   BCA9: ã½   
+BCAA: ‘„   BCAB: ‘   BCAC: ã¾   BCAD: ‘“   
+BCAE: Â¾   BCAF: Ä¦   BCB0: “´   BCB1: Ä¡   
+BCB2: ×²   BCB3: “ä   BCB4: “Æ   BCB5: “Î   
+BCB6: ×«   BCB7: “Ü   BCB8: “Ï   BCB9: Ëº   
+BCBA: ÁÃ   BCBB: Èö   BCBC: ´é   BCBD: ²¥   
+BCBE: “á   BCBF: “Ó   BCC0: ÇË   BCC1: ß¤   
+BCC2: “Ú   BCC3: “å   BCC4: ”³   BCC5: ·ó   
+BCC6: ”µ   BCC7: Äº   BCC8: •º   BCC9: ±©   
+BCCA: •¿   BCCB: ˜Ó   BCCC: ÕÁ   BCCD: ˜¡   
+BCCE: ˜¶   BCCF: ˜Ð   BCD0: ˜Ë   BCD1: ²Û   
+BCD2: Ä£   BCD3: ˜Ç   BCD4: ·®   BCD5: ˜ª   
+BCD6: ˜·   BCD7: ˜º   BCD8: éÊ   BCD9: ˜Å   
+BCDA: šW   BCDB: šU   BCDC: š‘   BCDD: Òã   
+BCDE: šª   BCDF: {   BCE0: äü   BCE1: ³Î   
+BCE2: Š   BCE3: ÁÊ   BCE4:    BCE5: ²   
+BCE6: Ì¶   BCE7: “   BCE8: äú   BCE9: ³±   
+BCEA: Åì   BCEB: äý   BCEC: ¢   BCED: ™   
+BCEE: ¾   BCEF: ÅË   BCF0: ëø   BCF1: ¡   
+BCF2: –   BCF3: •   BCF4: Êì   BCF5: °¾   
+BCF6: Ÿá   BCF7: ìÙ   BCF8: ë»   BCF9:  Ó   
+BCFA: ª„   BCFB: â±   BCFC: ¬“   BCFD: è°   
+BCFE: Á§   
+BD40: èª   BD41: è­   BD42: çÜ   BD43: ñ¤   
+BD44: ´ñ   BD45: ÎÁ   BD46: Áö   BD47: ÊÝ   
+BD48: ¯   BD49: ñ£   BD4A: °}   BD4B: °™   
+BD4C: ±P   BD4D: Ï¹   BD4E: ²[   BD4F: î§   
+BD50: î¨   BD51: ²_   BD52: ´è   BD53: °õ   
+BD54: ´_   BD55: ÀÚ   BD56: Äë   BD57: ¿Ä   
+BD58: ´a   BD59: ÅÍ   BD5A: ¸å   BD5B: ¼Ú   
+BD5C: ·Y   BD5D: »ü   BD5E: ð¢   BD5F: µ¾   
+BD60: ¸G   BD61: ¸F   BD62: ¼ý   BD63: Ïä   
+BD64: ¹    BD65: óð   BD66: ×­   BD67: Æª   
+BD68: óò   BD69: ¹Š   BD6A: óó   BD6B: ºý   
+BD6C: ¾†   BD6D: ¾š   BD6E: ¾•   BD6F: ¿@   
+BD70: ¾}   BD71: ¾’   BD72: ¾ƒ   BD73: ¾Ž   
+BD74: ¾‰   BD75: ¾€   BD76: ¾„   BD77: ¾   
+BD78: ¾E   BD79: ¾~   BD7A: ¾˜   BD7B: ¾Ÿ   
+BD7C: ÁR   BD7D: ÁT   BD7E: ôÉ   
+BDA1: ôæ   
+BDA2: ñî   BDA3: ÌÅ   BDA4: Ä¤   BDA5: Ï¥   
+BDA6: Äz   BDA7: Äw   BDA8: ±ì   BDA9: Õá   
+BDAA: ±Î   BDAB: Îµ   BDAC: É   BDAD: Êß   
+BDAE: Êa   BDAF: Âû   BDB0: Ãï   BDB1: ÊY   
+BDB2: ²Ì   BDB3: ÊN   BDB4: Åî   BDB5: Ê[   
+BDB6: Þ£   BDB7: ÊC   BDB8: òë   BDB9: ºû   
+BDBA: µû   BDBB: òð   BDBC: Îr   BDBD: Î   
+BDBE: Ît   BDBF: òù   BDC0: »È   BDC1: òò   
+BDC2: òõ   BDC3: Ðl   BDC4: Ðn   BDC5: ºÖ   
+BDC6: Ñ}   BDC7: °ý   BDC8: ñÙ   BDC9: Ñˆ   
+BDCA: ñÛ   BDCB: Õx   BDCC: Õ   BDCD: Õ„   
+BDCE: Õ   BDCF: ÕQ   BDD0: Õˆ   BDD1: ÖT   
+BDD2: Õn   BDD3: Õ†   BDD4: Õ~   BDD5: Õ{   
+BDD6: Õl   BDD7: Õ“   BDD8: ÕŠ   BDD9: Õr   
+BDDA: Õu   BDDB: Õ˜   BDDC: Íã   BDDD: ØQ   
+BDDE: Øi   BDDF: Ùr   BDE0: Ùp   BDE1: Ùx   
+BDE2: Ùv   BDE3: Ù~   BDE4: Ù€   BDE5: Ùt   
+BDE6: Ùu   BDE7: Ùn   BDE8: Ù|   BDE9: Ùs   
+BDEA: ô÷   BDEB: ÌË   BDEC: È¤   BDED: Ûs   
+BDEE: Û`   BDEF: õ×   BDF0: Ìß   BDF1: Ì¤   
+BDF2: ²È   BDF3: õØ   BDF4: Ûm   BDF5: ¾á   
+BDF6: ÌÉ   BDF7: Ýx   BDF8: Ýv   BDF9: Ýz   
+BDFA: Ý…   BDFB: Ý‚   BDFC: Ý†   BDFD: Ýw   
+BDFE: Ýy   
+BE40: Ý   BE41: ßm   BE42: ÕÚ   BE43: åÛ   
+BE44: Ôâ   BE45: ßw   BE46: à   BE47: à   
+BE48: à‡   BE49: Û¶   BE4A: ´¼   BE4B: ×í   
+BE4C: ´×   BE4D: áZ   BE4E: ä\   BE4F: äR   
+BE50: äN   BE51: ä   BE52: äD   BE53: äz   
+BE54: äX   BE55: äJ   BE56: äS   BE57: äh   
+BE58: ä^   BE59: ä‡   BE5A: äI   BE5B: é‚   
+BE5C: é†   BE5D: Ïö   BE5E: öª   BE5F: Õð   
+BE60: Ã¹   BE61: ¿¿   BE62: °°   BE63: Ð¬   
+BE64: ì–   BE65: îR   BE66: î\   BE67: îM   
+BE68: ïW   BE69: ðB   BE6A: ðI   BE6B: ðH   
+BE6C: ðN   BE6D: ñ„   BE6E: ñv   BE6F: ñ†   
+BE70: ñ‚   BE71: ñw   BE72: ñ{   BE73: ñx   
+BE74: ñ€   BE75: ÷¼   BE76: óŒ   BE77: ÷×   
+BE78: ô[   BE79: ÷È   BE7A: ÆÇ   BE7B: ôœ   
+BE7C: ô”   BE7D: øc   BE7E: øf   
+BEA1: ø`   
+BEA2: ûŸ   BEA3: ÷â   BEA4: Àè   BEA5: Ä«   
+BEA6: ýX   BEA7: Èå   BEA8: ƒ   BEA9: ƒ‰   
+BEAA: ƒ†   BEAB: ƒŠ   BEAC: ¼½   BEAD: ƒç   
+BEAE: Äý   BEAF: „©   BEB0: Øæ   BEB1: „ì   
+BEB2: àß   BEB3: àæ   BEB4: ‡Ž   BEB5: Ø¬   
+BEB6: àä   BEB7: ‡   BEB8: Ôë   BEB9: Æ÷   
+BEBA: ‡   BEBB: àå   BEBC: ‡†   BEBD: ÊÉ   
+BEBE: àÞ   BEBF: ¸Á   BEC0: ±Ú   BEC1: ‰¨   
+BEC2: ‰¯   BEC3: ÛÕ   BEC4: Š^   BEC5: ‹Ø   
+BEC6: Ùø   BEC7: ŒW   BEC8: å¾   BEC9: Œ§   
+BECA: ™   BECB: ‘—   BECC: ‘{   BECD: í¬   
+BECE: ‘v   BECF: ‘¬   BED0: ‘›   BED1: º¶   
+BED2: °Ã   BED3: Ð¸   BED4: ‘ð   BED5: ÉÃ   
+BED6: “í   BED7: “õ   BED8: “é   BED9: º³   
+BEDA: “þ   BEDB: “ï   BEDC: “ñ   BEDD: ÀÞ   
+BEDE: ²Ù   BEDF: “ì   BEE0: ÇÜ   BEE1: “ú   
+BEE2: “ë   BEE3: Õû   BEE4: •Ñ   BEE5: •Ô   
+BEE6: åß   BEE7: •Ï   BEE8: •Ò   BEE9: •Å   
+BEEA: é×   BEEB: ˜ã   BEEC: ˜å   BEED: ³È   
+BEEE: ™M   BEEF: éÙ   BEF0: ˜ä   BEF1: éÏ   
+BEF2: ™E   BEF3: Ïð   BEF4: ˜ò   BEF5: ÇÁ   
+BEF6: éÔ   BEF7: ™C   BEF8: ˜ï   BEF9: ì¨   
+BEFA: šv   BEFB: ë©   BEFC: å¥   BEFD: Õ   
+BEFE: Ôè   
+BF40: â   BF41: É   BF42: á   BF43: å¢   
+BF44: °Ä   BF45: ¼¤   BF46: å£   BF47: å¤   
+BF48: Ë   BF49: Æ   BF4A: ×   BF4B: Ÿë   
+BF4C: Ÿõ   BF4D: Ÿû   BF4E: Ÿý   BF4F: Ÿô   
+BF50: Ñà   BF51: ìä   BF52: ÁÇ   BF53:  C   
+BF54:  F   BF55: È¼   BF56: Ÿð   BF57: ªš   
+BF58: è«   BF59: ­^   BF5A: ­U   BF5B: ­Z   
+BF5C: è±   BF5D: Æ°   BF5E: ®T   BF5F: Ýù   
+BF60: ÕÎ   BF61: È³   BF62: ¯›   BF63: ±R   
+BF64: îÂ   BF65: îª   BF66: ²m   BF67: î©   
+BF68: Æ³   BF69: Ä¥   BF6A: ´u   BF6B: íà   
+BF6C: ´ƒ   BF6D: ¶R   BF6E: ·e   BF6F: ·f   
+BF70: ÄÂ   BF71: ·d   BF72: ·c   BF73: ¸Q   
+BF74: ¸Ý   BF75: ºw   BF76: ºB   BF77: ºV   
+BF78: ºO   BF79: ´Û   BF7A: ºY   BF7B: ó÷   
+BF7C: ¸â   BF7D: ÌÇ   BF7E: ¿O   
+BFA1: ¿V   
+BFA2: ¿M   BFA3: ¿`   BFA4: ¿h   BFA5: ¿c   
+BFA6: ¿b   BFA7: ¿N   BFA8: ¿U   BFA9: î¾   
+BFAA: ôË   BFAB: º²   BFAC: °¿   BFAD: ôç   
+BFAE: ññ   BFAF: ÉÅ   BFB0: Ä   BFB1: Åò   
+BFB2: Õé   BFB3: Åd   BFB4: ËÒ   BFB5: Å“   
+BFB6: Èï   BFB7: Þ¥   BFB8: Þ¦   BFB9: Þ§   
+BFBA: ÊŽ   BFBB: Þ¬   BFBC: ½¶   BFBD: Ê’   
+BFBE: Ê   BFBF: Þ©   BFC0: ó¦   BFC1: Ãø   
+BFC2: Î›   BFC3: Îž   BFC4: ÈÚ   BFC5: ºâ   
+BFC6: ÍÊ   BFC7: Ñ   BFC8: Èì   BFC9: ñÝ   
+BFCA: ñ×   BFCB: ÓH   BFCC: ÓD   BFCD: ÖB   
+BFCE: ÖV   BFCF: ÖG   BFD0: ÖM   BFD1: Ö\   
+BFD2: Õ™   BFD3: ÖC   BFD4: ÖJ   BFD5: ÖZ   
+BFD6: Ö]   BFD7: Ö^   BFD8: ÖS   BFD9: ÖI   
+BFDA: ÖO   BFDB: ÖR   BFDC: ÖX   BFDD: Ô¥   
+BFDE: Øj   BFDF: Øˆ   BFE0: Ù‡   BFE1: Ìã   
+BFE2: õâ   BFE3: Ûx   BFE4: õå   BFE5: õß   
+BFE6: õà   BFE7: Ý—   BFE8: Ý‹   BFE9: Ý”   
+BFEA: Ý   BFEB: ±æ   BFEC: Þk   BFED: ×ñ   
+BFEE: åà   BFEF: ßx   BFF0: ßt   BFF1: ß|   
+BFF2: ßz   BFF3: à’   BFF4: ÐÑ   BFF5: åV   
+BFF6: ål   BFF7: ä   BFF8: åi   BFF9: åe   
+BFFA: åX   BFFB: ä“   BFFC: åa   BFFD: ä›   
+BFFE: åP   
+C040: åF   C041: å\   C042: åW   C043: åK   
+C044: åd   C045: åO   C046: é   C047: Ëí   
+C048: ëS   C049: ëU   C04A: µñ   C04B: ö®   
+C04C: ë•   C04D: ÁØ   C04E: »ô   C04F: ÄÞ   
+C050: ö­   C051: µå   C052: ìo   C053: ìt   
+C054: ÇÊ   C055: îa   C056: îi   C057: îl   
+C058: îh   C059: î^   C05A: îj   C05B: îU   
+C05C: ²Í   C05D: ð^   C05E: ðT   C05F: ðQ   
+C060: ðW   C061: ðP   C062: ñ”   C063: ñ‰   
+C064: ñ˜   C065: º¡   C066: ÷À   C067: ÷Ù   
+C068: ÷Ú   C069: ô\   C06A: õU   C06B: ør   
+C06C: ø   C06D: ø„   C06E: ø†   C06F: øo   
+C070: øx   C071: Ä¬   C072: Ç­   C073: ýˆ   
+C074: ý”   C075: ƒž   C076: ƒ”   C077: ÀÜ   
+C078: ƒ¦   C079: „î   C07A: º¿   C07B: ‡“   
+C07C: ‡Ÿ   C07D: àé   C07E: ‡˜   
+C0A1: Ìç   
+C0A2: º¾   C0A3: ‰º   C0A4: ÛÖ   C0A5: ‰¶   
+C0A6: ‹ë   C0A7: ‹å   C0A8: ‹ß   C0A9: Èæ   
+C0AA: ŒÀ   C0AB: ŒÕ   C0AC: ŽZ   C0AD: ŽX   
+C0AE: Ž[   C0AF: ŽV   C0B0: ŽÍ   C0B1: ›   
+C0B2: »Õ   C0B3: ‘ª   C0B4: ¶®   C0B5: ‘©   
+C0B6: Å³   C0B7: í®   C0B8: ‘ò   C0B9: ´÷   
+C0BA: Çæ   C0BB: “ô   C0BC: ë¢   C0BD: ”D   
+C0BE: ”Q   C0BF: ²Á   C0C0: ”M   C0C1: ”R   
+C0C2: ßª   C0C3: ”N   C0C4: ”¿   C0C5: ”À   
+C0C6: Êï   C0C7: •á   C0C8: Ì´   C0C9: ™n   
+C0CA: Ï­   C0CB: ™z   C0CC: ™u   C0CD: ™±   
+C0CE: ™{   C0CF: ™]   C0D0: éÞ   C0D1: éÜ   
+C0D2: éÑ   C0D3: šb   C0D4: šš   C0D5: š´   
+C0D6: šÖ   C0D7: ô   C0D8: žI   C0D9: ú   
+C0DA: å©   C0DB: ÷   C0DC: ý   C0DD: žE   
+C0DE: åª   C0DF: ­   C0E0: žF   C0E1: å¦   
+C0E2: žC   C0E3: ñ   C0E4: å§   C0E5: žH   
+C0E6: ìÝ   C0E7:  I   C0E8: ÛÆ   C0E9:  N   
+C0EA: Ôï   C0EB:  T   C0EC:  S   C0ED:  Z   
+C0EE: ìÛ   C0EF: ¾ô   C0F0:     C0F1: ªŸ   
+C0F2: «@   C0F3: è³   C0F4: ­h   C0F5: ­a   
+C0F6: è²   C0F7: °A   C0F8: ¯Ÿ   C0F9: °©   
+C0FA: ±U   C0FB: Í«   C0FC: µÉ   C0FD: î«   
+C0FE: Ë²   
+C140: ÇÆ   C141: ²t   C142: ³C   C143: Á×   
+C144: »Ç   C145: íã   C146: ´‰   C147: ½¸   
+C148: ìû   C149: ¶U   C14A: Ëë   C14B: Áþ   
+C14C: ´Ø   C14D: ºt   C14E: óú   C14F: Åñ   
+C150: óù   C151: ºS   C152: ¿·   C153: ÃÓ   
+C154: ¼S   C155: ¼U   C156: Ôã   C157: ²Ú   
+C158: ¼R   C159: ¿s   C15A: ¿ƒ   C15B: ¿Š   
+C15C: ¿|   C15D: ¿w   C15E: ¿‡   C15F: ¿p   
+C160: ¿‚   C161: ¿v   C162: ¿‰   C163: ·±   
+C164: ¿y   C165: ¿~   C166: ¿‹   C167: ¿z   
+C168: ¿„   C169: ¿t   C16A: óÀ   C16B: ôè   
+C16C: Òí   C16D: ñú   C16E: Â•   C16F: Â”   
+C170: Â“   C171: Â–   C172: ÒÜ   C173: Ó·   
+C174: âß   C175: ±Û   C176: ÍÎ   C177: Ä“   
+C178: Ä‘   C179: Ä˜   C17A: Ä’   C17B: ÅR   
+C17C: Åe   C17D: ÆD   C17E: Ð½   
+C1A1: ±¡   
+C1A2: ÀÙ   C1A3: Þµ   C1A4: ËK   C1A5: ËN   
+C1A6: Êí   C1A7: Ñ¦   C1A8: Þ±   C1A9: Þ°   
+C1AA: ËE   C1AB: Ì   C1AC: ó°   C1AD: ó¯   
+C1AE: ó«   C1AF: òþ   C1B0: ó¡   C1B1: ó§   
+C1B2: ÏN   C1B3: ÂÝ   C1B4: ÏX   C1B5: ó¬   
+C1B6: ÒC   C1B7: ñÞ   C1B8: Ïå   C1B9: Ò@   
+C1BA: ÒE   C1BB: ÓJ   C1BC: Öi   C1BD: Ör   
+C1BE: Öt   C1BF: Öv   C1C0: Öe   C1C1: Ö{   
+C1C2: Öx   C1C3: Ö`   C1C4: Ök   C1C5: »í   
+C1C6: ØG   C1C7: áÙ   C1C8: Ù   C1C9: Ù   
+C1CA: Ù   C1CB: Ù‹   C1CC: ÙŽ   C1CD: Ú…   
+C1CE: õã   C1CF: Ì£   C1D0: µ¸   C1D1: õè   
+C1D2: Ý    C1D3: Ýš   C1D4: Ýž   C1D5: Þ@   
+C1D6: Ý›   C1D7: ±Ü   C1D8: åá   C1D9: ß€   
+C1DA: ß~   C1DB: åâ   C1DC: Ñû   C1DD: Û¸   
+C1DE: õ±   C1DF: áj   C1E0: áh   C1E1: åƒ   
+C1E2: æV   C1E3: å^   C1E4: æI   C1E5: å€   
+C1E6: å›   C1E7: å   C1E8: åN   C1E9: æR   
+C1EA: æ@   C1EB: å‘   C1EC: æD   C1ED: å   
+C1EE: åŠ   C1EF: éŸ   C1F0: é    C1F1: ê@   
+C1F2: é   C1F3: é›   C1F4: ë[   C1F5: ë`   
+C1F6: ëm   C1F7: Ëª   C1F8: Ï¼   C1F9: ¾Ï   
+C1FA: ín   C1FB: îw   C1FC: ïZ   C1FD: ðj   
+C1FE: òG   
+C240: òE   C241: õr   C242: õo   C243: õn   
+C244: õq   C245: ø™   C246: ø   C247: ÷ç   
+C248: ð¤   C249: üc   C24A: ÷í   C24B: ÷î   
+C24C: ÷ì   C24D: ÷ý   C24E: ýS   C24F: …²   
+C250: ‡£   C251: ‡»   C252: ‰¿   C253: ‰¾   
+C254: ‹ð   C255: ¥   C256: ‘¿   C257: ´Á   
+C258: ”U   C259: ”S   C25A: ”_   C25B: ”f   
+C25C: ”[   C25D: ”\   C25E: ”X   C25F: ”à   
+C260: ê×   C261: ëü   C262: ™‰   C263: ÃÊ   
+C264: ™™   C265: ™‘   C266: ™Ž   C267: ™˜   
+C268: ™„   C269: ™…   C26A: še   C26B: šw   
+C26C: š›   C26D: ža   C26E: žc   C26F: žV   
+C270: ž^   C271: žR   C272: ÆÙ   C273: žg   
+C274:  `   C275:  a   C276:  c   C277:  ^   
+C278: «E   C279: «C   C27A: èµ   C27B: ­v   
+C27C: ®Y   C27D: ñ±   C27E: °O   
+C2A1: °K   
+C2A2: î­   C2A3: öÄ   C2A4: Õ°   C2A5: ²€   
+C2A6: µA   C2A7: ¶Y   C2A8: ·w   C2A9: ·x   
+C2AA: ·v   C2AB: ¸Z   C2AC: ¸[   C2AD: º   
+C2AE: »É   C2AF: ô¢   C2B0: º„   C2B1: ºˆ   
+C2B2: º†   C2B3: ¼Z   C2B4: ¿—   C2B5: ¿˜   
+C2B6: À@   C2B7: ¿   C2B8: ÀC   C2B9: ¿•   
+C2BA: ¿œ   C2BB: À—   C2BC: ÂN   C2BD: ·­   
+C2BE: Âš   C2BF: Â™   C2C0: Äš   C2C1: Äœ   
+C2C2: Åf   C2C3: ²Ø   C2C4: Ë_   C2C5: Ë{   
+C2C6: Ãê   C2C7: ½å   C2C8: Þ¹   C2C9: Ëj   
+C2CA: Þ·   C2CB: Ë]   C2CC: Ïu   C2CD: Ïs   
+C2CE: Ïx   C2CF: ó´   C2D0: ¸²   C2D1: ÓP   
+C2D2: Óx   C2D3: Öƒ   C2D4: Ö”   C2D5: Ö‡   
+C2D6: Ö†   C2D7: ØS   C2D8: Ù˜   C2D9: õ¾   
+C2DA: Û˜   C2DB: ±Ä   C2DC: Û™   C2DD: Û”   
+C2DE: Û‹   C2DF: Ü|   C2E0: ÞD   C2E1: ÞH   
+C2E2: ßƒ   C2E3: åä   C2E4: åã   C2E5: át   
+C2E6: áu   C2E7: á   C2E8: æg   C2E9: æ^   
+C2EA: æi   C2EB: æu   C2EC: æ‡   C2ED: æ‚   
+C2EE: æ€   C2EF: æ„   C2F0: æk   C2F1: æm   
+C2F2: æj   C2F3: êH   C2F4: êJ   C2F5: êD   
+C2F6: êI   C2F7: ëx   C2F8: ës   C2F9: ëp   
+C2FA: ër   C2FB: ëu   C2FC: ìC   C2FD: ÷·   
+C2FE: íF   
+C340: ±Þ   C341: í‹   C342: î~   C343: î   
+C344: î}   C345: î€   C346: î…   C347: ï^   
+C348: ðs   C349: ðt   C34A: ðr   C34B: ÷Ñ   
+C34C: ð¥   C34D: òT   C34E: ÷Á   C34F: ××   
+C350: ó    C351: Îº   C352: ôu   C353: ÷Í   
+C354: õ   C355: õŽ   C356: öa   C357: õ   
+C358: õ…   C359: ùN   C35A: ùZ   C35B: ù]   
+C35C: ÷ï   C35D: üŠ   C35E: ÷ø   C35F: ƒ§   
+C360: ‡²   C361: ‰Ä   C362: ‰Å   C363: ‰È   
+C364: Œ™   C365: ý‹   C366: ]   C367: ‘Í   
+C368: ‘Ñ   C369: ‘Ð   C36A: ãÂ   C36B: ÅÊ   
+C36C: ”n   C36D: •ç   C36E: ÆØ   C36F: ™»   
+C370: ™³   C371: ™°   C372: ™©   C373: å­   
+C374: žt   C375: ž|   C376: å«   C377: žr   
+C378: žl   C379: žo   C37A: ±¬   C37B:  q   
+C37C:  ©   C37D:  Ù   C37E: «F   
+C3A1: «H   
+C3A2: ­t   C3A3: ­‚   C3A4: °ê   C3A5: ®    
+C3A6: ½®   C3A7: °T   C3A8: °V   C3A9: ²‰   
+C3AA: µK   C3AB: ¶\   C3AC: ·‚   C3AD: ·€   
+C3AE: ºŸ   C3AF: ²¾   C3B0: ô¤   C3B1: ºž   
+C3B2: º™   C3B3: ô¦   C3B4: ÀM   C3B5: ÀO   
+C3B6: À[   C3B7: ÀK   C3B8: ÀL   C3B9: Á_   
+C3BA: ÀU   C3BB: Áƒ   C3BC: ¸þ   C3BD: Ùú   
+C3BE: ÅD   C3BF: ·ª   C3C0: Ë‡   C3C1: Ë’   
+C3C2: Åº   C3C3: ÌÙ   C3C4: ËŽ   C3C5: ËŸ   
+C3C6: Ï   C3C7: Ï‰   C3C8: Ï   C3C9: Ð·   
+C3CA: ó¸   C3CB: Òd   C3CC: ½ó   C3CD: Ò\   
+C3CE: ôÅ   C3CF: Öœ   C3D0: ×V   C3D1: ×R   
+C3D2: ×C   C3D3: ×T   C3D4: ×H   C3D5: ×I   
+C3D6: ×@   C3D7: ×S   C3D8: Ù›   C3D9: Ù   
+C3DA: õë   C3DB: ¶×   C3DC: ³ù   C3DD: õê   
+C3DE: µÅ   C3DF: ÜE   C3E0: õí   C3E1: ÞO   
+C3E2: ÞI   C3E3: Þo   C3E4: ß…   C3E5: åå   
+C3E6: áw   C3E7: õ´   C3E8: çR   C3E9: çC   
+C3EA: çP   C3EB: æ—   C3EC: æœ   C3ED: çM   
+C3EE: çN   C3EF: ÷é   C3F0: çS   C3F1: æ    
+C3F2: çI   C3F3: çU   C3F4: çH   C3F5: çY   
+C3F6: êP   C3F7: ë]   C3F8: ëy   C3F9: ö¯   
+C3FA: ìF   C3FB: ÃÒ   C3FC: íw   C3FD: í   
+C3FE: î   
+C440: îŠ   C441: î   C442: ï`   C443: ðz   
+C444: ð~   C445: ò\   C446: ò_   C447: ôE   
+C448: öL   C449: öK   C44A: õ›   C44B: õ    
+C44C: ù‡   C44D: ù^   C44E: ùo   C44F: ùg   
+C450: ùi   C451: ÷è   C452: û   C453: Â´   
+C454: ôð   C455: „ñ   C456: ‡µ   C457: ÈÂ   
+C458: ‡Â   C459: ‡À   C45A: ½À   C45B: ÈÀ   
+C45C: æ×   C45D: ‹ú   C45E: Äõ   C45F: Œš   
+C460: Žf   C461: ‘Ò   C462: ‘Ô   C463: ÈÁ   
+C464: ”r   C465: ”v   C466: êØ   C467: –V   
+C468: ™Â   C469: ž‘   C46A: ž…   C46B: ž‡   
+C46C:  t   C46D: «I   C46E: ­‡   C46F: °W   
+C470: °Y   C471: µV   C472: µZ   C473: µ\   
+C474: µ[   C475: ¸]   C476: ¸‚   C477: »I   
+C478: »@   C479: ¼®   C47A: Å´   C47B: ¼a   
+C47C: Þp   C47D: À_   C47E: À^   
+C4A1: ×ë   
+C4A2: À›   C4A3: Ò«   C4A4: ÅF   C4A5: Åž   
+C4A6: Ôå   C4A7: Ì@   C4A8: Ä¢   C4A9: ÌA   
+C4AA: ÌJ   C4AB: ÌO   C4AC: ÌK   C4AD: ÌN   
+C4AE: Ï–   C4AF: Èä   C4B0: Òh   C4B1: ÓX   
+C4B2: Ó|   C4B3: ×h   C4B4: Æ©   C4B5: ¾¯   
+C4B6: ×g   C4B7: ×Y   C4B8: ×d   C4B9: ÚA   
+C4BA: Ù    C4BB: ÜO   C4BC: Ôê   C4BD: õî   
+C4BE: ÜJ   C4BF: õ·   C4C0: áŒ   C4C1: çŠ   
+C4C2: çt   C4C3: çn   C4C4: êU   C4C5: ö±   
+C4C6: ïh   C4C7: ðˆ   C4C8: ð‡   C4C9: Ü°   
+C4CA: òq   C4CB: òv   C4CC: ò}   C4CD: ò{   
+C4CE: öw   C4CF: öq   C4D0: ûy   C4D1: üI   
+C4D2: üh   C4D3: ÷ù   C4D4: ýe   C4D5: ýi   
+C4D6: ýg   C4D7: ƒ«   C4D8: ƒ¬   C4D9: ‡Ë   
+C4DA: ‡Ê   C4DB: ‡Ì   C4DC: Ùç   C4DD: ŒÙ   
+C4DE: Î¡   C4DF: ‘Ö   C4E0: ‘Ø   C4E1: ”z   
+C4E2: ”y   C4E3: ”Ì   C4E4: êÙ   C4E5: ™Ñ   
+C4E6: ™Ú   C4E7: ™Ð   C4E8: šž   C4E9: ¹à   
+C4EA:  €   C4EB:  Þ   C4EC: ­   C4ED: ­‹   
+C4EE: °]   C4EF: ²”   C4F0: »L   C4F1: Àp   
+C4F2: Àm   C4F3: åñ   C4F4: ÌY   C4F5: Ìm   
+C4F6: Ì\   C4F7: Ï    C4F8: ´À   C4F9: ó»   
+C4FA: Ïž   C4FB: Òm   C4FC: Òo   C4FD: Ó[   
+C4FE: ×l   
+C540: ×o   C541: ×u   C542: ÚE   C543: ÜP   
+C544: ÜS   C545: ÜQ   C546: ÞZ   C547: Þq   
+C548: õ¸   C549: ç    C54A: èD   C54B: èF   
+C54C: èK   C54D: èI   C54E: èC   C54F: ç   
+C550: êV   C551: °Ô   C552: Åù   C553: Â¶   
+C554: í‘   C555: î™   C556: î—   C557: ð‹   
+C558: òŒ   C559: òŠ   C55A: ò‡   C55B: ò…   
+C55C: ót   C55D: Ä§   C55E: ÷Î   C55F: ö’   
+C560: öŠ   C561: úL   C562: úQ   C563: ú_   
+C564: úU   C565: ÷ê   C566: ÷ö   C567: Ü±   
+C568: ýb   C569: ýl   C56A: ým   C56B: ƒ°   
+C56C: ƒ¯   C56D: ‡Ò   C56E: ÄÒ   C56F: ‡Ó   
+C570: Œ\   C571: Žp   C572: Žn   C573:    
+C574: Ü²   C575: ”‚   C576: ™à   C577: šg   
+C578: ž¢   C579: ž©   C57A: «M   C57B: È¿   
+C57C: ¯B   C57D: °a   C57E: °_   
+C5A1: ìü   
+C5A2: »\   C5A3: »[   C5A4: Ã@   C5A5: Â    
+C5A6: ÅK   C5A7: Òu   C5A8: Òr   C5A9: Ó   
+C5AA: ×x   C5AB: ÚH   C5AC: ÚI   C5AD: ÜU   
+C5AE: ÜW   C5AF: Þ\   C5B0: áB   C5B1: èT   
+C5B2: èa   C5B3: èb   C5B4: ìV   C5B5: ö²   
+C5B6: í^   C5B7: í\   C5B8: î   C5B9: ÷Ò   
+C5BA: òœ   C5BB: ò”   C5BC: óv   C5BD: ôP   
+C5BE: ÷M   C5BF: ö–   C5C0: ÷B   C5C1: ö    
+C5C2: úp   C5C3: út   C5C4: ýB   C5C5: ýr   
+C5C6: ýp   C5C7: ý   C5C8: ‡Õ   C5C9: Žr   
+C5CA: ‘Ù   C5CB: ”   C5CC: ¾ð   C5CD: ”‡   
+C5CE: •ñ   C5CF: ™æ   C5D0: ­‘   C5D1: ¸`   
+C5D2: »`   C5D3: »_   C5D4: »a   C5D5: Àt   
+C5D6: Àw   C5D7: Àu   C5D8: ÅN   C5D9: Õº   
+C5DA: Ì}   C5DB: ÐM   C5DC: ×ƒ   C5DD: ßŠ   
+C5DE: ß‰   C5DF: ès   C5E0: èp   C5E1: èt   
+C5E2: ìv   C5E3: ï@   C5E4: ð   C5E5: ó@   
+C5E6: óA   C5E7: òž   C5E8: Ëè   C5E9: ów   
+C5EA: ÷Ç   C5EB: ÷X   C5EC: ÷[   C5ED: ÷Z   
+C5EE: úƒ   C5EF: ÷ë   C5F0: üq   C5F1: ‡Ú   
+C5F2: ‰Î   C5F3: ”ˆ   C5F4: å±   C5F5: °c   
+C5F6: °d   C5F7: ´£   C5F8: ¹Þ   C5F9: Áb   
+C5FA: ÐQ   C5FB: ó¼   C5FC: áé   C5FD: ×Œ   
+C5FE: ×‹   
+C640: ×   C641: ÆG   C642: ÚM   C643: á„   
+C644: èz   C645: ìZ   C646: ì`   C647: ì\   
+C648: ía   C649: ïA   C64A: óE   C64B: ôW   
+C64C: ô|   C64D: ÷c   C64E: ú—   C64F: ú˜   
+C650: û|   C651: û}   C652: ü   C653: ý}   
+C654: ýx   C655: d   C656: ™ì   C657: ž³   
+C658: »h   C659: »j   C65A: ÐU   C65B: Ó^   
+C65C: Üb   C65D: á…   C65E: è‚   C65F: è€   
+C660: ïB   C661: ð’   C662: óy   C663: ÷à   
+C664: üZ   C665: ž´   C666: ²š   C667: ×“   
+C668: è‡   C669: íd   C66A: óH   C66B: óK   
+C66C: À|   C66D: ×•   C66E: Ük   C66F: á‰   
+C670: è   C671: èŽ   C672: èŒ   C673: ÷{   
+C674: ÷|   C675: üt   C676: ØW   C677: è   
+C678: ûW   C679: ìà   C67A: óP   C67B: ôd   
+C67C: ûX   C67D: û[   C67E: »n   
+C6A1: ¢Ù   
+C6A2: ¢Ú   C6A3: ¢Û   C6A4: ¢Ü   C6A5: ¢Ý   
+C6A6: ¢Þ   C6A7: ¢ß   C6A8: ¢à   C6A9: ¢á   
+C6AA: ¢â   C6AB: ¢Å   C6AC: ¢Æ   C6AD: ¢Ç   
+C6AE: ¢È   C6AF: ¢É   C6B0: ¢Ê   C6B1: ¢Ë   
+C6B2: ¢Ì   C6B3: ¢Í   C6B4: ¢Î   C6B5: ¢¡   
+C6B6: ¢¢   C6B7: ¢£   C6B8: ¢¤   C6B9: ¢¥   
+C6BA: ¢¦   C6BB: ¢§   C6BC: ¢¨   C6BD: ¢©   
+C6BE: ¢ª   C6BF: Ø¼   C6C0: Ø¯   C6C1: |   
+C6C2: Ùï   C6C3: Øç   C6C4: Ú¢   C6C5: Ùû   
+C6C6: Ùè   C6C7: …[   C6C8: Úà   C6C9: ÛÌ   
+C6CA: ‰å   C6CB: å²   C6CC: çÝ   C6CD: çÛ   
+C6CE: ¹ã   C6CF: ÛÈ   C6D0: åæ   C6D1: áê   
+C6D2: ê·   C6D3: ÎÞ   C6D4: ðÚ   C6D5: °h   
+C6D6: Þu   C6D7: Á¥   C6D8: ×Å   C6D9: £Þ   
+C6DA: ©c   C6DB: ©d   C6DC: ©f   C6DD: ©g   
+C6DE: £¢   C6DF: ©a   C6E0: ©b   C6E1: ©q   
+C6E2: ©–   C6E3: ©`   C6E4: £Û   C6E5: £Ý   
+C6E6: £ª   C6E7: ¤¡   C6E8: ¤¢   C6E9: ¤£   
+C6EA: ¤¤   C6EB: ¤¥   C6EC: ¤¦   C6ED: ¤§   
+C6EE: ¤¨   C6EF: ¤©   C6F0: ¤ª   C6F1: ¤«   
+C6F2: ¤¬   C6F3: ¤­   C6F4: ¤®   C6F5: ¤¯   
+C6F6: ¤°   C6F7: ¤±   C6F8: ¤²   C6F9: ¤³   
+C6FA: ¤´   C6FB: ¤µ   C6FC: ¤¶   C6FD: ¤·   
+C6FE: ¤¸   
+C740: ¤¹   C741: ¤º   C742: ¤»   C743: ¤¼   
+C744: ¤½   C745: ¤¾   C746: ¤¿   C747: ¤À   
+C748: ¤Á   C749: ¤Â   C74A: ¤Ã   C74B: ¤Ä   
+C74C: ¤Å   C74D: ¤Æ   C74E: ¤Ç   C74F: ¤È   
+C750: ¤É   C751: ¤Ê   C752: ¤Ë   C753: ¤Ì   
+C754: ¤Í   C755: ¤Î   C756: ¤Ï   C757: ¤Ð   
+C758: ¤Ñ   C759: ¤Ò   C75A: ¤Ó   C75B: ¤Ô   
+C75C: ¤Õ   C75D: ¤Ö   C75E: ¤×   C75F: ¤Ø   
+C760: ¤Ù   C761: ¤Ú   C762: ¤Û   C763: ¤Ü   
+C764: ¤Ý   C765: ¤Þ   C766: ¤ß   C767: ¤à   
+C768: ¤á   C769: ¤â   C76A: ¤ã   C76B: ¤ä   
+C76C: ¤å   C76D: ¤æ   C76E: ¤ç   C76F: ¤è   
+C770: ¤é   C771: ¤ê   C772: ¤ë   C773: ¤ì   
+C774: ¤í   C775: ¤î   C776: ¤ï   C777: ¤ð   
+C778: ¤ñ   C779: ¤ò   C77A: ¤ó   C77B: ¥¡   
+C77C: ¥¢   C77D: ¥£   C77E: ¥¤   
+C7A1: ¥¥   
+C7A2: ¥¦   C7A3: ¥§   C7A4: ¥¨   C7A5: ¥©   
+C7A6: ¥ª   C7A7: ¥«   C7A8: ¥¬   C7A9: ¥­   
+C7AA: ¥®   C7AB: ¥¯   C7AC: ¥°   C7AD: ¥±   
+C7AE: ¥²   C7AF: ¥³   C7B0: ¥´   C7B1: ¥µ   
+C7B2: ¥¶   C7B3: ¥·   C7B4: ¥¸   C7B5: ¥¹   
+C7B6: ¥º   C7B7: ¥»   C7B8: ¥¼   C7B9: ¥½   
+C7BA: ¥¾   C7BB: ¥¿   C7BC: ¥À   C7BD: ¥Á   
+C7BE: ¥Â   C7BF: ¥Ã   C7C0: ¥Ä   C7C1: ¥Å   
+C7C2: ¥Æ   C7C3: ¥Ç   C7C4: ¥È   C7C5: ¥É   
+C7C6: ¥Ê   C7C7: ¥Ë   C7C8: ¥Ì   C7C9: ¥Í   
+C7CA: ¥Î   C7CB: ¥Ï   C7CC: ¥Ð   C7CD: ¥Ñ   
+C7CE: ¥Ò   C7CF: ¥Ó   C7D0: ¥Ô   C7D1: ¥Õ   
+C7D2: ¥Ö   C7D3: ¥×   C7D4: ¥Ø   C7D5: ¥Ù   
+C7D6: ¥Ú   C7D7: ¥Û   C7D8: ¥Ü   C7D9: ¥Ý   
+C7DA: ¥Þ   C7DB: ¥ß   C7DC: ¥à   C7DD: ¥á   
+C7DE: ¥â   C7DF: ¥ã   C7E0: ¥ä   C7E1: ¥å   
+C7E2: ¥æ   C7E3: ¥ç   C7E4: ¥è   C7E5: ¥é   
+C7E6: ¥ê   C7E7: ¥ë   C7E8: ¥ì   C7E9: ¥í   
+C7EA: ¥î   C7EB: ¥ï   C7EC: ¥ð   C7ED: ¥ñ   
+C7EE: ¥ò   C7EF: ¥ó   C7F0: ¥ô   C7F1: ¥õ   
+C7F2: ¥ö   C7F3: š¡   C7F4: œi   C7F5: Ÿ\   
+C7F6: ª`   C7F7: ªS   C7F8: ªT   C7F9: â¨   
+C7FA: ª[   C7FB: ±   C7FC: Õö   C7FD: ³B   
+C7FE: ³q   
+C840: ¸Ÿ   C841: ¸ž   C842: ôÏ   C843: ÁŽ   
+C844: ÃŽ   C845: Ã…   C846: Ã   C847: ÇT   
+C848: Ça   C849: Ç|   C84A: Íe   C84B: ¹Æ   
+C84C: Ðe   C84D: Ð•   C84E: Ò   C84F: Óe   
+C850: Ód   C851: ÔP   C852: Ø[   C853: Ü–   
+C854: ßN   C855: Þ    C856: âI   C857: ó{   
+C858: Œ   C859: ‚ë   C85A: ‚Û   C85B: ‚Ó   
+C85C: ‚Ò   C85D: ‚Ö   C85E: ‚ê   C85F: ‚ì   
+C860: ‚Þ   C861: ƒü   C862: †¸   C863: ‡ý   
+C864: ˆà   C865: Ü¨   C866: ˆî   C867: ‰F   
+C868: °Â   C869: Œ~   C86A: ¿   C86B: ½   
+C86C:    C86D: É   C86E: “\   C86F: “e   
+C870: “K   C871: •’   C872: –N   C873: —˜   
+C874: šÆ   C875: œ   C876: œ¹   C877: äÓ   
+C878: ®D   C879: î´   C87A: ¯f   C87B: ³‹   
+C87C: µ»   C87D: ·   C87E: ¼–   
+C8A1: ½n   
+C8A2: ÁH   C8A3: ñë   C8A4: Ãˆ   C8A5: Ãž   
+C8A6: Ã    C8A7: ÅW   C8A8: ÅZ   C8A9: ÈW   
+C8AA: Çƒ   C8AB: Í…   C8AC: Íx   C8AD: Í   
+C8AE: ÑE   C8AF: Ôs   C8B0: ÔY   C8B1: Ôh   
+C8B2: Ô|   C8B3: ÝK   C8B4: âw   C8B5: ìx   
+C8B6: ƒC   C8B7: „ß   C8B8: …“   C8B9: †æ   
+C8BA: ‡þ   C8BB: ‰a   C8BC: ‰E   C8BD: ÇÞ   
+C8BE: Ò   C8BF: Ï   C8C0: áÕ   C8C1: Å   
+C8C2: Ç   C8C3: Õ   C8C4: Ž¸   C8C5:    
+C8C6: Ñ   C8C7: î   C8C8: æ   C8C9: Ê   
+C8CA: ‘é   C8CB: ”¯   C8CC: ”Ú   C8CD: ”ð   
+C8CE: •œ   C8CF: ˜L   C8D0: —á   C8D1: œÚ   
+C8D2: œÉ   C8D3:  š   C8D4: êú   C8D5: ®“   
+C8D6: ¯m   C8D7: ±   C8D8: µ   C8D9: ·B   
+C8DA: ¶œ   C8DB: ¸u   C8DC: ¹d   C8DD: ¹[   
+C8DE: ½Š   C8DF: Â|   C8E0: ÄY   C8E1: Å…   
+C8E2: Åƒ   C8E3: ÉD   C8E4: È    C8E5: È—   
+C8E6: õ£   C8E7: ƒT   C8E8: ô‡   C8E9: ´   
+C8EA: Î|   C8EB: ó   C8EC: ûž   C8ED: „ª   
+C8EE: ÎŒ   C8EF: ÷¿   C8F0: õE   C8F1: æX   
+C8F2: óš   C8F3: õw   C8F4: õt   C8F5: üV   
+C8F6: ì@   C8F7: º˜   C8F8: ×X   C8F9: çr   
+C8FA: ç   C8FB: ð€   C8FC: ×k   C8FD: úq   
+C8FE: ²—   
+C940: V   C941: Ø¿   C942: ÛÉ   C943: ØÎ   
+C944: ³§   C945: Íò   C946: Ø¢   C947: Ø±   
+C948: Ø¡   C949: àí   C94A: Ø£   C94B: åø   
+C94C: áÜ   C94D: D   C94E: ƒÓ   C94F: Óë   
+C950: M   C951: ØÁ   C952: Øì   C953: Øë   
+C954: ”   C955: ƒÜ   C956: „ó   C957: …n   
+C958: …œ   C959: ˆL   C95A: ‰à   C95B: ‰ø   
+C95C: Œ¨   C95D: Žˆ   C95E: ”ú   C95F: ì¯   
+C960: š¯   C961: Æø   C962: ãÝ   C963: O   
+C964: S   C965: Øí   C966: ›   C967:     
+C968: Øî   C969: ÙÚ   C96A: ™   C96B: „Y   
+C96C: …F   C96D: …c   C96E: ˆN   C96F: Ê¥   
+C970: ‰í   C971: º»   C972: Äþ   C973: å³   
+C974: Œ©   C975: åê   C976: ŒÞ   C977: ŒÝ   
+C978: ŽŠ   C979: âÏ   C97A: ŽÙ   C97B: âá   
+C97C: ‘à   C97D: ’A   C97E: ë­   
+C9A1: šé   
+C9A2: šñ   C9A3: šð   C9A4: ší   C9A5:  ã   
+C9A6: áì   C9A7: «T   C9A8: ¶b   C9A9: ÃE   
+C9AA: êb   C9AB: ¼¿   C9AC: ÓÅ   C9AD: À   
+C9AE: Øõ   C9AF: ·   C9B0: ¤   C9B1: «   
+C9B2: ¼Û   C9B3: ²   C9B4: »   C9B5: ¬   
+C9B6: ¯   C9B7: Øó   C9B8: ¶   C9B9: ®   
+C9BA: ¥   C9BB: µ   C9BC: Ùü   C9BD: „\   
+C9BE: „W   C9BF: „[   C9C0: „µ   C9C1: …I   
+C9C2: …H   C9C3: …d   C9C4: …|   C9C5: …»   
+C9C6: àï   C9C7: Ø¶   C9C8: ÛÜ   C9C9: ÛÙ   
+C9CA: ˆV   C9CB: ÞÅ   C9CC: Šj   C9CD: Šg   
+C9CE: Šk   C9CF: Šf   C9D0: Šh   C9D1: Šd   
+C9D2: Ši   C9D3: ŒI   C9D4: æØ   C9D5: ÞÍ   
+C9D6: Œä   C9D7: á¨   C9D8: Œã   C9D9: Œæ   
+C9DA: Žx   C9DB: ŽÔ   C9DC: ×¯   C9DD: Òì   
+C9DE: w   C9DF: °   C9E0: ç   C9E1: æ   
+C9E2: âã   C9E3: ’G   C9E4: ’I   C9E5: ’N   
+C9E6: ’L   C9E7: Ç¤   C9E8: ’M   C9E9: ’E   
+C9EA: ’K   C9EB: ’F   C9EC: ’O   C9ED: ê¹   
+C9EE: ê¸   C9EF: –b   C9F0: –_   C9F1: –^   
+C9F2: –`   C9F3: »ú   C9F4: –c   C9F5: –a   
+C9F6: –[   C9F7: ë®   C9F8: Ùà   C9F9: šû   
+C9FA: ãá   C9FB: šù   C9FC: ãâ   C9FD: ãà   
+C9FE: šõ   
+CA40: šö   CA41: ž¼   CA42:  ¬   CA43: áí   
+CA44:  ç   CA45: çà   CA46: ®f   CA47: °m   
+CA48: ·Š   CA49: Íø   CA4A: ÆH   CA4B: ÆJ   
+CA4C: ÆK   CA4D: Ü´   CA4E: Üµ   CA4F: ò®   
+CA50: Ò   CA51: Úø   CA52: Úõ   CA53: ßŽ   
+CA54: Úö   CA55: ßŒ   CA56: Úã   CA57: êe   
+CA58: êc   CA59: êd   CA5A: Ø   CA5B: È   
+CA5C: Ú   CA5D: Ò   CA5E: Ìå   CA5F: Øô   
+CA60: É   CA61: Øû   CA62: Ö   CA63: Ù¡   
+CA64: Ì   CA65: ÙÜ   CA66: Á   CA67: Ä   
+CA68: Ê   CA69: Ù   CA6A: ƒ×   CA6B: ƒì   
+CA6C: „_   CA6D: „`   CA6E: „b   CA6F: Û¿   
+CA70: „·   CA71: „ú   CA72: ØÕ   CA73: …p   
+CA74: …}   CA75: …~   CA76: …Æ   CA77: …É   
+CA78: …Å   CA79: ß¾   CA7A: …Ð   CA7B: …¿   
+CA7C: …Á   CA7D: …Ä   CA7E: …¾   
+CAA1: …Ë   
+CAA2: …Ö   CAA3: …Í   CAA4: ¶Ö   CAA5: …Ã   
+CAA6: …Ñ   CAA7: ‡ê   CAA8: ‡å   CAA9: ‡ã   
+CAAA: ˆ^   CAAB: ˆa   CAAC: ÛÐ   CAAD: ˆd   
+CAAE: ˆe   CAAF: ˆf   CAB0: ‰â   CAB1: ŠC   
+CAB2: Š~   CAB3: Šu   CAB4: Š{   CAB5: æ¡   
+CAB6: Šo   CAB7: Š}   CAB8: Šq   CAB9: Šp   
+CABA: Š€   CABB: Š|   CABC: Œa   CABD: Œd   
+CABE: Œ´   CABF: Œ¶   CAC0: á©   CAC1: Œñ   
+CAC2: á¬   CAC3: Œï   CAC4: Œí   CAC5: Œò   
+CAC6: Œî   CAC7: Œë   CAC8: Œó   CAC9: Œô   
+CACA: Žy   CACB: Ž   CACC: Ž   CACD: âÑ   
+CACE: ŽÝ   CACF: ŽÞ   CAD0: ŽÜ   CAD1: Žß   
+CAD2: k   CAD3: y   CAD4: ³   CAD5: ²   
+CAD6: ß¯   CAD7: ìý   CAD8: ìþ   CAD9: âí   
+CADA: ñ   CADB: âå   CADC: ÷   CADD: âç   
+CADE: âè   CADF: î   CAE0: ü   CAE1: ô   
+CAE2: ú   CAE3: ÐÃ   CAE4: »³   CAE5: ø   
+CAE6: ‘÷   CAE7: ’\   CAE8: ’b   CAE9: ’d   
+CAEA: ’e   CAEB: ’g   CAEC: ’_   CAED: ’Q   
+CAEE: ’X   CAEF: ’W   CAF0: ÈÅ   CAF1: ’Z   
+CAF2: ’`   CAF3: ’U   CAF4: ’Y   CAF5: ’R   
+CAF6: ’S   CAF7: ”Ž   CAF8: êº   CAF9: •B   
+CAFA: •A   CAFB: •@   CAFC: •C   CAFD: –f   
+CAFE: –g   
+CB40: –p   CB41: –m   CB42: è»   CB43: è¾   
+CB44: –s   CB45: –j   CB46: –q   CB47: –i   
+CB48: š±   CB49: ë¯   CB4A: ë°   CB4B: ›P   
+CB4C: ›F   CB4D: ›G   CB4E: ›V   CB4F: ›Y   
+CB50: Æã   CB51: ›L   CB52: ›K   CB53: ãé   
+CB54: ›b   CB55: ›I   CB56: ›W   CB57: ›^   
+CB58: ›c   CB59: ›E   CB5A: ›M   CB5B: ›D   
+CB5C: ›R   CB5D: ›[   CB5E: ž¿   CB5F: žÂ   
+CB60:  ®   CB61:  í   CB62:  ë   CB63: áð   
+CB64:  ð   CB65: áñ   CB66:  è   CB67:  ï   
+CB68: «\   CB69: «]   CB6A: «Z   CB6B: «[   
+CB6C: «Y   CB6D: î®   CB6E: ®j   CB6F: ðÛ   
+CB70: ¯H   CB71: °o   CB72: µi   CB73: Âk   
+CB74: ÃM   CB75: ÃO   CB76: ÃI   CB77: ÃK   
+CB78: ëÀ   CB79: ÆS   CB7A: Ü¶   CB7B: ÆN   
+CB7C: Üº   CB7D: Ü»   CB7E: ÆT   
+CBA1: Ü·   
+CBA2: ÆM   CBA3: Ü¹   CBA4: õô   CBA5: Þ€   
+CBA6: Þ{   CBA7: ß’   CBA8: Úú   CBA9: ß•   
+CBAA: ß‘   CBAB: ß–   CBAC: ß“   CBAD: êo   
+CBAE: êi   CBAF: ên   CBB0: êm   CBB1: P   
+CBB2: ÷   CBB3: Ù®   CBB4: ì   CBB5: è   
+CBB6: é   CBB7: î   CBB8: Ù¥   CBB9: Ù¦   
+CBBA: Ù¨   CBBB: Ö¶   CBBC: ä   CBBD: Õ   
+CBBE: ¶±   CBBF: Ý   CBC0: ù   CBC1: æ   
+CBC2: ê   CBC3: å   CBC4: ò   CBC5: ú   
+CBC6: Ù°   CBC7: û   CBC8: ó   CBC9: ë   
+CBCA: õ   CBCB: Þ   CBCC: à   CBCD: ƒß   
+CBCE: Ùþ   CBCF: ƒî   CBD0: „n   CBD1: „l   
+CBD2: ØÚ   CBD3: „s   CBD4: „k   CBD5: „Â   
+CBD6: „û   CBD7: „ü   CBD8: …\   CBD9: …‚   
+CBDA: …„   CBDB: …ñ   CBDC: …í   CBDD: …î   
+CBDE: …ö   CBDF: ßÆ   CBE0: …ò   CBE1: …ã   
+CBE2: …ë   CBE3: …ì   CBE4: …ß   CBE5: …ä   
+CBE6: …é   CBE7: ßÏ   CBE8: …õ   CBE9: …ç   
+CBEA: …Ý   CBEB: …Ü   CBEC: …ù   CBED: …Þ   
+CBEE: …à   CBEF: ßÊ   CBF0: ‡ï   CBF1: àò   
+CBF2: Å÷   CBF3: ˆu   CBF4: Ûè   CBF5: Ûã   
+CBF6: ˆt   CBF7: ˆs   CBF8: Ûé   CBF9: ˆ~   
+CBFA: ˆw   CBFB: Ûæ   CBFC: Ûê   CBFD: ˆv   
+CBFE: ˆm   
+CC40: Ûç   CC41: ˆ{   CC42: ‰ç   CC43: ŠE   
+CC44: Š‡   CC45: Š‹   CC46: Š›   CC47: Šš   
+CC48: æ§   CC49: Š˜   CC4A: Š   CC4B: Šˆ   
+CC4C: ŠŒ   CC4D: Š’   CC4E: Š   CC4F: Š„   
+CC50: Š   CC51: Š   CC52: Š–   CC53: Š†   
+CC54: Š•   CC55: æß   CC56: æÛ   CC57: åµ   
+CC58: å´   CC59: ŒÂ   CC5A: ŒÄ   CC5B: A   
+CC5C: Œú   CC5D: Œø   CC5E: á²   CC5F: B   
+CC60: Œþ   CC61: áµ   CC62: Œ÷   CC63: á¸   
+CC64: Áë   CC65: á³   CC66: @   CC67: Œý   
+CC68: Œõ   CC69: Œû   CC6A: F   CC6B: C   
+CC6C: Œü   CC6D: Ž“   CC6E: àú   CC6F: àù   
+CC70: €   CC71: |   CC72: }   CC73: ~   
+CC74:     CC75: áÞ   CC76: ¶   CC77: µ   
+CC78: ë   CC79: ï   CC7A: P   CC7B: âñ   
+CC7C: âï   CC7D: T   CC7E: B   
+CCA1: V   
+CCA2: â÷   CCA3: G   CCA4: U   CCA5: I   
+CCA6: J   CCA7: O   CCA8: L   CCA9: âô   
+CCAA: D   CCAB: Q   CCAC: F   CCAD: E   
+CCAE: C   CCAF: A   CCB0: Á¯   CCB1: ‘â   
+CCB2: ìæ   CCB3: ’q   CCB4: ’w   CCB5: ’ƒ   
+CCB6: ’|   CCB7: ’p   CCB8: ’x   CCB9: ÞÔ   
+CCBA: ’r   CCBB: ’v   CCBC: ’s   CCBD: ÞÓ   
+CCBE: ’o   CCBF: ’t   CCC0: ’z   CCC1: ”‘   
+CCC2: ”Ö   CCC3: ”ã   CCC4: •P   CCC5: •G   
+CCC6: •L   CCC7: •U   CCC8: •O   CCC9: •F   
+CCCA: ê¾   CCCB: •Q   CCCC: •R   CCCD: •M   
+CCCE: •H   CCCF: •T   CCD0: •S   CCD1: •÷   
+CCD2: ëÃ   CCD3: –ˆ   CCD4: –z   CCD5: –Ž   
+CCD6: –‘   CCD7: –~   CCD8: –ƒ   CCD9: èÄ   
+CCDA: –‰   CCDB: ¹¹   CCDC: –}   CCDD: –   
+CCDE: –Œ   CCDF: –‚   CCE0: –—   CCE1: –   
+CCE2: –•   CCE3: –‡   CCE4: –„   CCE5: ¼«   
+CCE6: –€   CCE7: –   CCE8: –“   CCE9: ™ö   
+CCEA: š|   CCEB: šz   CCEC: š·   CCED: šß   
+CCEE: í³   CCEF: ›‰   CCF0: ãù   CCF1: ãú   
+CCF2: ›€   CCF3: ›n   CCF4: ãï   CCF5: ãð   
+CCF6: ›‡   CCF7: ›o   CCF8: ãî   CCF9: ›s   
+CCFA: ›p   CCFB: ›t   CCFC: ›u   CCFD: ›Š   
+CCFE: ›‹   
+CD40: ›}   CD41: ›ƒ   CD42: ›l   CD43: ›X   
+CD44: ›d   CD45: ›U   CD46: Å¢   CD47: ›q   
+CD48: ›®   CD49: ›y   CD4A: ›v   CD4B: ›k   
+CD4C: ›   CD4D: ›{   CD4E: ›ˆ   CD4F: ›|   
+CD50: È²   CD51: žÔ   CD52: êÁ   CD53: žÒ   
+CD54: žÉ   CD55: žÈ   CD56: žÑ   CD57: ìÀ   
+CD58: žÆ   CD59: žÕ   CD5A: žÇ   CD5B:  ²   
+CD5C:  û   CD5D:  ô   CD5E:  ü   CD5F:  ò   
+CD60: ª@   CD61: áô   CD62:  ù   CD63:  ý   
+CD64:  õ   CD65:  ÷   CD66: «g   CD67: «e   
+CD68: «n   CD69: «i   CD6A: çã   CD6B: «d   
+CD6C: «m   CD6D: «b   CD6E: ­“   CD6F: ­˜   
+CD70: ®m   CD71: î¯   CD72: çÞ   CD73: ¯C   
+CD74: ¯I   CD75: °‘   CD76: ±Z   CD77: íì   
+CD78: ±Y   CD79: ±[   CD7A: í·   CD7B: ³M   
+CD7C: ³J   CD7D: ³L   CD7E: ³K   
+CDA1: ³I   
+CDA2: µk   CDA3: µj   CDA4: ¶g   CDA5: ñ¶   
+CDA6: ·‹   CDA7: ¸…   CDA8: »o   CDA9: ¼l   
+CDAA: ñô   CDAB: ÃH   CDAC: °¹   CDAD: ÃQ   
+CDAE: ÃZ   CDAF: ÃX   CDB0: ëÇ   CDB1: Ås   
+CDB2: Æ[   CDB3: Æf   CDB4: Ü¾   CDB5: ÆX   
+CDB6: ÜÅ   CDB7: ÆY   CDB8: Æ`   CDB9: Æ^   
+CDBA: ÜÇ   CDBB: Æd   CDBC: ÆZ   CDBD: Æb   
+CDBE: ÜÌ   CDBF: Ü¸   CDC0: ÜÍ   CDC1: ÜË   
+CDC2: Æg   CDC3: ÜÒ   CDC4: Æh   CDC5: Æa   
+CDC6: Æ\   CDC7: ÍB   CDC8: ÍA   CDC9: Í@   
+CDCA: ò±   CDCB: ØX   CDCC: Þ†   CDCD: Þ‚   
+CDCE: åÂ   CDCF: Þ„   CDD0: Þ‡   CDD1: åÃ   
+CDD2: Þˆ   CDD3: ß›   CDD4: Úû   CDD5: ºª   
+CDD6: Úü   CDD7: Û¢   CDD8: êr   CDD9: Úç   
+CDDA: Úè   CDDB: ês   CDDC: êv   CDDD: ‚Z   
+CDDE: Ù´   CDDF: ‚\   CDE0: ‚E   CDE1: ‚W   
+CDE2: ‚X   CDE3: ‚R   CDE4: ‚]   CDE5: Ù·   
+CDE6: ‚`   CDE7: ‚M   CDE8: ‚F   CDE9: ‚a   
+CDEA: ‚U   CDEB: ‚_   CDEC: ‚L   CDED: ‚Q   
+CDEE: ‚K   CDEF: ‚h   CDF0: „q   CDF1: „v   
+CDF2: „Ä   CDF3: „Æ   CDF4: …]   CDF5: …t   
+CDF6: …†   CDF7: ……   CDF8: …‡   CDF9: Àå   
+CDFA: †I   CDFB: …þ   CDFC: ßÒ   CDFD: †A   
+CDFE: ßç   
+CE40: †L   CE41: Æˆ   CE42: †G   CE43: †B   
+CE44: †P   CE45: †F   CE46: †M   CE47: ¶ß   
+CE48: …ý   CE49: …è   CE4A: †J   CE4B: †@   
+CE4C: †K   CE4D: ßÚ   CE4E: ßè   CE4F: †C   
+CE50: ˆ   CE51: ˆ“   CE52: ˆ”   CE53: Ûì   
+CE54: Ûí   CE55: ˆ   CE56: ˆ’   CE57: ¶â   
+CE58: ˆŠ   CE59: ˆŽ   CE5A: ˆ‡   CE5B: ˆ   
+CE5C: ˆ•   CE5D: ˆ   CE5E: ˆ‹   CE5F: ‰Ô   
+CE60: ¸´   CE61: ŠL   CE62: Š£   CE63: Š    
+CE64: Š¬   CE65: Š»   CE66: Š¯   CE67: æ­   
+CE68: Š·   CE69: Š¹   CE6A: Š¸   CE6B: Š´   
+CE6C: Š¥   CE6D: Š°   CE6E: Šµ   CE6F: ŠŸ   
+CE70: Š¨   CE71: Š±   CE72: Š³   CE73: Š¢   
+CE74: Šº   CE75: Š²   CE76: Š«   CE77: Œi   
+CE78: ŒÅ   CE79: Y   CE7A: `   CE7B: U   
+CE7C: _   CE7D: á¾   CE7E: b   
+CEA1: e   
+CEA2: a   CEA3: S   CEA4: Q   CEA5: T   
+CEA6: ^   CEA7: [   CEA8: \   CEA9: X   
+CEAA: R   CEAB: P   CEAC: W   CEAD: f   
+CEAE: w   CEAF: Ž„   CEB0: Ž—   CEB1: Ž˜   
+CEB2: Ž™   CEB3: Ž–   CEB4: Žš   CEB5: Žð   
+CEB6: Žè   CEB7: Žæ   CEB8: Žã   CEB9: Žç   
+CEBA: âÓ   CEBB: m   CEBC: ƒ   CEBD: åè   
+CEBE: ¹   CEBF: X   CEC0: Z   CEC1: k   
+CEC2: y   CEC3: q   CEC4: `   CEC5: j   
+CEC6: b   CEC7: d   CEC8: o   CEC9: f   
+CECA: ^   CECB: âþ   CECC: r   CECD: N   
+CECE: _   CECF: n   CED0: v   CED1: w   
+CED2: ‘ú   CED3: ìç   CED4: ’‚   CED5: ’›   
+CED6: ’™   CED7: ’Ž   CED8: ¿æ   CED9: ’”   
+CEDA: ’‹   CEDB: ’   CEDC: ’œ   CEDD: ’š   
+CEDE: ’   CEDF: ÞÙ   CEE0: ’“   CEE1: ’Ÿ   
+CEE2: ’    CEE3: ’‘   CEE4: ’¡   CEE5: ’’   
+CEE6: ’Œ   CEE7: ”“   CEE8: ”•   CEE9: ”×   
+CEEA: ”å   CEEB: êÆ   CEEC: •]   CEED: •h   
+CEEE: êÇ   CEEF: •[   CEF0: •a   CEF1: •^   
+CEF2: •i   CEF3: •d   CEF4: •m   CEF5: êÃ   
+CEF6: êÄ   CEF7: •l   CEF8: •f   CEF9: –F   
+CEFA: ëÔ   CEFB: èÞ   CEFC: –Ä   CEFD: –®   
+CEFE: –£   
+CF40: ¹ñ   CF41: –¤   CF42: –È   CF43: èÏ   
+CF44: –©   CF45: ¼Ï   CF46: –«   CF47: –Á   
+CF48: –¼   CF49: –¹   CF4A: èÕ   CF4B: –³   
+CF4C: è×   CF4D: –Ç   CF4E: –Æ   CF4F: –Ã   
+CF50: –»   CF51: –ª   CF52: –¢   CF53: –´   
+CF54: –¾   CF55: èÍ   CF56: –    CF57: –Ì   
+CF58: –¬   CF59: –Â   CF5A: –²   CF5B: –ž   
+CF5C: –½   CF5D: –¸   CF5E: –Ê   CF5F: –¯   
+CF60: –°   CF61: èÚ   CF62: –À   CF63: –±   
+CF64: ™ø   CF65: éã   CF66: éå   CF67: šŸ   
+CF68: ±Ñ   CF69: š³   CF6A: š¹   CF6B: šá   
+CF6C: ë±   CF6D: ›©   CF6E: ›¯   CF6F: ›¬   
+CF70: ›¢   CF71: ÍÝ   CF72: ›´   CF73: È÷   
+CF74: ›–   CF75: ›   CF76: ä²   CF77: ä§   
+CF78: ä¨   CF79: ›³   CF7A: ä®   CF7B: ›š   
+CF7C: ›   CF7D: ›¡   CF7E: ›¶   
+CFA1: ½à   
+CFA2: ›Ÿ   CFA3: ›±   CFA4: ›‘   CFA5: ›˜   
+CFA6: ›µ   CFA7: ä¦   CFA8: ›£   CFA9: ›«   
+CFAA: ›”   CFAB: ›¥   CFAC: ›•   CFAD: ›™   
+CFAE: ìÄ   CFAF: žØ   CFB0: žê   CFB1: ìÆ   
+CFB2: žä   CFB3: žÚ   CFB4: žæ   CFB5: žç   
+CFB6: žâ   CFB7:  ˜   CFB8:  ž   CFB9:  Ÿ   
+CFBA:  ´   CFBB:  ¶   CFBC:  ¸   CFBD: êð   
+CFBE:  ó   CFBF: ªE   CFC0: áõ   CFC1: ªJ   
+CFC2: ªB   CFC3: ªI   CFC4: ªG   CFC5: ªD   
+CFC6: «Q   CFC7: «   CFC8: çæ   CFC9: çì   
+CFCA: «|   CFCB: «t   CFCC: «r   CFCD: «q   
+CFCE: «p   CFCF: «–   CFD0: «x   CFD1: «~   
+CFD2: «w   CFD3: «z   CFD4: «}   CFD5: «s   
+CFD6: «€   CFD7: ­œ   CFD8: ÎÍ   CFD9: ®g   
+CFDA: ®s   CFDB: î²   CFDC: ¯O   CFDD: ¯R   
+CFDE: °j   CFDF: ±@   CFE0: íñ   CFE1: ±d   
+CFE2: íí   CFE3: ±e   CFE4: ±g   CFE5: ±]   
+CFE6: ±_   CFE7: ±^   CFE8: ïò   CFE9: ³A   
+CFEA: ³Q   CFEB: í¼   CFEC: Åø   CFED: ³P   
+CFEE: ³X   CFEF: ³W   CFF0: ³V   CFF1: í¹   
+CFF2: ³N   CFF3: ³Y   CFF4: µp   CFF5: µr   
+CFF6: µq   CFF7: µn   CFF8: µm   CFF9: ïõ   
+CFFA: ÖÖ   CFFB: ¶m   CFFC: ¶q   CFFD: ¶l   
+CFFE: ñ¸   
+D040: ·Ž   D041: ¸f   D042: ¸ˆ   D043: ¸‰   
+D044: »t   D045: »r   D046: »s   D047: »v   
+D048: »w   D049: »x   D04A: ¼r   D04B: ¼w   
+D04C: ¼p   D04D: î·   D04E: Áh   D04F: Áe   
+D050: Á‡   D051: ÂT   D052: ÂX   D053: ÂY   
+D054: ñè   D055: ÞÇ   D056: Ãj   D057: Ã^   
+D058: Ãl   D059: Ãe   D05A: Ã_   D05B: ëÏ   
+D05C: Ãd   D05D: Ã]   D05E: Ãn   D05F: ëÑ   
+D060: Ê¤   D061: Ãa   D062: Ãi   D063: Ã`   
+D064: Ãc   D065: ëÓ   D066: Ão   D067: ëÒ   
+D068: Åa   D069: ô­   D06A: ÆU   D06B: Æn   
+D06C: Æƒ   D06D: Æ»   D06E: ÜØ   D06F: Æs   
+D070: Æ…   D071: Üæ   D072: Üû   D073: É»   
+D074: Æm   D075: ÜÚ   D076: Æv   D077: ÜÓ   
+D078: Æz   D079: Æ|   D07A: ÜÝ   D07B: ÜÞ   
+D07C: Æ}   D07D: Æy   D07E: Æu   
+D0A1: ÜÖ   
+D0A2: Üå   D0A3: Æ€   D0A4: Æ{   D0A5: Æw   
+D0A6: ÍH   D0A7: ÍE   D0A8: ò´   D0A9: ÍD   
+D0AA: ÐY   D0AB: Ðb   D0AC: Ðs   D0AD: Ðt   
+D0AE: ñÃ   D0AF: Óa   D0B0: Óˆ   D0B1: Ùê   
+D0B2: Ú\   D0B3: ÞŒ   D0B4: Þ‹   D0B5: åÅ   
+D0B6: ÞŠ   D0B7: àZ   D0B8: ßž   D0B9: ßŸ   
+D0BA: àJ   D0BB: Û¤   D0BC: Û¥   D0BD: Û¨   
+D0BE: àE   D0BF: àC   D0C0: á   D0C1: á   
+D0C2: Úë   D0C3: êy   D0C4: êz   D0C5: ê|   
+D0C6: êw   D0C7: êx   D0C8: ‚Š   D0C9: ‚y   
+D0CA: ‚{   D0CB: ‚„   D0CC: ‚Œ   D0CD: ‚’   
+D0CE: ‚ˆ   D0CF: ‚l   D0D0: ‚k   D0D1: ‚•   
+D0D2: ‚™   D0D3: Ù¾   D0D4: ‚m   D0D5: ‚n   
+D0D6: ‚‡   D0D7: ÙÃ   D0D8: ‚‹   D0D9: ‚   
+D0DA: ‚—   D0DB: ‚‘   D0DC: ‚“   D0DD: ‚   
+D0DE: µ³   D0DF: ƒÛ   D0E0: ƒÚ   D0E1: ƒõ   
+D0E2: Æà   D0E3: ƒó   D0E4: ƒô   D0E5: ƒ÷   
+D0E6: Øß   D0E7: „   D0E8: „z   D0E9: ØÞ   
+D0EA: „„   D0EB: „|   D0EC: „†   D0ED: „Í   
+D0EE: „þ   D0EF: …Š   D0F0: †~   D0F1: †U   
+D0F2: †t   D0F3: †p   D0F4: ßê   D0F5: ßî   
+D0F6: †W   D0F7: †w   D0F8: ÛÁ   D0F9: †h   
+D0FA: †j   D0FB: †X   D0FC: ßò   D0FD: †i   
+D0FE: †\   
+D140: †k   D141: †c   D142: †`   D143: †a   
+D144: †S   D145: †o   D146: †g   D147: †l   
+D148: ‡ô   D149: ‡õ   D14A: ˆ°   D14B: ˆô   
+D14C: Ûô   D14D: Ûø   D14E: ˆ¡   D14F: ˆ«   
+D150: ˆ¤   D151: ˆ£   D152: Ûù   D153: ˆž   
+D154: ˆ¦   D155: ˆ¬   D156: ˆ²   D157: ˆ    
+D158: ˆ¨   D159: ‰è   D15A: ŠG   D15B: ŠÈ   
+D15C: ŠÆ   D15D: ŠÖ   D15E: Š×   D15F: ŠÅ   
+D160: ŠÁ   D161: ŠÇ   D162: Š½   D163: ŠÌ   
+D164: ŠÚ   D165: Ø«   D166: Œh   D167: Œl   
+D168: Œk   D169: Œ    D16A: ŒÊ   D16B: ŒÉ   
+D16C: m   D16D: }   D16E: n   D16F: p   
+D170: v   D171: ~   D172: x   D173: Ž   
+D174: Žœ   D175: Žé   D176: Žî   D177: Žë   
+D178: Ží   D179: †   D17A: „   D17B: ª   
+D17C: í¢   D17D: í£   D17E: í¤   
+D1A1: í¥   
+D1A2: ”   D1A3: …   D1A4: ~   D1A5: ã¨   
+D1A6: €   D1A7: ã¦   D1A8: ã§   D1A9:    
+D1AA: ãª   D1AB: Ž   D1AC: „   D1AD: ‘   
+D1AE: ˆ   D1AF: ‘ã   D1B0: ‘ý   D1B1: ’   
+D1B2: ’   D1B3: ’Â   D1B4: ’©   D1B5: ’º   
+D1B6: Í±   D1B7: ’±   D1B8: ÞÜ   D1B9: “V   
+D1BA: ÞÚ   D1BB: ÞÛ   D1BC: ’½   D1BD: ’µ   
+D1BE: ’¨   D1BF: ’¹   D1C0: ’¯   D1C1: ’Ä   
+D1C2: ’Á   D1C3: ’Å   D1C4: ’ª   D1C5: ’»   
+D1C6: ’®   D1C7: ’Æ   D1C8: ’¾   D1C9: ’³   
+D1CA: ’Ã   D1CB: ’¸   D1CC: ’¼   D1CD: ”™   
+D1CE: ”—   D1CF: ì·   D1D0: ì¹   D1D1: ì¸   
+D1D2: ”ç   D1D3: •y   D1D4: êÉ   D1D5: •v   
+D1D6: •}   D1D7: –H   D1D8: –I   D1D9: –Þ   
+D1DA: –Ú   D1DB: èñ   D1DC: èà   D1DD: èá   
+D1DE: –ò   D1DF: –õ   D1E0: –÷   D1E1: ÆÜ   
+D1E2: –í   D1E3: –Ü   D1E4: –ï   D1E5: –ç   
+D1E6: –é   D1E7: –ë   D1E8: èä   D1E9: èæ   
+D1EA: –î   D1EB: èé   D1EC: –Õ   D1ED: –Ö   
+D1EE: –ä   D1EF: –æ   D1F0: –ê   D1F1: –ö   
+D1F2: –ñ   D1F3: –ã   D1F4: –ß   D1F5: ™ü   
+D1F6: š@   D1F7: ™ý   D1F8: šB   D1F9: šD   
+D1FA: šl   D1FB: ÃB   D1FC: š~   D1FD: š¾   
+D1FE: š¼   
+D240: šÀ   D241: š»   D242: šº   D243: š¿   
+D244: šã   D245: ›Ò   D246: ä½   D247: ›Ä   
+D248: ›Ð   D249: ›—   D24A: ›Â   D24B: ›â   
+D24C: ›¾   D24D: ›Ã   D24E: ›Ê   D24F: ä´   
+D250: ä³   D251: ›ß   D252: œU   D253: ›Ö   
+D254: ›Û   D255: ä·   D256: ›Æ   D257: ä»   
+D258: ›ä   D259: ›Ë   D25A: ä¼   D25B: ›Á   
+D25C: Í¿   D25D: ›å   D25E: ›­   D25F: ›Ç   
+D260: ›Þ   D261: ›Õ   D262: ›×   D263: ›Ú   
+D264: ›ž   D265: ›Ù   D266: ›Ó   D267: ›Ô   
+D268: ›Ï   D269: ›á   D26A: Ÿ@   D26B: žù   
+D26C: ž÷   D26D: ŸA   D26E: žñ   D26F: ÀŒ   
+D270: ŸE   D271: žý   D272: žø   D273: ŸB   
+D274: ŸC   D275: žú   D276: žó   D277: ží   
+D278: žî   D279: žï   D27A: žþ   D27B: žô   
+D27C: ŸD   D27D:  ™   D27E:  ¼   
+D2A1:  »   
+D2A2:  º   D2A3: ªQ   D2A4: áþ   D2A5: áù   
+D2A6: ªO   D2A7: ªL   D2A8: áü   D2A9: â¡   
+D2AA: áû   D2AB: «„   D2AC: çî   D2AD: çí   
+D2AE: «‡   D2AF: «u   D2B0: çò   D2B1: «‘   
+D2B2: çñ   D2B3: «Œ   D2B4: «ƒ   D2B5: «‹   
+D2B6: «…   D2B7: «   D2B8: «Š   D2B9: «ˆ   
+D2BA: «‰   D2BB: «”   D2BC: ð¬   D2BD: ­”   
+D2BE: ê²   D2BF: ®A   D2C0: ®`   D2C1: î³   
+D2C2: ®‚   D2C3: ðæ   D2C4: ¯Z   D2C5: ¯W   
+D2C6: ðä   D2C7: ¯Y   D2C8: ¯X   D2C9: ¯T   
+D2CA: ¯V   D2CB: °s   D2CC: ±B   D2CD: ±v   
+D2CE: ±t   D2CF: ±k   D2D0: ±n   D2D1: ±m   
+D2D2: ±y   D2D3: ±l   D2D4: ±p   D2D5: íô   
+D2D6: íò   D2D7: íó   D2D8: ±|   D2D9: íÈ   
+D2DA: íÇ   D2DB: ³`   D2DC: ³j   D2DD: ³f   
+D2DE: ³b   D2DF: ³e   D2E0: ³d   D2E1: ³_   
+D2E2: íÉ   D2E3: ³i   D2E4: ³c   D2E5: ³g   
+D2E6: µy   D2E7: ìî   D2E8: µu   D2E9: ìï   
+D2EA: ìð   D2EB: µx   D2EC: µw   D2ED: ïø   
+D2EE: ¶€   D2EF: ¶y   D2F0: ¶   D2F1: ïö   
+D2F2: ¶~   D2F3: ¶v   D2F4: ¶x   D2F5: ¶w   
+D2F6: ñ¹   D2F7: ·’   D2F8: ·   D2F9: ·”   
+D2FA: ·•   D2FB: ·“   D2FC: ·‘   D2FD: ¸l   
+D2FE: ¸‘   
+D340: óÇ   D341: ¸“   D342: ¸‹   D343: óË   
+D344: óÅ   D345: óÉ   D346: ¸   D347: ¸   
+D348: ¸’   D349: »{   D34A: ôÎ   D34B: »   
+D34C: »ƒ   D34D: »€   D34E: »„   D34F: »|   
+D350: ¼   D351: ¼Œ   D352: ¼€   D353: ¼|   
+D354: ¼‡   D355: ¼…   D356: ¼‚   D357: ¼Ž   
+D358: ¼   D359: ¼}   D35A: ¼z   D35B: ÁC   
+D35C: î¸   D35D: ÁE   D35E: ÁF   D35F: ÁD   
+D360: ÁB   D361: Ál   D362: Ái   D363: ÁŠ   
+D364: Á‰   D365: Áˆ   D366: ñé   D367: Âo   
+D368: Âl   D369: °·   D36A: ëÜ   D36B: Ãs   
+D36C: Ãq   D36D: Ãx   D36E: Ãt   D36F: Ãw   
+D370: ô¨   D371: ô±   D372: Åu   D373: Üü   
+D374: Üú   D375: ÇD   D376: ÆŽ   D377: Üè   
+D378: Æ—   D379: ÇN   D37A: ÇA   D37B: ÇB   
+D37C: Æ˜   D37D: Üç   D37E: Æ”   
+D3A1: ÇC   
+D3A2: ÇK   D3A3: Ý¢   D3A4: Æš   D3A5: Üë   
+D3A6: Üí   D3A7: ÇJ   D3A8: ÆŒ   D3A9: Æ–   
+D3AA: Æ’   D3AB: Æž   D3AC: Üò   D3AD: Æ™   
+D3AE: Üô   D3AF: ÇE   D3B0: ÇI   D3B1: ÇL   
+D3B2: Æ   D3B3: ²ç   D3B4: ÇH   D3B5: ¼ë   
+D3B6: ÇF   D3B7: Ì   D3B8: ÌŒ   D3B9: Ía   
+D3BA: ò¶   D3BB: ÍW   D3BC: ò·   D3BD: ÍT   
+D3BE: Í]   D3BF: ÍN   D3C0: ÍX   D3C1: ÍM   
+D3C2: ò¸   D3C3: Í[   D3C4: ÍL   D3C5: Íb   
+D3C6: ÍZ   D3C7: Í`   D3C8: ò»   D3C9: ²Ï   
+D3CA: ÍY   D3CB: ÍQ   D3CC: òº   D3CD: ÍS   
+D3CE: ÍV   D3CF: Ð[   D3D0: ô¬   D3D1: Ðu   
+D3D2: Ðz   D3D3: Ð{   D3D4: ñÄ   D3D5: Ð‚   
+D3D6: Ðw   D3D7: ñÆ   D3D8: Ðv   D3D9: Ðƒ   
+D3DA: ôÀ   D3DB: Ðy   D3DC: Ð   D3DD: Ó•   
+D3DE: ôø   D3DF: ØY   D3E0: Øt   D3E1: Ø—   
+D3E2: Ø–   D3E3: ¸Ï   D3E4: Ú]   D3E5: õÀ   
+D3E6: Ú   D3E7: Ú   D3E8: Ü   D3E9: Ü   
+D3EA: Þ˜   D3EB: Þ“   D3EC: ÊÊ   D3ED: Þ™   
+D3EE: Þ–   D3EF: åÌ   D3F0: Þ—   D3F1: Þ”   
+D3F2: àK   D3F3: àQ   D3F4: àM   D3F5: àN   
+D3F6: àR   D3F7: àP   D3F8: àT   D3F9: àL   
+D3FA: Û®   D3FB: Û­   D3FC: Û¬   D3FD: àS   
+D3FE: ôû   
+D440: ôü   D441: ôý   D442: á‘   D443: á   
+D444: á–   D445: êƒ   D446: Úì   D447: öÀ   
+D448: ï}   D449: ÷Ô   D44A: ÛË   D44B: v   
+D44C: ‚Ä   D44D: ‚¿   D44E: ‚·   D44F: ‚´   
+D450: ‚¶   D451: ‚¬   D452: ‚§   D453: ‚³   
+D454: ‚Æ   D455: ÙÊ   D456: ‚¨   D457: ‚    
+D458: ‚²   D459: ‚¦   D45A: ‚¸   D45B: ‚…   
+D45C: ‚£   D45D: ‚µ   D45E: ‚¾   D45F: ‚À   
+D460: ‚¹   D461: ‚º   D462: ‚¤   D463: ‚Ÿ   
+D464: ‚Â   D465: ‚Ç   D466: ‚¯   D467: ‚ª   
+D468: ƒø   D469: „‹   D46A: „   D46B: „Œ   
+D46C: „Ž   D46D: ÛÃ   D46E: „Ñ   D46F: …Q   
+D470: …‰   D471: à£   D472: à¤   D473: ßþ   
+D474: †”   D475: ßý   D476: †…   D477: ßô   
+D478: †—   D479: †¤   D47A: †‡   D47B: ††   
+D47C: à§   D47D: †˜   D47E: †   
+D4A1: †m   
+D4A2: †„   D4A3: É¶   D4A4: †•   D4A5: †‰   
+D4A6: †‘   D4A7: †ƒ   D4A8: †‹   D4A9: †   
+D4AA: †’   D4AB: àõ   D4AC: ‡÷   D4AD: ˆÍ   
+D4AE: ˆÞ   D4AF: ˆ»   D4B0: ˆË   D4B1: ˆ¸   
+D4B2: Ûú   D4B3: Ü¥   D4B4: Ü¤   D4B5: Ü£   
+D4B6: ˆÕ   D4B7: Ûü   D4B8: Ü¡   D4B9: ˆÉ   
+D4BA: Ûï   D4BB: ÝÀ   D4BC: ˆÅ   D4BD: ˆ¼   
+D4BE: ˆÈ   D4BF: ˆ½   D4C0: ˆÄ   D4C1: ˆº   
+D4C2: ˆÙ   D4C3: ˆÎ   D4C4: ˆÛ   D4C5: ˆ¿   
+D4C6: ˆÑ   D4C7: ˆØ   D4C8: ˆÇ   D4C9: ˆÁ   
+D4CA: ˆÆ   D4CB: Ü¢   D4CC: ˆÓ   D4CD: ŠO   
+D4CE: Šþ   D4CF: Š÷   D4D0: æ¼   D4D1: æº   
+D4D2: Šü   D4D3: ŠÝ   D4D4: ŠÛ   D4D5: ‹I   
+D4D6: Šð   D4D7: Šý   D4D8: ‹C   D4D9: ‹H   
+D4DA: Šó   D4DB: ‹B   D4DC: Šö   D4DD: Šæ   
+D4DE: Šû   D4DF: Šò   D4E0: Šç   D4E1: Šù   
+D4E2: Šê   D4E3: ‹d   D4E4: Šâ   D4E5: Ší   
+D4E6: ŠÞ   D4E7: Šì   D4E8: ‹L   D4E9: ‹F   
+D4EA: Šé   D4EB: Šñ   D4EC: Šõ   D4ED: Šå   
+D4EE: Šú   D4EF: ŒS   D4F0: ŒQ   D4F1: Œv   
+D4F2: Œu   D4F3: åí   D4F4: áÆ   D4F5: †   
+D4F6: ”   D4F7: ’   D4F8: –   D4F9: ‡   
+D4FA: ›   D4FB: ˆ   D4FC: áÃ   D4FD: š   
+D4FE: ‰   
+D540:     D541: Œ   D542: ™   D543: •   
+D544: áÄ   D545: Žª   D546: Ž¥   D547: Žñ   
+D548: Žó   D549: âÕ   D54A: Žò   D54B: âØ   
+D54C: ‰   D54D: ‹   D54E: Â   D54F: À   
+D550: Å   D551: †   D552: Š   D553: ƒ   
+D554: £   D555: ›   D556: ¡   D557: ³   
+D558: ´   D559: °   D55A: ½   D55B: ·   
+D55C: ã®   D55D: «   D55E: ã­   D55F: ¸   
+D560: Ÿ   D561: ¾ª   D562: ¤   D563: ¨   
+D564: ®   D565: ¥   D566: êý   D567: ’Ì   
+D568: Þå   D569: µà   D56A: ’Û   D56B: ’ü   
+D56C: ’ï   D56D: ÞÝ   D56E: ’î   D56F: ’é   
+D570: ’ô   D571: Þá   D572: ’Ò   D573: ¶Þ   
+D574: Æþ   D575: ¾Ý   D576: ’õ   D577: ’×   
+D578: ’í   D579: Þã   D57A: Þç   D57B: ’Ú   
+D57C: ’ò   D57D: ’´   D57E: ’ð   
+D5A1: ’Ø   
+D5A2: ’á   D5A3: ’Þ   D5A4: ’å   D5A5: ’ä   
+D5A6: ’Ó   D5A7: ”Ÿ   D5A8: ”ì   D5A9: •ˆ   
+D5AA: êÎ   D5AB: •   D5AC: •€   D5AD: •‚   
+D5AE: •†   D5AF: –K   D5B0: —O   D5B1: —Y   
+D5B2: —a   D5B3: —k   D5B4: —F   D5B5: —G   
+D5B6: —x   D5B7: —v   D5B8: —ù   D5B9: —H   
+D5BA: —q   D5BB: —w   D5BC: —t   D5BD: —M   
+D5BE: èõ   D5BF: —z   D5C0: èô   D5C1: èö   
+D5C2: —c   D5C3: —R   D5C4: èø   D5C5: —K   
+D5C6: —u   D5C7: —V   D5C8: —J   D5C9: —T   
+D5CA: —j   D5CB: —f   D5CC: —]   D5CD: —o   
+D5CE: —[   D5CF: —r   D5D0: —N   D5D1: —Q   
+D5D2: —b   D5D3: —^   D5D4: —\   D5D5: —S   
+D5D6: šF   D5D7: šC   D5D8: ì¤   D5D9: šG   
+D5DA: š„   D5DB: š‚   D5DC: éè   D5DD: š   
+D5DE: š€   D5DF: ë´   D5E0: µí   D5E1: äÊ   
+D5E2: ›ð   D5E3: ›ï   D5E4: œ°   D5E5: ›ë   
+D5E6: œR   D5E7: œM   D5E8: ›ò   D5E9: œZ   
+D5EA: œF   D5EB: œ`   D5EC: ›ü   D5ED: äÄ   
+D5EE: œL   D5EF: Ä×   D5F0: ›ø   D5F1: œO   
+D5F2: œK   D5F3: äÇ   D5F4: œJ   D5F5: œX   
+D5F6: ›þ   D5F7: ›÷   D5F8: œT   D5F9: œV   
+D5FA: ›ô   D5FB: œG   D5FC: ›ú   D5FD: œB   
+D5FE: ›ý   
+D640: œC   D641: œW   D642: œE   D643: œ]   
+D644: œH   D645: œ@   D646: œN   D647: ›õ   
+D648: ŸR   D649: Ÿb   D64A: Íé   D64B: Ÿh   
+D64C: ŸN   D64D: Ÿa   D64E: ŸJ   D64F: Ÿ[   
+D650: ŸM   D651: ìÉ   D652: ŸT   D653: ŸV   
+D654: Ÿ]   D655: ìÊ   D656: ŸW   D657: ŸQ   
+D658: ŸP   D659: Ÿ`   D65A: ŸY   D65B: Ÿc   
+D65C: êõ   D65D:  ½   D65E:  ¾   D65F: êö   
+D660: â§   D661: â¢   D662: ªV   D663: ª^   
+D664: ªa   D665: â¥   D666: ªW   D667: ªP   
+D668: ª\   D669: â¦   D66A: «S   D66B: «Ÿ   
+D66C: ¬@   D66D: «ž   D66E: ¬K   D66F: ¬I   
+D670: ¬E   D671: ¬L   D672: ¬H   D673: ¬B   
+D674: ¬D   D675: ¬G   D676: ¬O   D677: ¬N   
+D678: «   D679: ¬M   D67A: ®‡   D67B: ®†   
+D67C: ¯^   D67D: Ñ÷   D67E: ¯_   
+D6A1: ¯\   
+D6A2: ¯]   D6A3: ¯a   D6A4: ¯`   D6A5: °v   
+D6A6: °r   D6A7: ±E   D6A8: ±‡   D6A9: ÃÐ   
+D6AA: íõ   D6AB: ±ƒ   D6AC: ±„   D6AD: ±†   
+D6AE: ±…   D6AF: ±‰   D6B0: ±{   D6B1: ±ˆ   
+D6B2: í÷   D6B3: ³s   D6B4: Îø   D6B5: ³t   
+D6B6: ³w   D6B7: ³u   D6B8: íÑ   D6B9: íÎ   
+D6BA: ¹è   D6BB: íÏ   D6BC: µ€   D6BD: ìö   
+D6BE: µ‚   D6BF: µƒ   D6C0: µ~   D6C1: µ„   
+D6C2: µ}   D6C3: Àë   D6C4: ¶Š   D6C5: ½Õ   
+D6C6: ¶‡   D6C7: ¶ˆ   D6C8: ·—   D6C9: ·š   
+D6CA: ·˜   D6CB: ¹D   D6CC: óÌ   D6CD: ¹C   
+D6CE: óÓ   D6CF: ¹A   D6D0: ¸œ   D6D1: óÔ   
+D6D2: óÕ   D6D3: ¸–   D6D4: óÎ   D6D5: ¸™   
+D6D6: óÑ   D6D7: óÊ   D6D8: ¸    D6D9: ¹@   
+D6DA: ¹B   D6DB: óÍ   D6DC: ¸—   D6DD: ¸   
+D6DE: »‰   D6DF: Õ³   D6E0: »Š   D6E1: »   
+D6E2: ¼Ÿ   D6E3: ½F   D6E4: ½A   D6E5: ¼    
+D6E6: ½C   D6E7: ½N   D6E8: ¼—   D6E9: ¼•   
+D6EA: ½J   D6EB: ½P   D6EC: ½G   D6ED: ½H   
+D6EE: ½S   D6EF: ½D   D6F0: ¼”   D6F1: ÁG   
+D6F2: Ák   D6F3: Áq   D6F4: ôÆ   D6F5: Áp   
+D6F6: ñ´   D6F7: Á   D6F8: Á‘   D6F9: Á“   
+D6FA: Á”   D6FB: Á   D6FC: Á’   D6FD: Á   
+D6FE: Â`   
+D740: Â_   D741: Â]   D742: Ât   D743: ñõ   
+D744: Âu   D745: ëä   D746: Ã   D747: Ãƒ   
+D748: Ã„   D749: Ã”   D74A: Ã‡   D74B: ëã   
+D74C: ëâ   D74D: Ã‰   D74E: Ã   D74F: Ã   
+D750: Ã†   D751: ÃŠ   D752: Åj   D753: ô´   
+D754: ô¶   D755: Å{   D756: ô·   D757: Åz   
+D758: åõ   D759: Çk   D75A: Çw   D75B: Ý¹   
+D75C: Çi   D75D: Ç\   D75E: ÇW   D75F: Çx   
+D760: ÇX   D761: Çj   D762: Ç`   D763: Çn   
+D764: Çq   D765: ÇY   D766: Çm   D767: Ý³   
+D768: Ý´   D769: Çb   D76A: Çh   D76B: Çs   
+D76C: Üð   D76D: Ý­   D76E: Çg   D76F: Ç]   
+D770: Çy   D771: Ç€   D772: Çe   D773: Çp   
+D774: Ý¨   D775: Ç^   D776: Çz   D777: Çd   
+D778: Ç~   D779: ÇZ   D77A: Çr   D77B: Ì’   
+D77C: Ì   D77D: Íp   D77E: Íi   
+D7A1: Ír   
+D7A2: Íq   D7A3: Ít   D7A4: òÅ   D7A5: òÄ   
+D7A6: Íu   D7A7: Ík   D7A8: Íh   D7A9: Íj   
+D7AA: Ív   D7AB: òÊ   D7AC: Íl   D7AD: Ím   
+D7AE: Ís   D7AF: Ín   D7B0: Ío   D7B1: Ðf   
+D7B2: Ð†   D7B3: Ð   D7B4: Ðž   D7B5: ñÈ   
+D7B6: Ð    D7B7: Ð“   D7B8: ÐŒ   D7B9: Ð™   
+D7BA: Ð—   D7BB: Ð‘   D7BC: Ð   D7BD: Ð’   
+D7BE: Ð”   D7BF: Ð   D7C0: Ùó   D7C1: Ñ@   
+D7C2: Ðˆ   D7C3: Ð   D7C4: Ð‰   D7C5: Òƒ   
+D7C6: õû   D7C7: Óf   D7C8: Óc   D7C9: ÔR   
+D7CA: ÔI   D7CB: ÔN   D7CC: Ô@   D7CD: ØA   
+D7CE: ØC   D7CF: Ø]   D7D0: Ø^   D7D1: Øv   
+D7D2: Ø˜   D7D3: Úb   D7D4: Ú`   D7D5: Ú^   
+D7D6: õÂ   D7D7: Ú–   D7D8: Ú‘   D7D9: õÁ   
+D7DA: Ú•   D7DB: Ü”   D7DC: Üš   D7DD: Ü™   
+D7DE: Ü˜   D7DF: Ü“   D7E0: Üœ   D7E1: Ü   
+D7E2: ßC   D7E3: åÍ   D7E4: åÏ   D7E5: ßA   
+D7E6: Þœ   D7E7: åÒ   D7E8: Û°   D7E9: àV   
+D7EA: àY   D7EB: ³»   D7EC: à[   D7ED: à\   
+D7EE: àI   D7EF: Û¯   D7F0: àW   D7F1: àU   
+D7F2: áG   D7F3: áH   D7F4: ·Ó   D7F5: áD   
+D7F6: áF   D7F7: âF   D7F8: âN   D7F9: âK   
+D7FA: âM   D7FB: âR   D7FC: áŸ   D7FD: âS   
+D7FE: âD   
+D840: âE   D841: âQ   D842: âB   D843: âH   
+D844: éO   D845: éZ   D846: é\   D847: ê•   
+D848: ê‹   D849: êŠ   D84A: ê   D84B: ê   
+D84C: ëc   D84D: ìw   D84E: í–   D84F: ï€   
+D850: Ø¸   D851: ‚æ   D852: ‚à   D853: ‚ß   
+D854: ‚é   D855: ‚×   D856: ´ö   D857: ‚Ñ   
+D858: ‚Ø   D859: ‚Ù   D85A: ‚è   D85B: ‚½   
+D85C: ‚ç   D85D: ‚Ý   D85E: ‚Ð   D85F: ‚Ô   
+D860: ƒÂ   D861: ƒû   D862: …A   D863: …@   
+D864: …   D865: …Ž   D866: à³   D867: †È   
+D868: †Æ   D869: †Í   D86A: à¥   D86B: ‡j   
+D86C: †Ã   D86D: †º   D86E: à®   D86F: ßö   
+D870: ß÷   D871: à¯   D872: †Ä   D873: †¹   
+D874: †Å   D875: †±   D876: †µ   D877: †Ç   
+D878: †²   D879: †»   D87A: †Â   D87B: †·   
+D87C: ‡ù   D87D: ˆí   D87E: ˆø   
+D8A1: Ü§   
+D8A2: Ü¦   D8A3: ˆë   D8A4: ˆè   D8A5: ˆì   
+D8A6: ˆÊ   D8A7: ‰I   D8A8: ˆé   D8A9: ˆä   
+D8AA: ˆã   D8AB: ˆõ   D8AC: ‰A   D8AD: ˆ÷   
+D8AE: ˆñ   D8AF: ˆú   D8B0: ˆù   D8B1: ˆð   
+D8B2: ˆï   D8B3: ˆü   D8B4: ŠS   D8B5: ‹‚   
+D8B6: ‹i   D8B7: ‹r   D8B8: æÄ   D8B9: ‹u   
+D8BA: ‹q   D8BB: ‹P   D8BC: ‹y   D8BD: ‹S   
+D8BE: ‹x   D8BF: ‹~   D8C0: ‹j   D8C1: ‹   
+D8C2: ŠÜ   D8C3: ‹Z   D8C4: ‹`   D8C5: ‹l   
+D8C6: ‹Y   D8C7: ‹a   D8C8: ‹|   D8C9: ‹R   
+D8CA: ‹T   D8CB: ‹b   D8CC: ‹o   D8CD: ‹e   
+D8CE: ‹h   D8CF: ‹p   D8D0: Œ   D8D1: Œ|   
+D8D2: Œ{   D8D3: Œ   D8D4: Œ€   D8D5: Œz   
+D8D6: Œ}   D8D7: Œ¥   D8D8: Œ»   D8D9: ¦   
+D8DA: °   D8DB: áÑ   D8DC: ®   D8DD: áÒ   
+D8DE: ¬   D8DF: ¤   D8E0: º   D8E1: ·   
+D8E2: ¾   D8E3: £   D8E4: ©   D8E5: »   
+D8E6: áÌ   D8E7: ¡   D8E8: Á   D8E9: ¯   
+D8EA: ¨   D8EB: µ   D8EC: §   D8ED: «   
+D8EE: ¢   D8EF: ¥   D8F0: ­   D8F1: ²   
+D8F2: á¢   D8F3: Ž­   D8F4: åé   D8F5: Ë   
+D8F6: Ê   D8F7: Î   D8F8: ¬   D8F9:     
+D8FA: ­   D8FB: »   D8FC: ¯   D8FD: ©   
+D8FE: Ö   
+D940: Á   D941: Ï   D942: ×   D943: Í   
+D944: Â   D945: Õ   D946: Ä   D947: Æ   
+D948: È   D949: ¦   D94A: Ë   D94B: Ù   
+D94C: Ý   D94D: Ò   D94E: É   D94F: Ì   
+D950: Ð   D951: ‘þ   D952: ’ç   D953: ’ö   
+D954: êþ   D955: Þï   D956: “W   D957: “Z   
+D958: “^   D959: “B   D95A: “Ö   D95B: “a   
+D95C: “F   D95D: Þë   D95E: ÞÞ   D95F: “L   
+D960: Þé   D961: “b   D962: “©   D963: “T   
+D964: Þò   D965: “S   D966: “R   D967: Þí   
+D968: “N   D969: “J   D96A: “A   D96B: “D   
+D96C: “H   D96D: “G   D96E: “E   D96F: “_   
+D970: “M   D971: “O   D972: ”Œ   D973: ”ª   
+D974: ”­   D975: ”¨   D976: ”¤   D977: ”«   
+D978: ”©   D979: ±ó   D97A: ”Ð   D97B: ”Ñ   
+D97C: ”Ù   D97D: ”í   D97E: ì¼   
+D9A1: •–   
+D9A2: •   D9A3: ••   D9A4: •™   D9A5: •   
+D9A6: •”   D9A7: •‹   D9A8: •   D9A9: •ü   
+D9AA: —¾   D9AB: —”   D9AC: —¸   D9AD: —š   
+D9AE: —Õ   D9AF: —¨   D9B0: —¦   D9B1: Àâ   
+D9B2: —¿   D9B3: —–   D9B4: —¯   D9B5: —§   
+D9B6: —    D9B7: —®   D9B8: —Á   D9B9: é§   
+D9BA: —¬   D9BB: —ž   D9BC: —º   D9BD: —   
+D9BE: —»   D9BF: ˜K   D9C0: —{   D9C1: —À   
+D9C2: —ª   D9C3: —‹   D9C4: —Â   D9C5: —°   
+D9C6: —’   D9C7: —²   D9C8: èû   D9C9: —¤   
+D9CA: é£   D9CB: —½   D9CC: —Å   D9CD: —   
+D9CE: —   D9CF: —›   D9D0: —œ   D9D1: —¢   
+D9D2: —­   D9D3: —“   D9D4: —¹   D9D5: —•   
+D9D6: —¥   D9D7: —Ã   D9D8: —Ð   D9D9: —Œ   
+D9DA: ì¥   D9DB: šH   D9DC: šK   D9DD: šI   
+D9DE: š…   D9DF: š‡   D9E0: š‰   D9E1: š†   
+D9E2: š¥   D9E3: šÅ   D9E4: šÇ   D9E5: ë¥   
+D9E6: Çè   D9E7: íµ   D9E8: œŒ   D9E9: œ   
+D9EA: œs   D9EB: œ   D9EC: œ¿   D9ED: œ„   
+D9EE: œ…   D9EF: œ‹   D9F0: œ    D9F1: äÍ   
+D9F2: œ‡   D9F3: œ‰   D9F4: œœ   D9F5: œ¯   
+D9F6: œq   D9F7: œ}   D9F8: œ‘   D9F9: œˆ   
+D9FA: œ•   D9FB: œƒ   D9FC: œc   D9FD: œz   
+D9FE: œ   
+DA40: œ¦   DA41: œ›   DA42: œŸ   DA43: œ|   
+DA44: œw   DA45: œž   DA46: œ­   DA47: äÐ   
+DA48: œ‚   DA49: œt   DA4A: œ{   DA4B: äÔ   
+DA4C: œ£   DA4D: œv   DA4E: œ´   DA4F: œ¢   
+DA50: œ³   DA51: œ—   DA52: œµ   DA53: œ–   
+DA54: œ¤   DA55: œ~   DA56: œ€   DA57: œš   
+DA58: Ÿn   DA59: Ÿl   DA5A: ìÌ   DA5B: ŸS   
+DA5C: Ÿ{   DA5D: ìÍ   DA5E: Ÿq   DA5F: Ÿs   
+DA60: Ÿp   DA61: Ÿ|   DA62: Ÿm   DA63: Ÿu   
+DA64: Ÿ„   DA65: Ÿi   DA66:      DA67:  ª   
+DA68:  Å   DA69:  Æ   DA6A:  Ã   DA6B:  Â   
+DA6C: êø   DA6D: ª_   DA6E: ªY   DA6F: ªm   
+DA70: â©   DA71: â®   DA72: ªo   DA73: ªi   
+DA74: ªn   DA75: ªk   DA76: ªh   DA77: ªf   
+DA78: ªp   DA79: ªZ   DA7A: çý   DA7B: çþ   
+DA7C: çü   DA7D: ¬e   DA7E: ¬W   
+DAA1: è¢   
+DAA2: ¬`   DAA3: ¬f   DAA4: ¬h   DAA5: ¬b   
+DAA6: ¬a   DAA7: ¬\   DAA8: ¬d   DAA9: ¬_   
+DAAA: ¬i   DAAB: ®E   DAAC: å¸   DAAD: ®   
+DAAE: ®Œ   DAAF: ðð   DAB0: ¯e   DAB1: ¯j   
+DAB2: ðí   DAB3: ¯g   DAB4: ¯h   DAB5: ðî   
+DAB6: ¯c   DAB7: °z   DAB8: °x   DAB9: ±H   
+DABA: ±   DABB: íû   DABC: ±   DABD: ±•   
+DABE: ±Ž   DABF: ±’   DAC0: ±–   DAC1: ±“   
+DAC2: ±”   DAC3: ²œ   DAC4: ïó   DAC5: ³„   
+DAC6: ³ˆ   DAC7: ³‰   DAC8: ³   DAC9: íË   
+DACA: ³   DACB: íÒ   DACC: È·   DACD: ³   
+DACE: ³   DACF: ³Œ   DAD0: ³‚   DAD1: ³†   
+DAD2: µ‹   DAD3: µŠ   DAD4: µ‰   DAD5: µ‡   
+DAD6: ïü   DAD7: ¶”   DAD8: ïû   DAD9: ¶•   
+DADA: ¶   DADB: ·›   DADC: ñµ   DADD: ¸s   
+DADE: ¹R   DADF: ¹H   DAE0: ¹O   DAE1: ¹Q   
+DAE2: óÜ   DAE3: ¹T   DAE4: ¹K   DAE5: óØ   
+DAE6: óÚ   DAE7: ôÒ   DAE8: ôÑ   DAE9: »“   
+DAEA: »   DAEB: ½a   DAEC: ½w   DAED: ½l   
+DAEE: ½\   DAEF: ½_   DAF0: ½p   DAF1: ½s   
+DAF2: ½X   DAF3: ½v   DAF4: ½e   DAF5: ½t   
+DAF6: ½[   DAF7: ½]   DAF8: ½r   DAF9: ½Z   
+DAFA: ½h   DAFB: ½W   DAFC: À   DAFD: À‘   
+DAFE: ÁI   
+DB40: ÁJ   DB41: Ás   DB42: Ár   DB43: ÏÛ   
+DB44: Á˜   DB45: Âz   DB46: Âx   DB47: Ây   
+DB48: Ãu   DB49: Ãh   DB4A: ÄC   DB4B: À°   
+DB4C: ÄK   DB4D: ÄJ   DB4E: ÄF   DB4F: ÃŸ   
+DB50: ÄH   DB51: Ãœ   DB52: ÅQ   DB53: ÅU   
+DB54: Å\   DB55: Å]   DB56: Å^   DB57: ôª   
+DB58: Å|   DB59: Å}   DB5A: Å~   DB5B: ÆE   
+DB5C: ÆŸ   DB5D: ºÊ   DB5E: ÝÏ   DB5F: Èb   
+DB60: ÝÒ   DB61: Ç   DB62: ÈT   DB63: Çœ   
+DB64: Çš   DB65: ÈI   DB66: ÈE   DB67: ÈS   
+DB68: Çˆ   DB69: Ç‰   DB6A: Çž   DB6B: Ç™   
+DB6C: Ç„   DB6D: Ý½   DB6E: ÝÃ   DB6F: Ý¾   
+DB70: Ý¿   DB71: ÈK   DB72: ÝÕ   DB73: Ç‹   
+DB74: Ç   DB75: ÝÅ   DB76: ÈD   DB77: ÇŠ   
+DB78: ÈQ   DB79: ÝÌ   DB7A: Ç—   DB7B: ÝÈ   
+DB7C: ÝÉ   DB7D: Ç…   DB7E: ÈB   
+DBA1: Ç’   
+DBA2: ÈG   DBA3: ¹½   DBA4: Ç   DBA5: ÝÐ   
+DBA6: ÈU   DBA7: Ç†   DBA8: ÇŸ   DBA9: È@   
+DBAA: Ç‡   DBAB: ÈH   DBAC: Ç“   DBAD: Ç˜   
+DBAE: È\   DBAF: Ç–   DBB0: ÈJ   DBB1: òÕ   
+DBB2: Íƒ   DBB3: Í†   DBB4: Íy   DBB5: Í„   
+DBB6: Í}   DBB7: Í‰   DBB8: Í€   DBB9: ÍŠ   
+DBBA: Í~   DBBB: Í‹   DBBC: òË   DBBD: Í|   
+DBBE: Íˆ   DBBF: òÖ   DBC0: Ð^   DBC1: Ði   
+DBC2: Ðh   DBC3: ÑK   DBC4: Ñ^   DBC5: ÑJ   
+DBC6: ÑI   DBC7: ÑP   DBC8: ÑN   DBC9: ÑH   
+DBCA: ñË   DBCB: ñÊ   DBCC: ÑM   DBCD: ÑD   
+DBCE: Ñx   DBCF: ñÌ   DBD0: Ò”   DBD1: Ò—   
+DBD2: Ò–   DBD3: Óh   DBD4: õý   DBD5: Óg   
+DBD6: Ôn   DBD7: Ôm   DBD8: Ô[   DBD9: Ôy   
+DBDA: Ôa   DBDB: Ôw   DBDC: Ôx   DBDD: Ôe   
+DBDE: Ôf   DBDF: Ôr   DBE0: îº   DBE1: Ôq   
+DBE2: Ôj   DBE3: Ôl   DBE4: Ôo   DBE5: Ø`   
+DBE6: Øz   DBE7: Øy   DBE8: ÙL   DBE9: ÙP   
+DBEA: ÙB   DBEB: ÙK   DBEC: ÙG   DBED: ôò   
+DBEE: Úe   DBEF: Úk   DBF0: ÛA   DBF1: ÚŸ   
+DBF2: Úœ   DBF3: Ú˜   DBF4: õÅ   DBF5: ÛC   
+DBF6: õÊ   DBF7: Û@   DBF8: ÛB   DBF9: Ú™   
+DBFA: õÆ   DBFB: Ú—   DBFC: ÝJ   DBFD: ÝR   
+DBFE: ÝU   
+DC40: ÝT   DC41: ÝA   DC42: ÝI   DC43: Ý@   
+DC44: ÝP   DC45: ÝB   DC46: ÝC   DC47: ÝQ   
+DC48: ÝF   DC49: ÝL   DC4A: ÝG   DC4B: ÝO   
+DC4C: ÝD   DC4D: åÕ   DC4E: ßO   DC4F: åÖ   
+DC50: ài   DC51: àŒ   DC52: Û²   DC53: àd   
+DC54: àc   DC55: àk   DC56: à`   DC57: àb   
+DC58: àf   DC59: àe   DC5A: àj   DC5B: àh   
+DC5C: àg   DC5D: õ¢   DC5E: ôþ   DC5F: áL   
+DC60: õ¡   DC61: áM   DC62: â[   DC63: âd   
+DC64: â€   DC65: â]   DC66: ât   DC67: â   
+DC68: âi   DC69: âf   DC6A: âZ   DC6B: âl   
+DC6C: âY   DC6D: âW   DC6E: â`   DC6F: â^   
+DC70: â‚   DC71: â\   DC72: âv   DC73: â~   
+DC74: âs   DC75: âq   DC76: â_   DC77: âp   
+DC78: éP   DC79: éa   DC7A: é`   DC7B: éd   
+DC7C: êž   DC7D: ê—   DC7E: Úñ   
+DCA1: êŸ   
+DCA2: êœ   DCA3: ê™   DCA4: ëd   DCA5: ëf   
+DCA6: ëe   DCA7: ë„   DCA8: ëƒ   DCA9: ìy   
+DCAA: ì}   DCAB: ì{   DCAC: í™   DCAD: ïM   
+DCAE: ï„   DCAF: øC   DCB0: íé   DCB1: z   
+DCB2: {   DCB3:    DCB4: ƒ@   DCB5: ƒB   
+DCB6: ƒI   DCB7: ‚ó   DCB8: ƒG   DCB9: ƒM   
+DCBA: ‚ø   DCBB: ƒK   DCBC: ƒE   DCBD: ‚õ   
+DCBE: ƒD   DCBF: ÙÑ   DCC0: ‚ö   DCC1: ƒN   
+DCC2: ƒL   DCC3: ‚ú   DCC4: ‚ü   DCC5: ƒþ   
+DCC6: „˜   DCC7: „–   DCC8: „™   DCC9: „š   
+DCCA: †Û   DCCB: †é   DCCC: àÉ   DCCD: †ã   
+DCCE: †à   DCCF: †ß   DCD0: àÃ   DCD1: †Ø   
+DCD2: àÁ   DCD3: àÄ   DCD4: †î   DCD5: †×   
+DCD6: àª   DCD7: †¶   DCD8: †â   DCD9: †ä   
+DCDA: †ì   DCDB: à²   DCDC: †Þ   DCDD: àÇ   
+DCDE: àÊ   DCDF: †ç   DCE0: †Ú   DCE1: ˆB   
+DCE2: ‰Q   DCE3: ‰b   DCE4: ‰_   DCE5: ‰N   
+DCE6: ëó   DCE7: ‰J   DCE8: ‰g   DCE9: ‰R   
+DCEA: ‰M   DCEB: ‰Y   DCEC: ‰U   DCED: Üª   
+DCEE: ‰W   DCEF: ˆþ   DCF0: ‰^   DCF1: ‰i   
+DCF2: ‰Ú   DCF3: ‹“   DCF4: ‹   DCF5: ‹–   
+DCF6: ‹‰   DCF7: æÊ   DCF8: ‹„   DCF9: ëô   
+DCFA: ‹ƒ   DCFB: ‹   DCFC: ‹”   DCFD: ‹Š   
+DCFE: ‹’   
+DD40: ‹‡   DD41: ‹Ž   DD42: ‹•   DD43: ‹…   
+DD44: ‹†   DD45: ‹—   DD46: ‹ˆ   DD47: ‹f   
+DD48: Œƒ   DD49: Œ…   DD4A: Œ†   DD4B: Œ¯   
+DD4C: Œ½   DD4D: Ó   DD4E: É   DD4F: áÓ   
+DD50: Ë   DD51: Ô   DD52: áÍ   DD53: Ä   
+DD54: Î   DD55: Í   DD56: È   DD57: Ž€   
+DD58: Ž·   DD59: Ž¶   DD5A: Ž³   DD5B: Žµ   
+DD5C: Ž´   DD5D: Žþ   DD5E: D   DD5F: @   
+DD60: C   DD61: A   DD62: ì°   DD63: Ð   
+DD64: áæ   DD65: Ã   DD66: ‘A   DD67: ã»   
+DD68: ãº   DD69: ý   DD6A: ï   DD6B: ë   
+DD6C: ç   DD6D: þ   DD6E: è   DD6F: ‘D   
+DD70: ã   DD71: ø   DD72: ‘ç   DD73: áP   
+DD74: ‘è   DD75: ê­   DD76: ê®   DD77: “C   
+DD78: “`   DD79: “[   DD7A: ´¤   DD7B: “s   
+DD7C: “n   DD7D: Þ÷   DD7E: “~   
+DDA1: “Š   
+DDA2: “•   DDA3: “{   DDA4: “t   DDA5: “w   
+DDA6: “   DDA7: “   DDA8: “|   DDA9: “}   
+DDAA: Þø   DDAB: Þù   DDAC: “‡   DDAD: “‚   
+DDAE: Þô   DDAF: “‹   DDB0: “†   DDB1: “o   
+DDB2: “y   DDB3: ““   DDB4: “€   DDB5: “   
+DDB6: Þõ   DDB7: “Y   DDB8: Þö   DDB9: “…   
+DDBA: Þú   DDBB: “q   DDBC: ”°   DDBD: ”Ê   
+DDBE: ”ï   DDBF: •   DDC0: êÒ   DDC1: •©   
+DDC2: •¥   DDC3: •¡   DDC4: •    DDC5: •«   
+DDC6: •¨   DDC7: •“   DDC8: –P   DDC9: é¸   
+DDCA: —þ   DDCB: —à   DDCC: —ò   DDCD: ˜A   
+DDCE: é¨   DDCF: ´»   DDD0: —é   DDD1: ˜G   
+DDD2: é©   DDD3: é«   DDD4: é¥   DDD5: —û   
+DDD6: ˜Q   DDD7: —ì   DDD8: —í   DDD9: —Ý   
+DDDA: ˜H   DDDB: —Ü   DDDC: ´ª   DDDD: ˜C   
+DDDE: é¢   DDDF: é±   DDE0: é²   DDE1: ˜F   
+DDE2: —å   DDE3: ˜J   DDE4: —è   DDE5: ˜P   
+DDE6: —ú   DDE7: —æ   DDE8: ˜N   DDE9: —ð   
+DDEA: —â   DDEB: —ï   DDEC: —ß   DDED: —ý   
+DDEE: —ó   DDEF: —õ   DDF0: —Û   DDF1: —ö   
+DDF2: —Ù   DDF3: ˜R   DDF4: —ã   DDF5: ì§   
+DDF6: šP   DDF7: ì¦   DDF8: šN   DDF9: šQ   
+DDFA: šM   DDFB: éê   DDFC: †Ø   DDFD: šÍ   
+DDFE: šÎ   
+DE40: ë¨   DE41: šÊ   DE42: šË   DE43: œÎ   
+DE44: œñ   DE45: œé   DE46: äç   DE47: œä   
+DE48: äé   DE49: œÇ   DE4A: œÈ   DE4B: œÑ   
+DE4C: äÚ   DE4D: œà   DE4E: œè   DE4F: œð   
+DE50: äá   DE51: ³ü   DE52: œÐ   DE53: œê   
+DE54: äã   DE55: œÜ   DE56: œí   DE57: œÕ   
+DE58: äæ   DE59: äÑ   DE5A: œâ   DE5B: œå   
+DE5C: œõ   DE5D: œò   DE5E: œÌ   DE5F: œÆ   
+DE60: œÄ   DE61: œÃ   DE62: œÔ   DE63: œÒ   
+DE64: œã   DE65: œÝ   DE66: œï   DE67: œë   
+DE68: œË   DE69: œÛ   DE6A: œÓ   DE6B: Ÿ   
+DE6C: Ÿš   DE6D: Ÿ˜   DE6E: Ÿ§   DE6F: Ÿ¤   
+DE70: Ÿ‹   DE71: Ÿ¢   DE72: Ÿ¦   DE73: ìÒ   
+DE74: ìÔ   DE75: Ÿª   DE76: Ÿ¥   DE77: ŸŒ   
+DE78: Ÿž   DE79: Ÿ   DE7A: Ÿ“   DE7B: Ÿ¯   
+DE7C: Ÿ£   DE7D: Ÿ–   DE7E: Ÿ™   
+DEA1: ŸŽ   
+DEA2: Ÿ”   DEA3: Ÿ    DEA4:  ¢   DEA5: êù   
+DEA6:  Ç   DEA7:  Ê   DEA8:  É   DEA9:  È   
+DEAA: ªt   DEAB: ªx   DEAC: ªs   DEAD: ªr   
+DEAE: ªv   DEAF: ª   DEB0: ª€   DEB1: ¬u   
+DEB2: ¬{   DEB3: ¬|   DEB4: ¬„   DEB5: ¬ƒ   
+DEB6: è¥   DEB7: ¬r   DEB8: ¬   DEB9: ¬‚   
+DEBA: ¬€   DEBB: ¬s   DEBC: ¬w   DEBD: ¬~   
+DEBE: ¬†   DEBF: ­•   DEC0: ê³   DEC1: ®H   
+DEC2: ®G   DEC3: ®]   DEC4: îµ   DEC5: ®•   
+DEC6: ˜W   DEC7: ¯p   DEC8: ¯…   DEC9: ðñ   
+DECA: ¯u   DECB: ¯z   DECC: ðó   DECD: ±Ô   
+DECE: ¯v   DECF: ðõ   DED0: ¯x   DED1: ¯t   
+DED2: ¯n   DED3: ¯s   DED4: ¯y   DED5: ðª   
+DED6: °”   DED7: ±J   DED8: ±›   DED9: ²B   
+DEDA: ²C   DEDB: ±˜   DEDC: ±œ   DEDD: íý   
+DEDE: ²F   DEDF: ²E   DEE0: ±š   DEE1: ±Ÿ   
+DEE2: ²H   DEE3: ²ž   DEE4: íÖ   DEE5: íÕ   
+DEE6: ´I   DEE7: ´F   DEE8: ´@   DEE9: ´J   
+DEEA: ´A   DEEB: ´B   DEEC: íØ   DEED: ³    
+DEEE: ³—   DEEF: ´L   DEF0: ³   DEF1: ´K   
+DEF2: ³™   DEF3: µ   DEF4: µ”   DEF5: µ‘   
+DEF6: µŽ   DEF7: ¶˜   DEF8: ¶   DEF9: ¶ž   
+DEFA: ¶™   DEFB: °Þ   DEFC: ¶›   DEFD: ·C   
+DEFE: ¶š   
+DF40: ¶Ÿ   DF41: ¶—   DF42: ¸@   DF43: ·    
+DF44: ·ž   DF45: ¸x   DF46: ¹`   DF47: ¹^   
+DF48: ¹g   DF49: ¹k   DF4A: ¹c   DF4B: óâ   
+DF4C: ¹_   DF4D: ¹j   DF4E: óã   DF4F: ¹i   
+DF50: ¹\   DF51: ¹m   DF52: ¹l   DF53: ¹]   
+DF54: ôÓ   DF55: »š   DF56: »˜   DF57: ½   
+DF58: ½Ž   DF59: ½ˆ   DF5A: ½•   DF5B: ½‡   
+DF5C: ½   DF5D: ½‚   DF5E: ½–   DF5F: ½ƒ   
+DF60: ½‹   DF61: ½„   DF62: ½”   DF63: ½œ   
+DF64: ½Œ   DF65: ½…   DF66: ½š   DF67: ÁN   
+DF68: ÁL   DF69: ÁK   DF6A: î»   DF6B: ÁM   
+DF6C: Áv   DF6D: Áu   DF6E: ôÈ   DF6F: Á›   
+DF70: Áœ   DF71: Âa   DF72: ÄW   DF73: ëí   
+DF74: Äb   DF75: ÄP   DF76: ëî   DF77: ÄO   
+DF78: ÄU   DF79: Ä^   DF7A: –Q   DF7B: ÄR   
+DF7C: Äa   DF7D: ëò   DF7E: Ä]   
+DFA1: ÄD   
+DFA2: ÄT   DFA3: År   DFA4: ôº   DFA5: ô¹   
+DFA6: Å€   DFA7: Å‚   DFA8: Å„   DFA9: É‘   
+DFAA: Èu   DFAB: È‹   DFAC: Ýã   DFAD: Èž   
+DFAE: ÉK   DFAF: ÉJ   DFB0: È“   DFB1: Ý×   
+DFB2: Èv   DFB3: ÉH   DFB4: È•   DFB5: Èj   
+DFB6: Èƒ   DFB7: É@   DFB8: ÝØ   DFB9: ÝÙ   
+DFBA: Èœ   DFBB: ÝÚ   DFBC: È   DFBD: ÊD   
+DFBE: ÈŽ   DFBF: Èp   DFC0: Èr   DFC1: Èm   
+DFC2: ÝÝ   DFC3: Èy   DFC4: Ýß   DFC5: Èk   
+DFC6: È{   DFC7: Èc   DFC8: Ç”   DFC9: È   
+DFCA: Èi   DFCB: Èx   DFCC: Èg   DFCD: È   
+DFCE: Èš   DFCF: Èq   DFD0: È„   DFD1: È‚   
+DFD2: È‡   DFD3: È™   DFD4: És   DFD5: Ýå   
+DFD6: Ès   DFD7: È|   DFD8: Èo   DFD9: Èl   
+DFDA: È–   DFDB: ÉA   DFDC: Èz   DFDD: Èe   
+DFDE: È   DFDF: È‰   DFE0: È˜   DFE1: È†   
+DFE2: Í™   DFE3: Í–   DFE4: Í   DFE5: Íš   
+DFE6: Í   DFE7: Í{   DFE8: Í   DFE9: Îa   
+DFEA: òÙ   DFEB: Í›   DFEC: òÝ   DFED: Í•   
+DFEE: ÍŽ   DFEF: òÜ   DFF0: Í—   DFF1: Ñ]   
+DFF2: ÑV   DFF3: ÑX   DFF4: ñÎ   DFF5: Ñc   
+DFF6: Ñ`   DFF7: Ñ_   DFF8: ÑW   DFF9: ÑZ   
+DFFA: Ò…   DFFB: Òš   DFFC: Ói   DFFD: ö¡   
+DFFE: Óm   
+E040: Ók   E041: Ój   E042: Ól   E043: õþ   
+E044: ´¥   E045: Ô—   E046: ÕE   E047: ÔŸ   
+E048: Ô‚   E049: Ô`   E04A: Ô˜   E04B: ÕA   
+E04C: ÕC   E04D: Ô–   E04E: ÕB   E04F: Õ@   
+E050: Ô•   E051: Ôš   E052: ØD   E053: ØO   
+E054: ØN   E055: Ød   E056: Øc   E057: Øe   
+E058: Ø}   E059: Ø|   E05A: õ÷   E05B: Ù^   
+E05C: ÚU   E05D: ÚV   E05E: ôô   E05F: Úl   
+E060: Ún   E061: Úo   E062: Úm   E063: Úr   
+E064: ôó   E065: Úp   E066: Úq   E067: ÛM   
+E068: ÛD   E069: õÍ   E06A: ÛN   E06B: ÛL   
+E06C: Ú   E06D: ÛJ   E06E: õÐ   E06F: ÛF   
+E070: ÛI   E071: ÛO   E072: õ¼   E073: ÛP   
+E074: Ýa   E075: ÝZ   E076: Ý\   E077: Ý[   
+E078: Ý`   E079: Ýb   E07A: Ýc   E07B: Ý]   
+E07C: Ýf   E07D: åÙ   E07E: ßT   
+E0A1: å×   
+E0A2: ßZ   E0A3: ßS   E0A4: às   E0A5: àp   
+E0A6: àr   E0A7: àt   E0A8: ày   E0A9: àw   
+E0AA: àn   E0AB: àq   E0AC: Íª   E0AD: õ¥   
+E0AE: ãB   E0AF: ãL   E0B0: â‹   E0B1: â•   
+E0B2: ã`   E0B3: âŽ   E0B4: ã_   E0B5: ãX   
+E0B6: ã|   E0B7: â‰   E0B8: ãD   E0B9: ã@   
+E0BA: ãg   E0BB: ãf   E0BC: ãI   E0BD: ãZ   
+E0BE: ãa   E0BF: ãi   E0C0: â‘   E0C1: ã[   
+E0C2: ãj   E0C3: âŒ   E0C4: ãN   E0C5: ã]   
+E0C6: ãJ   E0C7: ãl   E0C8: ãH   E0C9: ãM   
+E0CA: ãF   E0CB: ãP   E0CC: â   E0CD: és   
+E0CE: ép   E0CF: ér   E0D0: éo   E0D1: ëC   
+E0D2: ëD   E0D3: ëB   E0D4: Úó   E0D5: öÂ   
+E0D6: ë‰   E0D7: ëŒ   E0D8: ëˆ   E0D9: ë‡   
+E0DA: ½ù   E0DB: ì‚   E0DC: ìƒ   E0DD: ì€   
+E0DE: î@   E0DF: íŸ   E0E0: í    E0E1: ïP   
+E0E2: ï   E0E3: ï’   E0E4: ñU   E0E5: ñX   
+E0E6: ñV   E0E7: ñ[   E0E8: ó_   E0E9: ó]   
+E0EA: ô€   E0EB: øG   E0EC: øJ   E0ED: øD   
+E0EE: û~   E0EF: üw   E0F0: ÙÖ   E0F1: ƒV   
+E0F2: ƒX   E0F3: ƒf   E0F4: ËÛ   E0F5: ƒ[   
+E0F6: ƒh   E0F7: ƒ]   E0F8: ƒd   E0F9: ƒU   
+E0FA: ÙÕ   E0FB: ƒk   E0FC: ƒj   E0FD: ƒc   
+E0FE: ƒ`   
+E140: „@   E141: „œ   E142: Øä   E143: „ã   
+E144: „å   E145: …S   E146: …‘   E147: à×   
+E148: ‡J   E149: àÑ   E14A: ‡G   E14B: †ù   
+E14C: ØÅ   E14D: ‡O   E14E: àÒ   E14F: ‡H   
+E150: †û   E151: †÷   E152: ‡P   E153: †ý   
+E154: †ú   E155: †ö   E156: Ü­   E157: ‰t   
+E158: ‰ƒ   E159: ‰‰   E15A: ‰y   E15B: Ü¬   
+E15C: ‰v   E15D: ‰l   E15E: ‰}   E15F: ‰r   
+E160: ‰z   E161: ‰„   E162: ‰   E163: ‰n   
+E164: ‰w   E165: ‰{   E166: ‰s   E167: ‰…   
+E168: ‰‚   E169: ‰Ü   E16A: Š[   E16B: æÑ   
+E16C: ‹­   E16D: ‹§   E16E: ‹   E16F: ‹ª   
+E170: ‹    E171: ‹¬   E172: æÆ   E173: ‹±   
+E174: ‹¥   E175: æË   E176: ‹¡   E177: ‹«   
+E178: ‹£   E179: ‹¢   E17A: ‹Ÿ   E17B: ‹©   
+E17C: ‹¤   E17D: ŒV   E17E: ŒŠ   
+E1A1: ŒŒ   
+E1A2: åï   E1A3: áÖ   E1A4: á   E1A5: Þ   
+E1A6: æ   E1A7: Û   E1A8: â   E1A9: Ø   
+E1AA: ê   E1AB: é   E1AC: è   E1AD: ß   
+E1AE: Ý   E1AF: í   E1B0: Ú   E1B1: à   
+E1B2: Ž¾   E1B3: Ž¿   E1B4: Ž»   E1B5: L   
+E1B6: âÛ   E1B7: K   E1B8: F   E1B9: O   
+E1BA: J   E1BB: M   E1BC: âÚ   E1BD: I   
+E1BE: “   E1BF: ’   E1C0: ®   E1C1: Ö   
+E1C2: å   E1C3: â   E1C4: ù   E1C5: ‘P   
+E1C6: ‘_   E1C7: ‘a   E1C8: ‘F   E1C9: ‘G   
+E1CA: ‘`   E1CB: ‘[   E1CC: ‘l   E1CD: ‘b   
+E1CE: ‘H   E1CF: ‘f   E1D0: ‘N   E1D1: ‘V   
+E1D2: ô   E1D3: ‘Y   E1D4: ‘S   E1D5: ‘I   
+E1D6: ‘ì   E1D7: ‘ê   E1D8: ‘í   E1D9: “„   
+E1DA: “™   E1DB: “¤   E1DC: “¦   E1DD: “¹   
+E1DE: “»   E1DF: “·   E1E0: “¸   E1E1: “¿   
+E1E2: “º   E1E3: “®   E1E4: “Ý   E1E5: “š   
+E1E6: ÁÌ   E1E7: Þû   E1E8: “¥   E1E9: “—   
+E1EA: “ž   E1EB: “¨   E1EC: “œ   E1ED: “Á   
+E1EE: ë¡   E1EF: “²   E1F0: “±   E1F1: “¢   
+E1F2: “­   E1F3: “¼   E1F4: ”²   E1F5: ”Ò   
+E1F6: •²   E1F7: •±   E1F8: •°   E1F9: –A   
+E1FA: –@   E1FB: –R   E1FC: éÁ   E1FD: ˜y   
+E1FE: ˜Š   
+E240: ˜i   E241: é¶   E242: ˜b   E243: ˜u   
+E244: ˜r   E245: ˜}   E246: ˜_   E247: ˜d   
+E248: ˜\   E249: é¼   E24A: éÇ   E24B: ˜p   
+E24C: ˜€   E24D: ˜t   E24E: ˜   E24F: ˜…   
+E250: ˜~   E251: ˜m   E252: éÀ   E253: ˜{   
+E254: éÃ   E255: ˜e   E256: ˜   E257: ˜w   
+E258: ˜a   E259: ˜q   E25A: ˜j   E25B: ˜g   
+E25C: ˜•   E25D: ˜c   E25E: ˜^   E25F: ˜ƒ   
+E260: ˜x   E261: ˜n   E262: ˜‡   E263: šR   
+E264: šT   E265: šS   E266: šŒ   E267: š   
+E268: šŽ   E269: š¨   E26A: š©   E26B: šÏ   
+E26C: œî   E26D: D   E26E: A   E26F: P   
+E270: j   E271: G   E272: t   E273: I   
+E274: o   E275: äõ   E276: ‡   E277: `   
+E278: a   E279: l   E27A: _   E27B: x   
+E27C: \   E27D: œü   E27E: U   
+E2A1: äñ   
+E2A2: ¤   E2A3: äï   E2A4: œý   E2A5: äÝ   
+E2A6: |   E2A7: p   E2A8: y   E2A9: s   
+E2AA: œú   E2AB: S   E2AC: Y   E2AD: €   
+E2AE: R   E2AF: K   E2B0: E   E2B1: v   
+E2B2: c   E2B3: J   E2B4: w   E2B5: f   
+E2B6: X   E2B7: e   E2B8: T   E2B9: g   
+E2BA: ŸÀ   E2BB: ŸÇ   E2BC: ŸÂ   E2BD: Ÿº   
+E2BE: Ÿ¾   E2BF: Ÿ¼   E2C0: Ñ¬   E2C1: Ÿ¶   
+E2C2: Ÿ¿   E2C3: Ÿ»   E2C4: ŸÍ   E2C5:  ›   
+E2C6:  ¥   E2C7:  Ï   E2C8:  Í   E2C9:  Ë   
+E2CA: ªy   E2CB: â°   E2CC: ª†   E2CD: ªƒ   
+E2CE: ¬Œ   E2CF: ¬›   E2D0: ¬™   E2D1: ¬   
+E2D2: ¬š   E2D3: ¬‘   E2D4: ¬—   E2D5: ®I   
+E2D6: ®K   E2D7: ®L   E2D8: ®™   E2D9: ¯F   
+E2DA: ¯Š   E2DB: ¯€   E2DC: ðø   E2DD: ðý   
+E2DE: ¯†   E2DF: ðú   E2E0: ¯‰   E2E1: °—   
+E2E2: ²W   E2E3: ²V   E2E4: ³ò   E2E5: ²X   
+E2E6: ²I   E2E7: î¦   E2E8: ²J   E2E9: Øº   
+E2EA: ²Y   E2EB: íÚ   E2EC: ´U   E2ED: ²ê   
+E2EE: ´X   E2EF: ´S   E2F0: ³›   E2F1: ´V   
+E2F2: ´N   E2F3: íÜ   E2F4: ´O   E2F5: ´W   
+E2F6: ´P   E2F7: ´Q   E2F8: ¶E   E2F9: ìù   
+E2FA: µš   E2FB: ¶C   E2FC: ¶B   E2FD: ¶A   
+E2FE: ¶@   
+E340: ¶D   E341: µ˜   E342: µ    E343: µž   
+E344: ·K   E345: ·b   E346: ·P   E347: ·O   
+E348: ·H   E349: ·F   E34A: ñ¿   E34B: ¸E   
+E34C: ñ¾   E34D: ¸z   E34E: ¹x   E34F: óí   
+E350: ¹z   E351: ¹€   E352: óä   E353: ¹ƒ   
+E354: ¹¿   E355: ¹|   E356: ¹‡   E357: ¹}   
+E358: óë   E359: ¹„   E35A: „ž   E35B: ¹…   
+E35C: ¹Œ   E35D: ¹s   E35E: »    E35F: ¼@   
+E360: ôÔ   E361: »Ÿ   E362: ¾M   E363: ¾\   
+E364: ¾g   E365: ¾J   E366: ¾P   E367: ¾f   
+E368: ¾e   E369: ¾j   E36A: ¾D   E36B: ¾s   
+E36C: ¾i   E36D: ¾k   E36E: ¾p   E36F: ¾q   
+E370: ¾T   E371: ¾^   E372: ½ž   E373: ¾a   
+E374: ¾F   E375: ôë   E376: ôì   E377: ¾O   
+E378: ¾H   E379: ¾n   E37A: ÁQ   E37B: ÁŸ   
+E37C: Á    E37D: ôã   E37E: Áž   
+E3A1: Âc   
+E3A2: Âƒ   E3A3: Â‚   E3A4: Äj   E3A5: Äh   
+E3A6: Äe   E3A7: Äi   E3A8: Äm   E3A9: Äl   
+E3AA: Äk   E3AB: Ål   E3AC: Ýõ   E3AD: É\   
+E3AE: Ýò   E3AF: ÉX   E3B0: Ýð   E3B1: Éy   
+E3B2: Éq   E3B3: Éd   E3B4: Éf   E3B5: Éc   
+E3B6: Ýó   E3B7: Ýô   E3B8: Ýè   E3B9: Ýé   
+E3BA: Éb   E3BB: ÉT   E3BC: Éh   E3BD: Ýê   
+E3BE: ÉV   E3BF: É_   E3C0: Ém   E3C1: ÉZ   
+E3C2: ÉP   E3C3: Éu   E3C4: Éx   E3C5: ÉU   
+E3C6: Éa   E3C7: Øá   E3C8: É`   E3C9: ±Í   
+E3CA: ÉS   E3CB: Ék   E3CC: Éz   E3CD: ÉY   
+E3CE: É~   E3CF: É|   E3D0: É{   E3D1: Éƒ   
+E3D2: Ég   E3D3: ÉM   E3D4: Ì˜   E3D5: ÎP   
+E3D6: òÞ   E3D7: ÎH   E3D8: Îw   E3D9: ÎX   
+E3DA: òâ   E3DB: òà   E3DC: À¯   E3DD: Î@   
+E3DE: ÎA   E3DF: Î[   E3E0: ÎK   E3E1: ÎY   
+E3E2: òä   E3E3: Î^   E3E4: ÎD   E3E5: ÎO   
+E3E6: ÎI   E3E7: ÎL   E3E8: ÎV   E3E9: ÑÑ   
+E3EA: ÎU   E3EB: òç   E3EC: ÎQ   E3ED: ÎZ   
+E3EE: ÎF   E3EF: ÎG   E3F0: ÎS   E3F1: ÎE   
+E3F2: òã   E3F3: ÎN   E3F4: Íž   E3F5: Ñr   
+E3F6: Ñg   E3F7: ñÑ   E3F8: Ño   E3F9: Ñs   
+E3FA: ñÕ   E3FB: Ñm   E3FC: ñÓ   E3FD: Ñq   
+E3FE: Ñt   
+E440: ñÖ   E441: Ñk   E442: Ñj   E443: Òœ   
+E444: Ò    E445: Òž   E446: Ò   E447: Óp   
+E448: ö¢   E449: Óo   E44A: Õg   E44B: ÕU   
+E44C: ÕH   E44D: ÕO   E44E: ÕL   E44F: ÕR   
+E450: ØE   E451: Øg   E452: Øh   E453: Ùg   
+E454: Ùa   E455: Ùi   E456: Út   E457: õÔ   
+E458: ÛW   E459: ÛT   E45A: Û^   E45B: õÕ   
+E45C: Ó»   E45D: ÛX   E45E: Û[   E45F: ÛZ   
+E460: õ½   E461: ÛS   E462: ÛU   E463: ÛY   
+E464: Ýk   E465: Ýl   E466: Ýi   E467: Ýh   
+E468: Ûµ   E469: à~   E46A: à‚   E46B: Û³   
+E46C: à   E46D: à€   E46E: à|   E46F: à„   
+E470: àƒ   E471: à}   E472: áT   E473: õ¨   
+E474: õª   E475: áS   E476: ãž   E477: ã   
+E478: ão   E479: ã”   E47A: ãs   E47B: ã™   
+E47C: ã   E47D: äB   E47E: ã‡   
+E4A1: ãŸ   
+E4A2: ã“   E4A3: äC   E4A4: ãr   E4A5: ã   
+E4A6: ãx   E4A7: ãœ   E4A8: ä…   E4A9: öÆ   
+E4AA: ã{   E4AB: ãŽ   E4AC: ã›   E4AD: ãv   
+E4AE: ã‚   E4AF: ãš   E4B0: ã„   E4B1: ã€   
+E4B2: ã†   E4B3: ã’   E4B4: ã    E4B5: ãw   
+E4B6: ã   E4B7: äA   E4B8: ã–   E4B9: ã…   
+E4BA: âˆ   E4BB: ëJ   E4BC: ëM   E4BD: ë   
+E4BE: ìm   E4BF: ì‡   E4C0: ì…   E4C1: ìˆ   
+E4C2: ì   E4C3: ìŠ   E4C4: ìŒ   E4C5: ì†   
+E4C6: ìŽ   E4C7: ì‹   E4C8: ì‰   E4C9: íi   
+E4CA: íh   E4CB: îG   E4CC: ïQ   E4CD: ïR   
+E4CE: ï›   E4CF: ï™   E4D0: ï    E4D1: ñE   
+E4D2: ñD   E4D3: ñi   E4D4: ñ_   E4D5: ña   
+E4D6: ñ`   E4D7: ñh   E4D8: ñc   E4D9: ñm   
+E4DA: ÷º   E4DB: ó„   E4DC: ó‡   E4DD: ôn   
+E4DE: ôo   E4DF: ô…   E4E0: ô†   E4E1: ô„   
+E4E2: øN   E4E3: øO   E4E4: øR   E4E5: û   
+E4E6: ƒw   E4E7: ƒ{   E4E8: ƒ¤   E4E9: ƒq   
+E4EA: ÙÓ   E4EB: ÙØ   E4EC: ƒo   E4ED: ƒv   
+E4EE: ÙÙ   E4EF: ƒ‚   E4F0: ƒu   E4F1: ƒ   
+E4F2: „¤   E4F3: „¥   E4F4: „ê   E4F5: „é   
+E4F6: ‡m   E4F7: ‡g   E4F8: àá   E4F9: ‡^   
+E4FA: ‡f   E4FB: ‡o   E4FC: ‡n   E4FD: ‡k   
+E4FE: àÙ   
+E540: ‡x   E541: ‡e   E542: ‡]   E543: ‡c   
+E544: àÜ   E545: ‡d   E546: ‡`   E547: ‡X   
+E548: ‡a   E549: ˆH   E54A: ‰–   E54B: ‰Œ   
+E54C: ‰œ   E54D: ‰   E54E: ‰   E54F: ‰š   
+E550: ‰—   E551: ‰’   E552: ‰Ž   E553: ‰Ý   
+E554: ‹½   E555: ‹²   E556: ‹»   E557: ‹µ   
+E558: ‹´   E559: ‹Á   E55A: ‹¶   E55B: ‹À   
+E55C: ‹·   E55D: ‹¿   E55E: ‹Å   E55F: ‹Ã   
+E560: ‹Ì   E561: ŒÔ   E562: á×   E563: ÷   
+E564: ý   E565: ò   E566: ŽA   E567: ó   
+E568: õ   E569: þ   E56A: û   E56B: Ž@   
+E56C: ù   E56D: ü   E56E: ŽË   E56F: ŽÂ   
+E570: ŽÄ   E571: ŽÁ   E572: ¾™   E573: âÜ   
+E574: Q   E575: T   E576: ˜   E577: Ó   
+E578: ±ï   E579: ‘o   E57A: ‘e   E57B: ‘–   
+E57C: ‘•   E57D: ‘‹   E57E: ‘u   
+E5A1: ‘…   
+E5A2: ‘}   E5A3: ‘”   E5A4: ‘’   E5A5: ‘ˆ   
+E5A6: ‘|   E5A7: ‘   E5A8: ‘Š   E5A9: ‘x   
+E5AA: ‘W   E5AB: ‘˜   E5AC: ‘î   E5AD: “³   
+E5AE: “µ   E5AF: Þþ   E5B0: “Ø   E5B1: ¾ï   
+E5B2: “Ñ   E5B3: “Õ   E5B4: “Í   E5B5: “É   
+E5B6: “È   E5B7: “Ê   E5B8: “Û   E5B9: “×   
+E5BA: “¯   E5BB: “ã   E5BC: “Ò   E5BD: ”´   
+E5BE: ”·   E5BF: ”¶   E5C0: ”¸   E5C1: ”Û   
+E5C2: ”Ü   E5C3: •Â   E5C4: •¾   E5C5: •¸   
+E5C6: •À   E5C7: •Ä   E5C8: •¹   E5C9: •½   
+E5CA: ˜µ   E5CB: ˜»   E5CC: éË   E5CD: ˜ž   
+E5CE: ˜¯   E5CF: ˜É   E5D0: ˜©   E5D1: ˜   
+E5D2: ˜Ñ   E5D3: éÈ   E5D4: ˜¥   E5D5: ˜›   
+E5D6: ˜Í   E5D7: ˜Ï   E5D8: ˜´   E5D9: ˜×   
+E5DA: éÎ   E5DB: ˜¦   E5DC: ˜È   E5DD: ˜®   
+E5DE: ˜    E5DF: ˜é   E5E0: ˜½   E5E1: ˜Ÿ   
+E5E2: ˜²   E5E3: ˜Á   E5E4: ˜³   E5E5: ˜¤   
+E5E6: ˜¾   E5E7: ˜¹   E5E8: éÌ   E5E9: ˜Õ   
+E5EA: ˜Ã   E5EB: ˜­   E5EC: ˜Ö   E5ED: ˜¼   
+E5EE: ˜«   E5EF: ˜Ê   E5F0: šX   E5F1: š’   
+E5F2: š   E5F3: š   E5F4: š“   E5F5: šÒ   
+E5F6: šÑ   E5F7: šÐ   E5F8: šÓ   E5F9: }   
+E5FA: k   E5FB: «   E5FC: ³   E5FD: å   
+E5FE: ¹   
+E640: äø   E641: ä÷   E642: äù   E643: äê   
+E644: ˆ   E645: ±   E646: ’   E647: ½   
+E648: ¦   E649:     E64A: ¯   E64B: Ž   
+E64C: äû   E64D: ‹   E64E: ‰   E64F:    
+E650: »   E651: º   E652: ”   E653: N   
+E654: —   E655: Ÿ   E656: ª   E657: ›   
+E658: ·   E659: Œ   E65A: µ   E65B:    
+E65C: ¬   E65D: ¼   E65E: ˜   E65F: §   
+E660: ž   E661: ©   E662: Ÿâ   E663: Ÿß   
+E664: ŸÏ   E665: Ÿà   E666: ìÚ   E667: ŸÎ   
+E668: ŸÚ   E669: ìØ   E66A: ŸÑ   E66B: Ÿ×   
+E66C: ŸÒ   E66D: ŸÖ   E66E: ŸÓ   E66F: ŸÛ   
+E670: ŸÐ   E671: ŸÙ   E672: ì×   E673:  Ð   
+E674:  Ò   E675: ª‹   E676: éá   E677: ª‘   
+E678: ª’   E679: â²   E67A: ª   E67B: ªŽ   
+E67C: ª“   E67D: ª   E67E: ªŒ   
+E6A1: ª”   
+E6A2: è¯   E6A3: ­I   E6A4: ­J   E6A5: ­G   
+E6A6: è®   E6A7: ­B   E6A8: ­F   E6A9: ­H   
+E6AA: ­A   E6AB: ¬Ÿ   E6AC: ®P   E6AD: ®O   
+E6AE: ®š   E6AF: ðû   E6B0: ¯Ž   E6B1: ðþ   
+E6B2: ¯   E6B3: ¯Œ   E6B4: ¯   E6B5: ¯‹   
+E6B6: ¯’   E6B7: ñ¡   E6B8: °€   E6B9: °   
+E6BA: °‚   E6BB: °~   E6BC: î¤   E6BD: ²`   
+E6BE: ²]   E6BF: ²\   E6C0: ´l   E6C1: ´`   
+E6C2: ´n   E6C3: ´k   E6C4: ´o   E6C5: ´m   
+E6C6: íÝ   E6C7: ´j   E6C8: ´f   E6C9: ´g   
+E6CA: íß   E6CB: ìú   E6CC: ¶M   E6CD: ¶L   
+E6CE: ¶H   E6CF: ¶N   E6D0: ¶G   E6D1: šu   
+E6D2: ð¡   E6D3: ¸J   E6D4: ¸K   E6D5: ñÁ   
+E6D6: ¹•   E6D7: ºD   E6D8: ¹›   E6D9: óè   
+E6DA: ºF   E6DB: ¹   E6DC: ¹–   E6DD: ºC   
+E6DE: ¹“   E6DF: ôÛ   E6E0: ôÚ   E6E1: ôØ   
+E6E2: ¼G   E6E3: ¾   E6E4: ¾   E6E5: ¾   
+E6E6: ¾   E6E7: ¾|   E6E8: ¾‡   E6E9: ¿H   
+E6EA: ¾    E6EB: ¾Œ   E6EC: ¾œ   E6ED: ¾—   
+E6EE: ¾–   E6EF: ¾”   E6F0: ¾…   E6F1: ÁS   
+E6F2: Á{   E6F3: ôÊ   E6F4: Á|   E6F5: ÂF   
+E6F6: ÂD   E6F7: ÂC   E6F8: ÂE   E6F9: ôå   
+E6FA: ÂB   E6FB: ÂŠ   E6FC: Â   E6FD: ëù   
+E6FE: Äy   
+E740: Äx   E741: Äs   E742: Ä|   E743: Äv   
+E744: Äu   E745: Åm   E746: ô¼   E747: ÅŽ   
+E748: Å   E749: Å‹   E74A: ÅŠ   E74B: ÅŒ   
+E74C: ÊZ   E74D: Þ¢   E74E: ÊK   E74F: Éž   
+E750: Ê_   E751: ÊJ   E752: ÊF   E753: ÊI   
+E754: Ýý   E755: ÊG   E756: Ê]   E757: ÊT   
+E758: É›   E759: Äè   E75A: Éš   E75B: ÊE   
+E75C: Ýø   E75D: É”   E75E: Ê`   E75F: É’   
+E760: ÊO   E761: É—   E762: É   E763: É“   
+E764: Þ¤   E765: ÊM   E766: ÉŒ   E767: É‹   
+E768: ÊP   E769: É   E76A: Ê^   E76B: ÊU   
+E76C: Êb   E76D: É    E76E: Éœ   E76F: ÊV   
+E770: É–   E771: Êe   E772: Ê\   E773: É‰   
+E774: ÉŠ   E775: Ýû   E776: É   E777: É™   
+E778: ÊQ   E779: ÊW   E77A: Êd   E77B: ÊH   
+E77C: ÊR   E77D: Êc   E77E: ë½   
+E7A1: Îh   
+E7A2: òö   E7A3: òø   E7A4: Î€   E7A5: Ïj   
+E7A6: Î}   E7A7: Îi   E7A8: Îf   E7A9: Îk   
+E7AA: Îe   E7AB: Îp   E7AC: Îj   E7AD: Îd   
+E7AE: În   E7AF: Îy   E7B0: Îv   E7B1: Îc   
+E7B2: Ð«   E7B3: Îo   E7B4: Îm   E7B5: Îz   
+E7B6: Îx   E7B7: Îƒ   E7B8: òó   E7B9: Îl   
+E7BA: òú   E7BB: Îb   E7BC: òï   E7BD: Î~   
+E7BE: Îq   E7BF: Îs   E7C0: Îu   E7C1: Ðk   
+E7C2: Ñ{   E7C3: Ñ‚   E7C4: Ñ‡   E7C5: Ñ   
+E7C6: ÑŠ   E7C7: Ñ‹   E7C8: ñØ   E7C9: Ñ|   
+E7CA: Ñ‰   E7CB: Ñ†   E7CC: Ñ„   E7CD: Ñ€   
+E7CE: Ó@   E7CF: ÓB   E7D0: ÓA   E7D1: Ós   
+E7D2: Óu   E7D3: Ór   E7D4: ÕŒ   E7D5: Õƒ   
+E7D6: Õt   E7D7: Õ   E7D8: ÕŽ   E7D9: Õ‘   
+E7DA: Õ’   E7DB: Õw   E7DC: Õ”   E7DD: Õz   
+E7DE: Õ|   E7DF: Õ‚   E7E0: Õ•   E7E1: Õ€   
+E7E2: Õv   E7E3: Õy   E7E4: Õ–   E7E5: ØF   
+E7E6: ØP   E7E7: Ø„   E7E8: Ùw   E7E9: Ùq   
+E7EA: Ùk   E7EB: Ùz   E7EC: Ùl   E7ED: Ùo   
+E7EE: Ùy   E7EF: Ú}   E7F0: Úz   E7F1: Ú~   
+E7F2: Úy   E7F3: Ûl   E7F4: õÛ   E7F5: Ûo   
+E7F6: Ûn   E7F7: õÚ   E7F8: Ûd   E7F9: Ûj   
+E7FA: Ûe   E7FB: Ûa   E7FC: Ûh   E7FD: Ûp   
+E7FE: Ûq   
+E840: õÖ   E841: Ûb   E842: Ûg   E843: Ûc   
+E844: Ûk   E845: Ûf   E846: Ûi   E847: Ýˆ   
+E848: Ý€   E849: Ýs   E84A: Ýu   E84B: Ý{   
+E84C: Ý~   E84D: Ýq   E84E: Ýr   E84F: ßu   
+E850: ßr   E851: ßq   E852: ßl   E853: ßo   
+E854: Û·   E855: à‹   E856: à‰   E857: àŠ   
+E858: à   E859: à†   E85A: àŽ   E85B: õ¬   
+E85C: á\   E85D: á^   E85E: áX   E85F: áY   
+E860: á[   E861: áW   E862: äf   E863: äZ   
+E864: ä[   E865: äW   E866: äo   E867: äM   
+E868: äe   E869: äˆ   E86A: äu   E86B: än   
+E86C: ä€   E86D: äm   E86E: äs   E86F: äb   
+E870: ä†   E871: äY   E872: ä~   E873: ä`   
+E874: öÈ   E875: äd   E876: ä|   E877: äc   
+E878: äk   E879: ä_   E87A: äv   E87B: ät   
+E87C: ä}   E87D: äg   E87E: äi   
+E8A1: äL   
+E8A2: äw   E8A3: ä]   E8A4: äK   E8A5: éQ   
+E8A6: é   E8A7: é€   E8A8: éƒ   E8A9: é…   
+E8AA: ëP   E8AB: ëN   E8AC: ëk   E8AD: ë   
+E8AE: ö¬   E8AF: ëŽ   E8B0: ìn   E8B1: ì“   
+E8B2: ì•   E8B3: ì‘   E8B4: ík   E8B5: íj   
+E8B6: îO   E8B7: îN   E8B8: îW   E8B9: îZ   
+E8BA: îY   E8BB: îQ   E8BC: îL   E8BD: îX   
+E8BE: ïV   E8BF: ð@   E8C0: ï“   E8C1: ðG   
+E8C2: ðJ   E8C3: ðL   E8C4: ðM   E8C5: ðK   
+E8C6: ñƒ   E8C7: ñs   E8C8: ñu   E8C9: ñy   
+E8CA: ñz   E8CB: ñt   E8CC: ño   E8CD: ñ|   
+E8CE: ñ~   E8CF: ñq   E8D0: ñ}   E8D1: ñr   
+E8D2: óc   E8D3: ó‹   E8D4: ÷Ø   E8D5: ó   
+E8D6: ó   E8D7: óŽ   E8D8: ôq   E8D9: ÷É   
+E8DA: ôŒ   E8DB: ô™   E8DC: ô–   E8DD: ô‹   
+E8DE: ô›   E8DF: ôš   E8E0: ô•   E8E1: ô   
+E8E2: ô‰   E8E3: ô‘   E8E4: øY   E8E5: øW   
+E8E6: øZ   E8E7: ø\   E8E8: øT   E8E9: ød   
+E8EA: ø]   E8EB: øV   E8EC: øX   E8ED: øe   
+E8EE: øb   E8EF: øa   E8F0: û   E8F1: ü]   
+E8F2: ü†   E8F3: Ø¾   E8F4: ƒ‘   E8F5: ƒˆ   
+E8F6: ƒŒ   E8F7: ƒ   E8F8: ƒ‡   E8F9: „D   
+E8FA: …W   E8FB: …±   E8FC: ‡‡   E8FD: ‡}   
+E8FE: ‡…   
+E940: ‡‰   E941: ‡‚   E942: ‡€   E943: ‡„   
+E944: ‡ˆ   E945: ‡{   E946: ‡Œ   E947: à÷   
+E948: ˆI   E949: ‰°   E94A: ‰§   E94B: ‰±   
+E94C: ‰©   E94D: ‰¥   E94E: ‰«   E94F: ÛÔ   
+E950: ‰®   E951: æÓ   E952: ‹Ô   E953: ‹Ö   
+E954: ‹Ü   E955: ‹Ñ   E956: ‹Ð   E957: ‹Í   
+E958: æÔ   E959: ‹ã   E95A: ‹Õ   E95B: ‹Û   
+E95C: ‹Ù   E95D: Œ”   E95E: ŽK   E95F: ŽP   
+E960: ŽH   E961: ŽF   E962: ŽT   E963: ŽO   
+E964: ŽM   E965: ŽI   E966: ŽG   E967: ŽQ   
+E968: ŽL   E969: ŽN   E96A: ŽS   E96B: ŽÉ   
+E96C: ŽÊ   E96D: ŽÈ   E96E: ŽÑ   E96F: [   
+E970: Z   E971: Y   E972: âÝ   E973: X   
+E974: š   E975: áè   E976: í­   E977: º©   
+E978: ‘€   E979: ‘§   E97A: ‘™   E97B: ‘¨   
+E97C: ‘¤   E97D: ‘«   E97E: ‘ž   
+E9A1: ‘¢   
+E9A2: ‘œ   E9A3: ‘w   E9A4: ß¨   E9A5: “ü   
+E9A6: ß§   E9A7: “÷   E9A8: “ó   E9A9: “ê   
+E9AA: “Ç   E9AB: “î   E9AC: ”@   E9AD: ”T   
+E9AE: “ý   E9AF: ”   E9B0: ”¼   E9B1: ”¹   
+E9B2: ”Ó   E9B3: •Ó   E9B4: êÕ   E9B5: •Ë   
+E9B6: •Õ   E9B7: •Ö   E9B8: •Ú   E9B9: •É   
+E9BA: •Ç   E9BB: •Æ   E9BC: •×   E9BD: –S   
+E9BE: ˜à   E9BF: ™H   E9C0: ˜ð   E9C1: ™I   
+E9C2: ˜Þ   E9C3: ™J   E9C4: éÐ   E9C5: ™A   
+E9C6: ™O   E9C7: ™W   E9C8: éÓ   E9C9: ˜÷   
+E9CA: éØ   E9CB: ˜þ   E9CC: ˜æ   E9CD: ˜è   
+E9CE: ˜ê   E9CF: ™L   E9D0: ™G   E9D1: éÒ   
+E9D2: ˜ö   E9D3: ˜ú   E9D4: ™Q   E9D5: ™K   
+E9D6: ™D   E9D7: ˜ç   E9D8: ™B   E9D9: ˜ü   
+E9DA: ˜û   E9DB: ˜ô   E9DC: ˜õ   E9DD: ˜î   
+E9DE: š\   E9DF: š[   E9E0: š]   E9E1: š”   
+E9E2: éì   E9E3: š—   E9E4: š¬   E9E5: š«   
+E9E6: šÕ   E9E7: šÔ   E9E8: ë«   E9E9: Ñ   
+E9EA: é   E9EB: È   E9EC: æ   E9ED: Ý   
+E9EE: ì   E9EF: ç   E9F0: Âº   E9F1: ã   
+E9F2: Þ   E9F3: Ä   E9F4: è   E9F5: Ì   
+E9F6: ž\   E9F7: Ê   E9F8: Ò   E9F9: Û   
+E9FA: Ð   E9FB: Î   E9FC: í   E9FD: à   
+E9FE: Ú   
+EA40: Ç   EA41: å¡   EA42: Ï   EA43: ë   
+EA44: Ó   EA45: Ö   EA46: Ô   EA47: Ÿñ   
+EA48: Ÿï   EA49: Ÿì   EA4A: Ÿæ   EA4B:  @   
+EA4C: Ÿí   EA4D: Ÿî   EA4E: Ÿ÷   EA4F: ìÜ   
+EA50: Ÿö   EA51: Ÿó   EA52: Ÿú   EA53: Ÿê   
+EA54:  B   EA55: Ÿé   EA56: Ÿò   EA57:  D   
+EA58:  E   EA59:  Õ   EA5A:  Ö   EA5B: ª›   
+EA5C: ª˜   EA5D: ª™   EA5E: â³   EA5F: ª—   
+EA60: ª   EA61: ªœ   EA62: ­C   EA63: ­W   
+EA64: ­[   EA65: ­Q   EA66: ­O   EA67: ­R   
+EA68: ­\   EA69: ®S   EA6A: ®›   EA6B: ¯•   
+EA6C: ñ¦   EA6D: ¯–   EA6E: ¯   EA6F: ñ¬   
+EA70: ñ¢   EA71: ñ©   EA72: ¯—   EA73: ñ§   
+EA74: °š   EA75: ±Q   EA76: ²i   EA77: ²l   
+EA78: ²n   EA79: ²k   EA7A: ²j   EA7B: Þ«   
+EA7C: ²o   EA7D: ²d   EA7E: ²h   
+EAA1: ²f   
+EAA2: ´x   EAA3: ´„   EAA4: ´   EAA5: ´…   
+EAA6: ´y   EAA7: ´~   EAA8: ´v   EAA9: ´|   
+EAAA: ´}   EAAB: ´‡   EAAC: ´z   EAAD: ´{   
+EAAE: ¶P   EAAF: ·]   EAB0: ·`   EAB1: ·_   
+EAB2: ¸M   EAB3: ¸O   EAB4: ¸L   EAB5: ¸I   
+EAB6: ¸N   EAB7: ºQ   EAB8: ºU   EAB9: ºW   
+EABA: óô   EABB: ºK   EABC: óö   EABD: óõ   
+EABE: ºX   EABF: ºe   EAC0: ºJ   EAC1: óø   
+EAC2: ºT   EAC3: ºP   EAC4: ºZ   EAC5: ºN   
+EAC6: ºR   EAC7: ¼L   EAC8: ¼N   EAC9: ôÜ   
+EACA: ¼J   EACB: ¼K   EACC: ¿W   EACD: ¿f   
+EACE: ¿\   EACF: ¿Q   EAD0: ¿d   EAD1: ¿e   
+EAD2: ¿X   EAD3: ¿S   EAD4: ¿a   EAD5: ¿Z   
+EAD6: ¿_   EAD7: ¿g   EAD8: ¿P   EAD9: ¿T   
+EADA: ¿[   EADB: ¿R   EADC: ¿Y   EADD: ¿j   
+EADE: ¿i   EADF: À”   EAE0: ÁW   EAE1: ÁX   
+EAE2: ÁV   EAE3: Á~   EAE4: ÂG   EAE5: ÅÕ   
+EAE6: ñð   EAE7: Â   EAE8: Äˆ   EAE9: ì¢   
+EAEA: Ä…   EAEB: Ä   EAEC: Ä‹   EAED: Ä‚   
+EAEE: Ä‡   EAEF: Äƒ   EAF0: ÄŠ   EAF1: Ä‰   
+EAF2: Ä   EAF3: Ä€   EAF4: ÅY   EAF5: Å   
+EAF6: Å‘   EAF7: Å’   EAF8: Þ¡   EAF9: Êq   
+EAFA: Ê   EAFB: Êv   EAFC: Ê|   EAFD: Êˆ   
+EAFE: Ê   
+EB40: Êm   EB41: Êr   EB42: Þ¨   EB43: Ên   
+EB44: Ê‰   EB45: Êp   EB46: Êz   EB47: Ês   
+EB48: ÊŠ   EB49: Êk   EB4A: Êƒ   EB4B: Ê–   
+EB4C: Êw   EB4D: Ê“   EB4E: Ê˜   EB4F: Ê~   
+EB50: Ê   EB51: Ê‡   EB52: ËG   EB53: ÊŒ   
+EB54: Ê…   EB55: Ê}   EB56: Ê‹   EB57: Ê‘   
+EB58: Ì™   EB59: Ì›   EB5A: Ìš   EB5B: Î˜   
+EB5C: ÎŽ   EB5D: ó¥   EB5E: òû   EB5F: Î‘   
+EB60: ó¢   EB61: Î†   EB62: Î”   EB63: Î•   
+EB64: Î‚   EB65: Î‰   EB66: ÎŸ   EB67: ó£   
+EB68: Î   EB69: Î   EB6A: Îš   EB6B: Î‡   
+EB6C: Î’   EB6D: Î™   EB6E: Î—   EB6F: ÎŠ   
+EB70: ÑŽ   EB71: Ñ”   EB72: å½   EB73: Ñ™   
+EB74: Ñš   EB75: Ñ•   EB76: Ñœ   EB77: Ñ‘   
+EB78: Ñ—   EB79: Ñ’   EB7A: Ñ›   EB7B: Ñ˜   
+EB7C: Ñ   EB7D: Óv   EB7E: Õ   
+EBA1: ÕŸ   
+EBA2: ÖN   EBA3: ÖP   EBA4: ÖQ   EBA5: Õš   
+EBA6: Öo   EBA7: Ö@   EBA8: Õœ   EBA9: ÖL   
+EBAA: Õ…   EBAB: Õ›   EBAC: Õž   EBAD: ÖD   
+EBAE: Ö[   EBAF: ÖK   EBB0: ÖW   EBB1: Ø†   
+EBB2: Ø‡   EBB3: Ø…   EBB4: Ùˆ   EBB5: Ù   
+EBB6: Ù„   EBB7: Ùƒ   EBB8: Ù†   EBB9: ÚX   
+EBBA: ÚY   EBBB: Ú‚   EBBC: Ú„   EBBD: Ûw   
+EBBE: Û~   EBBF: Û{   EBC0: õÞ   EBC1: Û‚   
+EBC2: Ûy   EBC3: Û}   EBC4: õá   EBC5: õä   
+EBC6: Ûu   EBC7: Û€   EBC8: Üy   EBC9: Ý’   
+EBCA: ÝŠ   EBCB: Ý‘   EBCC: ÝŽ   EBCD: Ý•   
+EBCE: Ý“   EBCF: Ý   EBD0: ßv   EBD1: ßy   
+EBD2: ß{   EBD3: ß‚   EBD4: àa   EBD5: à‘   
+EBD6: à“   EBD7: à”   EBD8: áa   EBD9: õ­   
+EBDA: õ¯   EBDB: õ®   EBDC: á`   EBDD: å]   
+EBDE: åT   EBDF: äŸ   EBE0: åU   EBE1: ä   
+EBE2: åE   EBE3: æN   EBE4: ån   EBE5: år   
+EBE6: åQ   EBE7: åY   EBE8: åH   EBE9: ä˜   
+EBEA: å{   EBEB: åc   EBEC: åD   EBED: åC   
+EBEE: äa   EBEF: åS   EBF0: ä‘   EBF1: å[   
+EBF2: åI   EBF3: ä   EBF4: äŽ   EBF5: åj   
+EBF6: ä™   EBF7: åZ   EBF8: ä–   EBF9: å_   
+EBFA: åo   EBFB: åk   EBFC: å`   EBFD: åJ   
+EBFE: åB   
+EC40: åA   EC41: ä•   EC42: ä    EC43: ä—   
+EC44: ä’   EC45: åL   EC46: é‘   EC47: êA   
+EC48: é“   EC49: éŽ   EC4A: é   EC4B: é‹   
+EC4C: é”   EC4D: éŠ   EC4E: é’   EC4F: ëT   
+EC50: ël   EC51: ë’   EC52: ë–   EC53: ë”   
+EC54: ìœ   EC55: ì›   EC56: ÷´   EC57: í…   
+EC58: íŠ   EC59: îf   EC5A: î`   EC5B: îc   
+EC5C: ðZ   EC5D: ðU   EC5E: ð]   EC5F: ð_   
+EC60: ñF   EC61: ñ•   EC62: ñ“   EC63: ñŒ   
+EC64: ñ‹   EC65: ñ—   EC66: ñŠ   EC67: ñ‘   
+EC68: ñ   EC69: ñŽ   EC6A: óf   EC6B: ój   
+EC6C: ód   EC6D: óg   EC6E: ó“   EC6F: ó–   
+EC70: ÷Û   EC71: ó”   EC72: ôe   EC73: õD   
+EC74: õI   EC75: õK   EC76: õ@   EC77: õB   
+EC78: ô    EC79: õF   EC7A: õW   EC7B: õV   
+EC7C: õT   EC7D: ôŸ   EC7E: õY   
+ECA1: õA   
+ECA2: õL   ECA3: øƒ   ECA4: øt   ECA5: ø}   
+ECA6: ø{   ECA7: øq   ECA8: ø‡   ECA9: øz   
+ECAA: øu   ECAB: ø€   ECAC: øm   ECAD: øv   
+ECAE: ø|   ECAF: ÷æ   ECB0: û„   ECB1: ÷å   
+ECB2: üC   ECB3: üB   ECB4: ü^   ECB5: ü_   
+ECB6: üv   ECB7: üˆ   ECB8: ÷ü   ECB9: ƒš   
+ECBA: ƒ™   ECBB: ƒ–   ECBC: ƒ˜   ECBD: ƒ•   
+ECBE: ƒ   ECBF: „í   ECC0: àê   ECC1: ‡   
+ECC2: ‡ž   ECC3: àã   ECC4: ‡—   ECC5: ‡–   
+ECC6: ‡‘   ECC7: ‡•   ECC8: ‡’   ECC9: ‡”   
+ECCA: ‰¼   ECCB: ‰»   ECCC: ‰·   ECCD: ‰¹   
+ECCE: ‹è   ECCF: ‹à   ECD0: æÕ   ECD1: ‹Þ   
+ECD2: ‹ç   ECD3: ‹â   ECD4: ‹á   ECD5: ‹ê   
+ECD6: ‹é   ECD7: ŒY   ECD8: Œ•   ECD9: Œ–   
+ECDA: áÚ   ECDB: ŽÎ   ECDC: ŽÌ   ECDD: Û   
+ECDE: Ú   ECDF: ‘¥   ECE0: ‘š   ECE1: ‘    
+ECE2: ‘Â   ECE3: ‘¼   ECE4: ‘Á   ECE5: ‘À   
+ECE6: ‘Ã   ECE7: ‘º   ECE8: ”P   ECE9: ”J   
+ECEA: ”F   ECEB: ”L   ECEC: ß©   ECED: ”I   
+ECEE: ”¾   ECEF: ”½   ECF0: ”ß   ECF1: ”ô   
+ECF2: •Ý   ECF3: ™j   ECF4: ™p   ECF5: ™_   
+ECF6: ™}   ECF7: ™f   ECF8: ™x   ECF9: ™t   
+ECFA: ™y   ECFB: ™w   ECFC: ™d   ECFD: ™m   
+ECFE: éÕ   
+ED40: ™o   ED41: ™a   ED42: ™   ED43: ™|   
+ED44: éÛ   ED45: ™^   ED46: ™~   ED47: ™s   
+ED48: ™b   ED49: ™i   ED4A: ™l   ED4B: ša   
+ED4C: š™   ED4D: š×   ED4E: ê   ED4F: Í   
+ED50: žL   ED51: ð   ED52: ü   ED53: ø   
+ED54: žG   ED55: žA   ED56: ž@   ED57: å¨   
+ED58: žJ   ED59: ù   ED5A: û   ED5B: žB   
+ED5C:  J   ED5D:  W   ED5E:  O   ED5F:  X   
+ED60:  M   ED61:  V   ED62:  K   ED63: «A   
+ED64: ªž   ED65: â´   ED66: ­T   ED67: ­j   
+ED68: ­c   ED69: è´   ED6A: ­b   ED6B: ­e   
+ED6C: ­i   ED6D: ­`   ED6E: ­g   ED6F: ®V   
+ED70: êµ   ED71: ®W   ED72: ê´   ED73: ®ž   
+ED74: ñª   ED75: °C   ED76: °D   ED77: °B   
+ED78: ð«   ED79: ±T   ED7A: î¬   ED7B: ²s   
+ED7C: ²x   ED7D: ²{   ED7E: ²z   
+EDA1: ²y   
+EDA2: ²w   EDA3: ²r   EDA4: ³D   EDA5: ´Œ   
+EDA6: ´“   EDA7: ´—   EDA8: ´‘   EDA9: ´’   
+EDAA: íá   EDAB: íâ   EDAC: ´   EDAD: ´”   
+EDAE: ´™   EDAF: ¶V   EDB0: ¶S   EDB1: ·r   
+EDB2: ·q   EDB3: ·m   EDB4: ·n   EDB5: ·k   
+EDB6: ·p   EDB7: ¸U   EDB8: ¸V   EDB9: ¸W   
+EDBA: ºo   EDBB: óü   EDBC: º_   EDBD: ºj   
+EDBE: ºi   EDBF: ºg   EDC0: ºu   EDC1: ºa   
+EDC2: óþ   EDC3: º`   EDC4: ºl   EDC5: ºr   
+EDC6: ºm   EDC7: ºk   EDC8: ºd   EDC9: ºh   
+EDCA: ºp   EDCB: º^   EDCC: Àé   EDCD: ºv   
+EDCE: ºs   EDCF: ôÝ   EDD0: ¿r   EDD1: ¿   
+EDD2: ¿†   EDD3: ¿x   EDD4: îy   EDD5: ¿}   
+EDD6: ¿o   EDD7: ¿Œ   EDD8: ¿…   EDD9: ôí   
+EDDA: ¿n   EDDB: ¿   EDDC: ¿u   EDDD: ÷ã   
+EDDE: ¿{   EDDF: ¿ˆ   EDE0: ¿€   EDE1: óÁ   
+EDE2: ÁZ   EDE3: îÀ   EDE4: ÁY   EDE5: ÂI   
+EDE6: ÂH   EDE7: Âe   EDE8: ëþ   EDE9: Ä”   
+EDEA: ëû   EDEB: ëý   EDEC: Ä•   EDED: Ä–   
+EDEE: Ä   EDEF: ÅS   EDF0: Å”   EDF1: ô½   
+EDF2: Å•   EDF3: ËA   EDF4: ÊŸ   EDF5: Þ²   
+EDF6: Ë^   EDF7: ËO   EDF8: ËX   EDF9: ËF   
+EDFA: Ë[   EDFB: Þ®   EDFC: Þ¯   EDFD: ËT   
+EDFE: ËV   
+EE40: Êš   EE41: Êœ   EE42: ËD   EE43: ËY   
+EE44: Þª   EE45: Ê›   EE46: Ê€   EE47: ËI   
+EE48: ËP   EE49: ËB   EE4A: ËH   EE4B: ËS   
+EE4C: ËU   EE4D: Ê    EE4E: ËZ   EE4F: Ë@   
+EE50: ËC   EE51: Þ¶   EE52: Þ³   EE53: Ê™   
+EE54: ËR   EE55: ËJ   EE56: ËW   EE57: Ìž   
+EE58: ÏP   EE59: ÏD   EE5A: ó¤   EE5B: ÏV   
+EE5C: ÏF   EE5D: ó©   EE5E: ÏM   EE5F: óª   
+EE60: ÏO   EE61: ÏE   EE62: ÏY   EE63: ÏT   
+EE64: ÏS   EE65: ÏZ   EE66: ÏK   EE67: òü   
+EE68: ÏU   EE69: ó±   EE6A: ÏI   EE6B: ÏJ   
+EE6C: ÏQ   EE6D: ÏL   EE6E: ó®   EE6F: Ïh   
+EE70: ÏH   EE71: ÑŸ   EE72: Ñž   EE73: ÒD   
+EE74: ÒF   EE75: ñß   EE76: ÒX   EE77: Ñ    
+EE78: ÒI   EE79: ÓK   EE7A: ÓM   EE7B: ÓL   
+EE7C: Ów   EE7D: ì²   EE7E: Öy   
+EEA1: Ös   
+EEA2: Öq   EEA3: Öl   EEA4: Öa   EEA5: Öf   
+EEA6: Ö}   EEA7: Öj   EEA8: Öm   EEA9: Öp   
+EEAA: åÀ   EEAB: Öh   EEAC: Öc   EEAD: Öb   
+EEAE: Öw   EEAF: Ön   EEB0: Öu   EEB1: ØR   
+EEB2: Øm   EEB3: Øo   EEB4: Øn   EEB5: Øl   
+EEB6: Ø‰   EEB7: õù   EEB8: ÙŒ   EEB9: ÚZ   
+EEBA: Û†   EEBB: Û…   EEBC: Û‰   EEBD: Ûˆ   
+EEBE: Û„   EEBF: å¿   EEC0: ÝŸ   EEC1: Ýœ   
+EEC2: ß   EEC3: ß}   EEC4: à–   EEC5: ÃÑ   
+EEC6: õ°   EEC7: È©   EEC8: ág   EEC9: ák   
+EECA: ám   EECB: ái   EECC: ál   EECD: æt   
+EECE: æW   EECF: æƒ   EED0: åš   EED1: åŒ   
+EED2: å|   EED3: æP   EED4: åŽ   EED5: å’   
+EED6: æJ   EED7: å~   EED8: å†   EED9: å‡   
+EEDA: å–   EEDB: æA   EEDC: öÌ   EEDD: å‚   
+EEDE: öÊ   EEDF: æM   EEE0: å   EEE1: å‹   
+EEE2: åˆ   EEE3: å…   EEE4: æE   EEE5: æK   
+EEE6: æO   EEE7: å—   EEE8: å”   EEE9: å™   
+EEEA: å   EEEB: æT   EEEC: å„   EEED: å   
+EEEE: éœ   EEEF: é•   EEF0: éž   EEF1: é˜   
+EEF2: éš   EEF3: éŒ   EEF4: ëY   EEF5: Úô   
+EEF6: ëW   EEF7: ë    EEF8: ëŸ   EEF9: ëš   
+EEFA: ëž   EEFB: ë›   EEFC: ì   EEFD: íB   
+EEFE: ìŸ   
+EF40: í@   EF41: ì    EF42: íp   EF43: ío   
+EF44: í†   EF45: îr   EF46: îu   EF47: î{   
+EF48: îz   EF49: îv   EF4A: ît   EF4B: ð[   
+EF4C: ða   EF4D: ðb   EF4E: ð`   EF4F: ðh   
+EF50: ðg   EF51: ðd   EF52: ðc   EF53: ðf   
+EF54: ðe   EF55: Ùå   EF56: ñK   EF57: ñI   
+EF58: òH   EF59: ò@   EF5A: ñ›   EF5B: ñž   
+EF5C: ñ    EF5D: ñŸ   EF5E: ñ   EF5F: òA   
+EF60: òC   EF61: òD   EF62: òB   EF63: òI   
+EF64: ói   EF65: ó™   EF66: ó˜   EF67: óœ   
+EF68: ó—   EF69: ÷Ì   EF6A: õ^   EF6B: õl   
+EF6C: õb   EF6D: õ_   EF6E: õj   EF6F: õe   
+EF70: õi   EF71: õh   EF72: õJ   EF73: õf   
+EF74: õd   EF75: õs   EF76: ø‘   EF77: øŸ   
+EF78: ùd   EF79: ø”   EF7A: øŒ   EF7B: ø   
+EF7C: ø   EF7D: ø–   EF7E: øŽ   
+EFA1: ùB   
+EFA2: ø    EFA3: ù@   EFA4: øœ   EFA5: ø•   
+EFA6: øž   EFA7: ø›   EFA8: ÂJ   EFA9: ø‹   
+EFAA: û†   EFAB: û…   EFAC: ûˆ   EFAD: üE   
+EFAE: üW   EFAF: üb   EFB0: íê   EFB1: üx   
+EFB2: ü•   EFB3: ü”   EFB4: ÷÷   EFB5: ýZ   
+EFB6: Ùß   EFB7: ƒ¥   EFB8: ƒ¡   EFB9: ƒ¢   
+EFBA: ‡¦   EFBB: ‡ª   EFBC: ‡¥   EFBD: ‡¨   
+EFBE: ‡«   EFBF: ‡§   EFC0: Š`   EFC1: ‹ô   
+EFC2: ŒÖ   EFC3: Œ×   EFC4: Ž^   EFC5: ŽÏ   
+EFC6: ŽÐ   EFC7: ‘´   EFC8: ‘»   EFC9: ‘È   
+EFCA: ‘É   EFCB: ‘Ì   EFCC: ‘Å   EFCD: ‘Ë   
+EFCE: ‘Æ   EFCF: ‘²   EFD0: ‘Ä   EFD1: ”`   
+EFD2: ”d   EFD3: ”^   EFD4: ”Y   EFD5: ”a   
+EFD6: ”c   EFD7: ”]   EFD8: ”Ë   EFD9: ”õ   
+EFDA: •ä   EFDB: êÖ   EFDC: •ã   EFDD: ™›   
+EFDE: ™   EFDF: ™“   EFE0: ™·   EFE1: ™œ   
+EFE2: ™   EFE3: ™Œ   EFE4: ™   EFE5: ™   
+EFE6: ™Š   EFE7: ™ƒ   EFE8: šd   EFE9: š­   
+EFEA: šÙ   EFEB: ž_   EFEC: žd   EFED: že   
+EFEE: žY   EFEF: ž]   EFF0: žk   EFF1: žf   
+EFF2: žW   EFF3: žX   EFF4: žS   EFF5: žz   
+EFF6: žT   EFF7: žO   EFF8: žb   EFF9:  f   
+EFFA:  d   EFFB: ìÞ   EFFC:  h   EFFD:  b   
+EFFE: «D   
+F040: ­p   F041: ­w   F042: ­m   F043: ­x   
+F044: ­u   F045: ­n   F046: ­r   F047: ­y   
+F048: ®X   F049: ê¶   F04A: ñ°   F04B: °X   
+F04C: °P   F04D: °I   F04E: °L   F04F: °N   
+F050: °Q   F051: °‰   F052: °œ   F053: ±W   
+F054: ²„   F055: ²~   F056: ´•   F057: ´    
+F058: íä   F059: µF   F05A: ´   F05B: µC   
+F05C: µE   F05D: µD   F05E: ¶X   F05F: ¶W   
+F060: ·u   F061: º‚   F062: ºŒ   F063: º~   
+F064: º…   F065: ô¡   F066: º   F067: ºƒ   
+F068: ô£   F069: º‹   F06A: º‡   F06B: ºŠ   
+F06C: º’   F06D: ¿Ÿ   F06E: ¿“   F06F: ¿™   
+F070: ÀE   F071: ¿›   F072: ÀD   F073: ÀA   
+F074: ¿”   F075: ÀB   F076: ¿š   F077: ¿–   
+F078: Á‚   F079: Á€   F07A: ÂL   F07B: ÂM   
+F07C: Â˜   F07D: Äž   F07E: ÄŸ   
+F0A1: Ä   
+F0A2: ô¾   F0A3: Å—   F0A4: Ëf   F0A5: Ëu   
+F0A6: Ëp   F0A7: Ër   F0A8: Ëq   F0A9: Ëe   
+F0AA: Ëg   F0AB: Ëm   F0AC: Ëv   F0AD: Ës   
+F0AE: Ëo   F0AF: Ëy   F0B0: Ë|   F0B1: Ëw   
+F0B2: Ët   F0B3: Ëc   F0B4: Ëh   F0B5: Ë~   
+F0B6: Ìf   F0B7: Ëi   F0B8: Þ¸   F0B9: Ën   
+F0BA: ÌŸ   F0BB: Ïo   F0BC: Ïn   F0BD: Ïk   
+F0BE: ó²   F0BF: Ïr   F0C0: ó³   F0C1: ó¨   
+F0C2: Ïi   F0C3: Ïy   F0C4: Ïm   F0C5: Ï_   
+F0C6: Ïf   F0C7: ó­   F0C8: Ït   F0C9: Ïc   
+F0CA: Ïl   F0CB: Î    F0CC: Ïb   F0CD: Ïd   
+F0CE: Ï†   F0CF: Ïz   F0D0: Ïp   F0D1: Ïg   
+F0D2: ÒY   F0D3: ÒQ   F0D4: ÒU   F0D5: ÒR   
+F0D6: ÒL   F0D7: ÒV   F0D8: ÒW   F0D9: ÒO   
+F0DA: Ö…   F0DB: Ö‚   F0DC: Ö~   F0DD: ÖŽ   
+F0DE: Ö‹   F0DF: Ö   F0E0: ×A   F0E1: ÖŠ   
+F0E2: Ö—   F0E3: Ö™   F0E4: ÖŒ   F0E5: Ö   
+F0E6: Ö’   F0E7: ö¥   F0E8: Ö‘   F0E9: Ö‰   
+F0EA: Ö€   F0EB: Ö–   F0EC: Ö˜   F0ED: Ö•   
+F0EE: ØI   F0EF: Øq   F0F0: ØŒ   F0F1: õø   
+F0F2: Ø‹   F0F3: Ù‘   F0F4: Ù—   F0F5: Ù•   
+F0F6: Ù“   F0F7: Û‘   F0F8: Û—   F0F9: Û•   
+F0FA: Û   F0FB: ÛŒ   F0FC: Û“   F0FD: Ûš   
+F0FE: Û›   
+F140: Û   F141: Û   F142: Û–   F143: Û’   
+F144: õ¿   F145: ÛŠ   F146: ÞA   F147: ÞB   
+F148: ÞC   F149: ÞF   F14A: àˆ   F14B: à—   
+F14C: à˜   F14D: à›   F14E: ár   F14F: áo   
+F150: áq   F151: õµ   F152: õ²   F153: æ‰   
+F154: æ`   F155: æe   F156: æ‹   F157: æn   
+F158: æp   F159: æ]   F15A: æz   F15B: æb   
+F15C: æ}   F15D: æq   F15E: æy   F15F: æh   
+F160: æ\   F161: æl   F162: ær   F163: æa   
+F164: æ…   F165: æd   F166: æ†   F167: æw   
+F168: æ{   F169: æˆ   F16A: æv   F16B: æx   
+F16C: êF   F16D: êG   F16E: êE   F16F: ãÄ   
+F170: ën   F171: ëq   F172: Ž`   F173: ëv   
+F174: ëo   F175: ët   F176: ìB   F177: ìA   
+F178: ìD   F179: íK   F17A: íL   F17B: íH   
+F17C: ÷¶   F17D: íD   F17E: íJ   
+F1A1: íC   
+F1A2: íE   F1A3: ír   F1A4: ít   F1A5: íq   
+F1A6: ís   F1A7: íŒ   F1A8: î‚   F1A9: îƒ   
+F1AA: î„   F1AB: ï\   F1AC: ðv   F1AD: ðq   
+F1AE: ðo   F1AF: òU   F1B0: òQ   F1B1: òO   
+F1B2: òS   F1B3: òJ   F1B4: òW   F1B5: òP   
+F1B6: òK   F1B7: òM   F1B8: òL   F1B9: ÷Â   
+F1BA: ó~   F1BB: ÷Ü   F1BC: óž   F1BD: óŸ   
+F1BE: ô]   F1BF: ôg   F1C0: ôr   F1C1: ôt   
+F1C2: ôs   F1C3: õŒ   F1C4: õ‹   F1C5: õˆ   
+F1C6: õ„   F1C7: õ†   F1C8: õy   F1C9: õ|   
+F1CA: õ˜   F1CB: õz   F1CC: õ‰   F1CD: õ}   
+F1CE: õ‚   F1CF: ùY   F1D0: ùP   F1D1: ùL   
+F1D2: ùG   F1D3: ùX   F1D4: ùH   F1D5: ùV   
+F1D6: ùS   F1D7: ùI   F1D8: ùT   F1D9: ùO   
+F1DA: ùQ   F1DB: ù\   F1DC: ùU   F1DD: ùW   
+F1DE: û‰   F1DF: û‡   F1E0: ÷ð   F1E1: üz   
+F1E2: üy   F1E3: ü‹   F1E4: ü–   F1E5: üœ   
+F1E6: ü›   F1E7: üš   F1E8: ü™   F1E9: ýT   
+F1EA: ý[   F1EB: ƒ¨   F1EC: ƒ©   F1ED: „­   
+F1EE: „ð   F1EF: …˜   F1F0: ‡¸   F1F1: ‡º   
+F1F2: ‡³   F1F3: ‡´   F1F4: ‡·   F1F5: ‡¹   
+F1F6: ‰À   F1F7: ‰Ã   F1F8: ‰Á   F1F9: ‰ë   
+F1FA: ‹õ   F1FB: ‹ö   F1FC: ‹÷   F1FD: Ža   
+F1FE: ŽÒ   
+F240: Ü   F241: ‘Õ   F242: ”g   F243: ”o   
+F244: ”l   F245: ß«   F246: ”k   F247: ”m   
+F248: ”Á   F249: ”ø   F24A: ”÷   F24B: •å   
+F24C: ™½   F24D: ™¶   F24E: ™¢   F24F: ™§   
+F250: ™¯   F251: ™¡   F252: ™µ   F253: ™²   
+F254: ™¦   F255: ™Á   F256: ™¥   F257: ™£   
+F258: ™´   F259: šf   F25A: šœ   F25B: šÚ   
+F25C: žp   F25D: ž{   F25E: žu   F25F: žm   
+F260: ž€   F261: žv   F262: žw   F263: å¬   
+F264: ž}   F265: žn   F266: žx   F267: žq   
+F268: ž~   F269:  p   F26A:  n   F26B:  k   
+F26C:  g   F26D:  j   F26E:  Ü   F26F:  Ý   
+F270:  Û   F271:  Ú   F272:  Ø   F273: ­ƒ   
+F274: ­|   F275: ­o   F276: ­z   F277: ®Z   
+F278: °U   F279: ²‹   F27A: ²Œ   F27B: ²†   
+F27C: ³E   F27D: µO   F27E: µM   
+F2A1: µR   
+F2A2: µN   F2A3: µI   F2A4: íæ   F2A5: ¶[   
+F2A6: ·}   F2A7: ·~   F2A8: º•   F2A9: º   
+F2AA: ºš   F2AB: ºŽ   F2AC: ºœ   F2AD: ¼^   
+F2AE: ¼\   F2AF: ÀX   F2B0: ÀW   F2B1: ÀZ   
+F2B2: ÀR   F2B3: ÀY   F2B4: ÀQ   F2B5: À\   
+F2B6: ÀT   F2B7: ÀV   F2B8: ÀJ   F2B9: Àš   
+F2BA: À™   F2BB: Á]   F2BC: Á`   F2BD: Á„   
+F2BE: ÂP   F2BF: ÂQ   F2C0: Â›   F2C1: ÅC   
+F2C2: ÅA   F2C3: Åœ   F2C4: Å™   F2C5: Å›   
+F2C6: Ë“   F2C7: Ë™   F2C8: Ë•   F2C9: Ë„   
+F2CA: Ë‹   F2CB: Ë‘   F2CC: Ë…   F2CD: Ë‚   
+F2CE: Ë”   F2CF: Ëš   F2D0: Ë    F2D1: Ëƒ   
+F2D2: Ë‰   F2D3: Ë   F2D4: Þ¼   F2D5: Ë}   
+F2D6: Ë˜   F2D7: Ë   F2D8: Ë—   F2D9: Ëˆ   
+F2DA: ËŒ   F2DB: Ï…   F2DC: Ï€   F2DD: Ùù   
+F2DE: Ï|   F2DF: Ï}   F2E0: Ï   F2E1: Ï   
+F2E2: ÏŽ   F2E3: ÏŠ   F2E4: Ï‚   F2E5: ÏŒ   
+F2E6: Ï„   F2E7: ó¹   F2E8: Ï‡   F2E9: Òf   
+F2EA: Ò`   F2EB: Òa   F2EC: Ò]   F2ED: Òe   
+F2EE: Òb   F2EF: Ò^   F2F0: Òc   F2F1: Ò_   
+F2F2: Ò‡   F2F3: ÓU   F2F4: ÓT   F2F5: Óz   
+F2F6: ×J   F2F7: ×B   F2F8: ×D   F2F9: Ö›   
+F2FA: ×M   F2FB: ×P   F2FC: ×N   F2FD: ×E   
+F2FE: ×O   
+F340: ×K   F341: Ö   F342: ×L   F343: ×Q   
+F344: ØJ   F345: Øs   F346: Ør   F347: Ø   
+F348: Ù™   F349: Ùš   F34A: Ùœ   F34B: Ú‰   
+F34C: Ú‡   F34D: ÚŠ   F34E: Úˆ   F34F: ²ä   
+F350: ÜC   F351: Ü@   F352: Û   F353: õì   
+F354: ÜF   F355: Ü~   F356: ÞM   F357: ÞL   
+F358: ÞJ   F359: ÞK   F35A: ÞN   F35B: Þt   
+F35C: à   F35D: àœ   F35E: áv   F35F: õ³   
+F360: çO   F361: æ›   F362: çA   F363: æ–   
+F364: çK   F365: çB   F366: çj   F367: ç]   
+F368: æŸ   F369: çJ   F36A: æ|   F36B: çW   
+F36C: öË   F36D: çF   F36E: ç_   F36F: çT   
+F370: çG   F371: æ˜   F372: ç@   F373: æ”   
+F374: çD   F375: çX   F376: éR   F377: êN   
+F378: êO   F379: ëw   F37A: ìH   F37B: ìI   
+F37C: ìJ   F37D: ìG   F37E: ìE   
+F3A1: íO   
+F3A2: íR   F3A3: íQ   F3A4: íx   F3A5: íy   
+F3A6: íz   F3A7: îŽ   F3A8: î‹   F3A9: î   
+F3AA: î‰   F3AB: ïc   F3AC: ïa   F3AD: ï_   
+F3AE: ïb   F3AF: ð}   F3B0: ð|   F3B1: ðx   
+F3B2: ñM   F3B3: ñN   F3B4: ò`   F3B5: ò[   
+F3B6: òk   F3B7: òc   F3B8: òj   F3B9: òa   
+F3BA: òh   F3BB: òf   F3BC: òm   F3BD: òi   
+F3BE: òd   F3BF: òb   F3C0: òZ   F3C1: ÷Ä   
+F3C2: ôC   F3C3: ôB   F3C4: ôF   F3C5: ôD   
+F3C6: ôi   F3C7: öN   F3C8: öO   F3C9: öD   
+F3CA: öB   F3CB: öH   F3CC: öJ   F3CD: öF   
+F3CE: öT   F3CF: õ™   F3D0: õœ   F3D1: öP   
+F3D2: ö@   F3D3: õž   F3D4: öI   F3D5: õš   
+F3D6: öE   F3D7: õŸ   F3D8: ùt   F3D9: ù~   
+F3DA: ùˆ   F3DB: ù‚   F3DC: ù†   F3DD: ùn   
+F3DE: ù}   F3DF: ùu   F3E0: ù„   F3E1: ù‰   
+F3E2: ùŠ   F3E3: ùz   F3E4: ùh   F3E5: ùq   
+F3E6: ùr   F3E7: ùm   F3E8: ùf   F3E9: ùƒ   
+F3EA: ùp   F3EB: ùx   F3EC: ù€   F3ED: ùl   
+F3EE: ùv   F3EF: ù|   F3F0: ù…   F3F1: ùe   
+F3F2: û   F3F3: ûŒ   F3F4: üP   F3F5: íë   
+F3F6: ü   F3F7: ýI   F3F8: ýJ   F3F9: ýU   
+F3FA: ý\   F3FB: ý]   F3FC: ý^   F3FD: …Z   
+F3FE: ‡¾   
+F440: ‡Á   F441: ‡¿   F442: ‰É   F443: ‹ü   
+F444: Žc   F445: Žd   F446: _   F447: `   
+F448: Ý   F449: Þ   F44A: ‘Ó   F44B: ”u   
+F44C: ”t   F44D: ”s   F44E: ”q   F44F: ”ù   
+F450: •î   F451: •ê   F452: •ë   F453: ™É   
+F454: ™Æ   F455: ™À   F456: ™¾   F457: ™Ï   
+F458: ™Ç   F459: ™Ä   F45A: ™Å   F45B: ž   
+F45C: å¯   F45D: ž„   F45E: ž‹   F45F: ž‰   
+F460: ž†   F461: ž•   F462: žŒ   F463: ž’   
+F464: ž   F465: å®   F466: ž“   F467: žŽ   
+F468: žˆ   F469: ž”   F46A:  w   F46B:  x   
+F46C:  ß   F46D: «K   F46E: «J   F46F: è·   
+F470: °Ž   F471: °   F472: °   F473: ±X   
+F474: ²Ž   F475: ²   F476: ²   F477: ÛÇ   
+F478: ³F   F479: µU   F47A: µT   F47B: µW   
+F47C: µX   F47D: íå   F47E: µY   
+F4A1: ¶]   
+F4A2: ·…   F4A3: ·ƒ   F4A4: ·„   F4A5: ¸ƒ   
+F4A6: »F   F4A7: »E   F4A8: »G   F4A9: »D   
+F4AA: »B   F4AB: ¼`   F4AC: À]   F4AD: À`   
+F4AE: Àc   F4AF: Àb   F4B0: Á…   F4B1: ÂR   
+F4B2: Âœ   F4B3: ÅG   F4B4: ÅE   F4B5: Åg   
+F4B6: ô¿   F4B7: Å    F4B8: Ìd   F4B9: Þ½   
+F4BA: ÌF   F4BB: ÌD   F4BC: Ì]   F4BD: ÌE   
+F4BE: Ëž   F4BF: ÌI   F4C0: ÌM   F4C1: Þ¿   
+F4C2: ÌP   F4C3: ÌC   F4C4: Ï™   F4C5: Ï“   
+F4C6: Ï”   F4C7: Ï—   F4C8: ó·   F4C9: ó¶   
+F4CA: Òg   F4CB: ñà   F4CC: ÓW   F4CD: Ó{   
+F4CE: ×Z   F4CF: ×c   F4D0: ×W   F4D1: ×a   
+F4D2: ×]   F4D3: ×_   F4D4: ×`   F4D5: ×e   
+F4D6: Ú‹   F4D7: ÜM   F4D8: ÜN   F4D9: ÜL   
+F4DA: ÞT   F4DB: ÞQ   F4DC: ÞR   F4DD: ÞP   
+F4DE: ÞS   F4DF: ÞU   F4E0: ß‡   F4E1: Û¹   
+F4E2: àž   F4E3: á{   F4E4: õ¶   F4E5: áx   
+F4E6: áy   F4E7: ç|   F4E8: ç…   F4E9: çl   
+F4EA: ç’   F4EB: ç   F4EC: ç†   F4ED: ço   
+F4EE: ç‡   F4EF: ç‚   F4F0: çš   F4F1: ç‹   
+F4F2: ç~   F4F3: çf   F4F4: çq   F4F5: çh   
+F4F6: çx   F4F7: ç€   F4F8: çˆ   F4F9: ç„   
+F4FA: çk   F4FB: çz   F4FC: çi   F4FD: ç{   
+F4FE: çp   
+F540: çm   F541: ç}   F542: çg   F543: çƒ   
+F544: çw   F545: êR   F546: êT   F547: êS   
+F548: ìK   F549: ìL   F54A: íT   F54B: íV   
+F54C: í   F54D: í   F54E: î’   F54F: î”   
+F550: î•   F551: î‘   F552: ïe   F553: ïf   
+F554: ð†   F555: ð„   F556: ð   F557: ð‚   
+F558: ð   F559: ð‰   F55A: òx   F55B: òz   
+F55C: òw   F55D: òr   F55E: òp   F55F: ò|   
+F560: òo   F561: òt   F562: ò~   F563: òs   
+F564: ón   F565: óq   F566: óm   F567: ôG   
+F568: ôI   F569: ôH   F56A: öo   F56B: öl   
+F56C: ö[   F56D: öi   F56E: öv   F56F: ö\   
+F570: ÷D   F571: ök   F572: ör   F573: öj   
+F574: ö{   F575: öx   F576: öm   F577: ù   
+F578: ù—   F579: úA   F57A: ù›   F57B: ù   
+F57C: ù–   F57D: ùŽ   F57E: ù™   
+F5A1: ùž   
+F5A2: ù’   F5A3: ùš   F5A4: úG   F5A5: ù•   
+F5A6: ùŸ   F5A7: ù˜   F5A8: ù    F5A9: úE   
+F5AA: ùœ   F5AB: ú@   F5AC: ú\   F5AD: úF   
+F5AE: ù”   F5AF: úC   F5B0: úD   F5B1: û’   
+F5B2: û”   F5B3: û“   F5B4: ÷ô   F5B5: üf   
+F5B6: ÷ó   F5B7: üg   F5B8: üŸ   F5B9: üž   
+F5BA: ýa   F5BB: ýf   F5BC: ýd   F5BD: ýc   
+F5BE: ý_   F5BF: ýŒ   F5C0: ƒ®   F5C1: ƒ­   
+F5C2: „¯   F5C3: „®   F5C4: ‡Í   F5C5: ‡Ç   
+F5C6: ‡È   F5C7: Œ@   F5C8: ‹þ   F5C9: Žh   
+F5CA: Žk   F5CB: b   F5CC: ‘×   F5CD: ”x   
+F5CE: ™Ø   F5CF: ™Ò   F5D0: ™Ù   F5D1: ™Î   
+F5D2: ™Ö   F5D3: ž–   F5D4: ž—   F5D5: ž   
+F5D6: ž›   F5D7: žœ   F5D8: ž˜   F5D9: ž™   
+F5DA: ìß   F5DB:  ~   F5DC:  }   F5DD: âµ   
+F5DE: ®[   F5DF: °^   F5E0: ²‘   F5E1: µ]   
+F5E2: µa   F5E3: µ_   F5E4: »P   F5E5: »O   
+F5E6: ¼c   F5E7: Àk   F5E8: Àh   F5E9: Ài   
+F5EA: Àl   F5EB: Àg   F5EC: Àn   F5ED: Àœ   
+F5EE: Á†   F5EF: Âi   F5F0: ÅI   F5F1: ÌZ   
+F5F2: Ìj   F5F3: Ìh   F5F4: Ìa   F5F5: Ìe   
+F5F6: Ì^   F5F7: Ì[   F5F8: Þ¾   F5F9: Ìn   
+F5FA: Ìc   F5FB: Ìb   F5FC: ÞÀ   F5FD: Ì`   
+F5FE: Ìg   
+F640: ÐE   F641: Ïœ   F642: óº   F643: ÏŸ   
+F644: Ð@   F645: Ï›   F646: ÐG   F647: Ð`   
+F648: Òp   F649: Òl   F64A: Òq   F64B: Òn   
+F64C: Ó~   F64D: ×q   F64E: ×p   F64F: Ö    
+F650: ×r   F651: ×s   F652: ÚB   F653: ÚF   
+F654: ÚŒ   F655: ÜT   F656: ÜR   F657: ÞY   
+F658: ÞV   F659: ÞX   F65A: Ûº   F65B: à    
+F65C: á@   F65D: á}   F65E: èO   F65F: èL   
+F660: èG   F661: ç›   F662: èN   F663: èM   
+F664: èA   F665: èJ   F666: çœ   F667: èH   
+F668: çž   F669: èP   F66A: èB   F66B: êY   
+F66C: êX   F66D: êW   F66E: ìP   F66F: ìS   
+F670: íZ   F671: í|   F672: î–   F673: ïm   
+F674: ïj   F675: ïd   F676: ðŒ   F677: ðŠ   
+F678: ò€   F679: ò„   F67A: ò   F67B: ò‹   
+F67C: ò‰   F67D: òˆ   F67E: ò   
+F6A1: ò†   
+F6A2: ór   F6A3: ôK   F6A4: ôM   F6A5: ôN   
+F6A6: ôL   F6A7: ôl   F6A8: ôw   F6A9: ö   
+F6AA: ö‚   F6AB: ö   F6AC: ö‘   F6AD: öˆ   
+F6AE: ö   F6AF: öŽ   F6B0: ö‰   F6B1: ö†   
+F6B2: úT   F6B3: úS   F6B4: úY   F6B5: ú^   
+F6B6: úd   F6B7: úg   F6B8: úl   F6B9: ú[   
+F6BA: úb   F6BB: ú`   F6BC: úX   F6BD: úR   
+F6BE: úk   F6BF: úV   F6C0: úW   F6C1: úI   
+F6C2: úe   F6C3: úN   F6C4: úJ   F6C5: úi   
+F6C6: úP   F6C7: új   F6C8: úO   F6C9: ûz   
+F6CA: û•   F6CB: üi   F6CC: ül   F6CD: ük   
+F6CE: üŽ   F6CF: üŒ   F6D0: ü   F6D1: ü    
+F6D2: ýV   F6D3: ýk   F6D4: ýj   F6D5: ý   
+F6D6:    F6D7: ‡Ð   F6D8: ‡Ï   F6D9: ‡Ô   
+F6DA: Ša   F6DB: ŒC   F6DC: ŒD   F6DD: Žq   
+F6DE: Žm   F6DF: c   F6E0: ”~   F6E1: ”}   
+F6E2: ”ƒ   F6E3: ”€   F6E4: ™á   F6E5: ™Þ   
+F6E6: ™ß   F6E7: ë¬   F6E8: ž¦   F6E9: ž§   
+F6EA: ž¨   F6EB: ž£   F6EC:  ‚   F6ED:  ƒ   
+F6EE:  à   F6EF: «L   F6F0: ­   F6F1: ­Œ   
+F6F2: ­   F6F3: ­Ž   F6F4: °`   F6F5: °   
+F6F6: µd   F6F7: ¶^   F6F8: ð¦   F6F9: ·‡   
+F6FA: »S   F6FB: »X   F6FC: »U   F6FD: »W   
+F6FE: »V   
+F740: ¼e   F741: ¼b   F742: Àr   F743: Àž   
+F744: Áa   F745: ÅJ   F746: ÆA   F747: Ìt   
+F748: Ìu   F749: Ìs   F74A: Ìl   F74B: Ìr   
+F74C: Ìv   F74D: ÐH   F74E: ÐD   F74F: ÐB   
+F750: ÐF   F751: ÐA   F752: Òt   F753: Ó]   
+F754: Ó\   F755: Ó€   F756: ×v   F757: ×|   
+F758: ×z   F759: ×~   F75A: ×}   F75B: ×w   
+F75C: ÚG   F75D: ÜX   F75E: õð   F75F: Ü]   
+F760: ÜV   F761: õñ   F762: ÜY   F763: ÜZ   
+F764: Þ[   F765: Þ]   F766: áA   F767: è\   
+F768: è`   F769: èZ   F76A: è[   F76B: è_   
+F76C: èW   F76D: èU   F76E: èX   F76F: èY   
+F770: èV   F771: ìW   F772: í~   F773: îœ   
+F774: î›   F775: ïo   F776: ÷Ó   F777: ð   
+F778: ò•   F779: òš   F77A: ò›   F77B: ò“   
+F77C: ò–   F77D: ò   F77E: ò‘   
+F7A1: ò   
+F7A2: ò™   F7A3: ò—   F7A4: óu   F7A5: ôO   
+F7A6: ô_   F7A7: å÷   F7A8: ôz   F7A9: ôy   
+F7AA: ÷J   F7AB: ÷L   F7AC: ÷C   F7AD: ÷H   
+F7AE: öž   F7AF: ö˜   F7B0: ÷E   F7B1: ÷@   
+F7B2: öœ   F7B3: ö™   F7B4: ö—   F7B5: ÷A   
+F7B6: ö›   F7B7: úx   F7B8: úo   F7B9: ú{   
+F7BA: úw   F7BB: úh   F7BC: úm   F7BD: úy   
+F7BE: ún   F7BF: ú|   F7C0: ú‡   F7C1: úv   
+F7C2: úu   F7C3: ús   F7C4: ú“   F7C5: úr   
+F7C6: úz   F7C7: üJ   F7C8: üm   F7C9: ýC   
+F7CA: ýA   F7CB: ý@   F7CC: ýK   F7CD: ýq   
+F7CE: ý   F7CF: ý˜   F7D0: ƒ±   F7D1: „°   
+F7D2: ‰Í   F7D3: ‰Ì   F7D4: Šb   F7D5: ŒE   
+F7D6: Žt   F7D7: ÐK   F7D8: ž   F7D9: ‘Ú   
+F7DA: ‘Ü   F7DB: ‘Ý   F7DC: ”†   F7DD: ß¬   
+F7DE: ”Í   F7DF: •ð   F7E0: ™ç   F7E1: ™è   
+F7E2: ™å   F7E3: š®   F7E4: ž¬   F7E5: ž«   
+F7E6:  †   F7E7: «O   F7E8: «N   F7E9: «P   
+F7EA: °b   F7EB: ²•   F7EC: »c   F7ED: »b   
+F7EE: Àv   F7EF: ÆB   F7F0: Ìy   F7F1: Ì~   
+F7F2: Ìx   F7F3: ÞÂ   F7F4: Ìq   F7F5: Ìz   
+F7F6: Ì|   F7F7: ÐL   F7F8: îÃ   F7F9: ÐJ   
+F7FA: ÐN   F7FB: Òy   F7FC: Òw   F7FD: Òv   
+F7FE: Óƒ   
+F840: ×…   F841: ×‡   F842: ×„   F843: ×   
+F844: ØL   F845: ÚK   F846: Ü[   F847: Þ_   
+F848: Þ^   F849: á€   F84A: èr   F84B: èe   
+F84C: èm   F84D: èg   F84E: èn   F84F: í_   
+F850: í`   F851: í’   F852: ò   F853: ò    
+F854: ôT   F855: ÷ß   F856: ôU   F857: ÷V   
+F858: ÷\   F859: ÷T   F85A: ÷N   F85B: ÷Q   
+F85C: ÷O   F85D: ÷Y   F85E: ÷]   F85F: ÷P   
+F860: ÷R   F861: ú™   F862: ú•   F863: ú   
+F864: ú   F865: ú‰   F866: ú–   F867: ú‚   
+F868: ú”   F869: ú~   F86A: úŒ   F86B: ú„   
+F86C: ú   F86D: úŽ   F86E: ú€   F86F: úŠ   
+F870: ú’   F871: ú‘   F872: ú†   F873: ú‹   
+F874: üR   F875: ü[   F876: üo   F877: üp   
+F878: ü€   F879: ü   F87A: ýE   F87B: ÷û   
+F87C: ýD   F87D: ýL   F87E: ýW   
+F8A1: ýw   
+F8A2: ýv   F8A3: ýt   F8A4: ýu   F8A5: ‡Ü   
+F8A6: ‡Ö   F8A7: ŒF   F8A8: ŒÚ   F8A9: ”‰   
+F8AA: •ò   F8AB: •ó   F8AC: ™é   F8AD: ž¯   
+F8AE: ž±   F8AF: ž®   F8B0: ž°   F8B1:  ‡   
+F8B2: ­’   F8B3: ­–   F8B4: ²–   F8B5: µg   
+F8B6: ¶a   F8B7: ¶`   F8B8: »f   F8B9: Àx   
+F8BA: Ác   F8BB: ÆC   F8BC: Ì‚   F8BD: ÐS   
+F8BE: ÐR   F8BF: ÐP   F8C0: Ða   F8C1: ×   
+F8C2: ×Ž   F8C3: õó   F8C4: Ü`   F8C5: Üa   
+F8C6: Ü_   F8C7: á‚   F8C8: á   F8C9: á†   
+F8CA: öÎ   F8CB: èx   F8CC: èy   F8CD: ë{   
+F8CE: ì^   F8CF: ì[   F8D0: ì_   F8D1: íb   
+F8D2: í   F8D3: óD   F8D4: óx   F8D5: ô}   
+F8D6: ÷g   F8D7: ÷k   F8D8: ÷j   F8D9: ÷f   
+F8DA: ÷b   F8DB: ÷d   F8DC: ú    F8DD: úœ   
+F8DE: ûD   F8DF: û@   F8E0: ûC   F8E1: ûB   
+F8E2: úž   F8E3: úŸ   F8E4: ûF   F8E5: ú   
+F8E6: ú›   F8E7: ûA   F8E8: û—   F8E9: ü‘   
+F8EA: ýN   F8EB: ýz   F8EC: ý{   F8ED: ý|   
+F8EE: àì   F8EF: ß­   F8F0: ”á   F8F1: ™î   
+F8F2: ™ï   F8F3: ™í   F8F4: ™ð   F8F5: ž²   
+F8F6:  Š   F8F7:  á   F8F8: ²˜   F8F9: ²™   
+F8FA: µh   F8FB: »e   F8FC: »g   F8FD: ¼g   
+F8FE: À{   
+F940: Ày   F941: ôî   F942: Àz   F943: ÅL   
+F944: ÅM   F945: Ì…   F946: Ì†   F947: Ì‡   
+F948: Ò|   F949: Ò}   F94A: Ò~   F94B: ñá   
+F94C: Ó„   F94D: ×‘   F94E: ×’   F94F: Üf   
+F950: Üe   F951: Üd   F952: è}   F953: è|   
+F954: è~   F955: è   F956: èƒ   F957: ìa   
+F958: ïC   F959: ð“   F95A: ÷l   F95B: ÷r   
+F95C: ÷q   F95D: ûH   F95E: ûJ   F95F: ûM   
+F960: ûL   F961: ûO   F962: ûN   F963: û˜   
+F964: ür   F965: üƒ   F966: ýO   F967: ý~   
+F968: ý‚   F969: ý   F96A: ý€   F96B: ˆK   
+F96C: ž¶   F96D: »k   F96E: ó½   F96F: ÚŽ   
+F970: Üg   F971: á‡   F972: è„   F973: èˆ   
+F974: è†   F975: è…   F976: óF   F977: ÷x   
+F978: ÷w   F979: ÷u   F97A: ÷y   F97B: ûQ   
+F97C: ûP   F97D: üs   F97E: ü„   
+F9A1: ýš   
+F9A2: ž¸   F9A3: žµ   F9A4: ¼h   F9A5: Ì    
+F9A6: ÐW   F9A7: ÐV   F9A8: ÐX   F9A9: ×—   
+F9AA: Ø   F9AB: Üj   F9AC: Ü†   F9AD: ìc   
+F9AE: ïD   F9AF: ïE   F9B0: ïp   F9B1: ð•   
+F9B2: ñQ   F9B3: óJ   F9B4: óL   F9B5: óM   
+F9B6: ôX   F9B7: ûR   F9B8: ûT   F9B9: ýP   
+F9BA: ‘ß   F9BB: ™ô   F9BC:  ‹   F9BD: Ì‹   
+F9BE: Üi   F9BF: è’   F9C0: è   F9C1: è‘   
+F9C2: óO   F9C3: óN   F9C4: ôb   F9C5: ûV   
+F9C6:  Œ   F9C7: ÌŠ   F9C8: ×˜   F9C9: è“   
+F9CA: ÷}   F9CB: üK   F9CC: °g   F9CD: óQ   
+F9CE: ÷~   F9CF: ûZ   F9D0: ž¹   F9D1: žº   
+F9D2: û›   F9D3: ý…   F9D4: ýQ   F9D5: ý“   
+F9D6: ³ž   F9D7: äP   F9D8: ÑY   F9D9: ‰¦   
+F9DA: ºã   F9DB: »’   F9DC: ‹¸   F9DD: ¨X   
+F9DE: ¨j   F9DF: ¨[   F9E0: ¨d   F9E1: ¨p   
+F9E2: ¨g   F9E3: ¨^   F9E4: ¨m   F9E5: ¨a   
+F9E6: ¨V   F9E7: ¨h   F9E8: ¨Y   F9E9: ¨b   
+F9EA: ¨n   F9EB: ¨e   F9EC: ¨\   F9ED: ¨k   
+F9EE: ¨_   F9EF: ¨W   F9F0: ¨i   F9F1: ¨Z   
+F9F2: ¨c   F9F3: ¨o   F9F4: ¨f   F9F5: ¨]   
+F9F6: ¨l   F9F7: ¨`   F9F8: ¨U   F9F9: ¨T   
+F9FA: ¨X   F9FB: ¨[   F9FC: ¨^   F9FD: ¨a   
+F9FE: ¨€   

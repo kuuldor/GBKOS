@@ -1,0 +1,13 @@
+GBKOS is intending to produce a free and effective Chinese platform on Palm OS.
+ 
+As all Chinese Palm user know, CJKOS is the only choice for Palm user who want 
+to show Simplified-Chinese on Palm device. CJKOS is a greate software, but it 
+has its flaws. It does not support GBK, the most frequently used charset in China
+mainland. And most of most, it's expensive, at least for people in Chinese Mainland.
+
+To solve the first problem, there's hacked CJKOS to support GBK. But GBKOS is 
+going to be an all-in-one solution for Simplified-Chinese Palm user, and it is
+FREE.
+
+We will make it on OS 4, which we know well enough to create a Chinese platform.
+Hope there will be OS 5 version.

@@ -1,0 +1,18 @@
+There's two directories containing source code.
+
+./src is the source code of kernel library and DA tools.
+Use prc-tools 2.2 and Palm sdk-4(4.1 patch is needed) and Sony SDK rel3.0 to compile ./src.
+If you are a tyro with prc-tools, please do the following:
+cd src
+make clean; make
+
+when compiling is over, there will be GBKOS_Lib.prc and GBKOS_DA.prc.
+
+./Console is the project of CodeWarrior 9 for GBKOS Console, which is to control GBKOS's behavior.
+Install CW9 and open Console.mcp with it, then build.
+The first time build will have errors like "GBKOS_Rsc.h cannot be opened".
+It's ok, for the resource has not been compiled to generate the header file.
+Then build it again and it will go to the end with some warnings about POL.
+Just ignore the warnings.
+The GBKOS.prc will be in the directory of Release or Debug, depending on which
+setting you choose to build.
