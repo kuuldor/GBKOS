@@ -140,6 +140,7 @@ UInt16 getCJKCharWidth(ftrSave* store, UInt16 font, Boolean forceHR)
 		break;
 	case 7:
 	case 15:
+	case 229:
 	case 231:
 		if (store->largeBold)
 		{
