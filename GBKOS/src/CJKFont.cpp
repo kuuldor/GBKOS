@@ -282,6 +282,7 @@ void CJKFontManager::releaseAllFontsForCharset(UInt16 charste)
 void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &metric, UInt16 &pad, UInt16 &boldPad, Boolean forceHR)
 {
 	Int16 charset = store->charset;
+	char msg[64];
 	
 	if (charset == 1)
 	{
@@ -290,6 +291,7 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 			charset = 0;
 		}
 	}
+	
 
 	switch (fontID) {
 	case 15:
@@ -370,7 +372,25 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 			boldPad = 1;
 		}
 		break;
+	case 231:
+	case 226:
+		metric = 16,pad=2;
+		boldPad = 2;
+		break;
+	case 227:
+	case 228:
+	case 225:
+	case 224:
+		if (store->hasHE330QVGA)
+		{
+			metric = 12,pad=1;
+			boldPad = 1;
+			if (font[charset][1] != NULL)
+			  break;
+		}
 	default:
+		StrPrintF(msg, "Font ID: %d", fontID);
+		ErrDisplay(msg);
 		if ((store->hasSonyHR && isScaled(store->HRVersion)))
 		{
 			if (!forceHR) 

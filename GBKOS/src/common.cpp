@@ -5,6 +5,9 @@
 
 #include "Big5.h"
 
+#include "HE330/Trg.h"
+
+#include "HE330/Vga.h"
 
 #include "PalmHiRes.h"
 
@@ -128,6 +131,8 @@ UInt16 getCJKCharWidth(ftrSave* store, UInt16 font, Boolean forceHR)
 	switch (font) {
 	case 1:
 	case 9:
+	case 225:
+	case 227:
 		if (store->bold)
 		{
 			bold = true;
@@ -135,6 +140,7 @@ UInt16 getCJKCharWidth(ftrSave* store, UInt16 font, Boolean forceHR)
 		break;
 	case 7:
 	case 15:
+	case 231:
 		if (store->largeBold)
 		{
 			bold = true;
@@ -212,6 +218,21 @@ static Boolean hasPalmHiRes()
   return false;
 }
 
+static Boolean hasHE330QVGA()
+{
+	UInt32 version; 
+	if (FtrGet(TRGSysFtrID, TRGVgaFtrNum, &version) == 0) 
+	{
+		if (sysGetROMVerMajor(version) >= 1) 
+		{
+	    	//ErrDisplay("HE330 QVGA found");
+			return true;
+		}
+	}
+	return false;
+}
+		 
+ 
 // charEncoding definations
 // Chinese character encodings
 #ifndef charEncodingGB2312
@@ -289,6 +310,7 @@ Err InitGBKOSBase()
 
 		store->isJap = isJap();
 		store->hasPalmHiRes = hasPalmHiRes();
+		store->hasHE330QVGA = hasHE330QVGA();
 
 		if (NULL == store->Big5)
 		{

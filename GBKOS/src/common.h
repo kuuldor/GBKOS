@@ -56,6 +56,7 @@ typedef struct {
 	
 	Boolean isJap;
 	Boolean hasPalmHiRes;
+	Boolean hasHE330QVGA;
 
 	void (*BltDrawChars_v35)(BitmapType * dstBitmapP, DrawStateType * drawStateP, Int16 toX, Int16 toY, Int16 xExtent, Int16 yExtent, Int16 clipTop, Int16 clipLeft, Int16 clipBottom,  Int16  clipRight , const Char * const charsP, UInt16 len, FontPtr fontP);
 	void (*BltDrawChars) (void *winptr, RectangleType *drawRect, RectangleType *clipRect, const Char* const s, UInt16 len, FontPtr font, UInt32 fontTable);
