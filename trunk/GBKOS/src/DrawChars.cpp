@@ -119,6 +119,8 @@ UInt16 makeCJKFont(ftrSave* store, const char* s, FontPtr font, FontID fontId, F
 	switch (fontId) {
 	case 1:
 	case 9:
+	case 225:
+	case 227:
 		if (store->bold)
 		{
 			isBold = true;
@@ -126,6 +128,7 @@ UInt16 makeCJKFont(ftrSave* store, const char* s, FontPtr font, FontID fontId, F
 		break;
 	case 7:
 	case 15:
+	case 231:
 		if (store->largeBold)
 		{
 			isBold = true;
