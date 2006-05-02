@@ -23,16 +23,25 @@ void PIME_CloseEngine(PIMEEnginePtr engine)
 
 static void EngineHideIME(PIMEEnginePtr engine)
 {
-	if (engine->imeForm != NULL)
+	if (engine->imeAreaBackup != NULL)
 	{
-		FrmEraseForm(engine->imeForm);
-		FrmDeleteForm(engine->imeForm);
+		RectangleType srcRect;
+		srcRect.topLeft.x = 0;
+		srcRect.topLeft.y = 0;
+		srcRect.extent = engine->imeAreaRect.extent;
 		
-		FrmSetActiveForm(engine->currentForm);
+		WinHandle oldDrawWindow = WinSetDrawWindow(WinGetDisplayWindow());
 		
-		engine->imeForm = NULL;
-
+		WinCopyRectangle(engine->imeAreaBackup, WinGetDisplayWindow(), &srcRect,
+			engine->imeAreaRect.topLeft.x, engine->imeAreaRect.topLeft.y,
+			winPaint);
+		
+		WinSetDrawWindow(oldDrawWindow);
+			
 		WinPopDrawState();
+		
+		WinDeleteWindow(engine->imeAreaBackup, false);
+		engine->imeAreaBackup = NULL;
 	}
 }
 
@@ -43,47 +52,52 @@ static RectangleType EngineGetIMEFormRect(PIMEEnginePtr engine)
 	
 	RectangleType result;
 	
-	result.extent.x = 156;
+	result.extent.x = 160;
 	result.extent.y = 20;
 	
-	result.topLeft.x = 2;
-	result.topLeft.y = y + InsPtGetHeight() + 4;
+	result.topLeft.x = 0;
+	result.topLeft.y = y + InsPtGetHeight();
 	
-	if (result.topLeft.y > 130)
-		result.topLeft.y = y - 24;
+	if (result.topLeft.y > 140)
+		result.topLeft.y = y - 20;
 		
-	//result.topLeft.y = (y > 80) ? 2 : (158 - result.extent.y);
-	
 	return result;
 }
 
 static void EngineShowIME(PIMEEnginePtr engine)
 {
-	if (engine->imeForm == NULL)
+	if (engine->imeAreaBackup == NULL)
 	{
 		WinPushDrawState();
 		
-		// engine->imeForm = FrmInitForm(frmIME);
+		engine->imeAreaRect = EngineGetIMEFormRect(engine);
 		
-		RectangleType imeRect = EngineGetIMEFormRect(engine);
+		Err error;
+		engine->imeAreaBackup = WinCreateOffscreenWindow(
+			engine->imeAreaRect.extent.x,
+			engine->imeAreaRect.extent.y,
+			screenFormat,
+			&error
+			);
 		
-		engine->imeForm = FrmNewForm(9000, NULL,
-			imeRect.topLeft.x, imeRect.topLeft.y,
-			imeRect.extent.x, imeRect.extent.y,
-			true, 0, 0, 0);
-		
-		/*engine->imeCodeField = FldNewField(
-			(void **)(&(engine->imeForm)), 1000,
-			4, 3, 64, 13,
-			stdFont, 32, false,
-			false, true,
-			false,
-			leftAlign,
-			false, false, false);*/
-			
-		FrmSetActiveForm(engine->imeForm);
-		FrmDrawForm(engine->imeForm);
+		WinCopyRectangle(WinGetDisplayWindow(), engine->imeAreaBackup,
+			&(engine->imeAreaRect), 0, 0,
+			winPaint);
 	}
+	
+    WinHandle oldDrawWindow = WinSetDrawWindow(WinGetDisplayWindow());
+    
+    WinEraseRectangle(&(engine->imeAreaRect), 0);
+    
+    RectangleType rectFrame = engine->imeAreaRect;
+    rectFrame.topLeft.x ++;
+    rectFrame.topLeft.y ++;
+    rectFrame.extent.x -= 2;
+    rectFrame.extent.y -= 2;
+    
+    WinDrawRectangleFrame(roundFrame, &rectFrame);
+    
+    WinSetDrawWindow(oldDrawWindow);
 }
 
 static FieldType *GetActiveField()
@@ -128,7 +142,7 @@ static Boolean EngineStart(PIMEEnginePtr engine)
 	
 	if (engine->currentField == NULL) return false;
 	
-	engine->imeForm = NULL;
+	engine->imeAreaBackup = NULL;
 	
 	engine->currentCodeLen = 0;
 	engine->maxCodeLen = sizeof(engine->currentCode) / sizeof(Char);
@@ -153,19 +167,17 @@ static void EngineDrawCode(PIMEEnginePtr engine)
     StrNCopy(imeCode, engine->currentCode, engine->currentCodeLen);
     imeCode[engine->currentCodeLen] = 0;
     
-    RectangleType rect;
-    rect.topLeft.x = 3;
-    rect.topLeft.y = 3;
-    rect.extent.x = 150;
-    rect.extent.y = 13;
-    
-    WinEraseRectangle(&rect, 0);
-    
 	if (engine->currentCodeLen > 0)
 	{
+		WinHandle oldDrawWindow = WinSetDrawWindow(WinGetDisplayWindow());
+		
 		FntSetFont(stdFont);
 		
-		WinDrawChars(engine->currentCode, engine->currentCodeLen, 3, 3);
+		WinDrawChars(engine->currentCode, engine->currentCodeLen,
+			engine->imeAreaRect.topLeft.x + 4,
+			engine->imeAreaRect.topLeft.y + 4);
+			
+		WinSetDrawWindow(oldDrawWindow);
 	}
 }
 
@@ -281,7 +293,14 @@ static Boolean EngineHandleEvent(EventPtr event, PIMEEnginePtr engine)
 					break;
 					
 				case chrBackspace:
-					handled = EngineRemoveCode(engine);
+					if (!EngineRemoveCode(engine))
+					{
+						EngineHideIME(engine);
+						FrmHandleEvent(engine->currentForm, event);
+						EngineShowIME(engine);
+					}
+					
+					handled = true;
 					break;
 					
 				case chrEscape:
@@ -306,7 +325,7 @@ static Boolean EngineHandleEvent(EventPtr event, PIMEEnginePtr engine)
 	
 	if (!handled)
 	{
-		// FrmHandleEvent(engine->currentForm, event);
+		FrmHandleEvent(engine->currentForm, event);
 	}
 		
 	return done;

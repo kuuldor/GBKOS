@@ -7,8 +7,9 @@ typedef struct tagPIMEEngine {
 	Char version[16];
 	FormType *currentForm;
 	FieldType *currentField;
-	FormType *imeForm;
-	FieldType *imeCodeField;
+	
+	RectangleType imeAreaRect;
+	WinHandle imeAreaBackup;
 	
 	Char currentCode[32];
 	Int8 currentCodeLen;
