@@ -47,7 +47,12 @@ static RectangleType EngineGetIMEFormRect(PIMEEnginePtr engine)
 	result.extent.y = 20;
 	
 	result.topLeft.x = 2;
-	result.topLeft.y = (y > 80) ? 2 : (158 - result.extent.y);
+	result.topLeft.y = y + InsPtGetHeight() + 4;
+	
+	if (result.topLeft.y > 130)
+		result.topLeft.y = y - 24;
+		
+	//result.topLeft.y = (y > 80) ? 2 : (158 - result.extent.y);
 	
 	return result;
 }
