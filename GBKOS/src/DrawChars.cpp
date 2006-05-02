@@ -128,6 +128,7 @@ UInt16 makeCJKFont(ftrSave* store, const char* s, FontPtr font, FontID fontId, F
 		break;
 	case 7:
 	case 15:
+	case 229:
 	case 231:
 		if (store->largeBold)
 		{
@@ -157,6 +158,7 @@ UInt16 makeCJKFont(ftrSave* store, const char* s, FontPtr font, FontID fontId, F
 	newFont->fRectHeight   = fheight;
 	newFont->ascent   = fheight;
 	newFont->rowWords   = 2;
+	
 
 	unsigned char * fontBitmap = (unsigned char*)(newFont+1);
 	UInt16 *locTable = (UInt16*)(fontBitmap+4*fheight);
@@ -336,8 +338,12 @@ Int16 DrawCJKChar(
 			return fmetric * 2;
 	}
 
-
-	if (fmetric>=16 && (Int16)fmetric>(drawRect.extent.y+clipRect.topLeft.y+clipRect.extent.y)) return fmetric/2;
+	if (store->hasHE330QVGA)
+		return fmetric;
+		
+	if (fmetric>=16 && 
+		(Int16)fmetric>(drawRect.extent.y+clipRect.topLeft.y+clipRect.extent.y))
+			return fmetric/2;
 
 	return fmetric;
 }
