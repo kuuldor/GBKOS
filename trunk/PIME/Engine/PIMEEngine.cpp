@@ -244,6 +244,7 @@ static Boolean EngineHandleEvent(EventPtr event, PIMEEnginePtr engine)
 {
 	Boolean done = false;
 	Boolean handled = false;
+	Boolean ignoreHideIME = false;
 	Char ch;
 	
 	switch (event->eType)
@@ -318,6 +319,10 @@ static Boolean EngineHandleEvent(EventPtr event, PIMEEnginePtr engine)
 			}
 
 			break;
+		
+		case nilEvent:
+			ignoreHideIME = true;
+			break;
 			
 		default:
 			break;
@@ -325,9 +330,23 @@ static Boolean EngineHandleEvent(EventPtr event, PIMEEnginePtr engine)
 	
 	if (!handled)
 	{
-		FrmHandleEvent(engine->currentForm, event);
+		if (!ignoreHideIME)
+			EngineHideIME(engine);
+
+		FrmDispatchEvent(event);
+
+		if (!ignoreHideIME)
+		{
+			EngineShowIME(engine);
+			EngineDrawCode(engine);
+		}
 	}
-		
+	
+	// check field
+	engine->currentField = GetActiveField();
+	if (engine->currentField == NULL)
+		done = true;
+
 	return done;
 }
 
