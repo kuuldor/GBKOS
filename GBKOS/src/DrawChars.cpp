@@ -1,10 +1,7 @@
 
-
-
 #include "common.h"
 
 #include "CJKFont.h"
-
 
 #include <PalmOS.h>
 
@@ -99,7 +96,7 @@ UInt16 makeCJKFont(ftrSave* store, const char* s, FontPtr font, FontID fontId, F
 	
 	UInt16 metric, xpad, metricPad;
 	UInt16 fheight = font->fRectHeight;
-
+	
 	if (store->hasSonyHR && store->HRVersion <=0x100
 	        && isHiRes(store->HRVersion) && isScaled(store->HRVersion) )
 	{
@@ -155,16 +152,24 @@ UInt16 makeCJKFont(ftrSave* store, const char* s, FontPtr font, FontID fontId, F
 	
 	newFont->maxWidth = metric + xpad + metricPad;
 	newFont->fRectWidth  = metric + xpad + metricPad;
-	newFont->fRectHeight   = fheight;
-	newFont->ascent   = fheight;
+	if (fheight > metric)
+	{
+		newFont->fRectHeight   = fheight;
+		newFont->ascent   = fheight;
+	}
+	else
+	{
+		newFont->fRectHeight   = metric;
+		newFont->ascent   = metric;
+	}
 	newFont->rowWords   = 2;
 	
 
 	unsigned char * fontBitmap = (unsigned char*)(newFont+1);
-	UInt16 *locTable = (UInt16*)(fontBitmap+4*fheight);
+	UInt16 *locTable = (UInt16*)(fontBitmap+4*newFont->fRectHeight);
 	UInt16 *offTable = locTable+2;
 
-	getCJKFontBitmap(store, s, metric,fheight, fontBitmap, isBold);
+	getCJKFontBitmap(store, s, metric,newFont->fRectHeight, fontBitmap, isBold);
 
 	locTable[0] = 0;
 	locTable[1] = newFont->maxWidth;
@@ -286,7 +291,7 @@ typedef struct {
 
 Int16 DrawCJKChar(
     ftrSave *store, void *winptr, const RectangleType &drawRect, const RectangleType &clipRect,
-    const char* s, FontPtr font,UInt32 fontTable = 0)
+    const char* s, FontPtr font, UInt32 fontTable = 0)
 {
 
 	char ch =0;
@@ -301,7 +306,8 @@ Int16 DrawCJKChar(
 	}
 	else if (store->BltDrawChars_v35)
 	{
-		fmetric = makeCJKFont(store, s, font, ((v35_WinType*)winptr)->drawStateP->fontId, cjkFont);
+		FontID fontId = ((v35_WinType*)winptr)->drawStateP->fontId;
+		fmetric = makeCJKFont(store, s, font, fontId, cjkFont);
 	}
 	else
 	{
@@ -417,11 +423,31 @@ void _BltDrawChars_v35(BitmapType * dstBitmapP, DrawStateType * drawStateP,
 		return store->BltDrawChars_v35(dstBitmapP, drawStateP, toX, toY, xExtent, yExtent,clipTop, clipLeft, clipBottom, clipRight , s, len, fontP);
 	}
 
+//	char msg[256];
+//	StrPrintF(msg, "%d (%d,%d,%d,%d) [%d,%d,%d,%d] %s(%d)", drawStateP->fontId,
+//				toX, toY, xExtent, yExtent, 
+//				clipTop, clipLeft, clipBottom, clipRight,
+//				s, len);
+//				
+//	ErrDisplay(msg); 
+	
 	RectangleType drawIn, clipOff;
 
 	drawIn.topLeft.x = toX; drawIn.topLeft.y = toY; drawIn.extent.x = xExtent;  drawIn.extent.y = yExtent;
 	clipOff.topLeft.x = clipLeft; clipOff.topLeft.y = clipTop; clipOff.extent.x = clipRight; clipOff.extent.y = clipBottom;
 
+	VgaScreenModeType qvgaMode = screenMode1To1; 
+	VgaRotateModeType qvgaRotation;
+	Boolean usingVgaFont = false;
+	FontID fontId = drawStateP->fontId;
+	
+	if (store->hasHE330QVGA)
+	{
+		
+		VgaGetScreenMode(&qvgaMode, &qvgaRotation);
+		usingVgaFont = VgaIsVgaFont(fontId);
+	}
+	
 	Int16 wid;
 	v35_WinType win;
 	win.dstBitmapP = dstBitmapP;
@@ -429,7 +455,24 @@ void _BltDrawChars_v35(BitmapType * dstBitmapP, DrawStateType * drawStateP,
 
 	for (UInt16 i=0; i<len; i++) {
 		if (isCJKChar(s+i)) {
+			int dx =0;
+			int dy = 0;
+			if (qvgaMode == screenModeScaleToFit && !usingVgaFont)
+			{
+				dx = xExtent>>1;
+				dy = yExtent>>1;
+				drawStateP->fontId = VgaBaseToVgaFont(fontId);
+				drawIn.extent.x += dx;
+				drawIn.extent.y += dy;
+			}
 			wid = DrawCJKChar(store, (void*)&win, drawIn, clipOff, s+i, fontP);
+			if (qvgaMode == screenModeScaleToFit && !usingVgaFont)
+			{
+				drawStateP->fontId = fontId;
+				drawIn.extent.x -= dx;
+				drawIn.extent.y -= dy;
+				wid = wid *2 /3 ;
+			}
 			i++;
 		} else {
 			int firstLatin1 = i;
@@ -464,7 +507,6 @@ void _BltDrawChars_v35(BitmapType * dstBitmapP, DrawStateType * drawStateP,
 		}
 
 	}
-
 }
 
 void _BltDrawChars_HiRes(void *winptr, UInt16 x, UInt16 y,
@@ -486,7 +528,7 @@ void _BltDrawChars_HiRes(void *winptr, UInt16 x, UInt16 y,
 
 	for (UInt16 i=0; i<len; i++) {
 		if (isCJKChar(s+i)) {
-			wid = DrawCJKChar(store, winptr, drawIn, clipOff, s+i, font);
+			wid = DrawCJKChar(store, winptr, drawIn, clipOff, s+i, font, false);
 			i++;
 		} else {
 			int firstLatin1 = i;

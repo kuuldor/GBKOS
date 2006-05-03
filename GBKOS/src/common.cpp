@@ -5,10 +5,6 @@
 
 #include "Big5.h"
 
-#include "HE330/Trg.h"
-
-#include "HE330/Vga.h"
-
 #include "PalmHiRes.h"
 
 Boolean isCJKChar(const char *s)

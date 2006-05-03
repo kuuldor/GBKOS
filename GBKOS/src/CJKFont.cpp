@@ -282,7 +282,9 @@ void CJKFontManager::releaseAllFontsForCharset(UInt16 charste)
 void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &metric, UInt16 &pad, UInt16 &boldPad, Boolean forceHR)
 {
 	Int16 charset = store->charset;
+//	char msg[64];
 
+//	StrPrintF(msg, "Font: %d, Size; %d, HR:%d", fontID, metric, forceHR);
 	if (charset == 1)
 	{
 		if (store->Big5 != (Encoding *) 0xdeadbeef)
@@ -309,6 +311,7 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 		break;
 	case 7:
 	case 2:
+//	ErrDisplay(msg);
 		if (store->hasPalmHiRes && forceHR)
 		{
 			metric = 24,pad=2;
@@ -329,6 +332,7 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 	case 4:
 	case 5:
 	case 6:
+//	ErrDisplay(msg);
 		if ((store->hasSonyHR && isScaled(store->HRVersion)))
 		{
 			if (!forceHR) 
@@ -386,6 +390,7 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 		boldPad = 1;
 		break;
 	default:
+//	ErrDisplay(msg);
 		if ((store->hasSonyHR && isScaled(store->HRVersion)))
 		{
 			if (!forceHR) 
