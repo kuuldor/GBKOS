@@ -12,6 +12,9 @@
 #include <PalmOS.h>
 
 #include <SonyCLIE.h>
+#include "HE330/Trg.h"
+
+#include "HE330/Vga.h"
 
 #include "GBKOS_Lib.h"
 #include "build.h"
