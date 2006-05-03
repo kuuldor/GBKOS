@@ -3,6 +3,26 @@
 static void EngineCodeToText(PIMEEnginePtr engine);
 static void EngineClearCode(PIMEEnginePtr engine);
 
+static void EngineHideIME(PIMEEnginePtr engine);
+static void EngineShowIME(PIMEEnginePtr engine);
+
+static PIMEEnginePtr GetEngineFromFtr();
+
+static void MyGsiSetShiftState(const UInt16 lockFlags, const UInt16 tempShift) 
+{
+	PIMEEnginePtr engine = GetEngineFromFtr();
+	
+	void (*func_ptr)(const UInt16, const UInt16);
+	
+	(void *)func_ptr = (engine->oldTrapGsiSetShiftState);
+	
+	EngineHideIME(engine);
+	
+	func_ptr(lockFlags, tempShift);
+	
+	EngineShowIME(engine);
+}
+
 PIMEEnginePtr PIME_OpenEngine()
 {
 	PIMEEnginePtr engine = (PIMEEnginePtr)MemPtrNew(sizeof(PIMEEngineType));
@@ -135,6 +155,15 @@ static void InsertText(FieldType* field, const Char* txt, UInt32 len)
 	} 
 }
 
+static PIMEEnginePtr GetEngineFromFtr()
+{
+	UInt32 value;
+	
+	FtrGet('PIme', 0, &value);
+	
+	return (PIMEEnginePtr)value;
+}
+
 static Boolean EngineStart(PIMEEnginePtr engine)
 {
 	engine->currentForm = FrmGetActiveForm();
@@ -147,6 +176,11 @@ static Boolean EngineStart(PIMEEnginePtr engine)
 	engine->currentCodeLen = 0;
 	engine->maxCodeLen = sizeof(engine->currentCode) / sizeof(Char);
 	
+	FtrSet('PIme', 0, (UInt32)(engine));
+	
+	engine->oldTrapGsiSetShiftState = SysGetTrapAddress(sysTrapGsiSetShiftState);
+	
+	SysSetTrapAddress(sysTrapGsiSetShiftState, MyGsiSetShiftState);
 	EngineShowIME(engine);
 	
 	return true;
@@ -157,6 +191,8 @@ static void EngineStop(PIMEEnginePtr engine)
 	EngineClearCode(engine);
 	
 	EngineHideIME(engine);
+	
+	SysSetTrapAddress(sysTrapGsiSetShiftState, engine->oldTrapGsiSetShiftState);
 }
 
 static void EngineDrawCode(PIMEEnginePtr engine)
