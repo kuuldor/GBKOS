@@ -101,7 +101,7 @@ static void EngineShowIME(PIMEEnginePtr engine)
 
 		FrmSetFocus(engine->imeForm, FrmGetObjectIndex(engine->imeForm, fldIMEIME));
 		 
-		FrmDrawForm(engine->imeForm);
+		FrmUpdateForm(frmIME, frmRedrawUpdateCode);
 	}
 }
 
@@ -114,7 +114,7 @@ static void EngineHideIME(PIMEEnginePtr engine)
 		FrmEraseForm(engine->imeForm);
 		FrmDeleteForm(engine->imeForm);
 		
-		FrmDrawForm(engine->currentForm);
+		FrmUpdateForm(FrmGetFormId(engine->currentForm), frmRedrawUpdateCode);
 		
 		engine->imeForm = NULL;
 		
