@@ -2,6 +2,9 @@
 #include "PIME_res.h"
 #include <HE330/Vga.h>
 
+#define ENGINE_CRID 'PIme'
+#define FTR_NUM_ENGINE_PTR 0
+
 static void EngineCodeToText(PIMEEnginePtr engine);
 static void EngineClearCode(PIMEEnginePtr engine);
 
@@ -12,6 +15,11 @@ static PIMEEnginePtr GetEngineFromFtr();
 
 PIMEEnginePtr PIME_OpenEngine()
 {
+	PIMEEnginePtr currentEngine = GetEngineFromFtr();
+	
+	if (currentEngine != NULL)
+		return NULL;
+		
 	PIMEEnginePtr engine = (PIMEEnginePtr)MemPtrNew(sizeof(PIMEEngineType));
 	
 	if (engine != NULL)
@@ -111,8 +119,7 @@ static void EngineHideIME(PIMEEnginePtr engine)
 	{
 		CopyField(engine->imeField, engine->currentField, false);
 
-		FrmEraseForm(engine->imeForm);
-		FrmDeleteForm(engine->imeForm);
+		FrmReturnToForm(0);
 		
 		FrmUpdateForm(FrmGetFormId(engine->currentForm), frmRedrawUpdateCode);
 		
@@ -161,7 +168,8 @@ static PIMEEnginePtr GetEngineFromFtr()
 {
 	UInt32 value;
 	
-	FtrGet('PIme', 0, &value);
+	if (FtrGet(ENGINE_CRID, FTR_NUM_ENGINE_PTR, &value) != errNone)
+		return NULL;
 	
 	return (PIMEEnginePtr)value;
 }
@@ -213,7 +221,7 @@ static Boolean EngineStart(PIMEEnginePtr engine)
 	engine->currentCodeLen = 0;
 	engine->maxCodeLen = sizeof(engine->currentCode) / sizeof(Char);
 	
-	FtrSet('PIme', 0, (UInt32)(engine));
+	FtrSet(ENGINE_CRID, FTR_NUM_ENGINE_PTR, (UInt32)(engine));
 	
 	EngineShowIME(engine);
 	
@@ -225,6 +233,8 @@ static void EngineStop(PIMEEnginePtr engine)
 	EngineClearCode(engine);
 	
 	EngineHideIME(engine);
+	
+	FtrSet(ENGINE_CRID, FTR_NUM_ENGINE_PTR, 0);
 }
 
 static void EngineDrawCode(PIMEEnginePtr engine)
