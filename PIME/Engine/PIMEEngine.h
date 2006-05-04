@@ -8,14 +8,12 @@ typedef struct tagPIMEEngine {
 	FormType *currentForm;
 	FieldType *currentField;
 	
-	RectangleType imeAreaRect;
-	WinHandle imeAreaBackup;
+	FormType *imeForm;
+	FieldType *imeField;
 	
 	Char currentCode[32];
 	Int8 currentCodeLen;
 	Int8 maxCodeLen;
-	
-	void *oldTrapGsiSetShiftState;
 } PIMEEngineType, *PIMEEnginePtr;
 
 PIMEEnginePtr PIME_OpenEngine();
