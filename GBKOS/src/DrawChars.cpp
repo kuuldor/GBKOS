@@ -84,30 +84,27 @@ void getCJKFontBitmap(ftrSave* store, const char* s, UInt16 metric, UInt16 fheig
 		break;
 	case 20:
 		for (i=0,j=0;i <metric; i+=2,j+=5) {
-			bitmap[i*4] = rawFont[i*3];
-			bitmap[i*4+1]= rawFont[i*3+1];
-			bitmap[i*4+2] = rawFont[i*3+2];
-			if (isBold && store->largeBold)
-				*((UInt32*)(bitmap+i*4)) |= (*((UInt32*)(bitmap+i*4)))>>1;
-
 			tmp = rawFont[j];
 			tmp <<= 8;
 			tmp |= rawFont[j+1];
 			*(UInt16*)(bitmap+i*4) = tmp;
 			tmp = rawFont[j+2] & 0xF0;
+			tmp <<= 8;
 			*(UInt16*)(bitmap+i*4+2) = tmp;
-			if (isBold && store->largeBold)
-				*((UInt32*)(bitmap+i*4)) |= (*((UInt32*)(bitmap+i*4)))>>1;
 			tmp = rawFont[j+2]&0x0F;
-			tmp <<= 12;
-			tmp |= rawFont[j+3]<<4;
-			tmp |= rawFont[j+4] & 0xF0;
+			tmp <<= 8;
+			tmp |= rawFont[j+3];
+			tmp <<= 4;
+			tmp |= (rawFont[j+4] & 0xF0)>>4;
 			*(UInt16*)(bitmap+(i+1)*4) = tmp;
 			tmp = rawFont[j+4] & 0x0F;
 			tmp <<= 12;
 			*(UInt16*)(bitmap+(i+1)*4+2) = tmp;
 			if (isBold && store->largeBold)
+			{
+				*((UInt32*)(bitmap+i*4)) |= (*((UInt32*)(bitmap+i*4)))>>1;
 				*((UInt32*)(bitmap+(i+1)*4)) |= (*((UInt32*)(bitmap+(i+1)*4)))>>1;
+			}
 		}
 		break;
 	case 24:
