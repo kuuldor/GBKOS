@@ -1,4 +1,5 @@
 #include "PIMEEngine.h"
+#include "PIME_res.h"
 
 static void EngineCodeToText(PIMEEnginePtr engine);
 static void EngineClearCode(PIMEEnginePtr engine);
@@ -7,21 +8,6 @@ static void EngineHideIME(PIMEEnginePtr engine);
 static void EngineShowIME(PIMEEnginePtr engine);
 
 static PIMEEnginePtr GetEngineFromFtr();
-
-static void MyGsiSetShiftState(const UInt16 lockFlags, const UInt16 tempShift) 
-{
-	PIMEEnginePtr engine = GetEngineFromFtr();
-	
-	void (*func_ptr)(const UInt16, const UInt16);
-	
-	(void *)func_ptr = (engine->oldTrapGsiSetShiftState);
-	
-	EngineHideIME(engine);
-	
-	func_ptr(lockFlags, tempShift);
-	
-	EngineShowIME(engine);
-}
 
 PIMEEnginePtr PIME_OpenEngine()
 {
@@ -41,83 +27,84 @@ void PIME_CloseEngine(PIMEEnginePtr engine)
 	MemPtrFree(engine);
 }
 
-static void EngineHideIME(PIMEEnginePtr engine)
+static void CopyField(FieldType *fromField, FieldType *toField, Boolean copyAll)
 {
-	if (engine->imeAreaBackup != NULL)
+	if (copyAll)
 	{
-		RectangleType srcRect;
-		srcRect.topLeft.x = 0;
-		srcRect.topLeft.y = 0;
-		srcRect.extent = engine->imeAreaRect.extent;
+		// Attr
+		FieldAttrType fldAttr;
+		FldGetAttributes(fromField, &fldAttr);
+		FldSetAttributes(toField, &fldAttr);
 		
-		WinHandle oldDrawWindow = WinSetDrawWindow(WinGetDisplayWindow());
-		
-		WinCopyRectangle(engine->imeAreaBackup, WinGetDisplayWindow(), &srcRect,
-			engine->imeAreaRect.topLeft.x, engine->imeAreaRect.topLeft.y,
-			winPaint);
-		
-		WinSetDrawWindow(oldDrawWindow);
-			
-		WinPopDrawState();
-		
-		WinDeleteWindow(engine->imeAreaBackup, false);
-		engine->imeAreaBackup = NULL;
+		// MaxChars
+		FldSetMaxChars(toField, FldGetMaxChars(fromField));
 	}
-}
-
-static RectangleType EngineGetIMEFormRect(PIMEEnginePtr engine)
-{
-	Coord x, y;
-	InsPtGetLocation(&x, &y);
 	
-	RectangleType result;
+	// Content
+	MemHandle toHandle = NULL;
 	
-	result.extent.x = 160;
-	result.extent.y = 20;
+	MemHandle fromHandle = FldGetTextHandle(fromField);
+	if (fromHandle != NULL)
+	{
+		Char* fromText = (Char *)MemHandleLock(fromHandle);
+		toHandle = MemHandleNew(StrLen(fromText) + 1);
+		Char* toText = (Char *)MemHandleLock(toHandle);
+		StrCopy(toText, fromText);
+		MemHandleUnlock(toHandle);
+		MemHandleUnlock(fromHandle);
+	}
 	
-	result.topLeft.x = 0;
-	result.topLeft.y = y + InsPtGetHeight();
-	
-	if (result.topLeft.y > 140)
-		result.topLeft.y = y - 20;
+	MemHandle oldToHandle = FldGetTextHandle(toField);
+	FldSetTextHandle(toField, toHandle);
+	if (oldToHandle != NULL)
+		MemHandleFree(oldToHandle);
 		
-	return result;
+	// Selection
+	UInt16 startPos, endPos;
+	FldGetSelection(fromField, &startPos, &endPos);
+	FldSetSelection(toField, startPos, endPos);
+	
+	// InsPtPosition
+	FldSetInsPtPosition(toField, FldGetInsPtPosition(fromField));
 }
 
 static void EngineShowIME(PIMEEnginePtr engine)
 {
-	if (engine->imeAreaBackup == NULL)
+	if (engine->imeForm == NULL)
 	{
 		WinPushDrawState();
 		
-		engine->imeAreaRect = EngineGetIMEFormRect(engine);
+		engine->imeForm = FrmInitForm(frmIME);
 		
-		Err error;
-		engine->imeAreaBackup = WinCreateOffscreenWindow(
-			engine->imeAreaRect.extent.x,
-			engine->imeAreaRect.extent.y,
-			screenFormat,
-			&error
-			);
+		engine->imeField = (FieldType *)FrmGetObjectPtr(
+			engine->imeForm,
+			FrmGetObjectIndex(engine->imeForm, fldIMEIME));
 		
-		WinCopyRectangle(WinGetDisplayWindow(), engine->imeAreaBackup,
-			&(engine->imeAreaRect), 0, 0,
-			winPaint);
+		FrmSetActiveForm(engine->imeForm);
+		FrmDrawForm(engine->imeForm);
+
+		CopyField(engine->currentField, engine->imeField, true);
+
+		FrmSetFocus(engine->imeForm, FrmGetObjectIndexFromPtr(engine->imeForm, engine->imeField));
+		 
+		FrmDrawForm(engine->imeForm);
 	}
-	
-    WinHandle oldDrawWindow = WinSetDrawWindow(WinGetDisplayWindow());
-    
-    WinEraseRectangle(&(engine->imeAreaRect), 0);
-    
-    RectangleType rectFrame = engine->imeAreaRect;
-    rectFrame.topLeft.x ++;
-    rectFrame.topLeft.y ++;
-    rectFrame.extent.x -= 2;
-    rectFrame.extent.y -= 2;
-    
-    WinDrawRectangleFrame(roundFrame, &rectFrame);
-    
-    WinSetDrawWindow(oldDrawWindow);
+}
+
+static void EngineHideIME(PIMEEnginePtr engine)
+{
+	if (engine->imeForm != NULL)
+	{
+		CopyField(engine->imeField, engine->currentField, false);
+
+		FrmReturnToForm(0);
+		
+		FrmDrawForm(engine->currentForm);
+		
+		engine->imeForm = NULL;
+		
+		WinPopDrawState();
+	}
 }
 
 static FieldType *GetActiveField()
@@ -171,16 +158,13 @@ static Boolean EngineStart(PIMEEnginePtr engine)
 	
 	if (engine->currentField == NULL) return false;
 	
-	engine->imeAreaBackup = NULL;
+	engine->imeForm = NULL;
 	
 	engine->currentCodeLen = 0;
 	engine->maxCodeLen = sizeof(engine->currentCode) / sizeof(Char);
 	
 	FtrSet('PIme', 0, (UInt32)(engine));
 	
-	engine->oldTrapGsiSetShiftState = SysGetTrapAddress(sysTrapGsiSetShiftState);
-	
-	SysSetTrapAddress(sysTrapGsiSetShiftState, MyGsiSetShiftState);
 	EngineShowIME(engine);
 	
 	return true;
@@ -191,8 +175,6 @@ static void EngineStop(PIMEEnginePtr engine)
 	EngineClearCode(engine);
 	
 	EngineHideIME(engine);
-	
-	SysSetTrapAddress(sysTrapGsiSetShiftState, engine->oldTrapGsiSetShiftState);
 }
 
 static void EngineDrawCode(PIMEEnginePtr engine)
@@ -203,18 +185,12 @@ static void EngineDrawCode(PIMEEnginePtr engine)
     StrNCopy(imeCode, engine->currentCode, engine->currentCodeLen);
     imeCode[engine->currentCodeLen] = 0;
     
-	if (engine->currentCodeLen > 0)
-	{
-		WinHandle oldDrawWindow = WinSetDrawWindow(WinGetDisplayWindow());
-		
-		FntSetFont(stdFont);
-		
-		WinDrawChars(engine->currentCode, engine->currentCodeLen,
-			engine->imeAreaRect.topLeft.x + 4,
-			engine->imeAreaRect.topLeft.y + 4);
-			
-		WinSetDrawWindow(oldDrawWindow);
-	}
+	FieldType *imeCodeField = (FieldType *)FrmGetObjectPtr(
+		engine->imeForm,
+        FrmGetObjectIndex(engine->imeForm, fldIMECode));
+		 
+    FldSetTextPtr(imeCodeField, imeCode);
+	FldDrawField(imeCodeField);
 }
 
 static void EngineAppendCode(PIMEEnginePtr engine, Char ch)
@@ -270,9 +246,7 @@ static void EngineCodeToText(PIMEEnginePtr engine)
 		
 		EngineClearCode(engine);
 
-		EngineHideIME(engine);
-		InsertText(engine->currentField, (Char *)(&textCode), 2);
-		EngineShowIME(engine);
+		InsertText(engine->imeField, (Char *)(&textCode), 2);
 	}
 }
 
@@ -280,7 +254,6 @@ static Boolean EngineHandleEvent(EventPtr event, PIMEEnginePtr engine)
 {
 	Boolean done = false;
 	Boolean handled = false;
-	Boolean ignoreHideIME = false;
 	Char ch;
 	
 	switch (event->eType)
@@ -291,6 +264,18 @@ static Boolean EngineHandleEvent(EventPtr event, PIMEEnginePtr engine)
 			handled = true;
 			break;
 		
+		case ctlSelectEvent:
+			switch (event->data.ctlSelect.controlID)
+			{
+				case btnIMEOK:
+					done = true;
+					break;
+					
+				default:
+					break;
+			}
+			break;
+			
 		case keyDownEvent:
 			ch = event->data.keyDown.chr;
 			switch (event->data.keyDown.chr)
@@ -330,59 +315,25 @@ static Boolean EngineHandleEvent(EventPtr event, PIMEEnginePtr engine)
 					break;
 					
 				case chrBackspace:
-					if (!EngineRemoveCode(engine))
-					{
-						EngineHideIME(engine);
-						FrmHandleEvent(engine->currentForm, event);
-						EngineShowIME(engine);
-					}
-					
-					handled = true;
+					handled = EngineRemoveCode(engine);
 					break;
 					
-				case chrEscape:
-					EngineClearCode(engine);
-					handled = true;
-					break;
-					
-				case chrLineFeed:
-					done = true;
-					handled = true;
-					break;
-				
 				default:
 					break;
 			}
 
 			break;
 		
-		case nilEvent:
-			ignoreHideIME = true;
-			break;
-			
 		default:
 			break;
 	}
 	
 	if (!handled)
 	{
-		if (!ignoreHideIME)
-			EngineHideIME(engine);
-
-		FrmDispatchEvent(event);
-
-		if (!ignoreHideIME)
-		{
-			EngineShowIME(engine);
-			EngineDrawCode(engine);
-		}
+		// FrmDispatchEvent(event);
+		FrmHandleEvent(engine->imeForm, event);
 	}
 	
-	// check field
-	engine->currentField = GetActiveField();
-	if (engine->currentField == NULL)
-		done = true;
-
 	return done;
 }
 
