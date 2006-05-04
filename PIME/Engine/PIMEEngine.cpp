@@ -1,5 +1,6 @@
 #include "PIMEEngine.h"
 #include "PIME_res.h"
+#include <HE330/Vga.h>
 
 static void EngineCodeToText(PIMEEnginePtr engine);
 static void EngineClearCode(PIMEEnginePtr engine);
@@ -25,6 +26,14 @@ PIMEEnginePtr PIME_OpenEngine()
 void PIME_CloseEngine(PIMEEnginePtr engine)
 {
 	MemPtrFree(engine);
+}
+
+static void DealHE330Form(PIMEEnginePtr engine, FormType *form)
+{
+	if (engine->isHE330_1To1)
+	{
+		VgaFormModify(form, vgaFormModify160To240);
+	}
 }
 
 static void CopyField(FieldType *fromField, FieldType *toField, Boolean copyAll)
@@ -58,7 +67,7 @@ static void CopyField(FieldType *fromField, FieldType *toField, Boolean copyAll)
 	FldSetTextHandle(toField, toHandle);
 	if (oldToHandle != NULL)
 		MemHandleFree(oldToHandle);
-		
+
 	// Selection
 	UInt16 startPos, endPos;
 	FldGetSelection(fromField, &startPos, &endPos);
@@ -75,6 +84,8 @@ static void EngineShowIME(PIMEEnginePtr engine)
 		WinPushDrawState();
 		
 		engine->imeForm = FrmInitForm(frmIME);
+		
+		DealHE330Form(engine, engine->imeForm);
 		
 		engine->imeField = (FieldType *)FrmGetObjectPtr(
 			engine->imeForm,
@@ -151,8 +162,43 @@ static PIMEEnginePtr GetEngineFromFtr()
 	return (PIMEEnginePtr)value;
 }
 
+static Boolean IsHE330()
+{
+	UInt32 version;
+
+	if (FtrGet(TRGSysFtrID, TRGVgaFtrNum, &version) == errNone)
+	{
+		if (sysGetROMVerMajor(version) >= 1)
+		{
+			return true;
+		}
+	}
+
+	return false;
+}
+
+static void FillHE330Info(PIMEEnginePtr engine)
+{
+	engine->isHE330 = IsHE330();
+	if (engine->isHE330)
+	{
+		VgaScreenModeType mode;
+		VgaRotateModeType rotate;
+
+		VgaGetScreenMode(&mode, &rotate);
+
+		engine->isHE330_1To1 = (mode == screenMode1To1);
+	}
+	else
+	{
+		engine->isHE330_1To1 = false;
+	}
+}
+
 static Boolean EngineStart(PIMEEnginePtr engine)
 {
+	FillHE330Info(engine);
+	
 	engine->currentForm = FrmGetActiveForm();
 	engine->currentField = GetActiveField();
 	
