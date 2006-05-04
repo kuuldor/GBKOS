@@ -30,7 +30,7 @@ void PIME_CloseEngine(PIMEEnginePtr engine)
 
 static void DealHE330Form(PIMEEnginePtr engine, FormType *form)
 {
-	if (engine->isHE330_1To1)
+	if (engine->isHE330 && engine->isHE330_1To1)
 	{
 		VgaFormModify(form, vgaFormModify160To240);
 	}
@@ -111,7 +111,8 @@ static void EngineHideIME(PIMEEnginePtr engine)
 	{
 		CopyField(engine->imeField, engine->currentField, false);
 
-		FrmReturnToForm(0);
+		FrmEraseForm(engine->imeForm);
+		FrmDeleteForm(engine->imeForm);
 		
 		FrmDrawForm(engine->currentForm);
 		
@@ -228,18 +229,25 @@ static void EngineStop(PIMEEnginePtr engine)
 
 static void EngineDrawCode(PIMEEnginePtr engine)
 {
-    EngineShowIME(engine);
+	MemHandle codeHandle = MemHandleNew(engine->currentCodeLen + 1);
+	Char *codePtr = (Char *)MemHandleLock(codeHandle);
+	
+    StrNCopy(codePtr, engine->currentCode, engine->currentCodeLen);
+    codePtr[engine->currentCodeLen] = 0;
     
-    static Char imeCode[33];
-    StrNCopy(imeCode, engine->currentCode, engine->currentCodeLen);
-    imeCode[engine->currentCodeLen] = 0;
-    
+	MemHandleUnlock(codeHandle);
+	
 	FieldType *imeCodeField = (FieldType *)FrmGetObjectPtr(
 		engine->imeForm,
         FrmGetObjectIndex(engine->imeForm, fldIMECode));
-		 
-    FldSetTextPtr(imeCodeField, imeCode);
+	
+	MemHandle oldHandle = FldGetTextHandle(imeCodeField);
+	FldSetTextHandle(imeCodeField, codeHandle);
+	 
 	FldDrawField(imeCodeField);
+	
+	if (oldHandle != NULL)
+		MemHandleFree(oldHandle);
 }
 
 static void EngineAppendCode(PIMEEnginePtr engine, Char ch)
@@ -317,6 +325,7 @@ static Boolean EngineHandleEvent(EventPtr event, PIMEEnginePtr engine)
 			switch (event->data.ctlSelect.controlID)
 			{
 				case btnIMEOK:
+					handled = true;
 					done = true;
 					break;
 					
