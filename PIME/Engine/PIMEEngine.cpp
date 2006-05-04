@@ -85,7 +85,7 @@ static void EngineShowIME(PIMEEnginePtr engine)
 
 		CopyField(engine->currentField, engine->imeField, true);
 
-		FrmSetFocus(engine->imeForm, FrmGetObjectIndexFromPtr(engine->imeForm, engine->imeField));
+		FrmSetFocus(engine->imeForm, FrmGetObjectIndex(engine->imeForm, fldIMEIME));
 		 
 		FrmDrawForm(engine->imeForm);
 	}
