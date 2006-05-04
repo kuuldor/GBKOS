@@ -75,6 +75,9 @@ static void CopyField(FieldType *fromField, FieldType *toField, Boolean copyAll)
 	
 	// InsPtPosition
 	FldSetInsPtPosition(toField, FldGetInsPtPosition(fromField));
+	
+	// Dirty
+	FldSetDirty(toField, FldDirty(fromField));
 }
 
 static void EngineShowIME(PIMEEnginePtr engine)
