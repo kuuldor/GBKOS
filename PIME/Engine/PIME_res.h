@@ -1,4 +1,4 @@
-#define	frmIME	9000
-#define	fldIMEIME	1000
-#define	fldIMECode	1001
-#define	btnIMEOK	1002
+#define	frmIME	9900
+#define	fldIMEIME	9901
+#define	fldIMECode	9902
+#define	btnIMEOK	9903
