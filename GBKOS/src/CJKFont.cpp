@@ -83,7 +83,9 @@ Boolean CJKFont::loadFont(UInt16 chs, char* fontName)
 			blkCnt = 0x7;
 		}
 		break;
+	case 14:
 	case 16:
+	case 20:
 	case 24:
 		if (charset == 0)
 		{
@@ -140,8 +142,8 @@ Boolean CJKFontManager::loadAllFontsForCharset(ftrSave *store, UInt16 charset)
 	if (NULL == store) return false;
 
 	char *encodings[ENCODING_NO]  = {"ChineseGB","ChineseBIG5"};
-	int fontmetric[FONT_NO] = {10, 12, 16, 24};
-	int fontsize[FONT_NO] = {13, 18, 32, 72};
+	int fontmetric[FONT_SUPPORTED] = {10, 12, 14, 16, 20, 24};
+	int fontsize[FONT_SUPPORTED] = {13, 18, 32, 32, 50 , 72};
 
 	char buf[32];
 
@@ -149,7 +151,7 @@ Boolean CJKFontManager::loadAllFontsForCharset(ftrSave *store, UInt16 charset)
 
 	UInt16 fontCnt = 0;
 	int j;
-	for (j=0; j<FONT_NO; j++)
+	for (j=0; j<FONT_SUPPORTED; j++)
 	{
 		//if (j > 1 && !store->hasSonyHR && !store->hasPalmHiRes) continue;
 		
@@ -164,8 +166,9 @@ Boolean CJKFontManager::loadAllFontsForCharset(ftrSave *store, UInt16 charset)
 			//break;
 			continue;
 		}
-		font[charset][j] = fnt;
-		fontCnt++;
+		font[charset][fontCnt++] = fnt;
+		if (fontCnt >= FONT_NO)
+			break;
 	}
 
 	if (0 != fontCnt)
@@ -196,13 +199,30 @@ Boolean CJKFontManager::loadAllFonts(ftrSave *store)
 	return false;
 }
 
+int CJKFontManager::getIndexByMetric(ftrSave *store, UInt16 metric) 
+{
+	Int16 charset = store->charset;
+	for (int i = 0; i < FONT_NO; i++)
+	{
+		if (font[charset][i]->getMetric() == metric)
+			return i;
+	}
+	
+	return -1;
+}
+
 UInt16 CJKFontManager::getRawFontSizeByMetric(UInt16 metric) 
 {
 
+	int i;
 	ftrSave *store = GetGBKOSBase();
 	
 	Int16 charset = store->charset;
 
+	if ( (i = getIndexByMetric(store, metric)) >= 0)
+		return font[charset][i]->getCharSize();
+
+/*
 	switch (metric) {
 	case 10:
 		return font[charset][0]->getCharSize();
@@ -213,6 +233,7 @@ UInt16 CJKFontManager::getRawFontSizeByMetric(UInt16 metric)
 	case 24:
 		return font[charset][3]->getCharSize();
 	}
+*/
 	return 0;
 }
 
@@ -220,6 +241,7 @@ unsigned char* CJKFontManager::getRawFontByMetricAndChar(UInt16 metric, const ch
 {
 	ftrSave *store = GetGBKOSBase();
 	Int16 charset = store->charset;
+	int i;
 	char buf[2];
 	if (charset == 0)
 	{
@@ -239,7 +261,10 @@ unsigned char* CJKFontManager::getRawFontByMetricAndChar(UInt16 metric, const ch
 			charset = 0;
 		}
 	}
+	if ( (i = getIndexByMetric(store, metric)) >= 0)
+		return font[charset][i]->getRawFontByChar(buf);
 
+/*
 	switch (metric) {
 	case 10:
 		return font[charset][0]->getRawFontByChar(buf);
@@ -250,6 +275,8 @@ unsigned char* CJKFontManager::getRawFontByMetricAndChar(UInt16 metric, const ch
 	case 24:
 		return font[charset][3]->getRawFontByChar(buf);
 	}
+*/
+
 	return NULL;
 }
 
@@ -278,13 +305,32 @@ void CJKFontManager::releaseAllFontsForCharset(UInt16 charste)
 	}
 }
 
+UInt16 CJKFontManager::getMetricByIndex(ftrSave *store, int index)
+{
+	Int16 charset = store->charset;
+	CJKFont * fontP = NULL;
+	int i;
+	
+	for (i = index; i >= 0; i--)
+	{
+		if (font[charset][i])
+		{
+			fontP = font[charset][i];
+			break;
+		}
+	}
+	
+	if ( fontP != NULL)
+	{
+		return fontP->getMetric(); 
+	}
+	return 0;
+}
 
 void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &metric, UInt16 &pad, UInt16 &boldPad, Boolean forceHR)
 {
 	Int16 charset = store->charset;
-//	char msg[64];
 
-//	StrPrintF(msg, "Font: %d, Size; %d, HR:%d", fontID, metric, forceHR);
 	if (charset == 1)
 	{
 		if (store->Big5 != (Encoding *) 0xdeadbeef)
@@ -296,53 +342,53 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 	switch (fontID) {
 	case 15:
 	case 10:
-		metric = 24,pad=2;
+		metric = getMetricByIndex(store, 3); 
+		pad = 2;
 		boldPad = 2;
-		if (font[charset][3] != NULL)
-		  break;
+		break;
 	case 9:
 	case 8:
 	case 11:
 	case 12:
 	case 13:
 	case 14:
-		metric = 16,pad=2;
+		metric = getMetricByIndex(store, 2);
+		pad=2;
 		boldPad = 2;
 		break;
 	case 7:
 	case 2:
-//	ErrDisplay(msg);
 		if (store->hasPalmHiRes && forceHR)
 		{
-			metric = 24,pad=2;
+			metric = getMetricByIndex(store, 3);
+			pad=2;
 			boldPad = 2;
-			if (font[charset][3] != NULL)
-			  break;
 		}
 		else 
 		{
-			metric = 12,pad=1;
+			metric = getMetricByIndex(store, 1);
+			pad=1;
 			boldPad = 1;
-			if (font[charset][1] != NULL)
-			  break;
 		}
+		break;
 	case 1:
 	case 0:
 	case 3:
 	case 4:
 	case 5:
 	case 6:
-//	ErrDisplay(msg);
 		if ((store->hasSonyHR && isScaled(store->HRVersion)))
 		{
 			if (!forceHR) 
 			{
-				metric = 8,pad=1;
+				metric = getMetricByIndex(store, 2)/2;
+				pad=1;
 				boldPad = 1;
 			}
 			else
 			{
-				metric = 10,pad=1;
+				metric = getMetricByIndex(store, 0);
+				pad=1;
 				boldPad = 1;
 			}
 		}
@@ -350,7 +396,8 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 		{
 			if(forceHR)
 			{
-				metric = 16,pad=2;
+				metric = getMetricByIndex(store, 2);
+				pad=2;
 				boldPad = 2;
 			}
 			else
@@ -358,19 +405,22 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 				BitmapTypeV3 *bitmap =(BitmapTypeV3 *) WinGetBitmap(WinGetDrawWindow());
 				if (bitmap->version != 3 || bitmap->density != kDensityDouble) 
 				{
-					metric = 10,pad=1;
+					metric = getMetricByIndex(store, 0);
+					pad=1;
 					boldPad = 1;
 				}
 				else
 				{
-					metric = 8,pad=1;
+					metric = getMetricByIndex(store, 2)/2;
+					pad=1;
 					boldPad = 1;
 				}
 			}
 		}
 		else
 		{
-			metric = 10,pad=1;
+			metric = getMetricByIndex(store, 0);
+			pad=1;
 			boldPad = 1;
 		}
 		break;
@@ -378,7 +428,8 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 	case 230:
 	case 229:
 	case 226:
-		metric = 16,pad=2;
+		metric = getMetricByIndex(store, 3);
+		pad=2;
 		boldPad = 2;
 		break;
 		
@@ -386,21 +437,23 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 	case 227:
 	case 228:
 	case 224:
-		metric = 16,pad=1;
+		metric = getMetricByIndex(store, 2);
+		pad=1;
 		boldPad = 1;
 		break;
 	default:
-//	ErrDisplay(msg);
 		if ((store->hasSonyHR && isScaled(store->HRVersion)))
 		{
 			if (!forceHR) 
 			{
-				metric = 8,pad=1;
+				metric = getMetricByIndex(store, 2)/2;
+				pad=1;
 				boldPad = 1;
 			}
 			else
 			{
-				metric = 10,pad=1;
+				metric = getMetricByIndex(store, 0);
+				pad=1;
 				boldPad = 1;
 			}
 		}
@@ -408,7 +461,8 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 		{
 			if(forceHR)
 			{
-				metric = 16,pad=2;
+				metric = getMetricByIndex(store, 2);
+				pad=2;
 				boldPad = 2;
 			}
 			else
@@ -416,25 +470,26 @@ void CJKFontManager::getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &me
 				BitmapTypeV3 *bitmap =(BitmapTypeV3 *) WinGetBitmap(WinGetDrawWindow());
 				if (bitmap->version != 3 || bitmap->density != kDensityDouble) 
 				{
-					metric = 10,pad=1;
+					metric = getMetricByIndex(store, 0);
+					pad=1;
 					boldPad = 1;
 				}
 				else
 				{
-					metric = 8,pad=1;
+					metric = getMetricByIndex(store, 2)/2;
+					pad=1;
 					boldPad = 1;
 				}
 			}
 		}
 		else
 		{
-			metric = 10,pad=1;
+			metric = getMetricByIndex(store, 0);
+			pad=1;
 			boldPad = 1;
 		}
 
-
 		break;
-
 	}
 }
 

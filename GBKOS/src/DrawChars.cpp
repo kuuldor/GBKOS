@@ -7,6 +7,11 @@
 
 #include "PalmHiRes.h"
 
+/* 
+ * This function is to generate Font bitmap for one CJK character.
+ * It assumes Machine be big-endian with using UInt16 as two 
+ * concatenating byte.
+ */
 void getCJKFontBitmap(ftrSave* store, const char* s, UInt16 metric, UInt16 fheight, unsigned char* bitmap, Boolean isBold)
 {
 	CJKFontManager *fntMan = store->fontManager;
@@ -57,6 +62,16 @@ void getCJKFontBitmap(ftrSave* store, const char* s, UInt16 metric, UInt16 fheig
 			*/
 		}
 		break;
+	case 14:
+		for (i=0;i <metric; i++) {
+			tmp = rawFont[i*2];
+			tmp <<= 8;
+			tmp |= rawFont[i*2+1];
+			if (isBold && store->bold)
+				tmp |= tmp>>1;
+			*(UInt16*)(bitmap+i*4) = tmp;
+		}
+		break;
 	case 16:
 		for (i=0;i <metric; i++) {
 			tmp = rawFont[i*2];
@@ -65,10 +80,34 @@ void getCJKFontBitmap(ftrSave* store, const char* s, UInt16 metric, UInt16 fheig
 			if (isBold && store->bold)
 				tmp |= tmp>>1;
 			*(UInt16*)(bitmap+i*4) = tmp;
-			/* /
-			bitmap[i*4] = rawFont[i];
-			bitmap[i*4+1]= rawFont[i+metric];
-			*/
+		}
+		break;
+	case 20:
+		for (i=0,j=0;i <metric; i+=2,j+=5) {
+			bitmap[i*4] = rawFont[i*3];
+			bitmap[i*4+1]= rawFont[i*3+1];
+			bitmap[i*4+2] = rawFont[i*3+2];
+			if (isBold && store->largeBold)
+				*((UInt32*)(bitmap+i*4)) |= (*((UInt32*)(bitmap+i*4)))>>1;
+
+			tmp = rawFont[j];
+			tmp <<= 8;
+			tmp |= rawFont[j+1];
+			*(UInt16*)(bitmap+i*4) = tmp;
+			tmp = rawFont[j+2] & 0xF0;
+			*(UInt16*)(bitmap+i*4+2) = tmp;
+			if (isBold && store->largeBold)
+				*((UInt32*)(bitmap+i*4)) |= (*((UInt32*)(bitmap+i*4)))>>1;
+			tmp = rawFont[j+2]&0x0F;
+			tmp <<= 12;
+			tmp |= rawFont[j+3]<<4;
+			tmp |= rawFont[j+4] & 0xF0;
+			*(UInt16*)(bitmap+(i+1)*4) = tmp;
+			tmp = rawFont[j+4] & 0x0F;
+			tmp <<= 12;
+			*(UInt16*)(bitmap+(i+1)*4+2) = tmp;
+			if (isBold && store->largeBold)
+				*((UInt32*)(bitmap+(i+1)*4)) |= (*((UInt32*)(bitmap+(i+1)*4)))>>1;
 		}
 		break;
 	case 24:
@@ -79,11 +118,6 @@ void getCJKFontBitmap(ftrSave* store, const char* s, UInt16 metric, UInt16 fheig
 			bitmap[i*4+2] = rawFont[i*3+2];
 			if (isBold && store->largeBold)
 				*((UInt32*)(bitmap+i*4)) |= (*((UInt32*)(bitmap+i*4)))>>1;
-			/* /
-			bitmap[i*4] = rawFont[i];
-			bitmap[i*4+1]= rawFont[i+metric];
-			bitmap[i*4+2] = rawFont[i+m2];
-			*/
 
 		}
 		break;
@@ -144,6 +178,16 @@ UInt16 makeCJKFont(ftrSave* store, const char* s, FontPtr font, FontID fontId, F
 	{
 		metricPad = 0;
 	}
+	if (fheight > metric)
+	{
+		newFont->fRectHeight   = fheight;
+		newFont->ascent   = fheight;
+	}
+	else
+	{
+		newFont->fRectHeight   = metric + xpad + metricPad;
+		newFont->ascent   = metric + xpad + metricPad;
+	}
 	
 	if (!store->padding) 
 	{
@@ -152,16 +196,6 @@ UInt16 makeCJKFont(ftrSave* store, const char* s, FontPtr font, FontID fontId, F
 	
 	newFont->maxWidth = metric + xpad + metricPad;
 	newFont->fRectWidth  = metric + xpad + metricPad;
-	if (fheight > metric)
-	{
-		newFont->fRectHeight   = fheight;
-		newFont->ascent   = fheight;
-	}
-	else
-	{
-		newFont->fRectHeight   = metric;
-		newFont->ascent   = metric;
-	}
 	newFont->rowWords   = 2;
 	
 
@@ -471,7 +505,7 @@ void _BltDrawChars_v35(BitmapType * dstBitmapP, DrawStateType * drawStateP,
 				drawStateP->fontId = fontId;
 				drawIn.extent.x -= dx;
 				drawIn.extent.y -= dy;
-				wid = wid *2 /3 ;
+				wid = (wid+1) *2 /3 ;
 			}
 			i++;
 		} else {

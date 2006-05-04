@@ -9,6 +9,7 @@
 
 #define ENCODING_NO		2
 #define FONT_NO			4
+#define FONT_SUPPORTED	6
 
 struct CJKFont  {
 private:
@@ -28,7 +29,9 @@ public:
 	unsigned char*getRawFontByChar(const char* s);
 	Boolean loadFont(UInt16 charset, char* fontName);
 	UInt16 getCharSize(){return charSize;};
+	UInt16 getMetric(){return metric;};
 	void setCharSize(UInt16 size) {charSize=size;};
+	void setMetric(UInt16 mtr) {metric=mtr;};
 };
 
 struct CJKFontManager {
@@ -44,6 +47,8 @@ public:
 	void releaseAllFontsForCharset(UInt16 charset);
 
 	void getMetricByFontID(ftrSave *store, UInt16 fontID, UInt16 &metric, UInt16 &pad, UInt16 &boldPad, Boolean forceHR);
+	UInt16 getMetricByIndex(ftrSave *store, int index);
+	int getIndexByMetric(ftrSave *store, UInt16 metric);
 	UInt16 getRawFontSizeByMetric(UInt16 metric);
 	unsigned char*getRawFontByMetricAndChar(UInt16 metric, const char* s);
 };
