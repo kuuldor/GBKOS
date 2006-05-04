@@ -214,26 +214,31 @@ void NotifySort()
 
 //	SysBroadcastActionCode(sysAppLaunchCmdSyncNotify, NULL);
 //	Broadcast SyncNotify to Built-In Apps
-	err = DmGetNextDatabaseByTypeCreator(true, &state, 'appl', 'addr', true, &cardNo, &dbID);
+	err = DmGetNextDatabaseByTypeCreator(true, &state, sysFileTApplication, sysFileCAddress, true, &cardNo, &dbID);
 	if (err == errNone) {
 		SysAppLaunch(cardNo, dbID, 0, sysAppLaunchCmdSyncNotify, NULL, &result);
 	}
 
-	err = DmGetNextDatabaseByTypeCreator(true, &state, 'appl', 'date', true, &cardNo, &dbID);
+	err = DmGetNextDatabaseByTypeCreator(true, &state, sysFileTApplication, sysFileCMemo, true, &cardNo, &dbID);
 	if (err == errNone) {
 		SysAppLaunch(cardNo, dbID, 0, sysAppLaunchCmdSyncNotify, NULL, &result);
 	}
 
-	err = DmGetNextDatabaseByTypeCreator(true, &state, 'appl', 'memo', true, &cardNo, &dbID);
+	err = DmGetNextDatabaseByTypeCreator(true, &state, sysFileTApplication, sysFileCToDo, true, &cardNo, &dbID);
 	if (err == errNone) {
 		SysAppLaunch(cardNo, dbID, 0, sysAppLaunchCmdSyncNotify, NULL, &result);
 	}
 
-	err = DmGetNextDatabaseByTypeCreator(true, &state, 'appl', 'todo', true, &cardNo, &dbID);
+	err = DmGetNextDatabaseByTypeCreator(true, &state, sysFileTApplication, sysFileCMail, true, &cardNo, &dbID);
 	if (err == errNone) {
 		SysAppLaunch(cardNo, dbID, 0, sysAppLaunchCmdSyncNotify, NULL, &result);
 	}
 
+	err = DmGetNextDatabaseByTypeCreator(true, &state, sysFileTApplication, sysFileCExpense, true, &cardNo, &dbID);
+	if (err == errNone) {
+		SysAppLaunch(cardNo, dbID, 0, sysAppLaunchCmdSyncNotify, NULL, &result);
+	}
+    
 	ErasePopupMessage(winBackup, pntBackup);
 }
 
