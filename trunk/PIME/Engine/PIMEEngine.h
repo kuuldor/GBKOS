@@ -4,18 +4,19 @@
 #include <PalmOS.h>
 
 typedef struct tagPIMEEngine {
+	Boolean isHE330;
+	Boolean isHE330_1To1;
+	
 	Char version[16];
 	FormType *currentForm;
 	FieldType *currentField;
 	
-	RectangleType imeAreaRect;
-	WinHandle imeAreaBackup;
+	FormType *imeForm;
+	FieldType *imeField;
 	
 	Char currentCode[32];
 	Int8 currentCodeLen;
 	Int8 maxCodeLen;
-	
-	void *oldTrapGsiSetShiftState;
 } PIMEEngineType, *PIMEEnginePtr;
 
 PIMEEnginePtr PIME_OpenEngine();
