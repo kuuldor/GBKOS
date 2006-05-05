@@ -44,45 +44,57 @@ static void DealHE330Form(PIMEEnginePtr engine, FormType *form)
 	}
 }
 
-static void CopyField(FieldType *fromField, FieldType *toField, Boolean copyAll)
+typedef struct tagFieldInfoType
 {
-	if (copyAll)
-	{
-		// Attr
-		FieldAttrType fldAttr;
-		FldGetAttributes(fromField, &fldAttr);
-		FldSetAttributes(toField, &fldAttr);
-		
-		// MaxChars
-		FldSetMaxChars(toField, FldGetMaxChars(fromField));
-	}
-	
+    FontID font;
+    FieldAttrType attr;
+    MemHandle content;
+    UInt16 maxChars;
+    UInt16 insPtPos;
+    UInt16 selStartPos, selEndPos;
+    Boolean dirty;
+} FieldInfoType, *FieldInfoPtr;
+
+static void CopyFieldInfoFrom(FieldType *field, FieldInfoPtr fieldInfo)
+{
+    fieldInfo->font = FldGetFont(field);
+    FldGetAttributes(field, &(fieldInfo->attr));
+    fieldInfo->maxChars = FldGetMaxChars(field);
+    fieldInfo->content = FldGetTextHandle(field);
+    fieldInfo->insPtPos = FldGetInsPtPosition(field);
+    FldGetSelection(field, &(fieldInfo->selStartPos), &(fieldInfo->selEndPos));
+    fieldInfo->dirty = FldDirty(field);
+    
+    FldSetTextHandle(field, NULL);
+}
+
+static void CopyFieldInfoTo(const FieldInfoPtr fieldInfo, FieldType *field, Boolean copyAll)
+{
+    if (copyAll)
+    {
+        FldSetFont(field, fieldInfo->font);
+        FldSetAttributes(field, &(fieldInfo->attr));
+        FldSetMaxChars(field, fieldInfo->maxChars);
+    }
+    
 	// Content
-	MemHandle fromHandle = FldGetTextHandle(fromField);
-	FldSetTextHandle(toField, fromHandle);
+	FldSetTextHandle(field, fieldInfo->content);
 
 	// Nodify
-	UInt16 insPtPos = FldGetInsPtPosition(fromField);
-
-	FldRecalculateField(toField, false);
-	FldSendHeightChangeNotification(toField, insPtPos, insPtPos);
-	FldSetScrollPosition(toField, insPtPos);
+	FldRecalculateField(field, false);
+	FldSendHeightChangeNotification(field, fieldInfo->insPtPos, fieldInfo->insPtPos);
+	FldSetScrollPosition(field, fieldInfo->insPtPos);
 	
 	// InsPtPosition
-	FldSetInsPtPosition(toField, insPtPos);
+	FldSetInsPtPosition(field, fieldInfo->insPtPos);
 	
-	FldSendChangeNotification(toField);
+	FldSendChangeNotification(field);
 
 	// Selection
-	UInt16 startPos, endPos;
-	FldGetSelection(fromField, &startPos, &endPos);
-	FldSetSelection(toField, startPos, endPos);
+	FldSetSelection(field, fieldInfo->selStartPos, fieldInfo->selEndPos);
 	
 	// Dirty
-	FldSetDirty(toField, FldDirty(fromField));
-
-	// Detach the handle
-	FldSetTextHandle(fromField, NULL);
+	FldSetDirty(field, fieldInfo->dirty);
 }
 
 static void EngineShowIME(PIMEEnginePtr engine)
@@ -91,6 +103,9 @@ static void EngineShowIME(PIMEEnginePtr engine)
 	{
 		WinPushDrawState();
 		
+		FieldInfoType fieldInfo;
+        CopyFieldInfoFrom(engine->currentField, &fieldInfo);
+        
 		engine->imeForm = FrmInitForm(frmIME);
 		
 		DealHE330Form(engine, engine->imeForm);
@@ -102,7 +117,8 @@ static void EngineShowIME(PIMEEnginePtr engine)
 		FrmSetActiveForm(engine->imeForm);
 		FrmDrawForm(engine->imeForm);
 
-		CopyField(engine->currentField, engine->imeField, true);
+		//CopyField(engine->currentField, engine->imeField, true);
+        CopyFieldInfoTo(&fieldInfo, engine->imeField, true);
 
 		FrmSetFocus(engine->imeForm, FrmGetObjectIndex(engine->imeForm, fldIMEIME));
 		 
@@ -114,10 +130,14 @@ static void EngineHideIME(PIMEEnginePtr engine)
 {
 	if (engine->imeForm != NULL)
 	{
-		CopyField(engine->imeField, engine->currentField, false);
+		// CopyField(engine->imeField, engine->currentField, false);
+        FieldInfoType fieldInfo;
+        CopyFieldInfoFrom(engine->imeField, &fieldInfo);
 
 		FrmReturnToForm(0);
 		
+		CopyFieldInfoTo(&fieldInfo, engine->currentField, false);
+        
 		FrmUpdateForm(FrmGetFormId(engine->currentForm), frmRedrawUpdateCode);
 		
 		engine->imeForm = NULL;
