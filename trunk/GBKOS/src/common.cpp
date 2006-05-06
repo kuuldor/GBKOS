@@ -744,7 +744,9 @@ void DrawPopupMessage(const Char *pszMsg, WinHandle *winBackupP, PointType *pntB
 	Int16 nOutter = 3;
 
 	Int16 winWidth, winHeight;
-	WinGetWindowExtent(&winWidth, &winHeight);
+	// WinGetWindowExtent(&winWidth, &winHeight); // <-- do not fetch the width and the height from the device to make it works proper on HE330.
+    winWidth = 160;
+    winHeight = 160;
 
 	RectangleType rec;
 
