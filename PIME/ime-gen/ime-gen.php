@@ -79,10 +79,10 @@
 			$code = $mb["records"][$i]["code"];
 			$word = $mb["records"][$i]["word"];
 			
-			$currentDbRecordIndex = (int)(2 + ($i / 1024)); // TODO: 需要重新计算应该在哪个记录中保存，以便平衡搜索速度、索引效率和数据库记录数。
+			$currentDbRecordIndex = (int)(2 + ($i / 128)); // TODO: 需要重新计算应该在哪个记录中保存，以便平衡搜索速度、索引效率和数据库记录数。
 			$pdb->GoToRecord($currentDbRecordIndex);
 			
-			$codeCount = 1024;
+			$codeCount = 128;
 			$maxCodeLen = $mb["info"]["maxCodeLen"];
 			
 			if (!$pdb->RecordExists())
@@ -101,7 +101,7 @@
 			
 			array_push($words, $word);
 			
-			$nextDbRecordIndex = (int)(2 + (($i + 1) / 1024));
+			$nextDbRecordIndex = (int)(2 + (($i + 1) / 128));
 			if ($nextDbRecordIndex != $currentDbRecordIndex) {
 				foreach ($words as $w) {
 					saveStringWithLen($pdb, $w, strlen($w));
