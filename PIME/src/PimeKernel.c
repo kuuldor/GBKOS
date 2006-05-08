@@ -290,6 +290,8 @@ static void PrvMatchWord(PrvKernelPtr kptr)
         kptr->currentWord[1] = (CHAR_TO_HEX(kptr->currentCode[2]) << 8) & CHAR_TO_HEX(kptr->currentCode[3]);
         kptr->currentWord[2] = '\0';
     }
+    else
+        kptr->currentWord[0];
 }
 
 static void PrvFreeListeners(PrvListenerPtr lptr)
