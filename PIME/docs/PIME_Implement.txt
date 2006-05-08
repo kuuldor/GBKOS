@@ -13,32 +13,32 @@ PimeKernel接口：
   typedef struct tagPimeKernel
   {
     
-  } PimeKernelType, *PimeKernelPtr;
+  } PimeKernelType, *PimeKernelHandle;
 
   // 启动、停止和获得Kernel
-  PimeKernelPtr PimeKernelStart(); // 启动Kernel，如果Kernel已经启动过，则返回NULL。
-  void PimeKernelStop(PimeKernelPtr kernel); // 停止Kernel，释放资源。
-  PimeKernelPtr PimeKernelGet(); // 获得当前的Kernel。当前Kernel指针可以保存在Ftr中，Start的时候保存，Stop的时候清除（存NULL）。
+  PimeKernelHandle PimeKernelStart(); // 启动Kernel，如果Kernel已经启动过，则返回NULL。
+  void PimeKernelStop(PimeKernelHandle kernel); // 停止Kernel，释放资源。
+  PimeKernelHandle PimeKernelGet(); // 获得当前的Kernel。当前Kernel指针可以保存在Ftr中，Start的时候保存，Stop的时候清除（存NULL）。
 
   // 注册和注销状态监听器
-  Boolean PimeKernelListenerRegister(PimeKernelPtr kernel, void (*onChangeFunc)(PimeKernelPtr, void *), void *arg); // 注册onChangeFunc为状态监听函数，当Kernel的状态发生变化时，调用这个注册的函数，并使用kernel和arg为参数。
-  void PimeKernelListenerUnRegister(PimeKernelPtr kernel, void (*onChangeFunc)(PimeKernelPtr, void *)); // 注销onChangeFunc监听函数。
+  Boolean PimeKernelListenerRegister(PimeKernelHandle kernel, void (*onChangeFunc)(PimeKernelHandle, void *), void *arg); // 注册onChangeFunc为状态监听函数，当Kernel的状态发生变化时，调用这个注册的函数，并使用kernel和arg为参数。
+  void PimeKernelListenerUnRegister(PimeKernelHandle kernel, void (*onChangeFunc)(PimeKernelHandle, void *)); // 注销onChangeFunc监听函数。
 
   // 初始化
-  void PimeKernelInit(PimeKernelPtr kernel); // 初始化Kernel。客户会在启动Kernel、注册Listener后调用这个函数。这个函数应该初始化状态后回调Listener，以便Listener更新界面。
+  void PimeKernelInit(PimeKernelHandle kernel); // 初始化Kernel。客户会在启动Kernel、注册Listener后调用这个函数。这个函数应该初始化状态后回调Listener，以便Listener更新界面。
 
   // 输入法
-  void PimeKernelImeSwitchToNext(PimeKernelPtr kernel); // 切换到下一个输入法
+  void PimeKernelImeSwitchToNext(PimeKernelHandle kernel); // 切换到下一个输入法
 
-  const Char *PimeKernelImeGetName(PimeKernelPtr kernel); // 获得当前的Ime的名字
-  const Char *PimeKernelImeGetShortName(PimeKernelPtr kernel); // 获得当前的Ime的短名
+  const Char *PimeKernelImeGetName(PimeKernelHandle kernel); // 获得当前的Ime的名字
+  const Char *PimeKernelImeGetShortName(PimeKernelHandle kernel); // 获得当前的Ime的短名
 
   // 编码
-  void PimeKernelCodeClear(PimeKernelPtr kernel); // 清空当前已经输入的编码
-  Boolean PimeKernelCodeAppend(PimeKernelPtr kernel, Char ch); // 增加一个输入的编码。如果ch不是可用编码的字符，则返回false。
-  Boolean PimeKernelCodeDelete(); // 删除最后一个输入的编码。如果当前编码已经为空，没有任何可供删除的编码，则返回false。
+  void PimeKernelCodeClear(PimeKernelHandle kernel); // 清空当前已经输入的编码
+  Boolean PimeKernelCodeAppend(PimeKernelHandle kernel, Char ch); // 增加一个输入的编码。如果ch不是可用编码的字符，则返回false。
+  Boolean PimeKernelCodeDelete(PimeKernelHandle kernel); // 删除最后一个输入的编码。如果当前编码已经为空，没有任何可供删除的编码，则返回false。
 
-  const Char *PimeKernelCodeGet(PimeKernelPtr kernel); // 获得当前已经输入的编码，如果没有任何编码，返回""。
+  const Char *PimeKernelCodeGet(PimeKernelHandle kernel); // 获得当前已经输入的编码，如果没有任何编码，返回""。
 
   // 候选字
   typedef struct tagPimeHintIterator
@@ -47,14 +47,14 @@ PimeKernel接口：
   } PimeHintIteratorType, *PimeHintIteratorPtr;
 
   // 获得候选字。PimeHintIteratorType结构体中const Char* hint成员是供这些函数的客户使用的，用于保存候选字。为了记录当前位置，这个结构体中会有一些Kernel内部使用的字段。
-  Boolean PimeKernelHintGetFirst(PimeKernelPtr kernel, PimeHintIteratorPtr it);
-  Boolean PimeKernelHintGetNext(PimeKernelPtr kernel, PimeHintIteratorPtr it);
-  Boolean PimeKernelHintGetPrevious(PimeKernelPtr kernel, PimeHintIteratorPtr it);
+  Boolean PimeKernelHintGetFirst(PimeKernelHandle kernel, PimeHintIteratorPtr it);
+  Boolean PimeKernelHintGetNext(PimeKernelHandle kernel, PimeHintIteratorPtr it);
+  Boolean PimeKernelHintGetPrevious(PimeKernelHandle kernel, PimeHintIteratorPtr it);
 
   // 已识别的字词
-  void PimeKernelWordSet(PimeKernelPtr kernel, const Char *word); // 选定word作为已识别或已选择的字词。
+  void PimeKernelWordSet(PimeKernelHandle kernel, const Char *word); // 选定word作为已识别或已选择的字词。
 
-  const Char *PimeKernelWordGet(PimeKernelPtr kernel); // 获得当前已经识别的字词或已经选择的字词。如果没有，则返回NULL。
+  const Char *PimeKernelWordGet(PimeKernelHandle kernel); // 获得当前已经识别的字词或已经选择的字词。如果没有，则返回""。
 
 一些说明：
 
@@ -67,7 +67,7 @@ PimeKernel接口：
 PimeKernel的客户可能像下面这样调用Kernel接口：
 
   ...
-  PimeKernelPtr kernel = PimeKernelStart();
+  PimeKernelHandle kernel = PimeKernelStart();
 
   if (kenrel != NULL)
   {
@@ -88,7 +88,7 @@ PimeKernel的客户可能像下面这样调用Kernel接口：
     FrmDispatchEvent(event);
   ...
 
-  void OnKernelChange(PimeKernelPtr kernel, void *arg)
+  void OnKernelChange(PimeKernelHandle kernel, void *arg)
   {
     MyStruct *my = (MyStruct *)arg;
 
