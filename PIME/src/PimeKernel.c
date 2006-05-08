@@ -19,8 +19,8 @@ typedef struct tagPrvKernel
     
     PrvListenerPtr listeners;
     
-    // 防止递归调用的标志：防止在Notify时Listener回调函数中向Kernel发送命令，引起新的状态编码，导致递归调用。
-    // 从设计上讲，不允许在Listener回调函数中调用除了获得状态的Kernel接口函数。
+    // 防止递归调用的标志：防止在Notify时Listener回调函数中向Kernel发送命令，引起新的状态变化，导致递归调用。
+    // 从设计上讲，在Listener回调函数中只允许调用获得状态的Kernel接口函数。
     Boolean notifying;
     
 } PrvKernelType, *PrvKernelPtr;
