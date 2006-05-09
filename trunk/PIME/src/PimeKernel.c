@@ -291,7 +291,7 @@ static void PrvMatchWord(PrvKernelPtr kptr)
         kptr->currentWord[2] = '\0';
     }
     else
-        kptr->currentWord[0];
+        kptr->currentWord[0] = '\0';
 }
 
 static void PrvFreeListeners(PrvListenerPtr lptr)
