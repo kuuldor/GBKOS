@@ -2,12 +2,17 @@
 
 #include "common.h"
 
+static Boolean CompareNull(const Char *s1, const Char *s2, Int16 *result);
+
 Int16 _StrCompare(const Char *s1, const Char *s2)
 {
 	// Check for err
-	ErrNonFatalDisplayIf(s1 == NULL || s2 == NULL, "NULL string passed");
+	// ErrNonFatalDisplayIf(s1 == NULL || s2 == NULL, "NULL string passed");
 
 	Int16 result = 0;
+
+	if (CompareNull(s1, s2, &result))
+		return result;
 
 	// caseless compare at first
 	result = _StrCaselessCompare(s1, s2);
@@ -37,9 +42,12 @@ Int16 _StrCompare(const Char *s1, const Char *s2)
 Int16 _StrCaselessCompare(const Char *s1, const Char *s2)
 {
 	// Check for err
-	ErrNonFatalDisplayIf(s1 == NULL || s2 == NULL, "NULL string passed");
+	// ErrNonFatalDisplayIf(s1 == NULL || s2 == NULL, "NULL string passed");
 
 	Int16 result = 0;
+
+	if (CompareNull(s1, s2, &result))
+		return result;
 
 	// Get pointer to translation table
 	const UInt8 *tableP = _GetCharCaselessValue();
@@ -64,9 +72,12 @@ Int16 _StrCaselessCompare(const Char *s1, const Char *s2)
 Int16 _StrNCompare(const Char *s1, const Char *s2, Int32 n)
 {
 	// Check for err
-	ErrNonFatalDisplayIf(s1 == NULL || s2 == NULL, "NULL string passed");
+	// ErrNonFatalDisplayIf(s1 == NULL || s2 == NULL, "NULL string passed");
 
 	Int16 result = 0;
+
+	if (CompareNull(s1, s2, &result))
+		return result;
 
 	// caseless compare at first
 	result = _StrNCaselessCompare(s1, s2, n);
@@ -99,9 +110,12 @@ Int16 _StrNCompare(const Char *s1, const Char *s2, Int32 n)
 Int16 _StrNCaselessCompare(const Char *s1, const Char *s2, Int32 n)
 {
 	// Check for err
-	ErrNonFatalDisplayIf(s1 == NULL || s2 == NULL, "NULL string passed");
+	// ErrNonFatalDisplayIf(s1 == NULL || s2 == NULL, "NULL string passed");
 
 	Int16 result = 0;
+
+	if (CompareNull(s1, s2, &result))
+		return result;
 
 	// Get pointer to translation table
 	const UInt8 *tableP = _GetCharCaselessValue();
@@ -240,5 +254,31 @@ void NotifySort()
 	}
     
 	ErasePopupMessage(winBackup, pntBackup);
+}
+
+static Boolean CompareNull(const Char *s1, const Char *s2, Int16 *result)
+{
+	if (s1 == NULL || s2 == NULL)
+	{
+		if (s1 == NULL)
+		{
+			if (s2 == NULL)
+				*result = 0;
+			else
+				*result = 1;
+
+			return true;
+		}
+		else
+		{
+			*result = - 1;
+
+			return true;
+		}
+	}
+	else
+	{
+		return false;
+	}
 }
 
